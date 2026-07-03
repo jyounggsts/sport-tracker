@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Syncs ESPN scoreboard + standings and FIFA World Cup data into data/ and docs/data/.
- * Runs in GitHub Actions (no browser CORS limits).
+ * Detects off-season status and caches previous-season standings.
  */
 
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
@@ -41,14 +41,69 @@ async function writeJSON(relativePath, payload) {
   }
 }
 
+function detectSeasonStatus(standings, scoreboard) {
+  const now = Date.now();
+  const seasons = standings?.seasons || [];
+  const year = scoreboard?.season?.year ?? seasons[0]?.year ?? null;
+  const seasonDef = seasons.find((s) => s.year === year) ?? seasons[0];
+
+  if (!seasonDef) {
+    const events = scoreboard?.events || [];
+    const hasActive = events.some((e) => {
+      if (e.status?.type?.state === 'in') return true;
+      const diff = (new Date(e.date).getTime() - now) / 86_400_000;
+      return diff >= -1 && diff <= 14;
+    });
+    return {
+      inSeason: hasActive,
+      seasonYear: year,
+      previousSeasonYear: year ? year - 1 : null,
+      previousSeasonDisplay: year ? String(year - 1) : null,
+      returnsDate: null,
+    };
+  }
+
+  const off = seasonDef.types?.find((t) => t.abbreviation === 'off');
+  if (off) {
+    const start = new Date(off.startDate).getTime();
+    const end = new Date(off.endDate).getTime();
+    if (now >= start && now <= end) {
+      const prev = seasons.find((s) => s.year < seasonDef.year);
+      return {
+        inSeason: false,
+        seasonYear: seasonDef.year,
+        previousSeasonYear: prev?.year ?? seasonDef.year - 1,
+        previousSeasonDisplay: prev?.displayName ?? String(prev?.year ?? seasonDef.year - 1),
+        returnsDate: off.endDate,
+      };
+    }
+  }
+
+  return {
+    inSeason: true,
+    seasonYear: seasonDef.year,
+    previousSeasonYear: null,
+    previousSeasonDisplay: null,
+    returnsDate: null,
+  };
+}
+
 async function syncEspnSport({ id, category, league }) {
   const base = `https://site.api.espn.com/apis/site/v2/sports/${category}/${league}`;
   const standingsBase = `https://site.api.espn.com/apis/v2/sports/${category}/${league}`;
 
   const [scoreboard, standings] = await Promise.all([
     fetchJSON(`${base}/scoreboard`).catch((err) => ({ error: err.message, events: [] })),
-    fetchJSON(`${standingsBase}/standings`).catch((err) => ({ error: err.message, children: [] })),
+    fetchJSON(`${standingsBase}/standings`).catch((err) => ({ error: err.message, children: [], seasons: [] })),
   ]);
+
+  const seasonStatus = detectSeasonStatus(standings, scoreboard);
+  let standingsPrev = null;
+
+  if (!seasonStatus.inSeason && seasonStatus.previousSeasonYear) {
+    standingsPrev = await fetchJSON(`${standingsBase}/standings?season=${seasonStatus.previousSeasonYear}`)
+      .catch((err) => ({ error: err.message, children: [] }));
+  }
 
   const liveCount = (scoreboard.events || []).filter((e) => e.status?.type?.state === 'in').length;
 
@@ -56,17 +111,30 @@ async function syncEspnSport({ id, category, league }) {
     fetchedAt: new Date().toISOString(),
     sportId: id,
     liveCount,
+    seasonStatus,
     ...scoreboard,
   });
 
   await writeJSON(`${id}/standings.json`, {
     fetchedAt: new Date().toISOString(),
     sportId: id,
+    seasonStatus,
     ...standings,
   });
 
-  console.log(`${id}: ${scoreboard.events?.length ?? 0} events, ${liveCount} live`);
-  return { id, events: scoreboard.events?.length ?? 0, liveCount };
+  if (standingsPrev) {
+    await writeJSON(`${id}/standings-prev.json`, {
+      fetchedAt: new Date().toISOString(),
+      sportId: id,
+      seasonStatus,
+      seasonYear: seasonStatus.previousSeasonYear,
+      ...standingsPrev,
+    });
+  }
+
+  const status = seasonStatus.inSeason ? 'in-season' : `off-season (${seasonStatus.previousSeasonDisplay})`;
+  console.log(`${id}: ${scoreboard.events?.length ?? 0} events, ${liveCount} live, ${status}`);
+  return { id, events: scoreboard.events?.length ?? 0, liveCount, inSeason: seasonStatus.inSeason };
 }
 
 async function syncFifa() {
@@ -80,19 +148,35 @@ async function syncFifa() {
   }
 
   const games = await fetchJSON(`${FIFA_API}/games`);
-  const liveCount = (games.games || []).filter((g) => {
+  const gameList = games.games || [];
+  const liveCount = gameList.filter((g) => {
     const elapsed = String(g.time_elapsed || '').toLowerCase();
     return !['finished', 'ft', ''].includes(elapsed) && g.finished !== 'TRUE';
   }).length;
+  const remaining = gameList.filter((g) => g.finished !== 'TRUE').length;
+  const inSeason = remaining > 0;
 
-  console.log(`fifa: ${games.games?.length ?? 0} games, ${liveCount} live`);
-  return { id: 'fifa', events: games.games?.length ?? 0, liveCount };
+  const seasonStatus = {
+    inSeason,
+    seasonYear: 2026,
+    previousSeasonDisplay: inSeason ? null : '2022',
+    returnsDate: inSeason ? null : '2026-06-11',
+    label: inSeason ? 'Tournament Active' : 'Out of Season',
+  };
+
+  for (const path of [`fifa/season.json`]) {
+    await writeJSON(path, { fetchedAt: new Date().toISOString(), sportId: 'fifa', seasonStatus });
+  }
+
+  console.log(`fifa: ${gameList.length} games, ${liveCount} live, ${inSeason ? 'in-season' : 'off-season'}`);
+  return { id: 'fifa', events: gameList.length, liveCount, inSeason };
 }
 
 async function updateManifest(summaries) {
   const manifest = JSON.parse(await readFile(MANIFEST_PATH, 'utf8'));
   manifest.updatedAt = new Date().toISOString();
   manifest.liveSummary = Object.fromEntries(summaries.map((s) => [s.id, s.liveCount]));
+  manifest.seasonSummary = Object.fromEntries(summaries.map((s) => [s.id, s.inSeason]));
   await writeJSON('manifest.json', manifest);
 }
 
@@ -102,4 +186,4 @@ for (const sport of ESPN_SPORTS) {
 }
 summaries.push(await syncFifa());
 await updateManifest(summaries);
-console.log('Sync complete:', summaries.map((s) => `${s.id}=${s.liveCount}live`).join(', '));
+console.log('Sync complete:', summaries.map((s) => `${s.id}=${s.inSeason ? 'live' : 'off'}`).join(', '));

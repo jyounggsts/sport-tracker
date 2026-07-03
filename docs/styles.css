@@ -249,6 +249,132 @@ a:hover { text-decoration: underline; }
 .sport-card-name { font-weight: 700; font-size: 0.85rem; }
 .sport-card-meta { color: var(--muted); font-size: 0.7rem; margin-top: 0.2rem; }
 
+.sport-card.off-season { opacity: 0.65; }
+.sport-card.off-season .sport-card-meta { color: var(--orange); }
+
+.sport-link.off-season { opacity: 0.7; }
+
+.season-banner {
+  margin-bottom: 1.25rem;
+  background: linear-gradient(90deg, rgba(255,140,0,0.12), rgba(255,45,45,0.08));
+  border: 1px solid rgba(255,140,0,0.35);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.season-banner-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
+.season-badge {
+  background: var(--orange);
+  color: #000;
+  font-size: 0.6rem;
+  font-weight: 800;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.star-icon { color: var(--orange); font-size: 0.9rem; }
+
+.star-btn {
+  background: none;
+  border: none;
+  color: var(--dim);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0 0.2rem;
+  line-height: 1;
+  transition: color 0.15s, transform 0.15s;
+  flex-shrink: 0;
+}
+
+.star-btn:hover { color: var(--orange); transform: scale(1.15); }
+.star-btn.starred { color: var(--orange); }
+.star-btn-sm { font-size: 0.85rem; }
+
+.game-card.fav-game {
+  border-color: var(--orange);
+  box-shadow: 0 0 10px rgba(255,140,0,0.2);
+}
+
+.game-odds {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 0.5rem;
+  align-items: center;
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--border);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.odds-ml { font-variant-numeric: tabular-nums; }
+.odds-ml.fav { color: var(--green); }
+.odds-ml.dog { color: var(--orange); }
+.odds-ml:first-child { text-align: left; }
+.odds-ml:last-child { text-align: right; }
+
+.odds-mid {
+  color: var(--muted);
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.68rem;
+  white-space: nowrap;
+}
+
+.odds-provider {
+  text-align: center;
+  font-size: 0.6rem;
+  color: var(--dim);
+  margin-top: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.fav-teams-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.fav-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 0.35rem 0.6rem 0.35rem 0.45rem;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+
+.fav-chip:hover { border-color: var(--orange); }
+
+.fav-chip .team-logo { width: 22px; height: 22px; }
+
+.fav-chip-name {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.fav-chip-sport {
+  color: var(--dim);
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.fav-schedule { cursor: pointer; transition: border-color 0.15s; }
+.fav-schedule:hover { border-color: var(--orange); }
+
 .block { margin-bottom: 2rem; }
 
 .block-head {

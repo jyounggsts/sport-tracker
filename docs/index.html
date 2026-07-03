@@ -14,7 +14,7 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a href="#" class="logo">
+      <a href="#my-teams" class="logo" id="logo-link">
         <span class="logo-icon">ST</span>
         <span class="logo-text">Sport<span class="logo-live">TRACKER</span></span>
       </a>
@@ -37,41 +37,75 @@
   </div>
 
   <main class="page">
-    <section class="hero" id="hero">
-      <div class="hero-grid" id="sport-cards"></div>
-    </section>
+    <!-- My Teams (default when favorites exist) -->
+    <div id="view-my-teams" hidden>
+      <section class="block" id="my-teams-hero">
+        <div class="block-head">
+          <h2 class="block-title"><span class="star-icon">★</span> My Teams</h2>
+          <p class="block-sub" id="my-teams-meta">Your starred teams across all leagues</p>
+        </div>
+        <div class="fav-teams-bar" id="fav-teams-bar"></div>
+      </section>
 
-    <section class="block" id="live">
-      <div class="block-head">
-        <h2 class="block-title"><span class="dot-live"></span> Live &amp; Today</h2>
-        <p class="block-sub" id="today-meta">Loading...</p>
-      </div>
-      <div class="card-grid" id="scoreboard-grid">
-        <div class="loading" id="scoreboard-loading"><div class="spinner"></div><p>Loading games...</p></div>
-      </div>
-    </section>
+      <section class="block" id="my-teams-today">
+        <div class="block-head">
+          <h2 class="block-title"><span class="dot-live"></span> Playing Today</h2>
+          <p class="block-sub" id="my-today-meta">Loading...</p>
+        </div>
+        <div class="card-grid" id="my-today-grid">
+          <div class="loading"><div class="spinner"></div><p>Finding your teams' games...</p></div>
+        </div>
+      </section>
 
-    <section class="block" id="standings">
-      <div class="block-head">
-        <h2 class="block-title">Standings</h2>
-        <div class="group-tabs" id="standings-tabs" role="tablist"></div>
-      </div>
-      <div id="standings-layout">
-        <div class="loading" id="standings-loading"><div class="spinner"></div></div>
-      </div>
-    </section>
+      <section class="block" id="my-teams-upcoming">
+        <div class="block-head">
+          <h2 class="block-title">Coming Up</h2>
+          <p class="block-sub" id="my-upcoming-meta">Next games for your teams</p>
+        </div>
+        <div class="schedule-list" id="my-upcoming-list"></div>
+      </section>
+    </div>
 
-    <section class="block" id="schedule">
-      <div class="block-head">
-        <h2 class="block-title">Upcoming</h2>
-        <p class="block-sub" id="schedule-meta">Next games on the schedule</p>
-      </div>
-      <div class="schedule-list" id="schedule-list"></div>
-    </section>
+    <!-- Sport detail view -->
+    <div id="view-sport">
+      <section class="hero" id="hero">
+        <div class="hero-grid" id="sport-cards"></div>
+      </section>
+
+      <div class="season-banner" id="season-banner" hidden></div>
+
+      <section class="block" id="live">
+        <div class="block-head">
+          <h2 class="block-title"><span class="dot-live"></span> Live &amp; Today</h2>
+          <p class="block-sub" id="today-meta">Loading...</p>
+        </div>
+        <div class="card-grid" id="scoreboard-grid">
+          <div class="loading" id="scoreboard-loading"><div class="spinner"></div><p>Loading games...</p></div>
+        </div>
+      </section>
+
+      <section class="block" id="standings">
+        <div class="block-head">
+          <h2 class="block-title" id="standings-title">Standings</h2>
+          <div class="group-tabs" id="standings-tabs" role="tablist"></div>
+        </div>
+        <div id="standings-layout">
+          <div class="loading" id="standings-loading"><div class="spinner"></div></div>
+        </div>
+      </section>
+
+      <section class="block" id="schedule">
+        <div class="block-head">
+          <h2 class="block-title">Upcoming</h2>
+          <p class="block-sub" id="schedule-meta">Next games on the schedule</p>
+        </div>
+        <div class="schedule-list" id="schedule-list"></div>
+      </section>
+    </div>
   </main>
 
   <footer class="foot">
-    <p>Data from <a href="https://www.espn.com" target="_blank" rel="noopener">ESPN</a> · World Cup data from <a href="https://worldcup26.ir" target="_blank" rel="noopener">worldcup26.ir</a> · Synced every 5 minutes via GitHub Actions</p>
+    <p>Data from <a href="https://www.espn.com" target="_blank" rel="noopener">ESPN</a> · World Cup data from <a href="https://worldcup26.ir" target="_blank" rel="noopener">worldcup26.ir</a> · Odds via DraftKings · Synced every 5 minutes</p>
   </footer>
 
   <script src="app.js"></script>

@@ -1,7 +1,14 @@
 {
-  "fetchedAt": "2026-07-03T20:15:28.413Z",
+  "fetchedAt": "2026-07-03T20:34:10.334Z",
   "sportId": "mlb",
   "liveCount": 1,
+  "seasonStatus": {
+    "inSeason": true,
+    "seasonYear": 2026,
+    "previousSeasonYear": null,
+    "previousSeasonDisplay": null,
+    "returnsDate": null
+  },
   "leagues": [
     {
       "id": "10",
@@ -249,12 +256,18 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
               },
               "score": "0",
-              "linescores": [],
+              "linescores": [
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 },
                 {
                   "name": "runs",
@@ -264,7 +277,7 @@
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".000"
+                  "displayValue": ".250"
                 },
                 {
                   "name": "saves",
@@ -284,12 +297,12 @@
                 {
                   "name": "ERA",
                   "abbreviation": "ERA",
-                  "displayValue": "---"
+                  "displayValue": "0.00"
                 },
                 {
                   "name": "errors",
                   "abbreviation": "E",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 }
               ],
               "leaders": [
@@ -300,13 +313,13 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "0-0",
-                      "value": 0,
+                      "displayValue": "1-1",
+                      "value": 1,
                       "athlete": {
-                        "id": "32797",
-                        "fullName": "Carson Kelly",
-                        "displayName": "Carson Kelly",
-                        "shortName": "C. Kelly",
+                        "id": "42415",
+                        "fullName": "Michael Busch",
+                        "displayName": "Michael Busch",
+                        "shortName": "M. Busch",
                         "links": [
                           {
                             "rel": [
@@ -314,13 +327,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/32797"
+                            "href": "https://www.espn.com/mlb/player/_/id/42415"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/32797.png",
-                        "jersey": "15",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42415.png",
+                        "jersey": "29",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "16"
@@ -420,13 +433,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "0-0",
-                      "value": 0,
+                      "displayValue": "1-1",
+                      "value": 61,
                       "athlete": {
-                        "id": "32797",
-                        "fullName": "Carson Kelly",
-                        "displayName": "Carson Kelly",
-                        "shortName": "C. Kelly",
+                        "id": "42415",
+                        "fullName": "Michael Busch",
+                        "displayName": "Michael Busch",
+                        "shortName": "M. Busch",
                         "links": [
                           {
                             "rel": [
@@ -434,13 +447,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/32797"
+                            "href": "https://www.espn.com/mlb/player/_/id/42415"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/32797.png",
-                        "jersey": "15",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42415.png",
+                        "jersey": "29",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "16"
@@ -460,13 +473,13 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "0-0",
-                      "value": 0,
+                      "displayValue": "1-1",
+                      "value": 61,
                       "athlete": {
-                        "id": "32797",
-                        "fullName": "Carson Kelly",
-                        "displayName": "Carson Kelly",
-                        "shortName": "C. Kelly",
+                        "id": "42415",
+                        "fullName": "Michael Busch",
+                        "displayName": "Michael Busch",
+                        "shortName": "M. Busch",
                         "links": [
                           {
                             "rel": [
@@ -474,13 +487,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/32797"
+                            "href": "https://www.espn.com/mlb/player/_/id/42415"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/32797.png",
-                        "jersey": "15",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42415.png",
+                        "jersey": "29",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "16"
@@ -557,8 +570,8 @@
                   "record": "(4-6, 5.86)"
                 }
               ],
-              "hits": 0,
-              "errors": 0,
+              "hits": 1,
+              "errors": 1,
               "records": [
                 {
                   "name": "overall",
@@ -693,7 +706,7 @@
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 },
                 {
                   "name": "runs",
@@ -703,7 +716,7 @@
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".000"
+                  "displayValue": ".250"
                 },
                 {
                   "name": "saves",
@@ -723,7 +736,7 @@
                 {
                   "name": "ERA",
                   "abbreviation": "ERA",
-                  "displayValue": "---"
+                  "displayValue": "0.00"
                 },
                 {
                   "name": "errors",
@@ -739,13 +752,13 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "0-0",
-                      "value": 0,
+                      "displayValue": "1-1",
+                      "value": 1,
                       "athlete": {
-                        "id": "38851",
-                        "fullName": "Jose Fermin",
-                        "displayName": "Jose Fermin",
-                        "shortName": "J. Fermin",
+                        "id": "4941056",
+                        "fullName": "JJ Wetherholt",
+                        "displayName": "JJ Wetherholt",
+                        "shortName": "J. Wetherholt",
                         "links": [
                           {
                             "rel": [
@@ -753,13 +766,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/38851"
+                            "href": "https://www.espn.com/mlb/player/_/id/4941056"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/38851.png",
-                        "jersey": "15",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4941056.png",
+                        "jersey": "26",
                         "position": {
-                          "abbreviation": "LF"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "24"
@@ -859,13 +872,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "0-0",
-                      "value": 0,
+                      "displayValue": "1-1",
+                      "value": 61,
                       "athlete": {
-                        "id": "38851",
-                        "fullName": "Jose Fermin",
-                        "displayName": "Jose Fermin",
-                        "shortName": "J. Fermin",
+                        "id": "4941056",
+                        "fullName": "JJ Wetherholt",
+                        "displayName": "JJ Wetherholt",
+                        "shortName": "J. Wetherholt",
                         "links": [
                           {
                             "rel": [
@@ -873,13 +886,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/38851"
+                            "href": "https://www.espn.com/mlb/player/_/id/4941056"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/38851.png",
-                        "jersey": "15",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4941056.png",
+                        "jersey": "26",
                         "position": {
-                          "abbreviation": "LF"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "24"
@@ -899,13 +912,13 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "0-0",
-                      "value": 0,
+                      "displayValue": "1-1",
+                      "value": 61,
                       "athlete": {
-                        "id": "38851",
-                        "fullName": "Jose Fermin",
-                        "displayName": "Jose Fermin",
-                        "shortName": "J. Fermin",
+                        "id": "4941056",
+                        "fullName": "JJ Wetherholt",
+                        "displayName": "JJ Wetherholt",
+                        "shortName": "J. Wetherholt",
                         "links": [
                           {
                             "rel": [
@@ -913,13 +926,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/38851"
+                            "href": "https://www.espn.com/mlb/player/_/id/4941056"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/38851.png",
-                        "jersey": "15",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4941056.png",
+                        "jersey": "26",
                         "position": {
-                          "abbreviation": "LF"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "24"
@@ -997,7 +1010,7 @@
                   "record": "(9-5, 3.83)"
                 }
               ],
-              "hits": 0,
+              "hits": 1,
               "errors": 0,
               "records": [
                 {
@@ -1024,85 +1037,117 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018160070001010001",
+              "id": "4018160070199990058",
               "type": {
-                "id": "1",
-                "text": "Start Batter/Pitcher",
-                "alternativeText": "Now at bat",
-                "type": "start-batterpitcher"
+                "id": "58",
+                "text": "End Inning",
+                "type": "end-inning"
               },
-              "text": "David Peterson pitches to JJ Wetherholt",
+              "text": "End of the 1st inning",
               "scoreValue": 0,
               "team": {
-                "id": "24"
+                "id": "16"
               },
-              "atBatId": "4018160070001",
-              "summaryType": "A",
-              "athletesInvolved": []
+              "atBatId": "4018160070105"
             },
             "balls": 0,
             "strikes": 0,
             "outs": 0,
-            "pitcher": {
-              "playerId": 40921,
-              "period": 1,
-              "athlete": {
-                "id": "40921",
-                "fullName": "David Peterson",
-                "displayName": "David Peterson",
-                "shortName": "D. Peterson",
-                "links": [
-                  {
-                    "rel": [
-                      "playercard",
-                      "desktop",
-                      "athlete"
-                    ],
-                    "href": "https://www.espn.com/mlb/player/_/id/40921"
+            "dueUp": [
+              {
+                "playerId": 4345070,
+                "period": 1,
+                "athlete": {
+                  "id": "4345070",
+                  "fullName": "Alec Burleson",
+                  "displayName": "Alec Burleson",
+                  "shortName": "A. Burleson",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mlb/player/_/id/4345070"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4345070.png",
+                  "jersey": "41",
+                  "position": "1B",
+                  "team": {
+                    "id": "24"
                   }
-                ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/40921.png",
-                "jersey": "19",
-                "position": "SP",
-                "team": {
-                  "id": "16"
-                }
+                },
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4345070/projections?lang=en&region=us"
+                },
+                "batOrder": 5,
+                "summary": "0-0"
               },
-              "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/40921/projections?lang=en&region=us"
-              },
-              "summary": "0.0 IP, 0 ER, 0 H, 0 BB"
-            },
-            "batter": {
-              "playerId": 4941056,
-              "period": 1,
-              "athlete": {
-                "id": "4941056",
-                "fullName": "JJ Wetherholt",
-                "displayName": "JJ Wetherholt",
-                "shortName": "J. Wetherholt",
-                "links": [
-                  {
-                    "rel": [
-                      "playercard",
-                      "desktop",
-                      "athlete"
-                    ],
-                    "href": "https://www.espn.com/mlb/player/_/id/4941056"
+              {
+                "playerId": 4683365,
+                "period": 1,
+                "athlete": {
+                  "id": "4683365",
+                  "fullName": "Masyn Winn",
+                  "displayName": "Masyn Winn",
+                  "shortName": "M. Winn",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mlb/player/_/id/4683365"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4683365.png",
+                  "jersey": "0",
+                  "position": "SS",
+                  "team": {
+                    "id": "24"
                   }
-                ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4941056.png",
-                "jersey": "26",
-                "position": "2B",
-                "team": {
-                  "id": "24"
-                }
+                },
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4683365/projections?lang=en&region=us"
+                },
+                "batOrder": 6,
+                "summary": "0-0"
               },
-              "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4941056/projections?lang=en&region=us"
-              },
-              "summary": "0-0"
-            },
+              {
+                "playerId": 38851,
+                "period": 1,
+                "athlete": {
+                  "id": "38851",
+                  "fullName": "Jose Fermin",
+                  "displayName": "Jose Fermin",
+                  "shortName": "J. Fermin",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mlb/player/_/id/38851"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/38851.png",
+                  "jersey": "15",
+                  "position": "LF",
+                  "team": {
+                    "id": "24"
+                  }
+                },
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/38851/projections?lang=en&region=us"
+                },
+                "batOrder": 7,
+                "summary": "0-0"
+              }
+            ],
             "onFirst": false,
             "onSecond": false,
             "onThird": false
@@ -1117,8 +1162,8 @@
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "Top 1st",
-              "shortDetail": "Top 1st"
+              "detail": "End 1st",
+              "shortDetail": "End 1st"
             }
           },
           "broadcasts": [
@@ -1150,13 +1195,13 @@
               "abbreviation": "RAT",
               "leaders": [
                 {
-                  "displayValue": "0-0",
-                  "value": 0,
+                  "displayValue": "1-1",
+                  "value": 61,
                   "athlete": {
-                    "id": "32797",
-                    "fullName": "Carson Kelly",
-                    "displayName": "Carson Kelly",
-                    "shortName": "C. Kelly",
+                    "id": "42415",
+                    "fullName": "Michael Busch",
+                    "displayName": "Michael Busch",
+                    "shortName": "M. Busch",
                     "links": [
                       {
                         "rel": [
@@ -1164,13 +1209,13 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/mlb/player/_/id/32797"
+                        "href": "https://www.espn.com/mlb/player/_/id/42415"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/32797.png",
-                    "jersey": "15",
+                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42415.png",
+                    "jersey": "29",
                     "position": {
-                      "abbreviation": "C"
+                      "abbreviation": "1B"
                     },
                     "team": {
                       "id": "16"
@@ -1182,13 +1227,13 @@
                   }
                 },
                 {
-                  "displayValue": "0-0",
-                  "value": 0,
+                  "displayValue": "1-1",
+                  "value": 61,
                   "athlete": {
-                    "id": "33711",
-                    "fullName": "Michael Conforto",
-                    "displayName": "Michael Conforto",
-                    "shortName": "M. Conforto",
+                    "id": "4941056",
+                    "fullName": "JJ Wetherholt",
+                    "displayName": "JJ Wetherholt",
+                    "shortName": "J. Wetherholt",
                     "links": [
                       {
                         "rel": [
@@ -1196,21 +1241,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/mlb/player/_/id/33711"
+                        "href": "https://www.espn.com/mlb/player/_/id/4941056"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/33711.png",
-                    "jersey": "20",
+                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4941056.png",
+                    "jersey": "26",
                     "position": {
-                      "abbreviation": "DH"
+                      "abbreviation": "2B"
                     },
                     "team": {
-                      "id": "16"
+                      "id": "24"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "16"
+                    "id": "24"
                   }
                 }
               ]
@@ -1347,8 +1392,8 @@
       ],
       "weather": {
         "displayValue": "15",
-        "temperature": 76,
-        "highTemperature": 76,
+        "temperature": 71,
+        "highTemperature": 71,
         "conditionId": "Thunderstorm",
         "link": {
           "language": "en-US",
@@ -1372,8 +1417,8 @@
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "Top 1st",
-          "shortDetail": "Top 1st"
+          "detail": "End 1st",
+          "shortDetail": "End 1st"
         }
       }
     },
@@ -2323,7 +2368,7 @@
                 ],
                 "displayName": "DraftKings"
               },
-              "details": "WSH -157",
+              "details": "WSH -150",
               "overUnder": 9.5,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -2371,7 +2416,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-157",
+                    "odds": "-150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2402,7 +2447,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+130",
+                    "odds": "+124",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2438,7 +2483,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+135",
+                    "odds": "+139",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2472,7 +2517,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-163",
+                    "odds": "-169",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2510,7 +2555,7 @@
                 "over": {
                   "close": {
                     "line": "o9.5",
-                    "odds": "-110",
+                    "odds": "-116",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2544,7 +2589,7 @@
                 "under": {
                   "close": {
                     "line": "u9.5",
-                    "odds": "-110",
+                    "odds": "-104",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2653,8 +2698,8 @@
       ],
       "weather": {
         "displayValue": "Mostly sunny",
-        "temperature": 97,
-        "highTemperature": 97,
+        "temperature": 96,
+        "highTemperature": 96,
         "conditionId": "2",
         "link": {
           "language": "en-US",
@@ -3562,8 +3607,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $10",
-              "numberAvailable": 1939,
+              "summary": "Tickets as low as $14",
+              "numberAvailable": 1806,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-yankees-tickets-yankee-stadium-7-3-2026--sports-mlb-baseball/production/5965273?wsUser=717"
@@ -3833,7 +3878,7 @@
                 "over": {
                   "close": {
                     "line": "o10",
-                    "odds": "-105",
+                    "odds": "-104",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3867,7 +3912,7 @@
                 "under": {
                   "close": {
                     "line": "u10",
-                    "odds": "-115",
+                    "odds": "-116",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3936,14 +3981,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Minnesota Twins (42-46, third in the AL Central) vs. New York Yankees (48-38, second in the AL East)",
               "shortLinkText": "Yankees enter matchup with the Twins on losing streak"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -3976,8 +4021,8 @@
       ],
       "weather": {
         "displayValue": "Intermittent clouds",
-        "temperature": 96,
-        "highTemperature": 96,
+        "temperature": 95,
+        "highTemperature": 95,
         "conditionId": "4",
         "link": {
           "language": "en-US",
@@ -4660,6 +4705,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "40-48"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "24-23"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "16-25"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -4820,26 +4885,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "40-48"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "24-23"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "16-25"
                 }
               ]
             }
@@ -6213,7 +6258,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $52",
-              "numberAvailable": 777,
+              "numberAvailable": 755,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-guardians-tickets-progressive-field-7-3-2026--sports-mlb-baseball/production/5965086?wsUser=717"
@@ -6311,7 +6356,7 @@
                   }
                 ]
               },
-              "details": "CLE -132",
+              "details": "CLE -137",
               "overUnder": 8,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -6359,7 +6404,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-132",
+                    "odds": "-137",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6390,7 +6435,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+109",
+                    "odds": "+114",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6426,7 +6471,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+153",
+                    "odds": "+148",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6460,7 +6505,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-186",
+                    "odds": "-180",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6532,7 +6577,7 @@
                 "under": {
                   "close": {
                     "line": "u8",
-                    "odds": "-105",
+                    "odds": "-106",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6601,14 +6646,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Chicago White Sox (45-41, first in the AL Central) vs. Cleveland Guardians (46-42, second in the AL Central)",
               "shortLinkText": "Guardians play the White Sox leading series 1-0"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -7635,7 +7680,7 @@
                   }
                 ]
               },
-              "details": "ATL -114",
+              "details": "ATL -120",
               "overUnder": 9,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -7683,7 +7728,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-114",
+                    "odds": "-120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7714,7 +7759,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-105",
+                    "odds": "-101",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7750,7 +7795,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-186",
+                    "odds": "-195",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7784,7 +7829,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+153",
+                    "odds": "+160",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7822,7 +7867,7 @@
                 "over": {
                   "close": {
                     "line": "o9",
-                    "odds": "-105",
+                    "odds": "-106",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7925,14 +7970,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "New York Mets (36-51, fifth in the NL East) vs. Atlanta Braves (50-35, first in the NL East)",
               "shortLinkText": "Braves open 4-game series against the Mets"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -10190,8 +10235,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $25",
-              "numberAvailable": 1173,
+              "summary": "Tickets as low as $23",
+              "numberAvailable": 1091,
               "links": [
                 {
                   "href": "https://www.vividseats.com/houston-astros-tickets-daikin-park-7-3-2026--sports-mlb-baseball/production/5966215?wsUser=717"
@@ -10446,7 +10491,7 @@
                 "over": {
                   "close": {
                     "line": "o9",
-                    "odds": "-105",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10480,7 +10525,7 @@
                 "under": {
                   "close": {
                     "line": "u9",
-                    "odds": "-114",
+                    "odds": "-111",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10549,14 +10594,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Tampa Bay Rays (51-33, first in the AL East) vs. Houston Astros (43-46, third in the AL West)",
               "shortLinkText": "Rays take win streak into matchup with the Astros"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -10589,8 +10634,8 @@
       ],
       "weather": {
         "displayValue": "Partly sunny",
-        "temperature": 85,
-        "highTemperature": 85,
+        "temperature": 84,
+        "highTemperature": 84,
         "conditionId": "3",
         "link": {
           "language": "en-US",
@@ -11874,14 +11919,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Boston Red Sox (37-48, fifth in the AL East) vs. Los Angeles Angels (36-52, fifth in the AL West)",
               "shortLinkText": "Red Sox visit the Angels to start 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -11913,10 +11958,10 @@
         }
       ],
       "weather": {
-        "displayValue": "1",
-        "temperature": 80,
-        "highTemperature": 80,
-        "conditionId": "Sunny",
+        "displayValue": "2",
+        "temperature": 81,
+        "highTemperature": 81,
+        "conditionId": "Mostly sunny",
         "link": {
           "language": "en-US",
           "rel": [
@@ -15426,8 +15471,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $63",
-              "numberAvailable": 2956,
+              "summary": "Tickets as low as $71",
+              "numberAvailable": 2876,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-dodgers-tickets-dodger-stadium-7-3-2026--sports-mlb-baseball/production/5965013?wsUser=717"
@@ -17157,14 +17202,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Toronto Blue Jays (41-46, third in the AL East) vs. Seattle Mariners (45-43, second in the AL West)",
               "shortLinkText": "Mariners look to keep home win streak going, host the Blue Jays"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
