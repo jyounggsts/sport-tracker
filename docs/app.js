@@ -437,9 +437,16 @@ function formatReturnsDate(iso) {
 function isToday(dateStr) {
   const d = new Date(dateStr);
   const now = new Date();
-  return d.getFullYear() === now.getFullYear()
-    && d.getMonth() === now.getMonth()
-    && d.getDate() === now.getDate();
+  return d.toLocaleDateString() === now.toLocaleDateString();
+}
+
+function clearGridPlaceholders(grid) {
+  if (!grid) return;
+  if (!grid.querySelector('.game-card[data-event-id]')) {
+    grid.innerHTML = '';
+  } else {
+    grid.querySelectorAll('.loading, .empty-state').forEach((el) => el.remove());
+  }
 }
 
 function getEventStatus(event) {
@@ -788,18 +795,26 @@ function renderEspnScoreboard() {
   const events = state.scoreboard?.events || [];
   updateEspnLiveFlags();
 
+  const liveAll = events.filter((e) => e.status?.type?.state === 'in');
   const today = events.filter((e) => isToday(e.date));
+  const todayIds = new Set(today.map((e) => e.id));
+  const liveNotToday = liveAll.filter((e) => !todayIds.has(e.id));
   const live = today.filter((e) => e.status?.type?.state === 'in');
   const rest = today.filter((e) => e.status?.type?.state !== 'in');
-  $('#sport-today-meta').textContent = today.length
-    ? `${live.length} live · ${today.length} games today`
-    : `${events.length} games on the schedule`;
+  const show = [...live, ...liveNotToday, ...rest].slice(0, 24);
 
-  const show = [...live, ...rest].slice(0, 24);
+  $('#sport-today-meta').textContent = liveAll.length
+    ? `${liveAll.length} live · ${today.length} games today`
+    : today.length
+      ? `${today.length} games today`
+      : `${events.length} games on the schedule`;
+
   if (!show.length) {
     grid.innerHTML = '<div class="empty-state">No games scheduled for today. Check Upcoming below.</div>';
     return;
   }
+
+  clearGridPlaceholders(grid);
 
   const nextIds = new Set(show.map((e) => String(e.id)));
   grid.querySelectorAll('.game-card[data-event-id]').forEach((card) => {
@@ -857,6 +872,7 @@ function renderEspnLiveBanner() {
 
 function renderStandingsTable(groups) {
   const layout = $('#sport-standings-layout');
+  $('#sport-standings-loading')?.remove();
   if (!groups.length) {
     layout.innerHTML = '<div class="empty-state">Standings not available.</div>';
     return;
