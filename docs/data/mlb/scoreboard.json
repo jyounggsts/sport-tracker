@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T20:14:48.928Z",
+  "fetchedAt": "2026-07-03T20:15:28.413Z",
   "sportId": "mlb",
   "liveCount": 1,
   "leagues": [
@@ -43,7 +43,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-02T15:09Z"
+          "lastUpdated": "2026-07-02T09:24Z"
         }
       ],
       "calendarType": "day",
@@ -249,6 +249,7 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/chc.png"
               },
               "score": "0",
+              "linescores": [],
               "statistics": [
                 {
                   "name": "hits",
@@ -681,6 +682,13 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/stl.png"
               },
               "score": "0",
+              "linescores": [
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "hits",
@@ -1104,13 +1112,13 @@
             "displayClock": "0:00",
             "period": 1,
             "type": {
-              "id": "17",
-              "name": "STATUS_RAIN_DELAY",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
-              "description": "Rain Delay",
-              "detail": "Rain Delay, Top 1st",
-              "shortDetail": "Rain Delay, Top 1st"
+              "description": "In Progress",
+              "detail": "Top 1st",
+              "shortDetail": "Top 1st"
             }
           },
           "broadcasts": [
@@ -1359,13 +1367,13 @@
         "displayClock": "0:00",
         "period": 1,
         "type": {
-          "id": "17",
-          "name": "STATUS_RAIN_DELAY",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
-          "description": "Rain Delay",
-          "detail": "Rain Delay, Top 1st",
-          "shortDetail": "Rain Delay, Top 1st"
+          "description": "In Progress",
+          "detail": "Top 1st",
+          "shortDetail": "Top 1st"
         }
       }
     },
@@ -2605,14 +2613,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Pittsburgh Pirates (44-44, fourth in the NL Central) vs. Washington Nationals (45-43, fourth in the NL East)",
               "shortLinkText": "Nationals play the Pirates in first of 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -3825,7 +3833,7 @@
                 "over": {
                   "close": {
                     "line": "o10",
-                    "odds": "-104",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3859,7 +3867,7 @@
                 "under": {
                   "close": {
                     "line": "u10",
-                    "odds": "-116",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4652,26 +4660,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "40-48"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "24-23"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "16-25"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -4832,6 +4820,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "40-48"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "24-23"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "16-25"
                 }
               ]
             }
@@ -5252,14 +5260,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Baltimore Orioles (40-48, fourth in the AL East) vs. Cincinnati Reds (40-46, fifth in the NL Central)",
               "shortLinkText": "Reds open 3-game series at home against the Orioles"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -6593,14 +6601,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Chicago White Sox (45-41, first in the AL Central) vs. Cleveland Guardians (46-42, second in the AL Central)",
               "shortLinkText": "Guardians play the White Sox leading series 1-0"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -7543,8 +7551,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $31",
-              "numberAvailable": 1355,
+              "summary": "Tickets as low as $34",
+              "numberAvailable": 1332,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-braves-tickets-truist-park-7-3-2026--sports-mlb-baseball/production/5964840?wsUser=717"
@@ -7627,7 +7635,7 @@
                   }
                 ]
               },
-              "details": "ATL -120",
+              "details": "ATL -114",
               "overUnder": 9,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -7675,7 +7683,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-120",
+                    "odds": "-114",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7706,7 +7714,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-101",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7742,7 +7750,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-196",
+                    "odds": "-186",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7776,7 +7784,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+161",
+                    "odds": "+153",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7814,7 +7822,7 @@
                 "over": {
                   "close": {
                     "line": "o9",
-                    "odds": "-106",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7917,14 +7925,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "New York Mets (36-51, fifth in the NL East) vs. Atlanta Braves (50-35, first in the NL East)",
               "shortLinkText": "Braves open 4-game series against the Mets"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -9242,14 +9250,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Francisco Giants (36-50, fourth in the NL West) vs. Colorado Rockies (35-53, fifth in the NL West)",
               "shortLinkText": "Rockies host the Giants in first of 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -10541,14 +10549,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Tampa Bay Rays (51-33, first in the AL East) vs. Houston Astros (43-46, third in the AL West)",
               "shortLinkText": "Rays take win streak into matchup with the Astros"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -12816,8 +12824,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $38",
-              "numberAvailable": 470,
+              "summary": "Tickets as low as $35",
+              "numberAvailable": 432,
               "links": [
                 {
                   "href": "https://www.vividseats.com/athletics-tickets-sutter-health-park-7-3-2026--sports-mlb-baseball/production/5965568?wsUser=717"
@@ -14470,14 +14478,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Milwaukee Brewers (53-32, first in the NL Central) vs. Arizona Diamondbacks (43-43, second in the NL West)",
               "shortLinkText": "Diamondbacks begin 3-game series with the Brewers"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -15418,8 +15426,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $71",
-              "numberAvailable": 2876,
+              "summary": "Tickets as low as $63",
+              "numberAvailable": 2956,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-dodgers-tickets-dodger-stadium-7-3-2026--sports-mlb-baseball/production/5965013?wsUser=717"
@@ -15809,14 +15817,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (43-43, third in the NL West) vs. Los Angeles Dodgers (57-31, first in the NL West)",
               "shortLinkText": "Dodgers play the Padres after Rushing's 4-hit game"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -17149,14 +17157,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Toronto Blue Jays (41-46, third in the AL East) vs. Seattle Mariners (45-43, second in the AL West)",
               "shortLinkText": "Mariners look to keep home win streak going, host the Blue Jays"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
