@@ -147,6 +147,14 @@ async function syncFifa() {
     });
   }
 
+  const { execSync } = await import('node:child_process');
+  try {
+    execSync('node scripts/sync-youtube-live.mjs', { cwd: ROOT, stdio: 'inherit' });
+    execSync('node scripts/sync-goal-clips.mjs', { cwd: ROOT, stdio: 'inherit' });
+  } catch (err) {
+    console.warn('fifa extras sync warning:', err.message);
+  }
+
   const games = await fetchJSON(`${FIFA_API}/games`);
   const gameList = games.games || [];
   const liveCount = gameList.filter((g) => {

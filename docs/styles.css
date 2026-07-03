@@ -488,8 +488,36 @@ a:hover { text-decoration: underline; }
   color: var(--dim);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
+
+.game-card-foot .live-text { color: var(--accent); font-weight: 700; }
+
+.fifa-subnav {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  overflow-x: auto;
+}
+
+.fifa-subnav-link {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 0.45rem 0.85rem;
+  border-radius: 4px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.fifa-subnav-link:hover { color: var(--text); background: var(--hover); }
+.fifa-subnav-link.active { color: var(--accent); background: rgba(255,45,45,0.1); }
+
+#view-fifa .card-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
 
 .group-tabs {
   display: flex;

@@ -4,7 +4,7 @@ const ESPN_V2 = 'https://site.api.espn.com/apis/v2/sports';
 const FIFA_API = 'https://worldcup26.ir/get';
 const FAV_KEY = 'sport-tracker-favorites';
 
-const POLL = { LIVE: 5_000, ACTIVE: 12_000, IDLE: 30_000 };
+const POLL = { LIVE: 5_000, WINDOW: 8_000, ACTIVE: 12_000, IDLE: 30_000 };
 
 const state = {
   manifest: null,
@@ -19,9 +19,12 @@ const state = {
   liveCounts: {},
   seasonSummary: {},
   selectedStandingsTab: 0,
+  hasEspnLive: false,
+  hasEspnSoon: false,
   pollTimer: null,
   tickTimer: null,
   lastFetch: null,
+  fifaActive: false,
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -104,16 +107,27 @@ function navigate(route, { replace = false } = {}) {
 function updateViewVisibility() {
   const myView = $('#view-my-teams');
   const sportView = $('#view-sport');
+  const genericView = $('#view-sport-generic');
+  const fifaView = $('#view-fifa');
+  const hero = $('#hero');
+  const isFifaSport = state.view === 'sport' && isFifa(getSport(state.selectedSport));
+
   if (state.view === 'my-teams') {
     myView.hidden = false;
     sportView.hidden = true;
+    if (state.fifaActive) { window.FifaTracker?.destroy(); state.fifaActive = false; }
     document.title = 'My Teams | Sport Tracker';
-  } else {
-    myView.hidden = true;
-    sportView.hidden = false;
-    const sport = getSport(state.selectedSport);
-    document.title = `${sport?.name || 'Sport'} | Sport Tracker`;
+    return;
   }
+
+  myView.hidden = true;
+  sportView.hidden = false;
+  const sport = getSport(state.selectedSport);
+  document.title = `${sport?.name || 'Sport'} | Sport Tracker`;
+
+  if (genericView) genericView.hidden = isFifaSport;
+  if (fifaView) fifaView.hidden = !isFifaSport;
+  if (hero) hero.hidden = isFifaSport;
 }
 
 // ── Data fetching ──────────────────────────────────────────────────
@@ -562,6 +576,25 @@ function renderTeamRow(comp, sportId, isWinner, extraCls, showStar = true) {
     </div>`;
 }
 
+function formatCountdown(ms) {
+  if (ms <= 0) return 'Starting';
+  const totalSec = Math.floor(ms / 1000);
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  if (h > 0) return `${h}h ${String(m).padStart(2, '0')}m`;
+  return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+}
+
+function getEspnFootText(event, status) {
+  if (status.phase === 'live') return status.label;
+  if (status.phase === 'final') return 'Final';
+  const diff = new Date(event.date) - Date.now();
+  if (diff > 60_000) return `Starts in ${formatCountdown(diff)}`;
+  if (diff > 0) return `Kickoff in ${formatCountdown(diff)}`;
+  return status.label;
+}
+
 function buildEspnGameCard(event, sportId, { highlight = false } = {}) {
   const { home, away, competition } = getCompetitors(event);
   const status = getEventStatus(event);
@@ -572,23 +605,63 @@ function buildEspnGameCard(event, sportId, { highlight = false } = {}) {
   const odds = parseEspnOdds(competition?.odds);
   const showOdds = state.seasonStatus?.inSeason !== false;
   const sport = getSport(sportId);
+  const footText = getEspnFootText(event, status);
 
   return `
-    <article class="game-card ${isLive ? 'live' : ''}${highlight ? ' fav-game' : ''}">
+    <article class="game-card ${status.phase}${highlight ? ' fav-game' : ''}" data-event-id="${event.id}">
       <div class="game-card-head">
-        <span>${esc(sport?.shortName || '')} · ${esc(competition?.type?.abbreviation || '')}</span>
-        <span class="game-status ${status.cls}">${esc(status.label)}</span>
+        <span>${esc(sport?.shortName || '')} · ${esc(competition?.type?.abbreviation || competition?.notes?.[0]?.headline || '')}</span>
+        <span class="game-status ${status.cls}" data-status="${event.id}">${esc(status.label)}</span>
       </div>
       <div class="game-card-body">
         ${renderTeamRow(away, sportId, isFinal && awayScore > homeScore, isFinal && awayScore < homeScore ? 'loser' : '')}
         ${renderTeamRow(home, sportId, isFinal && homeScore > awayScore, isFinal && homeScore < awayScore ? 'loser' : '')}
-        ${showOdds ? renderOddsBlock(odds, status.phase) : ''}
+        <div class="game-odds-wrap" data-odds="${event.id}">${showOdds ? renderOddsBlock(odds, status.phase) : ''}</div>
       </div>
       <div class="game-card-foot">
-        <span>${esc(competition?.venue?.fullName || '')}</span>
+        <span data-venue="${event.id}">${esc(competition?.venue?.fullName || competition?.broadcast || '')}</span>
+        <span data-countdown="${event.id}" class="${isLive ? 'live-text' : ''}">${esc(footText)}</span>
         <a href="${esc(event.links?.[0]?.href || 'https://www.espn.com')}" target="_blank" rel="noopener">Details</a>
       </div>
     </article>`;
+}
+
+function patchEspnGameCard(card, event, sportId) {
+  const { home, away, competition } = getCompetitors(event);
+  const status = getEventStatus(event);
+  card.className = `game-card ${status.phase}${card.classList.contains('fav-game') ? ' fav-game' : ''}`;
+
+  const statusEl = card.querySelector(`[data-status="${event.id}"]`);
+  if (statusEl) {
+    statusEl.textContent = status.label;
+    statusEl.className = `game-status ${status.cls}`;
+  }
+
+  const rows = card.querySelectorAll('.team-row');
+  const awayRow = rows[0];
+  const homeRow = rows[1];
+  if (awayRow) {
+    awayRow.querySelector('.team-score').textContent = away?.score ?? '-';
+    awayRow.classList.toggle('winner', status.phase === 'final' && Number(away?.score) > Number(home?.score));
+    awayRow.classList.toggle('loser', status.phase === 'final' && Number(away?.score) < Number(home?.score));
+  }
+  if (homeRow) {
+    homeRow.querySelector('.team-score').textContent = home?.score ?? '-';
+    homeRow.classList.toggle('winner', status.phase === 'final' && Number(home?.score) > Number(away?.score));
+    homeRow.classList.toggle('loser', status.phase === 'final' && Number(home?.score) < Number(away?.score));
+  }
+
+  const oddsWrap = card.querySelector(`[data-odds="${event.id}"]`);
+  if (oddsWrap && state.seasonStatus?.inSeason !== false) {
+    const odds = parseEspnOdds(competition?.odds);
+    oddsWrap.innerHTML = renderOddsBlock(odds, status.phase);
+  }
+
+  const countdown = card.querySelector(`[data-countdown="${event.id}"]`);
+  if (countdown) {
+    countdown.textContent = getEspnFootText(event, status);
+    countdown.classList.toggle('live-text', status.phase === 'live');
+  }
 }
 
 function renderFifaTeamRow(team, score, isWinner) {
@@ -629,14 +702,25 @@ function buildFifaGameCard(g, { highlight = false } = {}) {
 
 // ── Sport view renders ───────────────────────────────────────────
 
+function updateEspnLiveFlags() {
+  const events = state.scoreboard?.events || [];
+  state.hasEspnLive = events.some((e) => e.status?.type?.state === 'in');
+  state.hasEspnSoon = events.some((e) => {
+    if (e.status?.type?.state !== 'pre') return false;
+    const diff = new Date(e.date) - Date.now();
+    return diff > 0 && diff <= 2 * 60 * 60 * 1000;
+  });
+}
+
 function renderEspnScoreboard() {
   const grid = $('#scoreboard-grid');
   const inSeason = state.seasonStatus?.inSeason !== false;
   const events = state.scoreboard?.events || [];
+  updateEspnLiveFlags();
 
   if (!inSeason) {
     const upcoming = events.filter((e) => e.status?.type?.state === 'pre').slice(0, 6);
-    $('#today-meta').textContent = 'League is off season';
+    $('#sport-today-meta').textContent = 'League is off season';
     if (!upcoming.length) {
       grid.innerHTML = '<div class="empty-state">This league is out of season. No games scheduled right now.</div>';
       return;
@@ -649,7 +733,7 @@ function renderEspnScoreboard() {
   const today = events.filter((e) => isToday(e.date));
   const live = today.filter((e) => e.status?.type?.state === 'in');
   const rest = today.filter((e) => e.status?.type?.state !== 'in');
-  $('#today-meta').textContent = today.length
+  $('#sport-today-meta').textContent = today.length
     ? `${live.length} live · ${today.length} games today`
     : `${events.length} games on the schedule`;
 
@@ -658,35 +742,23 @@ function renderEspnScoreboard() {
     grid.innerHTML = '<div class="empty-state">No games scheduled for today. Check Upcoming below.</div>';
     return;
   }
-  grid.innerHTML = show.map((e) => buildEspnGameCard(e, state.selectedSport)).join('');
+
+  const nextIds = new Set(show.map((e) => String(e.id)));
+  grid.querySelectorAll('.game-card[data-event-id]').forEach((card) => {
+    if (!nextIds.has(card.dataset.eventId)) card.remove();
+  });
+
+  show.forEach((event) => {
+    const id = String(event.id);
+    let card = grid.querySelector(`.game-card[data-event-id="${id}"]`);
+    if (card) {
+      patchEspnGameCard(card, event, state.selectedSport);
+    } else {
+      grid.insertAdjacentHTML('beforeend', buildEspnGameCard(event, state.selectedSport));
+    }
+  });
   bindStarButtons(grid);
-}
-
-function renderFifaScoreboard() {
-  const grid = $('#scoreboard-grid');
-  const inSeason = state.fifa.seasonStatus?.inSeason !== false;
-  const games = state.fifa.games || [];
-
-  if (!inSeason) {
-    $('#today-meta').textContent = 'World Cup is off season';
-    grid.innerHTML = '<div class="empty-state">The World Cup tournament is not active. Final group standings are shown below.</div>';
-    return;
-  }
-
-  const today = games.filter((g) => isToday(parseFifaDate(g.local_date)));
-  const live = today.filter(isFifaLive);
-  const rest = today.filter((g) => !isFifaLive(g));
-  $('#today-meta').textContent = today.length
-    ? `${live.length} live · ${today.length} matches today`
-    : `${games.length} matches in tournament`;
-
-  const show = [...live, ...rest].slice(0, 24);
-  if (!show.length) {
-    grid.innerHTML = '<div class="empty-state">No World Cup matches today.</div>';
-    return;
-  }
-  grid.innerHTML = show.map((g) => buildFifaGameCard(g)).join('');
-  bindStarButtons(grid);
+  renderEspnLiveBanner();
 }
 
 function getStandingsGroups(data) {
@@ -709,8 +781,24 @@ function renderStandingsTabs(groups) {
   });
 }
 
+function renderEspnLiveBanner() {
+  const banner = $('#live-banner');
+  const inner = $('#live-banner-matches');
+  const liveEvents = (state.scoreboard?.events || []).filter((e) => e.status?.type?.state === 'in');
+  if (!liveEvents.length || state.fifaActive) {
+    if (!state.fifaActive) banner.hidden = true;
+    return;
+  }
+  inner.innerHTML = liveEvents.map((e) => {
+    const { home, away } = getCompetitors(e);
+    const sport = getSport(state.selectedSport);
+    return `<span class="ticker-item"><span class="ticker-live">LIVE</span> ${esc(sport?.shortName || '')} ${esc(away?.team?.abbreviation)} ${away?.score}-${home?.score} ${esc(home?.team?.abbreviation)}</span>`;
+  }).join('');
+  banner.hidden = false;
+}
+
 function renderStandingsTable(groups) {
-  const layout = $('#standings-layout');
+  const layout = $('#sport-standings-layout');
   if (!groups.length) {
     layout.innerHTML = '<div class="empty-state">Standings not available.</div>';
     return;
@@ -775,43 +863,6 @@ function renderStandings() {
   renderStandingsTable(groups);
 }
 
-function renderFifaStandings() {
-  const layout = $('#standings-layout');
-  const tabs = $('#standings-tabs');
-  tabs.innerHTML = '';
-  const groups = [...(state.fifa.groups || [])].sort((a, b) => a.name.localeCompare(b.name));
-  if (!groups.length) {
-    layout.innerHTML = '<div class="empty-state">Group standings not available.</div>';
-    return;
-  }
-  layout.innerHTML = `<div class="fifa-groups">${groups.map((group) => {
-    const rows = [...(group.teams || [])].sort((a, b) => Number(b.pts) - Number(a.pts));
-    return `
-      <div class="fifa-group-card">
-        <div class="fifa-group-head">Group ${esc(group.name)}</div>
-        <table class="standings-table">
-          <thead><tr><th>Team</th><th>MP</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
-          <tbody>
-            ${rows.map((row) => {
-              const team = state.fifa.teams[row.team_id] || {};
-              const flag = team.flag ? `<img class="team-flag" src="${esc(team.flag)}" alt="">` : '';
-              return `<tr>
-                <td><div class="team-cell">${flag} ${esc(team.name_en || row.team_id)} ${renderStarBtn(fifaTeamFavObj(team), true)}</div></td>
-                <td class="num">${esc(row.mp)}</td>
-                <td class="num">${esc(row.w)}</td>
-                <td class="num">${esc(row.d)}</td>
-                <td class="num">${esc(row.l)}</td>
-                <td class="num">${esc(row.gd)}</td>
-                <td class="num"><strong>${esc(row.pts)}</strong></td>
-              </tr>`;
-            }).join('')}
-          </tbody>
-        </table>
-      </div>`;
-  }).join('')}</div>`;
-  bindStarButtons(layout);
-}
-
 function renderEspnSchedule() {
   const list = $('#schedule-list');
   const inSeason = state.seasonStatus?.inSeason !== false;
@@ -838,30 +889,6 @@ function renderEspnSchedule() {
         <span class="schedule-time">${formatDate(event.date)}<br>${formatTime(event.date)}</span>
         <span class="schedule-match">${esc(away?.team?.displayName)} @ ${esc(home?.team?.displayName)}${esc(oddsStr)}</span>
         <span class="schedule-venue">${esc(competition?.venue?.fullName || '')}</span>
-      </div>`;
-  }).join('');
-}
-
-function renderFifaSchedule() {
-  const list = $('#schedule-list');
-  const upcoming = (state.fifa.games || [])
-    .filter((g) => g.finished !== 'TRUE')
-    .sort((a, b) => parseFifaDate(a.local_date) - parseFifaDate(b.local_date))
-    .slice(0, 12);
-  $('#schedule-meta').textContent = `${upcoming.length} matches remaining`;
-  if (!upcoming.length) {
-    list.innerHTML = '<div class="empty-state">Tournament complete — no upcoming matches.</div>';
-    return;
-  }
-  list.innerHTML = upcoming.map((g) => {
-    const home = state.fifa.teams[g.home_team_id]?.name_en || 'TBD';
-    const away = state.fifa.teams[g.away_team_id]?.name_en || 'TBD';
-    const kickoff = parseFifaDate(g.local_date);
-    return `
-      <div class="schedule-row">
-        <span class="schedule-time">${formatDate(kickoff)}<br>${formatTime(kickoff)}</span>
-        <span class="schedule-match">${esc(away)} vs ${esc(home)} · Grp ${esc(g.group)}</span>
-        <span class="schedule-venue">${esc(g.type)}</span>
       </div>`;
   }).join('');
 }
@@ -991,17 +1018,25 @@ function renderMyTeams() {
 function renderSportView() {
   const sport = getSport(state.selectedSport);
   if (sport?.accent) setAccent(sport.accent);
-  renderSeasonBanner();
+  updateViewVisibility();
+
   if (isFifa(sport)) {
-    renderFifaScoreboard();
-    $('#standings-title').textContent = 'Group Standings';
-    renderFifaStandings();
-    renderFifaSchedule();
-  } else {
-    renderEspnScoreboard();
-    renderStandings();
-    renderEspnSchedule();
+    if (!state.fifaActive && window.FifaTracker) {
+      state.fifaActive = true;
+      window.FifaTracker.init();
+    }
+    return;
   }
+
+  if (state.fifaActive) {
+    window.FifaTracker?.destroy();
+    state.fifaActive = false;
+  }
+
+  renderSeasonBanner();
+  renderEspnScoreboard();
+  renderStandings();
+  renderEspnSchedule();
 }
 
 function renderAll() {
@@ -1029,9 +1064,19 @@ function renderLiveIndicator() {
 }
 
 async function refresh({ silent = false } = {}) {
-  if (!silent && state.view === 'sport') {
+  if (state.view === 'sport' && state.fifaActive && isFifa(getSport(state.selectedSport))) {
+    window.FifaTracker?.refresh();
+    await loadAllLiveCounts();
+    renderSportNav();
+    renderSportCards();
+    renderLiveIndicator();
+    schedulePoll();
+    return;
+  }
+
+  if (!silent && state.view === 'sport' && !isFifa(getSport(state.selectedSport))) {
     $('#scoreboard-grid').innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading games...</p></div>';
-    $('#standings-layout').innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+    $('#sport-standings-layout').innerHTML = '<div class="loading"><div class="spinner"></div></div>';
   }
   if (!silent && state.view === 'my-teams') {
     $('#my-today-grid').innerHTML = '<div class="loading"><div class="spinner"></div><p>Finding your teams\' games...</p></div>';
@@ -1041,11 +1086,9 @@ async function refresh({ silent = false } = {}) {
     await loadAllLiveCounts();
     if (state.view === 'my-teams') {
       await loadAllScoreboards();
-      if (isFifa(getSport('fifa'))) {
-        const teamsData = await fetchFifaEndpoint('teams');
-        state.fifa.teams = Object.fromEntries((teamsData.teams || []).map((t) => [t.id, t]));
-      }
-    } else {
+      const teamsData = await fetchFifaEndpoint('teams').catch(() => ({ teams: [] }));
+      state.fifa.teams = Object.fromEntries((teamsData.teams || []).map((t) => [t.id, t]));
+    } else if (!isFifa(getSport(state.selectedSport))) {
       await loadSportData(state.selectedSport);
     }
     state.lastFetch = new Date();
@@ -1053,17 +1096,24 @@ async function refresh({ silent = false } = {}) {
     schedulePoll();
   } catch (err) {
     console.error(err);
-    if (state.view === 'sport') {
+    if (state.view === 'sport' && !isFifa(getSport(state.selectedSport))) {
       $('#scoreboard-grid').innerHTML = `<div class="empty-state">Failed to load: ${esc(err.message)}</div>`;
     }
   }
 }
 
+function getPollInterval() {
+  if (state.fifaActive) return state.liveCounts.fifa > 0 ? POLL.LIVE : POLL.ACTIVE;
+  if (state.hasEspnLive) return POLL.LIVE;
+  if (state.hasEspnSoon) return POLL.WINDOW;
+  const totalLive = Object.values(state.liveCounts).reduce((a, b) => a + b, 0);
+  if (totalLive > 0) return POLL.ACTIVE;
+  return POLL.IDLE;
+}
+
 function schedulePoll() {
   clearTimeout(state.pollTimer);
-  const totalLive = Object.values(state.liveCounts).reduce((a, b) => a + b, 0);
-  const delay = totalLive > 0 ? POLL.LIVE : totalLive >= 0 ? POLL.ACTIVE : POLL.IDLE;
-  state.pollTimer = setTimeout(() => refresh({ silent: true }), delay);
+  state.pollTimer = setTimeout(() => refresh({ silent: true }), getPollInterval());
 }
 
 async function goSport(sportId) {
@@ -1080,11 +1130,29 @@ async function goMyTeams() {
   await refresh();
 }
 
+function espnTick() {
+  if (state.fifaActive || state.view !== 'sport') return;
+  const events = state.scoreboard?.events || [];
+  document.querySelectorAll('#scoreboard-grid .game-card[data-event-id]').forEach((card) => {
+    const event = events.find((e) => String(e.id) === card.dataset.eventId);
+    if (!event) return;
+    const status = getEventStatus(event);
+    const countdown = card.querySelector(`[data-countdown="${event.id}"]`);
+    if (countdown && status.phase === 'upcoming') {
+      countdown.textContent = getEspnFootText(event, status);
+    }
+    if (status.phase === 'live') {
+      patchEspnGameCard(card, event, state.selectedSport);
+    }
+  });
+}
+
 function initClock() {
   const tick = () => {
     $('#live-clock').textContent = new Date().toLocaleTimeString(undefined, {
       hour: '2-digit', minute: '2-digit', second: '2-digit',
     });
+    espnTick();
   };
   tick();
   state.tickTimer = setInterval(tick, 1000);
@@ -1112,7 +1180,13 @@ async function init() {
   initClock();
   await loadManifest();
   initRouting();
-  $('#refresh-btn').addEventListener('click', () => refresh());
+  $('#refresh-btn').addEventListener('click', () => {
+    if (state.fifaActive && isFifa(getSport(state.selectedSport))) {
+      window.FifaTracker?.refresh();
+    } else {
+      refresh();
+    }
+  });
 
   const route = parseHash();
   if (route) {

@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fifa.css">
 </head>
 <body>
   <header class="topbar">
@@ -72,42 +73,112 @@
         <div class="hero-grid" id="sport-cards"></div>
       </section>
 
-      <div class="season-banner" id="season-banner" hidden></div>
+      <!-- Generic league view (NFL, NBA, MLB, etc.) -->
+      <div id="view-sport-generic">
+        <div class="season-banner" id="season-banner" hidden></div>
 
-      <section class="block" id="live">
-        <div class="block-head">
-          <h2 class="block-title"><span class="dot-live"></span> Live &amp; Today</h2>
-          <p class="block-sub" id="today-meta">Loading...</p>
-        </div>
-        <div class="card-grid" id="scoreboard-grid">
-          <div class="loading" id="scoreboard-loading"><div class="spinner"></div><p>Loading games...</p></div>
-        </div>
-      </section>
+        <section class="block" id="sport-live">
+          <div class="block-head">
+            <h2 class="block-title"><span class="dot-live"></span> Live &amp; Today</h2>
+            <p class="block-sub" id="sport-today-meta">Loading...</p>
+          </div>
+          <div class="card-grid" id="scoreboard-grid">
+            <div class="loading" id="scoreboard-loading"><div class="spinner"></div><p>Loading games...</p></div>
+          </div>
+        </section>
 
-      <section class="block" id="standings">
-        <div class="block-head">
-          <h2 class="block-title" id="standings-title">Standings</h2>
-          <div class="group-tabs" id="standings-tabs" role="tablist"></div>
-        </div>
-        <div id="standings-layout">
-          <div class="loading" id="standings-loading"><div class="spinner"></div></div>
-        </div>
-      </section>
+        <section class="block" id="sport-standings">
+          <div class="block-head">
+            <h2 class="block-title" id="standings-title">Standings</h2>
+            <div class="group-tabs" id="standings-tabs" role="tablist"></div>
+          </div>
+          <div id="sport-standings-layout">
+            <div class="loading" id="sport-standings-loading"><div class="spinner"></div></div>
+          </div>
+        </section>
 
-      <section class="block" id="schedule">
-        <div class="block-head">
-          <h2 class="block-title">Upcoming</h2>
-          <p class="block-sub" id="schedule-meta">Next games on the schedule</p>
+        <section class="block" id="sport-schedule">
+          <div class="block-head">
+            <h2 class="block-title">Upcoming</h2>
+            <p class="block-sub" id="schedule-meta">Next games on the schedule</p>
+          </div>
+          <div class="schedule-list" id="schedule-list"></div>
+        </section>
+      </div>
+
+      <!-- Full World Cup tracker (mirrors fifa-standings-2026) -->
+      <div id="view-fifa" hidden>
+        <nav class="fifa-subnav" aria-label="World Cup sections">
+          <a href="#live" class="fifa-subnav-link active" data-section="live">Live</a>
+          <a href="#bracket" class="fifa-subnav-link" data-section="bracket">Bracket</a>
+          <a href="#eliminated" class="fifa-subnav-link" data-section="eliminated">Eliminated</a>
+          <a href="#standings" class="fifa-subnav-link" data-section="standings">Standings</a>
+        </nav>
+
+        <section class="block" id="live">
+          <div class="block-head">
+            <h2 class="block-title"><span class="dot-live"></span> Live &amp; Today</h2>
+            <p class="block-sub" id="today-meta">Loading...</p>
+          </div>
+          <div class="card-grid" id="today-timeline">
+            <div class="loading" id="today-loading"><div class="spinner"></div><p>Loading matches...</p></div>
+          </div>
+        </section>
+
+        <section class="block" id="bracket">
+          <div class="block-head">
+            <h2 class="block-title">Knockout Bracket</h2>
+            <div class="legend-row">
+              <span class="leg winner-leg">Winner</span>
+              <span class="leg elim-leg">Eliminated</span>
+              <span class="leg risk-leg">On the brink</span>
+              <span class="leg live-leg">Live</span>
+            </div>
+          </div>
+          <div class="bracket-wrap">
+            <div class="bracket" id="bracket-board">
+              <div class="loading"><div class="spinner"></div></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="split-row">
+          <section class="block block-half" id="eliminated">
+            <div class="block-head">
+              <h2 class="block-title">Eliminated</h2>
+              <span class="count-badge" id="elim-count">0</span>
+            </div>
+            <div class="elim-list" id="elim-list"></div>
+          </section>
+
+          <section class="block block-half" id="at-risk">
+            <div class="block-head">
+              <h2 class="block-title">On the Brink</h2>
+              <span class="count-badge risk" id="risk-count">0</span>
+            </div>
+            <p class="block-sub">Teams playing next — lose and go home</p>
+            <div class="risk-list" id="risk-list"></div>
+          </section>
         </div>
-        <div class="schedule-list" id="schedule-list"></div>
-      </section>
+
+        <section class="block" id="standings">
+          <div class="block-head">
+            <h2 class="block-title">Group Standings</h2>
+            <div class="group-tabs" id="group-tabs" role="tablist"></div>
+          </div>
+          <div id="standings-layout">
+            <div class="loading" id="standings-loading"><div class="spinner"></div></div>
+          </div>
+        </section>
+      </div>
     </div>
   </main>
 
   <footer class="foot">
-    <p>Data from <a href="https://www.espn.com" target="_blank" rel="noopener">ESPN</a> · World Cup data from <a href="https://worldcup26.ir" target="_blank" rel="noopener">worldcup26.ir</a> · Odds via DraftKings · Synced every 5 minutes</p>
+    <p>Data from <a href="https://www.espn.com" target="_blank" rel="noopener">ESPN</a> · World Cup data from <a href="https://worldcup26.ir" target="_blank" rel="noopener">worldcup26.ir</a> · Odds via DraftKings · Goal clips via FOX Sports YouTube</p>
   </footer>
 
+  <script src="fifa-tracker.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
