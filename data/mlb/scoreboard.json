@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T21:39:45.804Z",
+  "fetchedAt": "2026-07-03T21:44:52.750Z",
   "sportId": "mlb",
   "liveCount": 1,
   "seasonStatus": {
@@ -292,7 +292,7 @@
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".231"
+                  "displayValue": ".200"
                 },
                 {
                   "name": "saves",
@@ -328,8 +328,8 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "1-1",
-                      "value": 1,
+                      "displayValue": "1-2",
+                      "value": 0.5,
                       "athlete": {
                         "id": "32797",
                         "fullName": "Carson Kelly",
@@ -368,7 +368,7 @@
                   "abbreviation": "HR",
                   "leaders": [
                     {
-                      "displayValue": "1-1",
+                      "displayValue": "1-2",
                       "value": 0,
                       "athlete": {
                         "id": "32797",
@@ -408,7 +408,7 @@
                   "abbreviation": "RBI",
                   "leaders": [
                     {
-                      "displayValue": "1-1",
+                      "displayValue": "1-2",
                       "value": 0,
                       "athlete": {
                         "id": "32797",
@@ -771,7 +771,7 @@
                 {
                   "name": "errors",
                   "abbreviation": "E",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 }
               ],
               "leaders": [
@@ -1041,7 +1041,7 @@
                 }
               ],
               "hits": 10,
-              "errors": 0,
+              "errors": 1,
               "records": [
                 {
                   "name": "overall",
@@ -1067,27 +1067,31 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018160070702030005",
+              "id": "4018160070799990058",
               "type": {
-                "id": "5",
-                "text": "Ball",
-                "abbreviation": "B",
-                "alternativeText": "Walk",
-                "type": "ball"
+                "id": "58",
+                "text": "End Inning",
+                "type": "end-inning"
               },
-              "text": "Pitch 2 : Ball 1",
+              "text": "End of the 4th inning",
               "scoreValue": 0,
               "team": {
-                "id": "24"
+                "id": "16"
               },
-              "atBatId": "4018160070702",
-              "summaryType": "P",
-              "athletesInvolved": [
-                {
-                  "id": "41219",
-                  "fullName": "Nico Hoerner",
-                  "displayName": "Nico Hoerner",
-                  "shortName": "N. Hoerner",
+              "atBatId": "4018160070704"
+            },
+            "balls": 0,
+            "strikes": 0,
+            "outs": 0,
+            "dueUp": [
+              {
+                "playerId": 4722953,
+                "period": 4,
+                "athlete": {
+                  "id": "4722953",
+                  "fullName": "Blaze Jordan",
+                  "displayName": "Blaze Jordan",
+                  "shortName": "B. Jordan",
                   "links": [
                     {
                       "rel": [
@@ -1095,81 +1099,85 @@
                         "desktop",
                         "athlete"
                       ],
-                      "href": "https://www.espn.com/mlb/player/_/id/41219"
+                      "href": "https://www.espn.com/mlb/player/_/id/4722953"
                     }
                   ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41219.png",
-                  "jersey": "2",
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4722953.png",
+                  "jersey": "33",
+                  "position": "3B",
+                  "team": {
+                    "id": "24"
+                  }
+                },
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4722953/projections?lang=en&region=us"
+                },
+                "batOrder": 8,
+                "summary": "1-2, R"
+              },
+              {
+                "playerId": 4843048,
+                "period": 4,
+                "athlete": {
+                  "id": "4843048",
+                  "fullName": "Nathan Church",
+                  "displayName": "Nathan Church",
+                  "shortName": "N. Church",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mlb/player/_/id/4843048"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4843048.png",
+                  "jersey": "27",
+                  "position": "LF",
+                  "team": {
+                    "id": "24"
+                  }
+                },
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4843048/projections?lang=en&region=us"
+                },
+                "batOrder": 9,
+                "summary": "1-2, HR, 3 RBI, R"
+              },
+              {
+                "playerId": 4941056,
+                "period": 4,
+                "athlete": {
+                  "id": "4941056",
+                  "fullName": "JJ Wetherholt",
+                  "displayName": "JJ Wetherholt",
+                  "shortName": "J. Wetherholt",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mlb/player/_/id/4941056"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4941056.png",
+                  "jersey": "26",
                   "position": "2B",
                   "team": {
-                    "id": "16"
+                    "id": "24"
                   }
-                }
-              ]
-            },
-            "balls": 1,
-            "strikes": 1,
-            "outs": 1,
-            "pitcher": {
-              "playerId": 4109034,
-              "period": 4,
-              "athlete": {
-                "id": "4109034",
-                "fullName": "Andre Pallante",
-                "displayName": "Andre Pallante",
-                "shortName": "A. Pallante",
-                "links": [
-                  {
-                    "rel": [
-                      "playercard",
-                      "desktop",
-                      "athlete"
-                    ],
-                    "href": "https://www.espn.com/mlb/player/_/id/4109034"
-                  }
-                ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4109034.png",
-                "jersey": "53",
-                "position": "SP",
-                "team": {
-                  "id": "24"
-                }
-              },
-              "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4109034/projections?lang=en&region=us"
-              },
-              "summary": "3.1 IP, 0 ER, 3 H, K, BB"
-            },
-            "batter": {
-              "playerId": 41219,
-              "period": 4,
-              "athlete": {
-                "id": "41219",
-                "fullName": "Nico Hoerner",
-                "displayName": "Nico Hoerner",
-                "shortName": "N. Hoerner",
-                "links": [
-                  {
-                    "rel": [
-                      "playercard",
-                      "desktop",
-                      "athlete"
-                    ],
-                    "href": "https://www.espn.com/mlb/player/_/id/41219"
-                  }
-                ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41219.png",
-                "jersey": "2",
-                "position": "2B",
-                "team": {
-                  "id": "16"
-                }
-              },
-              "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/41219/projections?lang=en&region=us"
-              },
-              "summary": "0-1"
-            },
+                },
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4941056/projections?lang=en&region=us"
+                },
+                "batOrder": 1,
+                "summary": "1-3, K"
+              }
+            ],
             "onFirst": false,
             "onSecond": false,
             "onThird": false
@@ -1289,7 +1297,7 @@
             }
           },
           "startDate": "2026-07-03T20:05Z",
-          "outsText": "1 Out",
+          "outsText": "0 Outs",
           "broadcast": "MLB.TV",
           "geoBroadcasts": [
             {
@@ -1699,6 +1707,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "45-43"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "17-25"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "28-18"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -1859,26 +1887,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "45-43"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "17-25"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "28-18"
                 }
               ]
             },
@@ -2100,26 +2108,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "44-44"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "23-22"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "21-22"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -2280,6 +2268,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "44-44"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "23-22"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "21-22"
                 }
               ]
             }
@@ -4042,10 +4050,10 @@
         }
       ],
       "weather": {
-        "displayValue": "Intermittent clouds",
-        "temperature": 94,
-        "highTemperature": 94,
-        "conditionId": "4",
+        "displayValue": "Mostly cloudy w/ t-storms",
+        "temperature": 92,
+        "highTemperature": 92,
+        "conditionId": "16",
         "link": {
           "language": "en-US",
           "rel": [
@@ -5327,14 +5335,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Baltimore Orioles (40-48, fourth in the AL East) vs. Cincinnati Reds (40-46, fifth in the NL Central)",
               "shortLinkText": "Reds open 3-game series at home against the Orioles"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -6668,14 +6676,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Chicago White Sox (45-41, first in the AL Central) vs. Cleveland Guardians (46-42, second in the AL Central)",
               "shortLinkText": "Guardians play the White Sox leading series 1-0"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -7618,8 +7626,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 1251,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 1144,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-braves-tickets-truist-park-7-3-2026--sports-mlb-baseball/production/5964840?wsUser=717"
@@ -9317,14 +9325,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Francisco Giants (36-50, fourth in the NL West) vs. Colorado Rockies (35-53, fifth in the NL West)",
               "shortLinkText": "Rockies host the Giants in first of 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -11341,26 +11349,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "37-48"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "17-27"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "20-21"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -11521,6 +11509,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "37-48"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "17-27"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "20-21"
                 }
               ]
             }
@@ -11981,8 +11989,8 @@
       ],
       "weather": {
         "displayValue": "1",
-        "temperature": 81,
-        "highTemperature": 81,
+        "temperature": 82,
+        "highTemperature": 82,
         "conditionId": "Sunny",
         "link": {
           "language": "en-US",
@@ -14370,7 +14378,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-131",
+                    "odds": "-135",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14404,7 +14412,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+109",
+                    "odds": "+112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14442,7 +14450,7 @@
                 "over": {
                   "close": {
                     "line": "o8.5",
-                    "odds": "-112",
+                    "odds": "-111",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15271,6 +15279,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "43-43"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "23-21"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "20-22"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -15431,26 +15459,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "43-43"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "23-21"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "20-22"
                 }
               ]
             }
@@ -15884,14 +15892,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (43-43, third in the NL West) vs. Los Angeles Dodgers (57-31, first in the NL West)",
               "shortLinkText": "Dodgers play the Padres after Rushing's 4-hit game"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
