@@ -1,0 +1,78 @@
+name: Sync sports data and deploy Pages
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'app.js'
+      - 'index.html'
+      - 'styles.css'
+      - 'docs/**'
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/sync-data.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest sports data
+        run: node scripts/sync-all-sports.mjs
+
+      - name: Sync site assets into docs/
+        run: |
+          mkdir -p docs
+          cp app.js index.html styles.css docs/
+          cp .nojekyll docs/
+
+      - name: Commit source updates on main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --staged --quiet; then
+            echo "No source changes to commit"
+          else
+            git commit -m "Sync sports data and site assets [automated]"
+            git push
+          fi
+
+      - name: Deploy docs/ to gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          rm -rf /tmp/gh-pages-site
+          cp -r docs /tmp/gh-pages-site
+          cd /tmp/gh-pages-site
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Deploy site and data cache [automated]"
+          git branch -M gh-pages
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" gh-pages
+
+      - name: Request GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsSL -X POST \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"

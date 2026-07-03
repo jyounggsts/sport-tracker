@@ -1,0 +1,1805 @@
+{
+  "fetchedAt": "2026-07-03T20:13:55.684Z",
+  "sportId": "nhl",
+  "liveCount": 0,
+  "leagues": [
+    {
+      "id": "90",
+      "uid": "s:70~l:90",
+      "name": "National Hockey League",
+      "abbreviation": "NHL",
+      "slug": "nhl",
+      "season": {
+        "year": 2027,
+        "startDate": "2026-09-15T07:00Z",
+        "endDate": "2027-07-01T06:59Z",
+        "displayName": "2026-27",
+        "type": {
+          "id": "2",
+          "type": 2,
+          "name": "Regular Season",
+          "abbreviation": "reg"
+        }
+      },
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "default"
+          ],
+          "lastUpdated": "2018-06-05T12:07Z"
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nhl.png",
+          "width": 500,
+          "height": 500,
+          "alt": "",
+          "rel": [
+            "full",
+            "dark"
+          ],
+          "lastUpdated": "2021-08-10T20:37Z"
+        }
+      ],
+      "calendarType": "day",
+      "calendarIsWhitelist": true,
+      "calendarStartDate": "2026-09-15T07:00Z",
+      "calendarEndDate": "2027-07-01T06:59Z",
+      "calendar": [
+        "2026-09-19T07:00Z",
+        "2026-09-20T07:00Z",
+        "2026-09-21T07:00Z",
+        "2026-09-22T07:00Z",
+        "2026-09-23T07:00Z",
+        "2026-09-24T07:00Z",
+        "2026-09-25T07:00Z",
+        "2026-09-26T07:00Z"
+      ]
+    }
+  ],
+  "season": {
+    "type": 1,
+    "year": 2027
+  },
+  "day": {
+    "date": "2026-09-19"
+  },
+  "events": [
+    {
+      "id": "401881922",
+      "uid": "s:70~l:90~e:401881922",
+      "date": "2026-09-19T23:00Z",
+      "name": "Montreal Canadiens at Toronto Maple Leafs",
+      "shortName": "MTL @ TOR",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401881922",
+          "uid": "s:70~l:90~e:401881922~c:401881922",
+          "date": "2026-09-19T23:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1838",
+            "fullName": "Scotiabank Arena",
+            "address": {
+              "city": "Toronto",
+              "state": "ON",
+              "country": "Canada"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "21",
+              "uid": "s:70~l:90~t:21",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "21",
+                "uid": "s:70~l:90~t:21",
+                "location": "Toronto",
+                "name": "Maple Leafs",
+                "abbreviation": "TOR",
+                "displayName": "Toronto Maple Leafs",
+                "shortDisplayName": "Maple Leafs",
+                "color": "003e7e",
+                "isActive": true,
+                "venue": {
+                  "id": "1838"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/tor/toronto-maple-leafs",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=21",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/tor/toronto-maple-leafs",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/tor",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "10",
+              "uid": "s:70~l:90~t:10",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "10",
+                "uid": "s:70~l:90~t:10",
+                "location": "Montreal",
+                "name": "Canadiens",
+                "abbreviation": "MTL",
+                "displayName": "Montreal Canadiens",
+                "shortDisplayName": "Canadiens",
+                "color": "c41230",
+                "isActive": true,
+                "venue": {
+                  "id": "1831"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/mtl/montreal-canadiens",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=10",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/mtl/montreal-canadiens",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:10&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/mtl/montreal-canadiens",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:10&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/mtl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:10&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 7:00 PM EDT",
+              "shortDetail": "9/19 - 7:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "startDate": "2026-09-19T23:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401881922/canadiens-maple-leafs",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 7:00 PM EDT",
+          "shortDetail": "9/19 - 7:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "401881923",
+      "uid": "s:70~l:90~e:401881923",
+      "date": "2026-09-19T23:00Z",
+      "name": "Toronto Maple Leafs at Montreal Canadiens",
+      "shortName": "TOR @ MTL",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401881923",
+          "uid": "s:70~l:90~e:401881923~c:401881923",
+          "date": "2026-09-19T23:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1831",
+            "fullName": "Bell Centre",
+            "address": {
+              "city": "Montreal",
+              "state": "QC",
+              "country": "Canada"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "10",
+              "uid": "s:70~l:90~t:10",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "10",
+                "uid": "s:70~l:90~t:10",
+                "location": "Montreal",
+                "name": "Canadiens",
+                "abbreviation": "MTL",
+                "displayName": "Montreal Canadiens",
+                "shortDisplayName": "Canadiens",
+                "color": "c41230",
+                "isActive": true,
+                "venue": {
+                  "id": "1831"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/mtl/montreal-canadiens",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=10",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/mtl/montreal-canadiens",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:10&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/mtl/montreal-canadiens",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:10&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/mtl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:10&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/mtl.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "21",
+              "uid": "s:70~l:90~t:21",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "21",
+                "uid": "s:70~l:90~t:21",
+                "location": "Toronto",
+                "name": "Maple Leafs",
+                "abbreviation": "TOR",
+                "displayName": "Toronto Maple Leafs",
+                "shortDisplayName": "Maple Leafs",
+                "color": "003e7e",
+                "isActive": true,
+                "venue": {
+                  "id": "1838"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/tor/toronto-maple-leafs",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=21",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/tor/toronto-maple-leafs",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/tor/toronto-maple-leafs",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/tor",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:21&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/tor.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 7:00 PM EDT",
+              "shortDetail": "9/19 - 7:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "startDate": "2026-09-19T23:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401881923/maple-leafs-canadiens",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 7:00 PM EDT",
+          "shortDetail": "9/19 - 7:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "401878099",
+      "uid": "s:70~l:90~e:401878099",
+      "date": "2026-09-20T00:00Z",
+      "name": "Winnipeg Jets at Edmonton Oilers",
+      "shortName": "WPG @ EDM",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401878099",
+          "uid": "s:70~l:90~e:401878099~c:401878099",
+          "date": "2026-09-20T00:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "5282",
+            "fullName": "Rogers Place",
+            "address": {
+              "city": "Edmonton",
+              "state": "AB",
+              "country": "Canada"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "6",
+              "uid": "s:70~l:90~t:6",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "6",
+                "uid": "s:70~l:90~t:6",
+                "location": "Edmonton",
+                "name": "Oilers",
+                "abbreviation": "EDM",
+                "displayName": "Edmonton Oilers",
+                "shortDisplayName": "Oilers",
+                "color": "00205b",
+                "isActive": true,
+                "venue": {
+                  "id": "5282"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/edm/edmonton-oilers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=6",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/edm/edmonton-oilers",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:6&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/edm/edmonton-oilers",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:6&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/edm",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:6&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/edm.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "28",
+              "uid": "s:70~l:90~t:28",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "28",
+                "uid": "s:70~l:90~t:28",
+                "location": "Winnipeg",
+                "name": "Jets",
+                "abbreviation": "WPG",
+                "displayName": "Winnipeg Jets",
+                "shortDisplayName": "Jets",
+                "color": "002d62",
+                "isActive": true,
+                "venue": {
+                  "id": "1827"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/wpg/winnipeg-jets",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=28",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/wpg/winnipeg-jets",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:28&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/wpg/winnipeg-jets",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:28&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/wpg",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:28&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/wpg.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 8:00 PM EDT",
+              "shortDetail": "9/19 - 8:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $41",
+              "numberAvailable": 282,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/edmonton-oilers-tickets-rogers-place-9-19-2026--sports-nhl-hockey/production/7179996?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/venues/rogers-place-tickets.html?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-09-20T00:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401878099/jets-oilers",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 8:00 PM EDT",
+          "shortDetail": "9/19 - 8:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "401879412",
+      "uid": "s:70~l:90~e:401879412",
+      "date": "2026-09-20T01:00Z",
+      "name": "Vegas Golden Knights at Los Angeles Kings",
+      "shortName": "VGK @ LA",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401879412",
+          "uid": "s:70~l:90~e:401879412~c:401879412",
+          "date": "2026-09-20T01:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": true,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "2494",
+            "fullName": "Toyota Arena",
+            "address": {
+              "city": "Ontario",
+              "state": "CA",
+              "country": "USA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "8",
+              "uid": "s:70~l:90~t:8",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "8",
+                "uid": "s:70~l:90~t:8",
+                "location": "Los Angeles",
+                "name": "Kings",
+                "abbreviation": "LA",
+                "displayName": "Los Angeles Kings",
+                "shortDisplayName": "Kings",
+                "color": "121212",
+                "isActive": true,
+                "venue": {
+                  "id": "1841"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/la/los-angeles-kings",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=8",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/la/los-angeles-kings",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:8&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/la/los-angeles-kings",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:8&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/la",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:8&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/la.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "37",
+              "uid": "s:70~l:90~t:37",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "37",
+                "uid": "s:70~l:90~t:37",
+                "location": "Vegas",
+                "name": "Golden Knights",
+                "abbreviation": "VGK",
+                "displayName": "Vegas Golden Knights",
+                "shortDisplayName": "Golden Knights",
+                "color": "344043",
+                "isActive": true,
+                "venue": {
+                  "id": "5060"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/vgk/vegas-golden-knights",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=37",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/vgk/vegas-golden-knights",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:37&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/vgk/vegas-golden-knights",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:37&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/vgk",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:37&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/vgk.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 9:00 PM EDT",
+              "shortDetail": "9/19 - 9:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $95",
+              "numberAvailable": 749,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/los-angeles-kings-tickets-ontario-toyota-arena---ca-9-19-2026/production/7056093?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/venues/toyota-arena-_-ca-tickets.html?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-09-20T01:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401879412/golden-knights-kings",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 9:00 PM EDT",
+          "shortDetail": "9/19 - 9:00 PM EDT"
+        }
+      }
+    },
+    {
+      "id": "401879652",
+      "uid": "s:70~l:90~e:401879652",
+      "date": "2026-09-20T02:00Z",
+      "name": "Vancouver Canucks at Seattle Kraken",
+      "shortName": "VAN @ SEA",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401879652",
+          "uid": "s:70~l:90~e:401879652~c:401879652",
+          "date": "2026-09-20T02:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "7224",
+            "fullName": "Climate Pledge Arena",
+            "address": {
+              "city": "Seattle",
+              "state": "WA",
+              "country": "USA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "124292",
+              "uid": "s:70~l:90~t:124292",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "124292",
+                "uid": "s:70~l:90~t:124292",
+                "location": "Seattle",
+                "name": "Kraken",
+                "abbreviation": "SEA",
+                "displayName": "Seattle Kraken",
+                "shortDisplayName": "Kraken",
+                "color": "000d33",
+                "isActive": true,
+                "venue": {
+                  "id": "7224"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/sea/seattle-kraken",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=124292",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/sea/seattle-kraken",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/sea/seattle-kraken",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/sea",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:124292&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/sea.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "22",
+              "uid": "s:70~l:90~t:22",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "22",
+                "uid": "s:70~l:90~t:22",
+                "location": "Vancouver",
+                "name": "Canucks",
+                "abbreviation": "VAN",
+                "displayName": "Vancouver Canucks",
+                "shortDisplayName": "Canucks",
+                "color": "003e7e",
+                "isActive": true,
+                "venue": {
+                  "id": "1833"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/van/vancouver-canucks",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=22",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/van/vancouver-canucks",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:22&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/van/vancouver-canucks",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:22&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/van",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:22&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/van.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 10:00 PM EDT",
+              "shortDetail": "9/19 - 10:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $136",
+              "numberAvailable": 70,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/seattle-kraken-tickets-climate-pledge-arena-9-19-2026--sports-nhl-hockey/production/7213353?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/climate-pledge-arena-tickets/venue/855?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-09-20T02:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401879652/canucks-kraken",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 10:00 PM EDT",
+          "shortDetail": "9/19 - 10:00 PM EDT"
+        }
+      }
+    }
+  ],
+  "provider": {
+    "id": "100",
+    "name": "Draft Kings",
+    "displayName": "Draft Kings",
+    "priority": 1,
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+        "rel": [
+          "light"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+        "rel": [
+          "dark"
+        ]
+      }
+    ]
+  }
+}

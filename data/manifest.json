@@ -1,0 +1,104 @@
+{
+  "updatedAt": "2026-07-03T20:13:58.486Z",
+  "sports": [
+    {
+      "id": "nfl",
+      "name": "NFL",
+      "shortName": "NFL",
+      "category": "football",
+      "league": "nfl",
+      "color": "#013369",
+      "accent": "#D50A0A",
+      "icon": "🏈",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "nba",
+      "name": "NBA",
+      "shortName": "NBA",
+      "category": "basketball",
+      "league": "nba",
+      "color": "#1D428A",
+      "accent": "#C8102E",
+      "icon": "🏀",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "mlb",
+      "name": "MLB",
+      "shortName": "MLB",
+      "category": "baseball",
+      "league": "mlb",
+      "color": "#041E42",
+      "accent": "#BF0D3E",
+      "icon": "⚾",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "nhl",
+      "name": "NHL",
+      "shortName": "NHL",
+      "category": "hockey",
+      "league": "nhl",
+      "color": "#111111",
+      "accent": "#FFB81C",
+      "icon": "🏒",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "mls",
+      "name": "MLS",
+      "shortName": "MLS",
+      "category": "soccer",
+      "league": "usa.1",
+      "color": "#00245D",
+      "accent": "#C8102E",
+      "icon": "⚽",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "ncaaf",
+      "name": "College Football",
+      "shortName": "NCAAF",
+      "category": "football",
+      "league": "college-football",
+      "color": "#2D2D2D",
+      "accent": "#FF6B00",
+      "icon": "🏈",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "wnba",
+      "name": "WNBA",
+      "shortName": "WNBA",
+      "category": "basketball",
+      "league": "wnba",
+      "color": "#FF671F",
+      "accent": "#2E004F",
+      "icon": "🏀",
+      "standingsApi": "v2"
+    },
+    {
+      "id": "fifa",
+      "name": "World Cup 2026",
+      "shortName": "WC26",
+      "category": "soccer",
+      "league": "fifa.world",
+      "color": "#0B3D2E",
+      "accent": "#00C853",
+      "icon": "🌍",
+      "source": "worldcup26",
+      "standingsApi": "custom"
+    }
+  ],
+  "liveSummary": {
+    "nfl": 0,
+    "nba": 0,
+    "mlb": 1,
+    "nhl": 0,
+    "mls": 0,
+    "ncaaf": 0,
+    "wnba": 0,
+    "fifa": 19
+  }
+}
