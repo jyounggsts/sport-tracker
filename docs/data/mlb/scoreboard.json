@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T21:38:56.364Z",
+  "fetchedAt": "2026-07-03T21:39:45.804Z",
   "sportId": "mlb",
   "liveCount": 1,
   "seasonStatus": {
@@ -1067,7 +1067,7 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018160070701030005",
+              "id": "4018160070702030005",
               "type": {
                 "id": "5",
                 "text": "Ball",
@@ -1080,14 +1080,14 @@
               "team": {
                 "id": "24"
               },
-              "atBatId": "4018160070701",
+              "atBatId": "4018160070702",
               "summaryType": "P",
               "athletesInvolved": [
                 {
-                  "id": "34945",
-                  "fullName": "Ian Happ",
-                  "displayName": "Ian Happ",
-                  "shortName": "I. Happ",
+                  "id": "41219",
+                  "fullName": "Nico Hoerner",
+                  "displayName": "Nico Hoerner",
+                  "shortName": "N. Hoerner",
                   "links": [
                     {
                       "rel": [
@@ -1095,12 +1095,12 @@
                         "desktop",
                         "athlete"
                       ],
-                      "href": "https://www.espn.com/mlb/player/_/id/34945"
+                      "href": "https://www.espn.com/mlb/player/_/id/41219"
                     }
                   ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/34945.png",
-                  "jersey": "8",
-                  "position": "LF",
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41219.png",
+                  "jersey": "2",
+                  "position": "2B",
                   "team": {
                     "id": "16"
                   }
@@ -1109,7 +1109,7 @@
             },
             "balls": 1,
             "strikes": 1,
-            "outs": 0,
+            "outs": 1,
             "pitcher": {
               "playerId": 4109034,
               "period": 4,
@@ -1138,16 +1138,16 @@
               "projections": {
                 "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4109034/projections?lang=en&region=us"
               },
-              "summary": "3.0 IP, 0 ER, 3 H, K, BB"
+              "summary": "3.1 IP, 0 ER, 3 H, K, BB"
             },
             "batter": {
-              "playerId": 34945,
+              "playerId": 41219,
               "period": 4,
               "athlete": {
-                "id": "34945",
-                "fullName": "Ian Happ",
-                "displayName": "Ian Happ",
-                "shortName": "I. Happ",
+                "id": "41219",
+                "fullName": "Nico Hoerner",
+                "displayName": "Nico Hoerner",
+                "shortName": "N. Hoerner",
                 "links": [
                   {
                     "rel": [
@@ -1155,20 +1155,20 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mlb/player/_/id/34945"
+                    "href": "https://www.espn.com/mlb/player/_/id/41219"
                   }
                 ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/34945.png",
-                "jersey": "8",
-                "position": "LF",
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41219.png",
+                "jersey": "2",
+                "position": "2B",
                 "team": {
                   "id": "16"
                 }
               },
               "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/34945/projections?lang=en&region=us"
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/41219/projections?lang=en&region=us"
               },
-              "summary": "0-1, K"
+              "summary": "0-1"
             },
             "onFirst": false,
             "onSecond": false,
@@ -1289,7 +1289,7 @@
             }
           },
           "startDate": "2026-07-03T20:05Z",
-          "outsText": "0 Outs",
+          "outsText": "1 Out",
           "broadcast": "MLB.TV",
           "geoBroadcasts": [
             {
@@ -1699,26 +1699,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "45-43"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "17-25"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "28-18"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -1879,6 +1859,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "45-43"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "17-25"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "28-18"
                 }
               ]
             },
@@ -2680,14 +2680,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Pittsburgh Pirates (44-44, fourth in the NL Central) vs. Washington Nationals (45-43, fourth in the NL East)",
               "shortLinkText": "Nationals play the Pirates in first of 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -4003,14 +4003,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Minnesota Twins (42-46, third in the AL Central) vs. New York Yankees (48-38, second in the AL East)",
               "shortLinkText": "Yankees enter matchup with the Twins on losing streak"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -6668,14 +6668,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Chicago White Sox (45-41, first in the AL Central) vs. Cleveland Guardians (46-42, second in the AL Central)",
               "shortLinkText": "Guardians play the White Sox leading series 1-0"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -7992,14 +7992,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "New York Mets (36-51, fifth in the NL East) vs. Atlanta Braves (50-35, first in the NL East)",
               "shortLinkText": "Braves open 4-game series against the Mets"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -11941,14 +11941,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Boston Red Sox (37-48, fifth in the AL East) vs. Los Angeles Angels (36-52, fifth in the AL West)",
               "shortLinkText": "Red Sox visit the Angels to start 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -12891,8 +12891,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $35",
-              "numberAvailable": 375,
+              "summary": "Tickets as low as $36",
+              "numberAvailable": 429,
               "links": [
                 {
                   "href": "https://www.vividseats.com/athletics-tickets-sutter-health-park-7-3-2026--sports-mlb-baseball/production/5965568?wsUser=717"
@@ -14545,14 +14545,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Milwaukee Brewers (53-32, first in the NL Central) vs. Arizona Diamondbacks (43-43, second in the NL West)",
               "shortLinkText": "Diamondbacks begin 3-game series with the Brewers"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -15271,26 +15271,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "43-43"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "23-21"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "20-22"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -15451,6 +15431,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "43-43"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "23-21"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "20-22"
                 }
               ]
             }
@@ -17224,14 +17224,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Toronto Blue Jays (41-46, third in the AL East) vs. Seattle Mariners (45-43, second in the AL West)",
               "shortLinkText": "Mariners look to keep home win streak going, host the Blue Jays"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
