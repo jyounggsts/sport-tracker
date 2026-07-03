@@ -41,10 +41,22 @@ async function writeJSON(relativePath, payload) {
   }
 }
 
+function getScoreboardSeasonYear(scoreboard, fallback) {
+  return scoreboard?.season?.year
+    ?? scoreboard?.leagues?.[0]?.season?.year
+    ?? fallback
+    ?? null;
+}
+
+function getCompletedSeason(seasons, seasonDef, scoreboardYear) {
+  if (scoreboardYear > seasonDef.year) return seasonDef;
+  return seasons.find((s) => s.year < seasonDef.year) ?? seasonDef;
+}
+
 function detectSeasonStatus(standings, scoreboard) {
   const now = Date.now();
   const seasons = standings?.seasons || [];
-  const year = scoreboard?.season?.year ?? seasons[0]?.year ?? null;
+  const year = getScoreboardSeasonYear(scoreboard, seasons[0]?.year);
   const seasonDef = seasons.find((s) => s.year === year) ?? seasons[0];
 
   if (!seasonDef) {
@@ -68,12 +80,12 @@ function detectSeasonStatus(standings, scoreboard) {
     const start = new Date(off.startDate).getTime();
     const end = new Date(off.endDate).getTime();
     if (now >= start && now <= end) {
-      const prev = seasons.find((s) => s.year < seasonDef.year);
+      const completed = getCompletedSeason(seasons, seasonDef, year);
       return {
         inSeason: false,
         seasonYear: seasonDef.year,
-        previousSeasonYear: prev?.year ?? seasonDef.year - 1,
-        previousSeasonDisplay: prev?.displayName ?? String(prev?.year ?? seasonDef.year - 1),
+        previousSeasonYear: completed.year,
+        previousSeasonDisplay: completed.displayName ?? String(completed.year),
         returnsDate: off.endDate,
       };
     }
