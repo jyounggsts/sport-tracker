@@ -110,7 +110,6 @@ function updateViewVisibility() {
   const sportView = $('#view-sport');
   const genericView = $('#view-sport-generic');
   const fifaView = $('#view-fifa');
-  const hero = $('#hero');
   const isFifaSport = state.view === 'sport' && isFifa(getSport(state.selectedSport));
 
   if (state.view === 'my-teams') {
@@ -128,7 +127,6 @@ function updateViewVisibility() {
 
   if (genericView) genericView.hidden = isFifaSport;
   if (fifaView) fifaView.hidden = !isFifaSport;
-  if (hero) hero.hidden = isFifaSport;
 }
 
 // ── Data fetching ──────────────────────────────────────────────────
@@ -553,25 +551,6 @@ function renderSportNav() {
       e.preventDefault();
       goSport(link.dataset.sport);
     });
-  });
-}
-
-function renderSportCards() {
-  const grid = $('#sport-cards');
-  grid.innerHTML = (state.manifest?.sports || []).map((sport) => {
-    const live = state.liveCounts[sport.id] || 0;
-    const active = state.view === 'sport' && sport.id === state.selectedSport ? 'active' : '';
-    const inSeason = state.seasonSummary[sport.id] !== false;
-    let meta = live > 0 ? `${live} live now` : inSeason ? 'View scores' : 'Off season';
-    return `
-      <div class="sport-card ${active}${inSeason ? '' : ' off-season'}" data-sport="${sport.id}">
-        <div class="sport-card-icon">${sport.icon || '🏆'}</div>
-        <div class="sport-card-name">${esc(sport.name)}</div>
-        <div class="sport-card-meta">${meta}</div>
-      </div>`;
-  }).join('');
-  grid.querySelectorAll('.sport-card').forEach((card) => {
-    card.addEventListener('click', () => goSport(card.dataset.sport));
   });
 }
 
@@ -1127,7 +1106,6 @@ function renderSportView() {
 
 function renderAll() {
   renderSportNav();
-  renderSportCards();
   renderLiveIndicator();
   if (state.view === 'my-teams') {
     renderMyTeams();
@@ -1154,7 +1132,6 @@ async function refresh({ silent = false } = {}) {
     window.FifaTracker?.refresh();
     await loadAllLiveCounts();
     renderSportNav();
-    renderSportCards();
     renderLiveIndicator();
     schedulePoll();
     return;
