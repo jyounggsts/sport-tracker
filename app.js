@@ -311,10 +311,7 @@ async function loadAllLiveCounts() {
       try {
         if (isFifa(sport)) {
           const data = await fetchCached('fifa/games.json').catch(() => fetchFifaEndpoint('games'));
-          counts[sport.id] = (data.games || []).filter((g) => {
-            const elapsed = String(g.time_elapsed || '').toLowerCase();
-            return g.finished !== 'TRUE' && !['finished', 'ft', ''].includes(elapsed);
-          }).length;
+          counts[sport.id] = (data.games || []).filter(isFifaLive).length;
         } else {
           const data = await fetchCached(`${sport.id}/scoreboard.json`).catch(() => fetchEspnScoreboard(sport));
           counts[sport.id] = (data.events || []).filter((e) => e.status?.type?.state === 'in').length;
@@ -500,9 +497,21 @@ function parseFifaDate(localDate) {
   return new Date(year, month - 1, day, hour, minute);
 }
 
+const FIFA_LIVE_ELAPSED = new Set([
+  'live', 'inplay', 'playing', '1sthalf', '2ndhalf', 'extratime', 'extra', 'penalties',
+]);
+
+function normalizeFifaElapsed(raw) {
+  return String(raw || '').toLowerCase().replace(/\s+/g, '');
+}
+
 function isFifaLive(game) {
-  const elapsed = String(game.time_elapsed || '').toLowerCase();
-  return game.finished !== 'TRUE' && !['finished', 'ft', ''].includes(elapsed);
+  if (!game || game.finished === 'TRUE') return false;
+  const e = normalizeFifaElapsed(game.time_elapsed);
+  if (!e || e === 'notstarted' || e === 'finished' || e === 'ft') return false;
+  if (e === 'ht' || e === 'halftime') return true;
+  if (FIFA_LIVE_ELAPSED.has(e)) return true;
+  return /\d/.test(e);
 }
 
 function eventHasFavorite(event, sportId) {

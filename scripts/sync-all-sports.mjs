@@ -245,6 +245,23 @@ async function syncEspnSport({ id, category, league }) {
   return { id, events: scoreboard.events?.length ?? 0, liveCount, inSeason: seasonStatus.inSeason };
 }
 
+const FIFA_LIVE_ELAPSED = new Set([
+  'live', 'inplay', 'playing', '1sthalf', '2ndhalf', 'extratime', 'extra', 'penalties',
+]);
+
+function normalizeFifaElapsed(raw) {
+  return String(raw || '').toLowerCase().replace(/\s+/g, '');
+}
+
+function isFifaLiveGame(game) {
+  if (!game || game.finished === 'TRUE') return false;
+  const e = normalizeFifaElapsed(game.time_elapsed);
+  if (!e || e === 'notstarted' || e === 'finished' || e === 'ft') return false;
+  if (e === 'ht' || e === 'halftime') return true;
+  if (FIFA_LIVE_ELAPSED.has(e)) return true;
+  return /\d/.test(e);
+}
+
 async function syncFifa() {
   for (const endpoint of ['teams', 'groups', 'games']) {
     const data = await fetchJSON(`${FIFA_API}/${endpoint}`);
@@ -265,10 +282,7 @@ async function syncFifa() {
 
   const games = await fetchJSON(`${FIFA_API}/games`);
   const gameList = games.games || [];
-  const liveCount = gameList.filter((g) => {
-    const elapsed = String(g.time_elapsed || '').toLowerCase();
-    return !['finished', 'ft', ''].includes(elapsed) && g.finished !== 'TRUE';
-  }).length;
+  const liveCount = gameList.filter(isFifaLiveGame).length;
   const remaining = gameList.filter((g) => g.finished !== 'TRUE').length;
   const inSeason = remaining > 0;
 

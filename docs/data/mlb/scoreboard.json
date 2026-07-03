@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T21:36:23.290Z",
+  "fetchedAt": "2026-07-03T21:38:56.364Z",
   "sportId": "mlb",
   "liveCount": 1,
   "seasonStatus": {
@@ -271,6 +271,11 @@
                   "value": 0,
                   "displayValue": "0",
                   "period": 3
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 4
                 }
               ],
               "statistics": [
@@ -287,7 +292,7 @@
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".250"
+                  "displayValue": ".231"
                 },
                 {
                   "name": "saves",
@@ -1062,27 +1067,23 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018160070699990058",
+              "id": "4018160070701030005",
               "type": {
-                "id": "58",
-                "text": "End Inning",
-                "type": "end-inning"
+                "id": "5",
+                "text": "Ball",
+                "abbreviation": "B",
+                "alternativeText": "Walk",
+                "type": "ball"
               },
-              "text": "Middle of the 4th inning",
+              "text": "Pitch 2 : Ball 1",
               "scoreValue": 0,
               "team": {
                 "id": "24"
               },
-              "atBatId": "4018160070608"
-            },
-            "balls": 0,
-            "strikes": 0,
-            "outs": 0,
-            "dueUp": [
-              {
-                "playerId": 34945,
-                "period": 4,
-                "athlete": {
+              "atBatId": "4018160070701",
+              "summaryType": "P",
+              "athletesInvolved": [
+                {
                   "id": "34945",
                   "fullName": "Ian Happ",
                   "displayName": "Ian Happ",
@@ -1103,76 +1104,72 @@
                   "team": {
                     "id": "16"
                   }
-                },
-                "projections": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/34945/projections?lang=en&region=us"
-                },
-                "batOrder": 5,
-                "summary": "0-1, K"
-              },
-              {
-                "playerId": 41219,
-                "period": 4,
-                "athlete": {
-                  "id": "41219",
-                  "fullName": "Nico Hoerner",
-                  "displayName": "Nico Hoerner",
-                  "shortName": "N. Hoerner",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mlb/player/_/id/41219"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41219.png",
-                  "jersey": "2",
-                  "position": "2B",
-                  "team": {
-                    "id": "16"
+                }
+              ]
+            },
+            "balls": 1,
+            "strikes": 1,
+            "outs": 0,
+            "pitcher": {
+              "playerId": 4109034,
+              "period": 4,
+              "athlete": {
+                "id": "4109034",
+                "fullName": "Andre Pallante",
+                "displayName": "Andre Pallante",
+                "shortName": "A. Pallante",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/mlb/player/_/id/4109034"
                   }
-                },
-                "projections": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/41219/projections?lang=en&region=us"
-                },
-                "batOrder": 6,
-                "summary": "0-1"
+                ],
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4109034.png",
+                "jersey": "53",
+                "position": "SP",
+                "team": {
+                  "id": "24"
+                }
               },
-              {
-                "playerId": 33711,
-                "period": 4,
-                "athlete": {
-                  "id": "33711",
-                  "fullName": "Michael Conforto",
-                  "displayName": "Michael Conforto",
-                  "shortName": "M. Conforto",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mlb/player/_/id/33711"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/33711.png",
-                  "jersey": "20",
-                  "position": "DH",
-                  "team": {
-                    "id": "16"
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4109034/projections?lang=en&region=us"
+              },
+              "summary": "3.0 IP, 0 ER, 3 H, K, BB"
+            },
+            "batter": {
+              "playerId": 34945,
+              "period": 4,
+              "athlete": {
+                "id": "34945",
+                "fullName": "Ian Happ",
+                "displayName": "Ian Happ",
+                "shortName": "I. Happ",
+                "links": [
+                  {
+                    "rel": [
+                      "playercard",
+                      "desktop",
+                      "athlete"
+                    ],
+                    "href": "https://www.espn.com/mlb/player/_/id/34945"
                   }
-                },
-                "projections": {
-                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/33711/projections?lang=en&region=us"
-                },
-                "batOrder": 7,
-                "summary": "0-1"
-              }
-            ],
+                ],
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/34945.png",
+                "jersey": "8",
+                "position": "LF",
+                "team": {
+                  "id": "16"
+                }
+              },
+              "projections": {
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/34945/projections?lang=en&region=us"
+              },
+              "summary": "0-1, K"
+            },
             "onFirst": false,
             "onSecond": false,
             "onThird": false
@@ -1187,8 +1184,8 @@
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "Middle 4th",
-              "shortDetail": "Mid 4th"
+              "detail": "Bottom 4th",
+              "shortDetail": "Bot 4th"
             }
           },
           "broadcasts": [
@@ -1442,8 +1439,8 @@
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "Middle 4th",
-          "shortDetail": "Mid 4th"
+          "detail": "Bottom 4th",
+          "shortDetail": "Bot 4th"
         }
       }
     },
@@ -5330,14 +5327,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Baltimore Orioles (40-48, fourth in the AL East) vs. Cincinnati Reds (40-46, fifth in the NL Central)",
               "shortLinkText": "Reds open 3-game series at home against the Orioles"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -7995,14 +7992,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "New York Mets (36-51, fifth in the NL East) vs. Atlanta Braves (50-35, first in the NL East)",
               "shortLinkText": "Braves open 4-game series against the Mets"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -9320,14 +9317,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Francisco Giants (36-50, fourth in the NL West) vs. Colorado Rockies (35-53, fifth in the NL West)",
               "shortLinkText": "Rockies host the Giants in first of 3-game series"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -10329,7 +10326,7 @@
                   }
                 ]
               },
-              "details": "TB -112",
+              "details": "HOU -110",
               "overUnder": 9,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -10377,7 +10374,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-107",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10408,7 +10405,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-112",
+                    "odds": "-109",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11944,14 +11941,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Boston Red Sox (37-48, fifth in the AL East) vs. Los Angeles Angels (36-52, fifth in the AL West)",
               "shortLinkText": "Red Sox visit the Angels to start 3-game series"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -14548,14 +14545,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Milwaukee Brewers (53-32, first in the NL Central) vs. Arizona Diamondbacks (43-43, second in the NL West)",
               "shortLinkText": "Diamondbacks begin 3-game series with the Brewers"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -15887,14 +15884,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (43-43, third in the NL West) vs. Los Angeles Dodgers (57-31, first in the NL West)",
               "shortLinkText": "Dodgers play the Padres after Rushing's 4-hit game"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
