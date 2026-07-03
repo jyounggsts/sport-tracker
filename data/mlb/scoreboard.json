@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T21:27:09.509Z",
+  "fetchedAt": "2026-07-03T21:31:18.972Z",
   "sportId": "mlb",
   "liveCount": 1,
   "seasonStatus": {
@@ -50,7 +50,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-02T09:24Z"
+          "lastUpdated": "2026-07-02T15:09Z"
         }
       ],
       "calendarType": "day",
@@ -722,8 +722,8 @@
                   "period": 3
                 },
                 {
-                  "value": 0,
-                  "displayValue": "0",
+                  "value": 2,
+                  "displayValue": "2",
                   "period": 4
                 }
               ],
@@ -1062,50 +1062,27 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018160070604030005",
+              "id": "4018160070607010001",
               "type": {
-                "id": "5",
-                "text": "Ball",
-                "abbreviation": "B",
-                "alternativeText": "Walk",
-                "type": "ball"
+                "id": "1",
+                "text": "Start Batter/Pitcher",
+                "alternativeText": "Now at bat",
+                "type": "start-batterpitcher"
               },
-              "text": "Pitch 2 : Ball 2",
+              "text": "David Peterson pitches to Masyn Winn",
               "scoreValue": 0,
               "team": {
-                "id": "16"
+                "id": "24"
               },
-              "atBatId": "4018160070604",
-              "summaryType": "P",
-              "athletesInvolved": [
-                {
-                  "id": "4684778",
-                  "fullName": "Jordan Walker",
-                  "displayName": "Jordan Walker",
-                  "shortName": "J. Walker",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mlb/player/_/id/4684778"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4684778.png",
-                  "jersey": "18",
-                  "position": "RF",
-                  "team": {
-                    "id": "24"
-                  }
-                }
-              ]
+              "atBatId": "4018160070607",
+              "summaryType": "A",
+              "athletesInvolved": []
             },
-            "balls": 2,
+            "balls": 0,
             "strikes": 0,
             "outs": 2,
             "onFirst": true,
+            "onThird": true,
             "pitcher": {
               "playerId": 40921,
               "period": 4,
@@ -1134,16 +1111,16 @@
               "projections": {
                 "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/40921/projections?lang=en&region=us"
               },
-              "summary": "3.2 IP, 6 ER, 8 H, 3 K, BB"
+              "summary": "3.2 IP, 6 ER, 8 H, 3 K, 3 BB"
             },
             "batter": {
-              "playerId": 4684778,
+              "playerId": 4683365,
               "period": 4,
               "athlete": {
-                "id": "4684778",
-                "fullName": "Jordan Walker",
-                "displayName": "Jordan Walker",
-                "shortName": "J. Walker",
+                "id": "4683365",
+                "fullName": "Masyn Winn",
+                "displayName": "Masyn Winn",
+                "shortName": "M. Winn",
                 "links": [
                   {
                     "rel": [
@@ -1151,23 +1128,22 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mlb/player/_/id/4684778"
+                    "href": "https://www.espn.com/mlb/player/_/id/4683365"
                   }
                 ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4684778.png",
-                "jersey": "18",
-                "position": "RF",
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4683365.png",
+                "jersey": "0",
+                "position": "SS",
                 "team": {
                   "id": "24"
                 }
               },
               "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4684778/projections?lang=en&region=us"
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4683365/projections?lang=en&region=us"
               },
-              "summary": "1-2, 2B, R, K"
+              "summary": "1-2, RBI, R, K"
             },
-            "onSecond": false,
-            "onThird": false
+            "onSecond": false
           },
           "status": {
             "clock": 0,
@@ -1408,10 +1384,10 @@
         }
       ],
       "weather": {
-        "displayValue": "15",
-        "temperature": 73,
-        "highTemperature": 73,
-        "conditionId": "Thunderstorm",
+        "displayValue": "7",
+        "temperature": 71,
+        "highTemperature": 71,
+        "conditionId": "Cloudy",
         "link": {
           "language": "en-US",
           "rel": [
@@ -2675,14 +2651,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Pittsburgh Pirates (44-44, fourth in the NL Central) vs. Washington Nationals (45-43, fourth in the NL East)",
               "shortLinkText": "Nationals play the Pirates in first of 3-game series"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -3624,8 +3600,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $12",
-              "numberAvailable": 1588,
+              "summary": "Tickets as low as $13",
+              "numberAvailable": 1508,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-yankees-tickets-yankee-stadium-7-3-2026--sports-mlb-baseball/production/5965273?wsUser=717"
@@ -5322,14 +5298,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Baltimore Orioles (40-48, fourth in the AL East) vs. Cincinnati Reds (40-46, fifth in the NL Central)",
               "shortLinkText": "Reds open 3-game series at home against the Orioles"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -6663,14 +6639,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Chicago White Sox (45-41, first in the AL Central) vs. Cleveland Guardians (46-42, second in the AL Central)",
               "shortLinkText": "Guardians play the White Sox leading series 1-0"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -10611,14 +10587,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Tampa Bay Rays (51-33, first in the AL East) vs. Houston Astros (43-46, third in the AL West)",
               "shortLinkText": "Rays take win streak into matchup with the Astros"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -11562,8 +11538,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $6",
-              "numberAvailable": 3350,
+              "summary": "Tickets as low as $5",
+              "numberAvailable": 3408,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-angels-tickets-angel-stadium-7-3-2026--sports-mlb-baseball/production/5965047?wsUser=717"
@@ -13260,14 +13236,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Miami Marlins (46-42, third in the NL East) vs. Athletics (41-46, fourth in the AL West)",
               "shortLinkText": "Athletics start 3-game series against the Marlins"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -14540,14 +14516,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Milwaukee Brewers (53-32, first in the NL Central) vs. Arizona Diamondbacks (43-43, second in the NL West)",
               "shortLinkText": "Diamondbacks begin 3-game series with the Brewers"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -14865,26 +14841,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "57-31"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "27-14"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "30-17"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -15045,6 +15001,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "57-31"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "27-14"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "30-17"
                 }
               ]
             },
@@ -15488,8 +15464,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $71",
-              "numberAvailable": 2729,
+              "summary": "Tickets as low as $73",
+              "numberAvailable": 2575,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-dodgers-tickets-dodger-stadium-7-3-2026--sports-mlb-baseball/production/5965013?wsUser=717"
@@ -15879,14 +15855,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (43-43, third in the NL West) vs. Los Angeles Dodgers (57-31, first in the NL West)",
               "shortLinkText": "Dodgers play the Padres after Rushing's 4-hit game"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
