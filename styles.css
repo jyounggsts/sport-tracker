@@ -523,7 +523,69 @@ a:hover { text-decoration: underline; }
 .fifa-subnav-link:hover { color: var(--text); background: var(--hover); }
 .fifa-subnav-link.active { color: var(--accent); background: rgba(255,45,45,0.1); }
 
-#view-fifa .card-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+#view-fifa .card-grid,
+#view-sport-generic .card-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+
+.se-situation {
+  margin-top: 0.5rem;
+  font-size: 0.68rem;
+  color: var(--muted);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.se-situation .se-count { font-weight: 700; color: var(--text); }
+.se-situation .se-last-play { color: var(--dim); line-height: 1.35; }
+
+.se-side .star-btn {
+  position: absolute;
+  top: 0.15rem;
+  right: 0;
+  font-size: 0.75rem;
+}
+
+.se-side { position: relative; padding-right: 1.25rem; }
+
+.highlight-events {
+  border-top: 1px dashed var(--border);
+  margin: 0 0.85rem;
+  padding: 0.65rem 0 0.5rem;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+}
+
+.highlight-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.highlight-title {
+  font-size: 0.65rem;
+  color: var(--muted);
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.highlight-dur {
+  font-size: 0.6rem;
+  color: var(--dim);
+}
+
+#highlight-pip video {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
 
 .group-tabs {
   display: flex;

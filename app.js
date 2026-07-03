@@ -283,6 +283,9 @@ async function loadSportData(sportId) {
 
   if (state.seasonStatus?.inSeason !== false) {
     await enrichScoreboardOdds(sport);
+    if (window.EspnLive) {
+      await window.EspnLive.enrichEvents(sport, state.scoreboard?.events || []);
+    }
   }
 }
 
@@ -874,20 +877,30 @@ function renderEspnScoreboard() {
   clearGridPlaceholders(grid);
 
   const nextIds = new Set(show.map((e) => String(e.id)));
-  grid.querySelectorAll('.game-card[data-event-id]').forEach((card) => {
+  grid.querySelectorAll('.se-card[data-event-id], .game-card[data-event-id]').forEach((card) => {
     if (!nextIds.has(card.dataset.eventId)) card.remove();
   });
 
+  const Live = window.EspnLive;
   show.forEach((event) => {
     const id = String(event.id);
-    let card = grid.querySelector(`.game-card[data-event-id="${id}"]`);
-    if (card) {
-      patchEspnGameCard(card, event, state.selectedSport);
+    let card = grid.querySelector(`.se-card[data-event-id="${id}"]`);
+    if (card && Live) {
+      Live.patchCard(card, event, state.selectedSport);
+    } else if (Live) {
+      grid.insertAdjacentHTML('beforeend', Live.renderCard(event, state.selectedSport));
+      card = grid.querySelector(`.se-card[data-event-id="${id}"]`);
     } else {
-      grid.insertAdjacentHTML('beforeend', buildEspnGameCard(event, state.selectedSport));
+      card = grid.querySelector(`.game-card[data-event-id="${id}"]`);
+      if (card) {
+        patchEspnGameCard(card, event, state.selectedSport);
+      } else {
+        grid.insertAdjacentHTML('beforeend', buildEspnGameCard(event, state.selectedSport));
+      }
     }
   });
-  bindStarButtons(grid);
+  if (Live) Live.bindGrid(grid);
+  else bindStarButtons(grid);
   renderEspnLiveBanner();
 }
 
@@ -1251,6 +1264,7 @@ function schedulePoll() {
 async function goSport(sportId) {
   if (state.view === 'sport' && sportId === state.selectedSport) return;
   state.eventOdds = {};
+  window.EspnLive?.clearSummaries();
   state.selectedSport = sportId;
   state.selectedStandingsTab = 0;
   navigate({ view: 'sport', sport: sportId });
@@ -1266,6 +1280,10 @@ async function goMyTeams() {
 function espnTick() {
   if (state.fifaActive || state.view !== 'sport') return;
   const events = state.scoreboard?.events || [];
+  if (window.EspnLive) {
+    window.EspnLive.tick(events, state.selectedSport);
+    return;
+  }
   document.querySelectorAll('#scoreboard-grid .game-card[data-event-id]').forEach((card) => {
     const event = events.find((e) => String(e.id) === card.dataset.eventId);
     if (!event) return;
@@ -1312,6 +1330,17 @@ function initRouting() {
 async function init() {
   initClock();
   await loadManifest();
+  window.EspnLive?.configure({
+    getSport,
+    getCompetitors,
+    getEventStatus,
+    getEventOdds,
+    getEspnFootText,
+    teamFavObj,
+    renderStarBtn,
+    bindStarButtons,
+    formatTime,
+  });
   initRouting();
   $('#refresh-btn').addEventListener('click', () => {
     if (state.fifaActive && isFifa(getSport(state.selectedSport))) {
