@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T20:13:55.573Z",
+  "fetchedAt": "2026-07-03T20:14:48.928Z",
   "sportId": "mlb",
   "liveCount": 1,
   "leagues": [
@@ -43,7 +43,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-02T09:24Z"
+          "lastUpdated": "2026-07-02T15:09Z"
         }
       ],
       "calendarType": "day",
@@ -2605,14 +2605,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Pittsburgh Pirates (44-44, fourth in the NL Central) vs. Washington Nationals (45-43, fourth in the NL East)",
               "shortLinkText": "Nationals play the Pirates in first of 3-game series"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -3825,7 +3825,7 @@
                 "over": {
                   "close": {
                     "line": "o10",
-                    "odds": "-105",
+                    "odds": "-104",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3859,7 +3859,7 @@
                 "under": {
                   "close": {
                     "line": "u10",
-                    "odds": "-115",
+                    "odds": "-116",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3928,14 +3928,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Minnesota Twins (42-46, third in the AL Central) vs. New York Yankees (48-38, second in the AL East)",
               "shortLinkText": "Yankees enter matchup with the Twins on losing streak"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -7543,8 +7543,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 1332,
+              "summary": "Tickets as low as $31",
+              "numberAvailable": 1355,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-braves-tickets-truist-park-7-3-2026--sports-mlb-baseball/production/5964840?wsUser=717"
@@ -7627,7 +7627,7 @@
                   }
                 ]
               },
-              "details": "ATL -114",
+              "details": "ATL -120",
               "overUnder": 9,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -7675,7 +7675,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-114",
+                    "odds": "-120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7706,7 +7706,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-105",
+                    "odds": "-101",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7742,7 +7742,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-186",
+                    "odds": "-196",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7776,7 +7776,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+153",
+                    "odds": "+161",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7814,7 +7814,7 @@
                 "over": {
                   "close": {
                     "line": "o9",
-                    "odds": "-105",
+                    "odds": "-106",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12816,8 +12816,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $35",
-              "numberAvailable": 432,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 470,
               "links": [
                 {
                   "href": "https://www.vividseats.com/athletics-tickets-sutter-health-park-7-3-2026--sports-mlb-baseball/production/5965568?wsUser=717"
@@ -13190,14 +13190,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Miami Marlins (46-42, third in the NL East) vs. Athletics (41-46, fourth in the AL West)",
               "shortLinkText": "Athletics start 3-game series against the Marlins"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -14470,14 +14470,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Milwaukee Brewers (53-32, first in the NL Central) vs. Arizona Diamondbacks (43-43, second in the NL West)",
               "shortLinkText": "Diamondbacks begin 3-game series with the Brewers"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -14795,6 +14795,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "57-31"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "27-14"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "30-17"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -14955,26 +14975,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "57-31"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "27-14"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "30-17"
                 }
               ]
             },
@@ -15418,8 +15418,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $63",
-              "numberAvailable": 2956,
+              "summary": "Tickets as low as $71",
+              "numberAvailable": 2876,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-dodgers-tickets-dodger-stadium-7-3-2026--sports-mlb-baseball/production/5965013?wsUser=717"
@@ -15809,14 +15809,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (43-43, third in the NL West) vs. Los Angeles Dodgers (57-31, first in the NL West)",
               "shortLinkText": "Dodgers play the Padres after Rushing's 4-hit game"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -16533,6 +16533,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "41-46"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "24-25"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "17-21"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -16693,26 +16713,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "41-46"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "24-25"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "17-21"
                 }
               ]
             }
@@ -17149,14 +17149,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Toronto Blue Jays (41-46, third in the AL East) vs. Seattle Mariners (45-43, second in the AL West)",
               "shortLinkText": "Mariners look to keep home win streak going, host the Blue Jays"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [

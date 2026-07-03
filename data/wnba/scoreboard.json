@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T20:13:56.028Z",
+  "fetchedAt": "2026-07-03T20:14:49.267Z",
   "sportId": "wnba",
   "liveCount": 0,
   "leagues": [
@@ -2040,6 +2040,24 @@
                   "rankDisplayValue": "1st"
                 }
               ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "6-13"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "3-7"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "3-6"
+                }
+              ],
               "leaders": [
                 {
                   "name": "pointsPerGame",
@@ -2200,24 +2218,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "6-13"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "3-7"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "3-6"
                 }
               ]
             }
