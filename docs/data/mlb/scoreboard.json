@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T20:59:12.881Z",
+  "fetchedAt": "2026-07-03T21:00:31.140Z",
   "sportId": "mlb",
   "liveCount": 1,
   "seasonStatus": {
@@ -50,7 +50,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-02T09:24Z"
+          "lastUpdated": "2026-07-02T15:09Z"
         }
       ],
       "calendarType": "day",
@@ -721,7 +721,7 @@
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "5"
+                  "displayValue": "6"
                 },
                 {
                   "name": "runs",
@@ -731,7 +731,7 @@
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".455"
+                  "displayValue": ".500"
                 },
                 {
                   "name": "saves",
@@ -959,6 +959,46 @@
                       }
                     }
                   ]
+                },
+                {
+                  "name": "MLBRating",
+                  "displayName": "MLB Rating",
+                  "shortDisplayName": "MLB",
+                  "abbreviation": "MLB",
+                  "leaders": [
+                    {
+                      "displayValue": "1-1, HR, 3 RBI, R",
+                      "value": 68,
+                      "athlete": {
+                        "id": "4843048",
+                        "fullName": "Nathan Church",
+                        "displayName": "Nathan Church",
+                        "shortName": "N. Church",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/mlb/player/_/id/4843048"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4843048.png",
+                        "jersey": "27",
+                        "position": {
+                          "abbreviation": "LF"
+                        },
+                        "team": {
+                          "id": "24"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "24"
+                      }
+                    }
+                  ]
                 }
               ],
               "probables": [
@@ -1025,7 +1065,7 @@
                   "record": "(9-5, 3.83)"
                 }
               ],
-              "hits": 5,
+              "hits": 6,
               "errors": 0,
               "records": [
                 {
@@ -1052,50 +1092,27 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018160070402020037",
+              "id": "4018160070403010001",
               "type": {
-                "id": "37",
-                "text": "Strike Swinging",
-                "abbreviation": "SS",
-                "alternativeText": "Strikeout",
-                "type": "strike-swinging"
+                "id": "1",
+                "text": "Start Batter/Pitcher",
+                "alternativeText": "Now at bat",
+                "type": "start-batterpitcher"
               },
-              "text": "Pitch 1 : Strike 1 Swinging",
+              "text": "David Peterson pitches to Nelson Velazquez",
               "scoreValue": 0,
               "team": {
-                "id": "16"
+                "id": "24"
               },
-              "atBatId": "4018160070402",
-              "summaryType": "P",
-              "athletesInvolved": [
-                {
-                  "id": "4684778",
-                  "fullName": "Jordan Walker",
-                  "displayName": "Jordan Walker",
-                  "shortName": "J. Walker",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/mlb/player/_/id/4684778"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4684778.png",
-                  "jersey": "18",
-                  "position": "RF",
-                  "team": {
-                    "id": "24"
-                  }
-                }
-              ]
+              "atBatId": "4018160070403",
+              "summaryType": "A",
+              "athletesInvolved": []
             },
             "balls": 0,
-            "strikes": 1,
+            "strikes": 0,
             "outs": 0,
-            "onFirst": true,
+            "onSecond": true,
+            "onThird": true,
             "pitcher": {
               "playerId": 40921,
               "period": 3,
@@ -1124,16 +1141,16 @@
               "projections": {
                 "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/16/roster/40921/projections?lang=en&region=us"
               },
-              "summary": "2.0 IP, 3 ER, 5 H, 3 K, 0 BB"
+              "summary": "2.0 IP, 3 ER, 6 H, 3 K, 0 BB"
             },
             "batter": {
-              "playerId": 4684778,
+              "playerId": 41047,
               "period": 3,
               "athlete": {
-                "id": "4684778",
-                "fullName": "Jordan Walker",
-                "displayName": "Jordan Walker",
-                "shortName": "J. Walker",
+                "id": "41047",
+                "fullName": "Nelson Velazquez",
+                "displayName": "Nelson Velazquez",
+                "shortName": "N. Velazquez",
                 "links": [
                   {
                     "rel": [
@@ -1141,23 +1158,22 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mlb/player/_/id/4684778"
+                    "href": "https://www.espn.com/mlb/player/_/id/41047"
                   }
                 ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4684778.png",
-                "jersey": "18",
-                "position": "RF",
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41047.png",
+                "jersey": "38",
+                "position": "LF",
                 "team": {
                   "id": "24"
                 }
               },
               "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/4684778/projections?lang=en&region=us"
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816007/competitions/401816007/competitors/24/roster/41047/projections?lang=en&region=us"
               },
-              "summary": "0-1, K"
+              "summary": "0-1"
             },
-            "onSecond": false,
-            "onThird": false
+            "onFirst": false
           },
           "status": {
             "clock": 0,
@@ -2665,14 +2681,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Pittsburgh Pirates (44-44, fourth in the NL Central) vs. Washington Nationals (45-43, fourth in the NL East)",
               "shortLinkText": "Nationals play the Pirates in first of 3-game series"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -3988,14 +4004,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Minnesota Twins (42-46, third in the AL Central) vs. New York Yankees (48-38, second in the AL East)",
               "shortLinkText": "Yankees enter matchup with the Twins on losing streak"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -5312,14 +5328,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Baltimore Orioles (40-48, fourth in the AL East) vs. Cincinnati Reds (40-46, fifth in the NL Central)",
               "shortLinkText": "Reds open 3-game series at home against the Orioles"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -6977,6 +6993,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "50-35"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "25-16"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "25-19"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -7137,26 +7173,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "50-35"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "25-16"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "25-19"
                 }
               ]
             },
@@ -7604,7 +7620,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $34",
-              "numberAvailable": 1251,
+              "numberAvailable": 1332,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-braves-tickets-truist-park-7-3-2026--sports-mlb-baseball/production/5964840?wsUser=717"
@@ -7977,14 +7993,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "New York Mets (36-51, fifth in the NL East) vs. Atlanta Braves (50-35, first in the NL East)",
               "shortLinkText": "Braves open 4-game series against the Mets"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -9012,7 +9028,7 @@
                   }
                 ]
               },
-              "details": "SF -160",
+              "details": "SF -154",
               "overUnder": 11.5,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -9060,7 +9076,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+132",
+                    "odds": "+128",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9091,7 +9107,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-160",
+                    "odds": "-154",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9127,7 +9143,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-111",
+                    "odds": "-116",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9161,7 +9177,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "-109",
+                    "odds": "-104",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9302,14 +9318,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Francisco Giants (36-50, fourth in the NL West) vs. Colorado Rockies (35-53, fifth in the NL West)",
               "shortLinkText": "Rockies host the Giants in first of 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -11926,14 +11942,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Boston Red Sox (37-48, fifth in the AL East) vs. Los Angeles Angels (36-52, fifth in the AL West)",
               "shortLinkText": "Red Sox visit the Angels to start 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -12650,6 +12666,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "46-42"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "28-17"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "18-25"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -12811,26 +12847,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "46-42"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "28-17"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "18-25"
-                }
               ]
             }
           ],
@@ -12877,7 +12893,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $35",
-              "numberAvailable": 375,
+              "numberAvailable": 432,
               "links": [
                 {
                   "href": "https://www.vividseats.com/athletics-tickets-sutter-health-park-7-3-2026--sports-mlb-baseball/production/5965568?wsUser=717"
@@ -13250,14 +13266,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Miami Marlins (46-42, third in the NL East) vs. Athletics (41-46, fourth in the AL West)",
               "shortLinkText": "Athletics start 3-game series against the Marlins"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -14530,14 +14546,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Milwaukee Brewers (53-32, first in the NL Central) vs. Arizona Diamondbacks (43-43, second in the NL West)",
               "shortLinkText": "Diamondbacks begin 3-game series with the Brewers"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -15479,7 +15495,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $71",
-              "numberAvailable": 2876,
+              "numberAvailable": 2729,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-dodgers-tickets-dodger-stadium-7-3-2026--sports-mlb-baseball/production/5965013?wsUser=717"
@@ -15869,14 +15885,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (43-43, third in the NL West) vs. Los Angeles Dodgers (57-31, first in the NL West)",
               "shortLinkText": "Dodgers play the Padres after Rushing's 4-hit game"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -17209,14 +17225,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Toronto Blue Jays (41-46, third in the AL East) vs. Seattle Mariners (45-43, second in the AL West)",
               "shortLinkText": "Mariners look to keep home win streak going, host the Blue Jays"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
