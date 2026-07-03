@@ -189,6 +189,38 @@ async function fetchSeasonChampion({ id, category, league }, seasonStatus) {
   };
 }
 
+function pickcenterToOddsEntry(pick) {
+  if (!pick) return null;
+  return {
+    provider: pick.provider,
+    details: pick.details,
+    overUnder: pick.overUnder,
+    moneyline: {
+      home: { close: { odds: pick.homeTeamOdds?.moneyLine } },
+      away: { close: { odds: pick.awayTeamOdds?.moneyLine } },
+    },
+    pointSpread: {
+      home: { close: { line: pick.spread } },
+      away: { close: { line: pick.spread != null ? -pick.spread : undefined } },
+    },
+    total: {
+      over: { close: { odds: pick.overOdds, line: pick.overUnder != null ? `o${pick.overUnder}` : undefined } },
+      under: { close: { odds: pick.underOdds } },
+    },
+  };
+}
+
+async function enrichLiveEventOdds(base, scoreboard) {
+  const live = (scoreboard.events || []).filter(
+    (e) => e.status?.type?.state === 'in' && !e.competitions?.[0]?.odds?.length,
+  );
+  await Promise.all(live.map(async (e) => {
+    const summary = await fetchJSON(`${base}/summary?event=${e.id}`).catch(() => null);
+    const entry = pickcenterToOddsEntry(summary?.pickcenter?.[0]);
+    if (entry && e.competitions?.[0]) e.competitions[0].odds = [entry];
+  }));
+}
+
 async function syncEspnSport({ id, category, league }) {
   const base = `https://site.api.espn.com/apis/site/v2/sports/${category}/${league}`;
   const standingsBase = `https://site.api.espn.com/apis/v2/sports/${category}/${league}`;
@@ -197,6 +229,8 @@ async function syncEspnSport({ id, category, league }) {
     fetchJSON(`${base}/scoreboard`).catch((err) => ({ error: err.message, events: [] })),
     fetchJSON(`${standingsBase}/standings`).catch((err) => ({ error: err.message, children: [], seasons: [] })),
   ]);
+
+  await enrichLiveEventOdds(base, scoreboard);
 
   const seasonStatus = detectSeasonStatus(standings, scoreboard);
   let standingsPrev = null;

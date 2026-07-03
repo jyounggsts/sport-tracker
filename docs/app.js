@@ -26,6 +26,7 @@ const state = {
   tickTimer: null,
   lastFetch: null,
   fifaActive: false,
+  eventOdds: {},
 };
 
 const $ = (sel) => document.querySelector(sel);
@@ -279,6 +280,10 @@ async function loadSportData(sportId) {
     state.standingsPrev = null;
     state.champion = null;
   }
+
+  if (state.seasonStatus?.inSeason !== false) {
+    await enrichScoreboardOdds(sport);
+  }
 }
 
 async function loadAllScoreboards() {
@@ -373,6 +378,70 @@ function parseEspnOdds(oddsArr) {
       under: formatAmericanOdds(pickOddsVal(total.under)),
     },
   };
+}
+
+function parsePickcenterOdds(pick) {
+  if (!pick) return null;
+  const homeMl = formatAmericanOdds(pick.homeTeamOdds?.moneyLine);
+  const awayMl = formatAmericanOdds(pick.awayTeamOdds?.moneyLine);
+  if (!homeMl && !awayMl) return null;
+  const spreadVal = pick.spread;
+  const homeSpread = spreadVal != null ? String(spreadVal) : null;
+  const awaySpread = spreadVal != null
+    ? (spreadVal > 0 ? `-${spreadVal}` : `+${Math.abs(spreadVal)}`)
+    : null;
+  return {
+    provider: pick.provider?.displayName || pick.provider?.name || 'DraftKings',
+    summary: pick.details || '',
+    moneyline: { home: homeMl, away: awayMl, draw: null },
+    spread: {
+      homeLine: homeSpread,
+      homeOdds: null,
+      awayLine: awaySpread,
+      awayOdds: null,
+    },
+    total: {
+      line: pick.overUnder != null ? String(pick.overUnder) : null,
+      over: formatAmericanOdds(pick.overOdds),
+      under: formatAmericanOdds(pick.underOdds),
+    },
+  };
+}
+
+function getEventOdds(event, competition) {
+  const inline = parseEspnOdds(competition?.odds);
+  if (inline) return inline;
+  return state.eventOdds[String(event.id)] || null;
+}
+
+async function fetchEventOdds(sport, eventId) {
+  const res = await fetch(`${ESPN_SITE}/${sport.category}/${sport.league}/summary?event=${eventId}`);
+  if (!res.ok) return null;
+  const data = await res.json();
+  const pick = data.pickcenter?.[0];
+  if (pick) return parsePickcenterOdds(pick);
+  return parseEspnOdds(data.header?.competitions?.[0]?.odds);
+}
+
+async function enrichScoreboardOdds(sport) {
+  const events = state.scoreboard?.events || [];
+  const toFetch = events.filter((e) => {
+    const isLive = e.status?.type?.state === 'in';
+    const hasInline = parseEspnOdds(e.competitions?.[0]?.odds);
+    if (isLive) return true;
+    if (hasInline) return false;
+    return !state.eventOdds[String(e.id)];
+  });
+  if (!toFetch.length) return;
+
+  await Promise.all(toFetch.map(async (e) => {
+    try {
+      const odds = await fetchEventOdds(sport, e.id);
+      if (odds) state.eventOdds[String(e.id)] = odds;
+    } catch {
+      /* ignore per-event odds failures */
+    }
+  }));
 }
 
 function getOddsTone(val) {
@@ -659,7 +728,7 @@ function buildEspnGameCard(event, sportId, { highlight = false } = {}) {
   const isFinal = status.phase === 'final';
   const homeScore = Number(home?.score ?? 0);
   const awayScore = Number(away?.score ?? 0);
-  const odds = parseEspnOdds(competition?.odds);
+  const odds = getEventOdds(event, competition);
   const showOdds = state.seasonStatus?.inSeason !== false;
   const sport = getSport(sportId);
   const footText = getEspnFootText(event, status);
@@ -710,7 +779,7 @@ function patchEspnGameCard(card, event, sportId) {
 
   const oddsWrap = card.querySelector(`[data-odds="${event.id}"]`);
   if (oddsWrap && state.seasonStatus?.inSeason !== false) {
-    const odds = parseEspnOdds(competition?.odds);
+    const odds = getEventOdds(event, competition);
     oddsWrap.innerHTML = renderOddsBlock(odds, status.phase);
   }
 
@@ -944,7 +1013,7 @@ function renderEspnSchedule() {
   }
   list.innerHTML = events.map((event) => {
     const { home, away, competition } = getCompetitors(event);
-    const odds = parseEspnOdds(competition?.odds);
+    const odds = getEventOdds(event, competition);
     const oddsStr = odds?.summary ? ` · ${odds.summary}` : '';
     return `
       <div class="schedule-row">
@@ -1062,7 +1131,7 @@ function renderMyTeams() {
           </div>`;
       }
       const { home, away, competition } = getCompetitors(item.event);
-      const odds = parseEspnOdds(competition?.odds);
+      const odds = getEventOdds(item.event, competition);
       return `
         <div class="schedule-row fav-schedule" data-sport="${item.sport.id}">
           <span class="schedule-time">${formatDate(item.date)}<br>${formatTime(item.date)}</span>
@@ -1181,6 +1250,7 @@ function schedulePoll() {
 
 async function goSport(sportId) {
   if (state.view === 'sport' && sportId === state.selectedSport) return;
+  state.eventOdds = {};
   state.selectedSport = sportId;
   state.selectedStandingsTab = 0;
   navigate({ view: 'sport', sport: sportId });
