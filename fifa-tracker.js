@@ -41,6 +41,7 @@ const state = {
   youtubeLive: null,
   goalClips: null,
   userTimezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+  userTzAbbr: '',
   lastFetch: null,
   pollTimer: null,
   tickTimer: null,
@@ -188,41 +189,47 @@ function isKickoffToday(game) {
   return isSameCalendarDay(parseGameKickoffDisplay(game), new Date());
 }
 
+const USER_KICKOFF_FMT = new Intl.DateTimeFormat('en-US', {
+  hour: 'numeric',
+  minute: '2-digit',
+  hour12: true,
+});
+
 function formatKickoff(date) {
-  return date.toLocaleTimeString(undefined, {
-    hour: 'numeric',
-    minute: '2-digit',
-  });
+  return USER_KICKOFF_FMT.format(date);
 }
 
-function formatStadiumKickoff(game) {
-  const kickoff = parseGameKickoffDisplay(game);
-  return new Intl.DateTimeFormat(undefined, {
-    hour: 'numeric',
-    minute: '2-digit',
-    timeZone: getStadiumTimezone(game.stadium_id),
-  }).format(kickoff);
-}
-
-function kickoffLabelsDiffer(game) {
-  const kickoff = parseGameKickoffDisplay(game);
-  const user = getTimeParts(kickoff, state.userTimezone);
-  const venue = getTimeParts(kickoff, getStadiumTimezone(game.stadium_id));
-  return user.hour !== venue.hour || user.minute !== venue.minute
-    || user.day !== venue.day || user.month !== venue.month;
+function kickoffCacheKey(game) {
+  return `${game.id}:${game.local_date || ''}`;
 }
 
 function formatKickoffDisplay(game) {
   if (!game) return '';
-  const cached = state.kickoffDisplayCache[game.id];
-  if (cached) return cached;
-  const kickoff = parseGameKickoffDisplay(game);
-  const userLabel = formatKickoff(kickoff);
-  const label = kickoffLabelsDiffer(game)
-    ? `${userLabel} <span class="se-kick-venue">(${formatStadiumKickoff(game)} at venue)</span>`
-    : userLabel;
-  state.kickoffDisplayCache[game.id] = label;
+  const key = kickoffCacheKey(game);
+  if (state.kickoffDisplayCache[key]) return state.kickoffDisplayCache[key];
+  const label = formatKickoff(parseGameKickoffDisplay(game));
+  state.kickoffDisplayCache[key] = label;
   return label;
+}
+
+function ensureUserTzAbbr() {
+  if (state.userTzAbbr) return state.userTzAbbr;
+  try {
+    state.userTzAbbr = new Intl.DateTimeFormat('en-US', {
+      timeZone: state.userTimezone,
+      timeZoneName: 'short',
+    }).formatToParts(new Date()).find((p) => p.type === 'timeZoneName')?.value || '';
+  } catch {
+    state.userTzAbbr = '';
+  }
+  return state.userTzAbbr;
+}
+
+function applyKickoffLabel(card, game) {
+  const el = card?.querySelector('.se-kick');
+  if (!el || el.dataset.frozen === '1') return;
+  el.textContent = formatKickoffDisplay(game);
+  el.dataset.frozen = '1';
 }
 
 function formatCountdown(ms) {
@@ -1390,7 +1397,7 @@ function renderStreamCard(game) {
       <div class="se-card-top">
         <span class="se-league">${getStageLabel(game)}</span>
         ${statusBadge}
-        <span class="se-kick">${formatKickoffDisplay(game)}</span>
+        <span class="se-kick" data-kickoff="${game.id}"></span>
       </div>
       ${renderWatchBar(game, phase)}
       ${trackerHtml}
@@ -1506,11 +1513,10 @@ function renderToday() {
 
   const meta = $('#today-meta');
   if (meta) {
-    const tz = new Intl.DateTimeFormat(undefined, { timeZoneName: 'short' })
-      .formatToParts(new Date())
-      .find((p) => p.type === 'timeZoneName')?.value || '';
+    const tz = ensureUserTzAbbr();
+    const tzNote = tz ? ` (${tz})` : '';
     meta.textContent = todayGames.length
-      ? `${todayGames.length} match${todayGames.length !== 1 ? 'es' : ''} today · times in your timezone (${tz})`
+      ? `${todayGames.length} match${todayGames.length !== 1 ? 'es' : ''} today · times in your timezone${tzNote}`
       : 'No matches today';
   }
 
@@ -1534,7 +1540,9 @@ function renderToday() {
       patchStreamCard(card, game);
     } else {
       container.insertAdjacentHTML('beforeend', renderStreamCard(game));
+      card = container.querySelector(`.se-card[data-game-id="${id}"]`);
     }
+    applyKickoffLabel(card, game);
   });
 }
 
@@ -1754,13 +1762,6 @@ function renderGroupTabs() {
 // ── Live tick ────────────────────────────────────────────────────
 
 function tick() {
-  const clock = $('#live-clock');
-  if (clock) {
-    clock.textContent = new Date().toLocaleTimeString(undefined, {
-      hour: '2-digit', minute: '2-digit', second: '2-digit', timeZoneName: 'short',
-    });
-  }
-
   let liveNow = false;
 
   $$('[data-countdown]').forEach((el) => {
@@ -1863,7 +1864,6 @@ function showLoadError(err) {
 async function loadData() {
   const btn = $('#refresh-btn');
   btn?.classList.add('spinning');
-  state.kickoffDisplayCache = {};
   try {
     const [teamsData, groupsData, gamesData, youtubeLive, goalClips] = await Promise.all([
       fetchJSON('teams'), fetchJSON('groups'), fetchJSON('games'),
@@ -2082,6 +2082,7 @@ function destroy() {
 
 function init() {
   destroy();
+  ensureUserTzAbbr();
   if (!goalControlsBound) {
     initGoalClipControls();
     goalControlsBound = true;
