@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-03T20:46:52.805Z",
+  "fetchedAt": "2026-07-03T20:59:16.746Z",
   "sportId": "fifa",
   "games": [
     {
@@ -2032,17 +2032,17 @@
       "local_date": "07/03/2026 13:00",
       "persian_date": "1405-04-12 13:00",
       "stadium_id": "4",
-      "finished": "FALSE",
-      "time_elapsed": "live",
+      "finished": "TRUE",
+      "time_elapsed": "finished",
       "type": "r32",
       "home_team_label": "Runner-up Group D",
       "away_team_label": "Runner-up Group G",
       "away_penalty_misses": "null",
-      "away_penalty_score": "0",
-      "away_penalty_scorers": "null",
-      "home_penalty_misses": "{\"Harry Souttar\"}",
-      "home_penalty_score": "0",
-      "home_penalty_scorers": "null",
+      "away_penalty_score": "4",
+      "away_penalty_scorers": "{\"Mahmoud Saber\",\"Rmi Rabia\",\"Mohamed Salah\",\"Hossam Abdelmaguid\"}",
+      "home_penalty_misses": "{\"Harry Souttar\",\"Lucas Herrington\"}",
+      "home_penalty_score": "2",
+      "home_penalty_scorers": "{\"Jksvn Airvin\",\"Avr Mbil\"}",
       "home_team_name_en": "Australia",
       "home_team_name_fa": "استرالیا",
       "away_team_name_en": "Egypt",
@@ -2196,7 +2196,7 @@
       "_id": "679c9c8a5749c4077500e089",
       "id": "95",
       "home_team_id": "0",
-      "away_team_id": "0",
+      "away_team_id": "26",
       "home_score": "0",
       "away_score": "0",
       "home_scorers": "null",
@@ -2210,7 +2210,9 @@
       "time_elapsed": "notstarted",
       "type": "r16",
       "home_team_label": "Winner Match 86",
-      "away_team_label": "Winner Match 88"
+      "away_team_label": "Winner Match 88",
+      "away_team_name_en": "Egypt",
+      "away_team_name_fa": "مصر"
     },
     {
       "_id": "679c9c8a5749c4077500e08a",

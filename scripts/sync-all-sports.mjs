@@ -88,6 +88,95 @@ function detectSeasonStatus(standings, scoreboard) {
   };
 }
 
+function isEventCompleted(event) {
+  return event?.status?.type?.completed || event?.status?.type?.state === 'post';
+}
+
+function extractChampionFromEvent(event) {
+  if (!event || !isEventCompleted(event)) return null;
+  const comps = event.competitions?.[0]?.competitors || [];
+  const winner = comps.find((c) => c.winner);
+  const loser = comps.find((c) => !c.winner);
+  if (!winner) return null;
+  return {
+    eventName: event.name,
+    date: event.date,
+    winner: {
+      id: winner.team?.id,
+      name: winner.team?.displayName || winner.team?.name,
+      abbr: winner.team?.abbreviation,
+      logo: winner.team?.logo || winner.team?.logos?.[0]?.href || '',
+      score: winner.score,
+    },
+    runnerUp: loser ? {
+      name: loser.team?.displayName || loser.team?.name,
+      abbr: loser.team?.abbreviation,
+      score: loser.score,
+    } : null,
+  };
+}
+
+function getChampionScanMonths(sportId, prevYear) {
+  switch (sportId) {
+    case 'nfl': return [[prevYear + 1, 2]];
+    case 'nba': return [[prevYear, 6]];
+    case 'nhl': return [[prevYear, 6]];
+    case 'mlb': return [[prevYear, 10], [prevYear, 11]];
+    case 'mls': return [[prevYear, 12]];
+    case 'wnba': return [[prevYear, 10]];
+    case 'ncaaf': return [[prevYear + 1, 1]];
+    default: return [[prevYear, 6]];
+  }
+}
+
+async function fetchLastPostseasonChampion(base, season) {
+  const data = await fetchJSON(`${base}/scoreboard?seasontype=3&season=${season}&limit=300`)
+    .catch(() => ({ events: [] }));
+  const withWinner = (data.events || []).filter(
+    (e) => isEventCompleted(e) && (e.competitions?.[0]?.competitors || []).some((c) => c.winner),
+  );
+  withWinner.sort((a, b) => new Date(a.date) - new Date(b.date));
+  return extractChampionFromEvent(withWinner[withWinner.length - 1]);
+}
+
+async function scanMonthForChampion(base, year, month) {
+  const daysInMonth = new Date(year, month, 0).getDate();
+  for (let day = daysInMonth; day >= 1; day--) {
+    const ymd = `${year}${String(month).padStart(2, '0')}${String(day).padStart(2, '0')}`;
+    const data = await fetchJSON(`${base}/scoreboard?dates=${ymd}`).catch(() => ({ events: [] }));
+    const wins = (data.events || []).filter(
+      (e) => isEventCompleted(e) && (e.competitions?.[0]?.competitors || []).some((c) => c.winner),
+    );
+    if (wins.length) return extractChampionFromEvent(wins[wins.length - 1]);
+  }
+  return null;
+}
+
+async function fetchSeasonChampion({ id, category, league }, seasonStatus) {
+  const prevYear = seasonStatus.previousSeasonYear;
+  if (!prevYear) return null;
+  const base = `https://site.api.espn.com/apis/site/v2/sports/${category}/${league}`;
+
+  let champ = await fetchLastPostseasonChampion(base, prevYear);
+  if (!champ) champ = await fetchLastPostseasonChampion(base, prevYear - 1);
+
+  if (!champ) {
+    for (const [year, month] of getChampionScanMonths(id, prevYear)) {
+      champ = await scanMonthForChampion(base, year, month);
+      if (champ) break;
+    }
+  }
+
+  if (!champ) return null;
+  return {
+    fetchedAt: new Date().toISOString(),
+    sportId: id,
+    seasonYear: prevYear,
+    seasonDisplay: seasonStatus.previousSeasonDisplay || String(prevYear),
+    ...champ,
+  };
+}
+
 async function syncEspnSport({ id, category, league }) {
   const base = `https://site.api.espn.com/apis/site/v2/sports/${category}/${league}`;
   const standingsBase = `https://site.api.espn.com/apis/v2/sports/${category}/${league}`;
@@ -130,6 +219,13 @@ async function syncEspnSport({ id, category, league }) {
       seasonYear: seasonStatus.previousSeasonYear,
       ...standingsPrev,
     });
+  }
+
+  if (!seasonStatus.inSeason) {
+    const champion = await fetchSeasonChampion({ id, category, league }, seasonStatus);
+    if (champion) {
+      await writeJSON(`${id}/champion.json`, champion);
+    }
   }
 
   const status = seasonStatus.inSeason ? 'in-season' : `off-season (${seasonStatus.previousSeasonDisplay})`;

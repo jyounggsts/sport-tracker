@@ -35,6 +35,7 @@ const state = {
   espnGoals: {},
   espnEventIds: {},
   espnKickoffs: {},
+  kickoffDisplayCache: {},
   gameOdds: {},
   gameBroadcasts: {},
   youtubeLive: null,
@@ -168,11 +169,15 @@ function parseInTimeZone(dateStr, timeZone) {
   return new Date(guess);
 }
 
+function parseGameKickoffDisplay(game) {
+  if (!game?.local_date) return new Date();
+  return parseInTimeZone(game.local_date, getStadiumTimezone(game.stadium_id));
+}
+
 function parseGameKickoff(game) {
   if (!game) return new Date();
   if (state.espnKickoffs[game.id]) return state.espnKickoffs[game.id];
-  if (!game.local_date) return new Date();
-  return parseInTimeZone(game.local_date, getStadiumTimezone(game.stadium_id));
+  return parseGameKickoffDisplay(game);
 }
 
 function isSameCalendarDay(a, b) {
@@ -180,33 +185,27 @@ function isSameCalendarDay(a, b) {
 }
 
 function isKickoffToday(game) {
-  return isSameCalendarDay(parseGameKickoff(game), new Date());
+  return isSameCalendarDay(parseGameKickoffDisplay(game), new Date());
 }
 
 function formatKickoff(date) {
   return date.toLocaleTimeString(undefined, {
     hour: 'numeric',
     minute: '2-digit',
-    timeZoneName: 'short',
   });
 }
 
 function formatStadiumKickoff(game) {
-  const kickoff = parseGameKickoff(game);
-  const time = new Intl.DateTimeFormat(undefined, {
+  const kickoff = parseGameKickoffDisplay(game);
+  return new Intl.DateTimeFormat(undefined, {
     hour: 'numeric',
     minute: '2-digit',
     timeZone: getStadiumTimezone(game.stadium_id),
   }).format(kickoff);
-  const zone = new Intl.DateTimeFormat('en-US', {
-    timeZone: getStadiumTimezone(game.stadium_id),
-    timeZoneName: 'short',
-  }).formatToParts(kickoff).find((p) => p.type === 'timeZoneName')?.value || '';
-  return `${time} ${zone}`;
 }
 
 function kickoffLabelsDiffer(game) {
-  const kickoff = parseGameKickoff(game);
+  const kickoff = parseGameKickoffDisplay(game);
   const user = getTimeParts(kickoff, state.userTimezone);
   const venue = getTimeParts(kickoff, getStadiumTimezone(game.stadium_id));
   return user.hour !== venue.hour || user.minute !== venue.minute
@@ -214,10 +213,16 @@ function kickoffLabelsDiffer(game) {
 }
 
 function formatKickoffDisplay(game) {
-  const kickoff = parseGameKickoff(game);
+  if (!game) return '';
+  const cached = state.kickoffDisplayCache[game.id];
+  if (cached) return cached;
+  const kickoff = parseGameKickoffDisplay(game);
   const userLabel = formatKickoff(kickoff);
-  if (!kickoffLabelsDiffer(game)) return userLabel;
-  return `${userLabel} <span class="se-kick-venue">(${formatStadiumKickoff(game)} at venue)</span>`;
+  const label = kickoffLabelsDiffer(game)
+    ? `${userLabel} <span class="se-kick-venue">(${formatStadiumKickoff(game)} at venue)</span>`
+    : userLabel;
+  state.kickoffDisplayCache[game.id] = label;
+  return label;
 }
 
 function formatCountdown(ms) {
@@ -1326,7 +1331,7 @@ function buildAtRisk() {
 
   state.games
     .filter((g) => koTypes.includes(g.type) && g.finished !== 'TRUE')
-    .sort((a, b) => parseGameKickoff(a) - parseGameKickoff(b))
+    .sort((a, b) => parseGameKickoffDisplay(a) - parseGameKickoffDisplay(b))
     .forEach((game) => {
       [['home', game.home_team_id, game.home_team_name_en],
        ['away', game.away_team_id, game.away_team_name_en]].forEach(([, id, name]) => {
@@ -1497,7 +1502,7 @@ function patchStreamCard(card, game) {
 function renderToday() {
   const todayGames = state.games
     .filter((g) => isKickoffToday(g))
-    .sort((a, b) => parseGameKickoff(a) - parseGameKickoff(b));
+    .sort((a, b) => parseGameKickoffDisplay(a) - parseGameKickoffDisplay(b));
 
   const meta = $('#today-meta');
   if (meta) {
@@ -1858,6 +1863,7 @@ function showLoadError(err) {
 async function loadData() {
   const btn = $('#refresh-btn');
   btn?.classList.add('spinning');
+  state.kickoffDisplayCache = {};
   try {
     const [teamsData, groupsData, gamesData, youtubeLive, goalClips] = await Promise.all([
       fetchJSON('teams'), fetchJSON('groups'), fetchJSON('games'),

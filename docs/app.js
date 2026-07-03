@@ -13,6 +13,7 @@ const state = {
   scoreboard: null,
   standings: null,
   standingsPrev: null,
+  champion: null,
   seasonStatus: null,
   allBoards: {},
   fifa: { teams: {}, groups: [], games: [], seasonStatus: null },
@@ -259,8 +260,14 @@ async function loadSportData(sportId) {
         state.standingsPrev = null;
       }
     }
+    try {
+      state.champion = await fetchCached(`${sportId}/champion.json`);
+    } catch {
+      state.champion = null;
+    }
   } else {
     state.standingsPrev = null;
+    state.champion = null;
   }
 }
 
@@ -545,17 +552,60 @@ function renderSeasonBanner() {
   const ss = state.seasonStatus;
   if (!ss || ss.inSeason !== false) {
     banner.hidden = true;
+    banner.innerHTML = '';
     return;
   }
   const sport = getSport(state.selectedSport);
   const returns = ss.returnsDate ? ` Returns ${formatReturnsDate(ss.returnsDate)}.` : '';
-  const prev = ss.previousSeasonDisplay ? ` Showing ${ss.previousSeasonDisplay} final standings.` : '';
   banner.innerHTML = `
     <div class="season-banner-inner">
       <span class="season-badge">OFF SEASON</span>
-      <span>${esc(sport?.name || '')} is currently out of season.${returns}${prev}</span>
+      <span>${esc(sport?.name || '')} is currently out of season.${returns}</span>
     </div>`;
   banner.hidden = false;
+}
+
+function renderSeasonChampion() {
+  const el = $('#season-champion');
+  if (!el) return;
+  const inSeason = state.seasonStatus?.inSeason !== false;
+  if (inSeason || !state.champion?.winner) {
+    el.hidden = true;
+    el.innerHTML = '';
+    return;
+  }
+  const c = state.champion;
+  const seasonLabel = c.seasonDisplay || state.seasonStatus?.previousSeasonDisplay || 'Last season';
+  const logo = c.winner.logo
+    ? `<img class="champion-logo" src="${esc(c.winner.logo)}" alt="" loading="lazy">`
+    : '';
+  const scoreLine = c.runnerUp
+    ? `${esc(c.winner.score)}–${esc(c.runnerUp.score)} vs ${esc(c.runnerUp.name)}`
+    : '';
+  el.innerHTML = `
+    <div class="champion-card">
+      <div class="champion-label">${esc(seasonLabel)} Champion</div>
+      <div class="champion-main">
+        ${logo}
+        <div class="champion-info">
+          <div class="champion-name">${esc(c.winner.name)}</div>
+          ${scoreLine ? `<div class="champion-score">${scoreLine}</div>` : ''}
+        </div>
+      </div>
+    </div>`;
+  el.hidden = false;
+}
+
+function setOffSeasonSections() {
+  const inSeason = state.seasonStatus?.inSeason !== false;
+  const live = $('#sport-live');
+  const schedule = $('#sport-schedule');
+  if (live) live.hidden = !inSeason;
+  if (schedule) schedule.hidden = !inSeason;
+  if (!inSeason) {
+    const banner = $('#live-banner');
+    if (banner) banner.hidden = true;
+  }
 }
 
 // ── Game card builders ───────────────────────────────────────────
@@ -715,20 +765,16 @@ function updateEspnLiveFlags() {
 function renderEspnScoreboard() {
   const grid = $('#scoreboard-grid');
   const inSeason = state.seasonStatus?.inSeason !== false;
-  const events = state.scoreboard?.events || [];
-  updateEspnLiveFlags();
 
   if (!inSeason) {
-    const upcoming = events.filter((e) => e.status?.type?.state === 'pre').slice(0, 6);
-    $('#sport-today-meta').textContent = 'League is off season';
-    if (!upcoming.length) {
-      grid.innerHTML = '<div class="empty-state">This league is out of season. No games scheduled right now.</div>';
-      return;
-    }
-    grid.innerHTML = upcoming.map((e) => buildEspnGameCard(e, state.selectedSport)).join('');
-    bindStarButtons(grid);
+    state.hasEspnLive = false;
+    state.hasEspnSoon = false;
+    grid.innerHTML = '';
     return;
   }
+
+  const events = state.scoreboard?.events || [];
+  updateEspnLiveFlags();
 
   const today = events.filter((e) => isToday(e.date));
   const live = today.filter((e) => e.status?.type?.state === 'in');
@@ -903,6 +949,7 @@ function collectFavoriteGames() {
   const upcoming = [];
 
   for (const sport of state.manifest?.sports || []) {
+    if (state.seasonSummary[sport.id] === false) continue;
     const board = state.allBoards[sport.id];
     if (!board) continue;
 
@@ -1033,7 +1080,9 @@ function renderSportView() {
     state.fifaActive = false;
   }
 
+  setOffSeasonSections();
   renderSeasonBanner();
+  renderSeasonChampion();
   renderEspnScoreboard();
   renderStandings();
   renderEspnSchedule();

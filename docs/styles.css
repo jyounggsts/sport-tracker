@@ -281,6 +281,48 @@ a:hover { text-decoration: underline; }
   flex-shrink: 0;
 }
 
+.season-champion { margin-bottom: 1.25rem; }
+
+.champion-card {
+  background: linear-gradient(135deg, rgba(255,215,0,0.12), rgba(255,140,0,0.08));
+  border: 1px solid rgba(255,215,0,0.35);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+}
+
+.champion-label {
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 0.6rem;
+}
+
+.champion-main {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.champion-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.champion-name {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.champion-score {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
 .star-icon { color: var(--orange); font-size: 0.9rem; }
 
 .star-btn {
