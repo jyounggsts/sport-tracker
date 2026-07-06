@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T12:32:03.242Z",
+  "fetchedAt": "2026-07-06T19:19:24.432Z",
   "sportId": "nhl",
   "liveCount": 0,
   "seasonStatus": {
@@ -745,6 +745,340 @@
       }
     },
     {
+      "id": "401886427",
+      "uid": "s:70~l:90~e:401886427",
+      "date": "2026-09-19T23:00Z",
+      "name": "Dallas Stars at St. Louis Blues",
+      "shortName": "DAL @ STL",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401886427",
+          "uid": "s:70~l:90~e:401886427~c:401886427",
+          "date": "2026-09-19T23:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1839",
+            "fullName": "Enterprise Center",
+            "address": {
+              "city": "St. Louis",
+              "state": "MO",
+              "country": "USA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "19",
+              "uid": "s:70~l:90~t:19",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "19",
+                "uid": "s:70~l:90~t:19",
+                "location": "St. Louis",
+                "name": "Blues",
+                "abbreviation": "STL",
+                "displayName": "St. Louis Blues",
+                "shortDisplayName": "Blues",
+                "color": "0070b9",
+                "isActive": true,
+                "venue": {
+                  "id": "1839"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/stl/st-louis-blues",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=19",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/stl/st-louis-blues",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/stl/st-louis-blues",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/stl",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:19&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/stl.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "9",
+              "uid": "s:70~l:90~t:9",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "9",
+                "uid": "s:70~l:90~t:9",
+                "location": "Dallas",
+                "name": "Stars",
+                "abbreviation": "DAL",
+                "displayName": "Dallas Stars",
+                "shortDisplayName": "Stars",
+                "color": "20864c",
+                "isActive": true,
+                "venue": {
+                  "id": "516"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/dal/dallas-stars",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=9",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/dal/dallas-stars",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/dal/dallas-stars",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/dal",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:9&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/dal.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 7:00 PM EDT",
+              "shortDetail": "9/19 - 7:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "startDate": "2026-09-19T23:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401886427/stars-blues",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 7:00 PM EDT",
+          "shortDetail": "9/19 - 7:00 PM EDT"
+        }
+      }
+    },
+    {
       "id": "401878099",
       "uid": "s:70~l:90~e:401878099",
       "date": "2026-09-20T00:00Z",
@@ -1093,6 +1427,354 @@
       }
     },
     {
+      "id": "401886258",
+      "uid": "s:70~l:90~e:401886258",
+      "date": "2026-09-20T00:00Z",
+      "name": "Chicago Blackhawks at Minnesota Wild",
+      "shortName": "CHI @ MIN",
+      "season": {
+        "year": 2027,
+        "type": 1,
+        "slug": "preseason"
+      },
+      "competitions": [
+        {
+          "id": "401886258",
+          "uid": "s:70~l:90~e:401886258~c:401886258",
+          "date": "2026-09-20T00:00Z",
+          "attendance": 0,
+          "type": {
+            "id": "1",
+            "abbreviation": "STD"
+          },
+          "timeValid": true,
+          "neutralSite": false,
+          "playByPlayAvailable": false,
+          "recent": false,
+          "venue": {
+            "id": "1835",
+            "fullName": "Grand Casino Arena",
+            "address": {
+              "city": "Saint Paul",
+              "state": "MN",
+              "country": "USA"
+            },
+            "indoor": true
+          },
+          "competitors": [
+            {
+              "id": "30",
+              "uid": "s:70~l:90~t:30",
+              "type": "team",
+              "order": 0,
+              "homeAway": "home",
+              "team": {
+                "id": "30",
+                "uid": "s:70~l:90~t:30",
+                "location": "Minnesota",
+                "name": "Wild",
+                "abbreviation": "MIN",
+                "displayName": "Minnesota Wild",
+                "shortDisplayName": "Wild",
+                "color": "124734",
+                "isActive": true,
+                "venue": {
+                  "id": "1835"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/min/minnesota-wild",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=30",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/min/minnesota-wild",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:30&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/min/minnesota-wild",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:30&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/min",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:30&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/min.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            },
+            {
+              "id": "4",
+              "uid": "s:70~l:90~t:4",
+              "type": "team",
+              "order": 1,
+              "homeAway": "away",
+              "team": {
+                "id": "4",
+                "uid": "s:70~l:90~t:4",
+                "location": "Chicago",
+                "name": "Blackhawks",
+                "abbreviation": "CHI",
+                "displayName": "Chicago Blackhawks",
+                "shortDisplayName": "Blackhawks",
+                "color": "e31937",
+                "isActive": true,
+                "venue": {
+                  "id": "1847"
+                },
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/_/name/chi/chicago-blackhawks",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://m.espn.com/nhl/clubhouse?teamId=4",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/roster/_/name/chi/chicago-blackhawks",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "roster",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=roster",
+                    "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/stats/_/name/chi/chicago-blackhawks",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=stats",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/nhl/team/schedule/_/name/chi",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:70~l:90~t:4&section=scores",
+                    "text": "Schedule",
+                    "isExternal": false,
+                    "isPremium": false
+                  }
+                ],
+                "logo": "https://a.espncdn.com/i/teamlogos/nhl/500/scoreboard/chi.png"
+              },
+              "score": "0",
+              "curatedRank": {
+                "current": 99
+              },
+              "statistics": []
+            }
+          ],
+          "notes": [],
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 0,
+            "type": {
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Sat, September 19th at 8:00 PM EDT",
+              "shortDetail": "9/19 - 8:00 PM EDT"
+            }
+          },
+          "format": {
+            "regulation": {
+              "periods": 3
+            }
+          },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $211",
+              "numberAvailable": 72,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/minnesota-wild-tickets-grand-casino-arena-9-19-2026--sports-nhl-hockey/production/7253869?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/xcel-energy-center-tickets/venue/1961?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-09-20T00:00Z",
+          "broadcast": "",
+          "geoBroadcasts": [],
+          "broadcasts": [],
+          "highlights": []
+        }
+      ],
+      "links": [
+        {
+          "language": "en-US",
+          "rel": [
+            "summary",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/nhl/game/_/gameId/401886258/blackhawks-wild",
+          "text": "Gamecast",
+          "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "status": {
+        "clock": 0,
+        "displayClock": "0:00",
+        "period": 0,
+        "type": {
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Sat, September 19th at 8:00 PM EDT",
+          "shortDetail": "9/19 - 8:00 PM EDT"
+        }
+      }
+    },
+    {
       "id": "401879412",
       "uid": "s:70~l:90~e:401879412",
       "date": "2026-09-20T01:00Z",
@@ -1392,7 +2074,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $95",
-              "numberAvailable": 649,
+              "numberAvailable": 745,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-kings-tickets-ontario-toyota-arena---ca-9-19-2026/production/7056093?wsUser=717"
