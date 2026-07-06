@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T19:19:26.616Z",
+  "fetchedAt": "2026-07-06T23:37:58.680Z",
   "sportId": "fifa",
   "games": [
     {
@@ -2182,16 +2182,16 @@
       "home_team_id": "41",
       "away_team_id": "29",
       "home_score": "0",
-      "away_score": "0",
+      "away_score": "1",
       "home_scorers": "null",
-      "away_scorers": "null",
+      "away_scorers": "{\"Mikel Merino 90+1'\"}",
       "group": "R16",
       "matchday": "5",
       "local_date": "07/06/2026 14:00",
       "persian_date": "1405-04-15 14:00",
       "stadium_id": "4",
-      "finished": "FALSE",
-      "time_elapsed": "live",
+      "finished": "TRUE",
+      "time_elapsed": "finished",
       "type": "r16",
       "home_team_label": "Winner Match 83",
       "away_team_label": "Winner Match 84",
@@ -2313,7 +2313,7 @@
     {
       "_id": "679c9c8a5749c4077500e08c",
       "id": "98",
-      "home_team_id": "0",
+      "home_team_id": "29",
       "away_team_id": "0",
       "home_score": "0",
       "away_score": "0",
@@ -2328,7 +2328,9 @@
       "time_elapsed": "notstarted",
       "type": "qf",
       "home_team_label": "Winner Match 93",
-      "away_team_label": "Winner Match 94"
+      "away_team_label": "Winner Match 94",
+      "home_team_name_en": "Spain",
+      "home_team_name_fa": "اسپانیا"
     },
     {
       "_id": "679c9c8a5749c4077500e08d",
