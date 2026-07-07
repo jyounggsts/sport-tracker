@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-06T23:37:58.680Z",
+  "fetchedAt": "2026-07-07T10:41:16.829Z",
   "sportId": "fifa",
   "games": [
     {
@@ -2212,17 +2212,17 @@
       "id": "94",
       "home_team_id": "13",
       "away_team_id": "25",
-      "home_score": "null",
-      "away_score": "null",
-      "home_scorers": "null",
-      "away_scorers": "null",
+      "home_score": "1",
+      "away_score": "4",
+      "home_scorers": "{\"Malik Tillman 31'\"}",
+      "away_scorers": "{\"Sharl D Ktlar 9'\",\"Sharl D Ktlar 33'\",\"Hans Vanaken 57'\",\"Romelu Lukaku 90+3'\"}",
       "group": "R16",
       "matchday": "5",
       "local_date": "07/06/2026 17:00",
       "persian_date": "1405-04-15 17:00",
       "stadium_id": "14",
-      "finished": "FALSE",
-      "time_elapsed": "notstarted",
+      "finished": "TRUE",
+      "time_elapsed": "finished",
       "type": "r16",
       "home_team_label": "Winner Match 81",
       "away_team_label": "Winner Match 82",
@@ -2314,7 +2314,7 @@
       "_id": "679c9c8a5749c4077500e08c",
       "id": "98",
       "home_team_id": "29",
-      "away_team_id": "0",
+      "away_team_id": "25",
       "home_score": "0",
       "away_score": "0",
       "home_scorers": "null",
@@ -2330,7 +2330,9 @@
       "home_team_label": "Winner Match 93",
       "away_team_label": "Winner Match 94",
       "home_team_name_en": "Spain",
-      "home_team_name_fa": "اسپانیا"
+      "home_team_name_fa": "اسپانیا",
+      "away_team_name_en": "Belgium",
+      "away_team_name_fa": "بلژیک"
     },
     {
       "_id": "679c9c8a5749c4077500e08d",
