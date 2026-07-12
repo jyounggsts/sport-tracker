@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-12T18:42:02.246Z",
+  "fetchedAt": "2026-07-12T21:34:18.909Z",
   "sportId": "wnba",
   "liveCount": 0,
   "seasonStatus": {
@@ -205,7 +205,7 @@
           "id": "401857060",
           "uid": "s:40~l:59~e:401857060~c:401857060",
           "date": "2026-07-12T19:00Z",
-          "attendance": 0,
+          "attendance": 12724,
           "type": {
             "id": "1",
             "abbreviation": "STD"
@@ -213,7 +213,7 @@
           "timeValid": true,
           "neutralSite": false,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
+          "playByPlayAvailable": true,
           "recent": true,
           "venue": {
             "id": "1831",
@@ -231,6 +231,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "131935",
                 "uid": "s:40~l:59~t:131935",
@@ -340,129 +341,121 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png"
               },
-              "score": "0",
+              "score": "93",
+              "linescores": [
+                {
+                  "value": 24,
+                  "displayValue": "24",
+                  "period": 1
+                },
+                {
+                  "value": 23,
+                  "displayValue": "23",
+                  "period": 2
+                },
+                {
+                  "value": 33,
+                  "displayValue": "33",
+                  "period": 3
+                },
+                {
+                  "value": 13,
+                  "displayValue": "13",
+                  "period": 4
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "690",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "30"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "31.4"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "444",
-                  "rankDisplayValue": "11th"
+                  "displayValue": "22"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "1499",
-                  "rankDisplayValue": "12th"
+                  "displayValue": "66"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "672",
-                  "rankDisplayValue": "12th"
+                  "displayValue": "34"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "44.8",
-                  "rankDisplayValue": "7th"
+                  "displayValue": "51.5"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "82.5",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "88.9"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "485",
-                  "rankDisplayValue": "8th"
+                  "displayValue": "18"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "400",
-                  "rankDisplayValue": "6th"
+                  "displayValue": "16"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "1971",
-                  "rankDisplayValue": "8th"
+                  "displayValue": "93"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "36.7",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "37.5"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "619",
-                  "rankDisplayValue": "Tied-4th"
+                  "displayValue": "24"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "227",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "9"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "89.6"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "20.2"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "36.7"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "9-13"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "5-7"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "4-6"
+                  "displayValue": "37.5"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "21.2",
-                      "value": 21.238094329833984,
+                      "displayValue": "30",
+                      "value": 30,
                       "athlete": {
                         "id": "3904576",
                         "fullName": "Marina Mabrey",
@@ -495,19 +488,19 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "4.6",
-                      "value": 4.590909004211426,
+                      "displayValue": "7",
+                      "value": 7,
                       "athlete": {
-                        "id": "3910470",
-                        "fullName": "Maria Conde",
-                        "displayName": "Maria Conde",
-                        "shortName": "M. Conde",
+                        "id": "4398768",
+                        "fullName": "Nyara Sabally",
+                        "displayName": "Nyara Sabally",
+                        "shortName": "N. Sabally",
                         "links": [
                           {
                             "rel": [
@@ -515,10 +508,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/3910470/maria-conde"
+                            "href": "https://www.espn.com/wnba/player/_/id/4398768/nyara-sabally"
                           }
                         ],
-                        "jersey": "10",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4398768.png",
+                        "jersey": "8",
                         "position": {
                           "abbreviation": "F"
                         },
@@ -534,14 +528,14 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "5.4",
-                      "value": 5.375,
+                      "displayValue": "10",
+                      "value": 10,
                       "athlete": {
                         "id": "4001679",
                         "fullName": "Julie Allemand",
@@ -580,8 +574,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "21.2 PPG, 3.6 RPG, 3.6 APG, 1.0 SPG, 0.4 BPG",
-                      "value": 31.792858123779297,
+                      "displayValue": "30 PTS",
+                      "value": 39.349998474121094,
                       "athlete": {
                         "id": "3904576",
                         "fullName": "Marina Mabrey",
@@ -613,6 +607,24 @@
                     }
                   ]
                 }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "10-13"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "6-7"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "4-6"
+                }
               ]
             },
             {
@@ -621,6 +633,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "9",
                 "uid": "s:40~l:59~t:9",
@@ -730,135 +743,126 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
               },
-              "score": "0",
+              "score": "91",
+              "linescores": [
+                {
+                  "value": 19,
+                  "displayValue": "19",
+                  "period": 1
+                },
+                {
+                  "value": 20,
+                  "displayValue": "20",
+                  "period": 2
+                },
+                {
+                  "value": 25,
+                  "displayValue": "25",
+                  "period": 3
+                },
+                {
+                  "value": 27,
+                  "displayValue": "27",
+                  "period": 4
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "793",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "33"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "34.5"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "475",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "16"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "1483",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "76"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "683",
-                  "rankDisplayValue": "7th"
+                  "displayValue": "33"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "46.1",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "43.4"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "85.3",
-                  "rankDisplayValue": "1st"
+                  "displayValue": "90.9"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "491",
-                  "rankDisplayValue": "7th"
+                  "displayValue": "22"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "419",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "20"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2017",
-                  "rankDisplayValue": "6th"
+                  "displayValue": "91"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "35.2",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "19.2"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "660",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "26"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "232",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "5"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "87.7"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "20.7"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "35.2",
-                  "rankDisplayValue": "1st"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "13-10"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "7-5"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "6-5"
+                  "displayValue": "19.2"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "20.3",
-                      "value": 20.31818199157715,
+                      "displayValue": "28",
+                      "value": 28,
                       "athlete": {
-                        "id": "2998928",
-                        "fullName": "Breanna Stewart",
-                        "displayName": "Breanna Stewart",
-                        "shortName": "B. Stewart",
+                        "id": "4066533",
+                        "fullName": "Sabrina Ionescu",
+                        "displayName": "Sabrina Ionescu",
+                        "shortName": "S. Ionescu",
                         "links": [
                           {
                             "rel": [
@@ -866,13 +870,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/2998928/breanna-stewart"
+                            "href": "https://www.espn.com/wnba/player/_/id/4066533/sabrina-ionescu"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/2998928.png",
-                        "jersey": "30",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4066533.png",
+                        "jersey": "20",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "9"
@@ -886,14 +890,14 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "9.3",
-                      "value": 9.272727012634277,
+                      "displayValue": "10",
+                      "value": 10,
                       "athlete": {
                         "id": "2999101",
                         "fullName": "Jonquel Jones",
@@ -926,19 +930,19 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "3.7",
-                      "value": 3.6956522464752197,
+                      "displayValue": "8",
+                      "value": 8,
                       "athlete": {
-                        "id": "5345320",
-                        "fullName": "Pauline Astier",
-                        "displayName": "Pauline Astier",
-                        "shortName": "P. Astier",
+                        "id": "4066533",
+                        "fullName": "Sabrina Ionescu",
+                        "displayName": "Sabrina Ionescu",
+                        "shortName": "S. Ionescu",
                         "links": [
                           {
                             "rel": [
@@ -946,11 +950,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/5345320/pauline-astier"
+                            "href": "https://www.espn.com/wnba/player/_/id/4066533/sabrina-ionescu"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5345320.png",
-                        "jersey": "18",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4066533.png",
+                        "jersey": "20",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -972,13 +976,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "20.3 PPG, 8.4 RPG, 2.8 APG, 1.3 SPG, 1.3 BPG",
-                      "value": 35.83863830566406,
+                      "displayValue": "28 PTS, 8 AST, 3 STL",
+                      "value": 49.75,
                       "athlete": {
-                        "id": "2998928",
-                        "fullName": "Breanna Stewart",
-                        "displayName": "Breanna Stewart",
-                        "shortName": "B. Stewart",
+                        "id": "4066533",
+                        "fullName": "Sabrina Ionescu",
+                        "displayName": "Sabrina Ionescu",
+                        "shortName": "S. Ionescu",
                         "links": [
                           {
                             "rel": [
@@ -986,13 +990,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/2998928/breanna-stewart"
+                            "href": "https://www.espn.com/wnba/player/_/id/4066533/sabrina-ionescu"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/2998928.png",
-                        "jersey": "30",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4066533.png",
+                        "jersey": "20",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "9"
@@ -1005,6 +1009,24 @@
                     }
                   ]
                 }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "13-11"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "7-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "6-6"
+                }
               ]
             }
           ],
@@ -1012,15 +1034,15 @@
           "status": {
             "clock": 0,
             "displayClock": "0.0",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, July 12th at 3:00 PM EDT",
-              "shortDetail": "7/12 - 3:00 PM EDT"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             }
           },
           "broadcasts": [
@@ -1049,20 +1071,6 @@
               "periods": 4
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $14",
-              "numberAvailable": 598,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/toronto-tempo-tickets-coca-cola-coliseum-7-12-2026--sports-wnba/production/6559594?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/bell-centre-tickets/venue/1119?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-07-12T19:00Z",
           "broadcast": "NBA TV",
           "geoBroadcasts": [
@@ -1127,306 +1135,6 @@
               "region": "us"
             }
           ],
-          "odds": [
-            {
-              "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
-                ],
-                "displayName": "DraftKings"
-              },
-              "details": "NY -6.5",
-              "overUnder": 178.5,
-              "spread": 6.5,
-              "awayTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "9",
-                  "uid": "s:40~l:59~t:9",
-                  "abbreviation": "NY",
-                  "name": "Liberty",
-                  "displayName": "New York Liberty",
-                  "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/ny.png"
-                },
-                "favoriteAtOpen": true
-              },
-              "homeTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "131935",
-                  "uid": "s:40~l:59~t:131935",
-                  "abbreviation": "TOR",
-                  "name": "Tempo",
-                  "displayName": "Toronto Tempo",
-                  "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/tor.png"
-                },
-                "favoriteAtOpen": false
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "close": {
-                    "odds": "+235",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965%3Foutcomes%3D0ML85442915_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857060,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "+240"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "odds": "-290",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "away",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965%3Foutcomes%3D0ML85442915_3",
-                      "text": "Away Bet",
-                      "shortText": "Away Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857060,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "-298"
-                  }
-                }
-              },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "close": {
-                    "line": "+6.5",
-                    "odds": "-105",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965%3Foutcomes%3D0HC85442915P650_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857060,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:TOR+6.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+7.5",
-                    "odds": "-115"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": "-6.5",
-                    "odds": "-115",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965%3Foutcomes%3D0HC85442915N650_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857060,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:NY-6.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-7.5",
-                    "odds": "-105"
-                  }
-                }
-              },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "close": {
-                    "line": "o178.5",
-                    "odds": "-108",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965%3Foutcomes%3D0OU85442915O17850_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857060,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:178.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o177.5",
-                    "odds": "-110"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "line": "u178.5",
-                    "odds": "-112",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965%3Foutcomes%3D0OU85442915U17850_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857060,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:178.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u177.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375965",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "wnba",
-                    "sport": "basketball",
-                    "gameId": 401857060,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
-              }
-            }
-          ],
           "highlights": []
         }
       ],
@@ -1443,20 +1151,58 @@
           "shortText": "Gamecast",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/wnba/boxscore/_/gameId/401857060",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/wnba/video?gameId=401857060",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/wnba/playbyplay/_/gameId/401857060",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "status": {
         "clock": 0,
         "displayClock": "0.0",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, July 12th at 3:00 PM EDT",
-          "shortDetail": "7/12 - 3:00 PM EDT"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     },
@@ -1476,7 +1222,7 @@
           "id": "401857061",
           "uid": "s:40~l:59~e:401857061~c:401857061",
           "date": "2026-07-12T19:00Z",
-          "attendance": 0,
+          "attendance": 4200,
           "type": {
             "id": "1",
             "abbreviation": "STD"
@@ -1484,7 +1230,7 @@
           "timeValid": true,
           "neutralSite": false,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
+          "playByPlayAvailable": true,
           "recent": true,
           "venue": {
             "id": "5946",
@@ -1502,6 +1248,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "16",
                 "uid": "s:40~l:59~t:16",
@@ -1611,170 +1358,121 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png"
               },
-              "score": "0",
+              "score": "84",
+              "linescores": [
+                {
+                  "value": 18,
+                  "displayValue": "18",
+                  "period": 1
+                },
+                {
+                  "value": 22,
+                  "displayValue": "22",
+                  "period": 2
+                },
+                {
+                  "value": 24,
+                  "displayValue": "24",
+                  "period": 3
+                },
+                {
+                  "value": 20,
+                  "displayValue": "20",
+                  "period": 4
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "731",
-                  "rankDisplayValue": "Tied-5th"
+                  "displayValue": "32"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "36.6"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "383",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "23"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "1278",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "72"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "561",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "31"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "43.9",
-                  "rankDisplayValue": "9th"
+                  "displayValue": "43.1"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "72.7",
-                  "rankDisplayValue": "14th"
+                  "displayValue": "73.9"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "528",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "23"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "384",
-                  "rankDisplayValue": "7th"
+                  "displayValue": "17"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "1622",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "84"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "29.5",
-                  "rankDisplayValue": "14th"
+                  "displayValue": "26.3"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "393",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "19"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "116",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "5"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "81.1"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "19.2"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "29.5",
-                  "rankDisplayValue": "1st"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "10-10"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "4-5"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "6-5"
+                  "displayValue": "26.3"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "18.6",
-                      "value": 18.647058486938477,
-                      "athlete": {
-                        "id": "4433524",
-                        "fullName": "Sonia Citron",
-                        "displayName": "Sonia Citron",
-                        "shortName": "S. Citron",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4433524/sonia-citron"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433524.png",
-                        "jersey": "22",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "16"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "16"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
-                  "leaders": [
-                    {
-                      "displayValue": "9.3",
-                      "value": 9.263157844543457,
+                      "displayValue": "27",
+                      "value": 27,
                       "athlete": {
                         "id": "4398911",
                         "fullName": "Shakira Austin",
@@ -1807,14 +1505,54 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "3.6",
-                      "value": 3.5999999046325684,
+                      "displayValue": "13",
+                      "value": 13,
+                      "athlete": {
+                        "id": "4898384",
+                        "fullName": "Kiki Iriafen",
+                        "displayName": "Kiki Iriafen",
+                        "shortName": "K. Iriafen",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/wnba/player/_/id/4898384/kiki-iriafen"
+                          }
+                        ],
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4898384.png",
+                        "jersey": "44",
+                        "position": {
+                          "abbreviation": "F"
+                        },
+                        "team": {
+                          "id": "16"
+                        },
+                        "active": true
+                      },
+                      "team": {
+                        "id": "16"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
+                  "leaders": [
+                    {
+                      "displayValue": "4",
+                      "value": 4,
                       "athlete": {
                         "id": "4704180",
                         "fullName": "Georgia Amoore",
@@ -1853,13 +1591,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "18.6 PPG, 4.1 RPG, 3.5 APG, 1.3 SPG, 0.6 BPG",
-                      "value": 30.32646942138672,
+                      "displayValue": "27 PTS",
+                      "value": 40.75,
                       "athlete": {
-                        "id": "4433524",
-                        "fullName": "Sonia Citron",
-                        "displayName": "Sonia Citron",
-                        "shortName": "S. Citron",
+                        "id": "4398911",
+                        "fullName": "Shakira Austin",
+                        "displayName": "Shakira Austin",
+                        "shortName": "S. Austin",
                         "links": [
                           {
                             "rel": [
@@ -1867,13 +1605,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4433524/sonia-citron"
+                            "href": "https://www.espn.com/wnba/player/_/id/4398911/shakira-austin"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433524.png",
-                        "jersey": "22",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4398911.png",
+                        "jersey": "0",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "C"
                         },
                         "team": {
                           "id": "16"
@@ -1886,6 +1624,24 @@
                     }
                   ]
                 }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "11-10"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "5-5"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "6-5"
+                }
               ]
             },
             {
@@ -1894,6 +1650,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "14",
                 "uid": "s:40~l:59~t:14",
@@ -2003,129 +1760,121 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
               },
-              "score": "0",
+              "score": "79",
+              "linescores": [
+                {
+                  "value": 24,
+                  "displayValue": "24",
+                  "period": 1
+                },
+                {
+                  "value": 21,
+                  "displayValue": "21",
+                  "period": 2
+                },
+                {
+                  "value": 23,
+                  "displayValue": "23",
+                  "period": 3
+                },
+                {
+                  "value": 11,
+                  "displayValue": "11",
+                  "period": 4
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "780",
-                  "rankDisplayValue": "17th"
+                  "displayValue": "43"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "32.5"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "453",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "12"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "1596",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "70"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "678",
-                  "rankDisplayValue": "Tied-9th"
+                  "displayValue": "30"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "42.5",
-                  "rankDisplayValue": "14th"
+                  "displayValue": "42.9"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "80.4",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "77.8"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "444",
-                  "rankDisplayValue": "12th"
+                  "displayValue": "18"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "357",
-                  "rankDisplayValue": "Tied-10th"
+                  "displayValue": "14"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "1921",
-                  "rankDisplayValue": "11th"
+                  "displayValue": "79"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "33.6",
-                  "rankDisplayValue": "9th"
+                  "displayValue": "26.3"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "619",
-                  "rankDisplayValue": "Tied-4th"
+                  "displayValue": "19"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "208",
-                  "rankDisplayValue": "6th"
+                  "displayValue": "5"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "80.0"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "18.9"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "33.6"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "6-18"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "4-8"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "2-10"
+                  "displayValue": "26.3"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "15.6",
-                      "value": 15.625,
+                      "displayValue": "31",
+                      "value": 31,
                       "athlete": {
                         "id": "3906753",
                         "fullName": "Natisha Hiedeman",
@@ -2158,19 +1907,19 @@
                   ]
                 },
                 {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "5.3",
-                      "value": 5.291666507720947,
+                      "displayValue": "15",
+                      "value": 15,
                       "athlete": {
-                        "id": "4698736",
-                        "fullName": "Flau'jae Johnson",
-                        "displayName": "Flau'jae Johnson",
-                        "shortName": "F. Johnson",
+                        "id": "5220150",
+                        "fullName": "Dominique Malonga",
+                        "displayName": "Dominique Malonga",
+                        "shortName": "D. Malonga",
                         "links": [
                           {
                             "rel": [
@@ -2178,13 +1927,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4698736/flaujae-johnson"
+                            "href": "https://www.espn.com/wnba/player/_/id/5220150/dominique-malonga"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4698736.png",
-                        "jersey": "4",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5220150.png",
+                        "jersey": "14",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "C"
                         },
                         "team": {
                           "id": "14"
@@ -2198,14 +1947,14 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "assists",
+                  "displayName": "Assists",
+                  "shortDisplayName": "Ast",
+                  "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "4.4",
-                      "value": 4.416666507720947,
+                      "displayValue": "3",
+                      "value": 3,
                       "athlete": {
                         "id": "3906753",
                         "fullName": "Natisha Hiedeman",
@@ -2244,13 +1993,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "15.8 PPG, 7.5 RPG, 1.4 APG, 0.8 SPG, 1.2 BPG",
-                      "value": 26.481250762939453,
+                      "displayValue": "31 PTS, 3 STL",
+                      "value": 45.650001525878906,
                       "athlete": {
-                        "id": "5220150",
-                        "fullName": "Dominique Malonga",
-                        "displayName": "Dominique Malonga",
-                        "shortName": "D. Malonga",
+                        "id": "3906753",
+                        "fullName": "Natisha Hiedeman",
+                        "displayName": "Natisha Hiedeman",
+                        "shortName": "N. Hiedeman",
                         "links": [
                           {
                             "rel": [
@@ -2258,13 +2007,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/5220150/dominique-malonga"
+                            "href": "https://www.espn.com/wnba/player/_/id/3906753/natisha-hiedeman"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5220150.png",
-                        "jersey": "14",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/3906753.png",
+                        "jersey": "2",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "14"
@@ -2277,6 +2026,24 @@
                     }
                   ]
                 }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Game",
+                  "type": "total",
+                  "summary": "6-19"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "4-8"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "2-11"
+                }
               ]
             }
           ],
@@ -2284,15 +2051,15 @@
           "status": {
             "clock": 0,
             "displayClock": "0.0",
-            "period": 0,
+            "period": 4,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Sun, July 12th at 3:00 PM EDT",
-              "shortDetail": "7/12 - 3:00 PM EDT"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             }
           },
           "broadcasts": [
@@ -2316,20 +2083,6 @@
               "periods": 4
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $56",
-              "numberAvailable": 12,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/washington-mystics-tickets-washington-carefirst-arena-7-12-2026/production/6559486?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/st-elizabeth-east-entertainment-and-sports-arena-tickets/venue/21529?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-07-12T19:00Z",
           "broadcast": "",
           "geoBroadcasts": [
@@ -2379,306 +2132,229 @@
               "region": "us"
             }
           ],
-          "odds": [
+          "highlights": [
             {
-              "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
+              "id": 49345819,
+              "cerebroId": "6a5405d450944a75d4d2f354",
+              "source": "espn",
+              "headline": "Washington Mystics vs. Seattle Storm - Game Highlights",
+              "description": "Watch the Game Highlights from Washington Mystics vs. Seattle Storm, 07/12/2026",
+              "lastModified": "2026-07-12T21:25:01Z",
+              "originalPublishDate": "2026-07-12T21:23:32Z",
+              "duration": 68,
+              "timeRestrictions": {
+                "embargoDate": "2026-07-12T21:23:25Z",
+                "expirationDate": "2026-11-30T05:00:00Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "settop",
+                  "tablet",
+                  "handset",
+                  "ipad",
+                  "desktop"
                 ]
               },
-              "details": "WSH -6.5",
-              "overUnder": 162.5,
-              "spread": -6.5,
-              "awayTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "14",
-                  "uid": "s:40~l:59~t:14",
-                  "abbreviation": "SEA",
-                  "name": "Storm",
-                  "displayName": "Seattle Storm",
-                  "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/sea.png"
-                },
-                "favoriteAtOpen": false
+              "geoRestrictions": {
+                "type": "whitelist",
+                "countries": [
+                  "PR",
+                  "HN",
+                  "PW",
+                  "PY",
+                  "HT",
+                  "AG",
+                  "ZA",
+                  "AI",
+                  "AM",
+                  "AO",
+                  "AR",
+                  "AS",
+                  "ZM",
+                  "RE",
+                  "AU",
+                  "AW",
+                  "ZW",
+                  "BB",
+                  "JM",
+                  "BF",
+                  "RW",
+                  "BI",
+                  "BJ",
+                  "BM",
+                  "BO",
+                  "BQ",
+                  "SC",
+                  "BR",
+                  "BS",
+                  "BW",
+                  "BZ",
+                  "SL",
+                  "KE",
+                  "SN",
+                  "SR",
+                  "SS",
+                  "ST",
+                  "CD",
+                  "KM",
+                  "CF",
+                  "KN",
+                  "SV",
+                  "CG",
+                  "SX",
+                  "CI",
+                  "SZ",
+                  "CL",
+                  "CM",
+                  "CO",
+                  "KY",
+                  "CR",
+                  "TC",
+                  "CU",
+                  "CV",
+                  "TG",
+                  "LC",
+                  "TT",
+                  "TZ",
+                  "LR",
+                  "LS",
+                  "DO",
+                  "UG",
+                  "UK",
+                  "UM",
+                  "MF",
+                  "MG",
+                  "MH",
+                  "US",
+                  "EC",
+                  "ML",
+                  "MP",
+                  "MQ",
+                  "UY",
+                  "MS",
+                  "MU",
+                  "MW",
+                  "MX",
+                  "VC",
+                  "ER",
+                  "MZ",
+                  "VE",
+                  "ET",
+                  "VG",
+                  "VI",
+                  "NA",
+                  "NE",
+                  "NG",
+                  "NI",
+                  "FJ",
+                  "FM",
+                  "NZ",
+                  "GA",
+                  "GB",
+                  "GD",
+                  "GF",
+                  "GH",
+                  "GM",
+                  "GN",
+                  "GP",
+                  "GQ",
+                  "GT",
+                  "GU",
+                  "GW",
+                  "PA",
+                  "GY",
+                  "PE"
+                ]
               },
-              "homeTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "16",
-                  "uid": "s:40~l:59~t:16",
-                  "abbreviation": "WSH",
-                  "name": "Mystics",
-                  "displayName": "Washington Mystics",
-                  "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png"
-                },
-                "favoriteAtOpen": true
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "close": {
-                    "odds": "-230",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966%3Foutcomes%3D0ML85442920_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857061,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip/_/id/49345819/washington-mystics-vs-seattle-storm-game-highlights",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip/_/id/49345819/washington-mystics-vs-seattle-storm-game-highlights",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=105009deb0fd5"
                     }
-                  },
-                  "open": {
-                    "odds": "-155"
                   }
                 },
-                "away": {
-                  "close": {
-                    "odds": "+190",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "away",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966%3Foutcomes%3D0ML85442920_3",
-                      "text": "Away Bet",
-                      "shortText": "Away Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857061,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
+                "mobile": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fff170d-5e05-491c-91da-4d943ea3f83f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49345819/washington-mystics-vs-seattle-storm-game-highlights",
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=49345819"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fff170d-5e05-491c-91da-4d943ea3f83f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49345819/washington-mystics-vs-seattle-storm-game-highlights"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/7fff170d-5e05-491c-91da-4d943ea3f83f/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49345819/washington-mystics-vs-seattle-storm-game-highlights"
+                  }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/49345819"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/7fff170d-5e05-491c-91da-4d943ea3f83f"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda/playlist.m3u8"
                       }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/7fff170d-5e05-491c-91da-4d943ea3f83f/asset"
                     }
                   },
-                  "open": {
-                    "odds": "+130"
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0712/42b54e47-ca6c-4e31-9d67-f81178384bda/42b54e47-ca6c-4e31-9d67-f81178384bda_360p30_1464k.mp4"
                   }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=49345819&videoDSI=105009deb0fd5"
                 }
               },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "close": {
-                    "line": "-6.5",
-                    "odds": "-105",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966%3Foutcomes%3D0HC85442920N650_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857061,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:WSH-6.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-3.5",
-                    "odds": "-110"
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": "+6.5",
-                    "odds": "-115",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966%3Foutcomes%3D0HC85442920P650_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857061,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:SEA+6.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+3.5",
-                    "odds": "-110"
-                  }
-                }
+              "ad": {
+                "sport": "wnba",
+                "bundle": "wnba_top_plays_highlights"
               },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "close": {
-                    "line": "o162.5",
-                    "odds": "-110",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966%3Foutcomes%3D0OU85442920O16250_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857061,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:162.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o160.5",
-                    "odds": "-110"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "line": "u162.5",
-                    "odds": "-110",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966%3Foutcomes%3D0OU85442920U16250_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857061,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:162.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u160.5",
-                    "odds": "-110"
-                  }
-                }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34375966",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "wnba",
-                    "sport": "basketball",
-                    "gameId": 401857061,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
+              "tracking": {
+                "sportName": "basketball",
+                "leagueName": "WNBA",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "WNBA_One-Play (Washington Mystics vs. Seattle Storm - Game Highlights) 2026/07/12 ESHEET",
+                "trackingId": "dm_20260712_WNBA_washington_mystics_vs_seattle_storm_game_highlights",
+                "program": "WNBA"
               }
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -2694,20 +2370,58 @@
           "shortText": "Gamecast",
           "isExternal": false,
           "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/wnba/boxscore/_/gameId/401857061",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/wnba/video?gameId=401857061",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/wnba/playbyplay/_/gameId/401857061",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
+          "isExternal": false,
+          "isPremium": false
         }
       ],
       "status": {
         "clock": 0,
         "displayClock": "0.0",
-        "period": 0,
+        "period": 4,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Sun, July 12th at 3:00 PM EDT",
-          "shortDetail": "7/12 - 3:00 PM EDT"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     },
@@ -3563,8 +3277,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $32",
-              "numberAvailable": 792,
+              "summary": "Tickets as low as $30",
+              "numberAvailable": 696,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dallas-wings-tickets-dallas-american-airlines-center---tx-7-12-2026/production/6559265?wsUser=717"
@@ -3632,7 +3346,8 @@
                       "dark"
                     ]
                   }
-                ]
+                ],
+                "displayName": "DraftKings"
               },
               "details": "DAL -9.5",
               "overUnder": 177.5,
@@ -3668,7 +3383,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-440",
+                    "odds": "-455",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3700,7 +3415,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+340",
+                    "odds": "+350",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3809,7 +3524,7 @@
                 "over": {
                   "close": {
                     "line": "o177.5",
-                    "odds": "-112",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3843,7 +3558,7 @@
                 "under": {
                   "close": {
                     "line": "u177.5",
-                    "odds": "-110",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4795,8 +4510,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $139",
-              "numberAvailable": 87,
+              "summary": "Tickets as low as $160",
+              "numberAvailable": 156,
               "links": [
                 {
                   "href": "https://www.vividseats.com/las-vegas-aces-tickets-michelob-ultra-arena-at-mandalay-bay-resort-and-casino-7-12-2026--sports-wnba/production/6559000?wsUser=717"
@@ -4965,7 +4680,7 @@
                 "home": {
                   "close": {
                     "line": "-4.5",
-                    "odds": "-105",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4999,7 +4714,7 @@
                 "away": {
                   "close": {
                     "line": "+4.5",
-                    "odds": "-115",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5037,7 +4752,7 @@
                 "over": {
                   "close": {
                     "line": "o180.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5071,7 +4786,7 @@
                 "under": {
                   "close": {
                     "line": "u180.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
