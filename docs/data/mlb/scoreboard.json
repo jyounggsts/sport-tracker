@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-14T20:41:17.086Z",
+  "fetchedAt": "2026-07-14T23:36:52.618Z",
   "sportId": "mlb",
   "liveCount": 0,
   "seasonStatus": {
@@ -50,7 +50,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-13T04:16Z"
+          "lastUpdated": "2026-07-13T21:26Z"
         }
       ],
       "calendarType": "day",
@@ -142,7 +142,7 @@
           "neutralSite": true,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "wasSuspended": false,
           "venue": {
             "id": "84",
@@ -407,8 +407,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $870",
-              "numberAvailable": 312,
+              "summary": "Tickets as low as $551",
+              "numberAvailable": 167,
               "links": [
                 {
                   "href": "https://www.vividseats.com/mlb-all-star-game-tickets-citizens-bank-park-7-14-2026--sports-mlb-baseball/production/5724387?wsUser=717"
@@ -461,7 +461,7 @@
                 "displayName": "DraftKings"
               },
               "details": "NL -135",
-              "overUnder": 8,
+              "overUnder": 8.5,
               "spread": -1.5,
               "awayTeamOdds": {
                 "favorite": false,
@@ -575,7 +575,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+145",
+                    "odds": "+150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -609,7 +609,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-180",
+                    "odds": "-185",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -646,8 +646,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o8",
-                    "odds": "-120",
+                    "line": "o8.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -655,7 +655,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34343806%3Foutcomes%3D0OU85346561O800_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34343806%3Foutcomes%3D0OU85346561O850_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -668,7 +668,7 @@
                           "gameId": 401817370,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:8"
+                          "betDetails": "Over:8.5"
                         }
                       }
                     }
@@ -680,8 +680,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u8",
-                    "odds": "-105",
+                    "line": "u8.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -689,7 +689,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34343806%3Foutcomes%3D0OU85346561U800_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34343806%3Foutcomes%3D0OU85346561U850_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -702,7 +702,7 @@
                           "gameId": 401817370,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:8"
+                          "betDetails": "Under:8.5"
                         }
                       }
                     }
