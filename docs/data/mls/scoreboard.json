@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-16T23:43:17.927Z",
+  "fetchedAt": "2026-07-17T07:33:57.433Z",
   "sportId": "mls",
   "liveCount": 0,
   "seasonStatus": {
@@ -134,15 +134,15 @@
     "year": 2026
   },
   "day": {
-    "date": "2026-07-16"
+    "date": "2026-07-17"
   },
   "events": [
     {
-      "id": "761659",
-      "uid": "s:600~l:770~e:761659",
-      "date": "2026-07-16T23:30Z",
-      "name": "Toronto FC at CF Montréal",
-      "shortName": "TOR @ MTL",
+      "id": "761663",
+      "uid": "s:600~l:770~e:761663",
+      "date": "2026-07-18T00:10Z",
+      "name": "Atlanta United FC at Nashville SC",
+      "shortName": "ATL @ NSH",
       "season": {
         "year": 2026,
         "type": 13846,
@@ -150,13 +150,13 @@
       },
       "competitions": [
         {
-          "id": "761659",
-          "uid": "s:600~l:770~e:761659~c:761659",
-          "date": "2026-07-16T23:30Z",
-          "startDate": "2026-07-16T23:30Z",
+          "id": "761663",
+          "uid": "s:600~l:770~e:761663~c:761663",
+          "date": "2026-07-18T00:10Z",
+          "startDate": "2026-07-18T00:10Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": true,
+          "recent": false,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -166,680 +166,28 @@
               "state": "pre",
               "completed": false,
               "description": "Scheduled",
-              "detail": "Thu, July 16th at 7:30 PM EDT",
+              "detail": "Fri, July 17th at 8:10 PM EDT",
               "shortDetail": "Scheduled"
             }
           },
           "venue": {
-            "id": "3278",
-            "fullName": "Stade Saputo",
+            "id": "8993",
+            "fullName": "GEODIS Park",
             "address": {
-              "city": "Montreal",
-              "country": "Canada"
-            }
-          },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $15",
-              "numberAvailable": 1056,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/cf-montreal-tickets-stade-saputo-7-16-2026/production/6325062?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/venues/stade-saputo-tickets.html?wsUser=717"
-                }
-              ]
-            }
-          ],
-          "format": {
-            "regulation": {
-              "periods": 2
-            }
-          },
-          "altGameNote": "MLS",
-          "notes": [],
-          "geoBroadcasts": [
-            {
-              "type": {
-                "id": "4",
-                "shortName": "STREAMING"
-              },
-              "market": {
-                "id": "1",
-                "type": "National"
-              },
-              "media": {
-                "shortName": "Apple TV"
-              },
-              "lang": "en",
-              "region": "us"
-            }
-          ],
-          "broadcasts": [
-            {
-              "market": "national",
-              "names": [
-                "Apple TV"
-              ]
-            }
-          ],
-          "broadcast": "",
-          "competitors": [
-            {
-              "id": "9720",
-              "uid": "s:600~t:9720",
-              "type": "team",
-              "order": 0,
-              "homeAway": "home",
-              "winner": false,
-              "form": "DLDWL",
-              "score": "0",
-              "records": [
-                {
-                  "name": "All Splits",
-                  "type": "total",
-                  "summary": "4-2-8",
-                  "abbreviation": "Total"
-                }
-              ],
-              "team": {
-                "id": "9720",
-                "uid": "s:600~t:9720",
-                "abbreviation": "MTL",
-                "displayName": "CF Montréal",
-                "shortDisplayName": "CF Montréal",
-                "name": "CF Montréal",
-                "location": "CF Montréal",
-                "color": "003da6",
-                "alternateColor": "c1c5c8",
-                "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9720.png",
-                "links": [
-                  {
-                    "rel": [
-                      "clubhouse",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/club/_/id/9720/cf-montreal",
-                    "text": "Clubhouse",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "stats",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/team/stats/_/id/9720/cf-montreal",
-                    "text": "Stats",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "stats",
-                      "sportscenter",
-                      "app",
-                      "team"
-                    ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9720&section=stats",
-                    "text": "Stats",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "schedule",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/9720/cf-montreal",
-                    "text": "Fixtures",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "schedule",
-                      "sportscenter",
-                      "app",
-                      "team"
-                    ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9720&section=scores",
-                    "text": "Fixtures",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "squad",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/team/squad/_/id/9720/cf-montreal",
-                    "text": "Squad",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "squad",
-                      "sportscenter",
-                      "app",
-                      "team"
-                    ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9720&section=squad",
-                    "text": "Squad",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  }
-                ],
-                "venue": {
-                  "id": "3278"
-                }
-              },
-              "statistics": [
-                {
-                  "name": "appearances",
-                  "abbreviation": "APP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "foulsCommitted",
-                  "abbreviation": "FC",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "wonCorners",
-                  "abbreviation": "CW",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "goalAssists",
-                  "abbreviation": "A",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "possessionPct",
-                  "abbreviation": "PP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotAssists",
-                  "abbreviation": "SHAST",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotsOnTarget",
-                  "abbreviation": "SOG",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalGoals",
-                  "abbreviation": "G",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalShots",
-                  "abbreviation": "SHOT",
-                  "displayValue": "0"
-                }
-              ],
-              "leaders": [
-                {
-                  "name": "goals",
-                  "displayName": "Goals",
-                  "shortDisplayName": "Goals",
-                  "abbreviation": "G",
-                  "leaders": [
-                    {
-                      "displayValue": "9",
-                      "value": 9,
-                      "athlete": {
-                        "id": "275798",
-                        "displayName": "Prince Owusu",
-                        "shortName": "P. Owusu",
-                        "fullName": "Prince Owusu",
-                        "jersey": "9",
-                        "active": true,
-                        "team": {
-                          "id": "9720"
-                        },
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/soccer/player/_/id/275798/prince-owusu",
-                            "isHidden": false
-                          }
-                        ],
-                        "position": {
-                          "abbreviation": "F"
-                        }
-                      },
-                      "team": {
-                        "id": "9720"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "goalsLeaders",
-                  "displayName": "Goals",
-                  "shortDisplayName": "Goals",
-                  "abbreviation": "G",
-                  "leaders": [
-                    {
-                      "displayValue": "9",
-                      "value": 9,
-                      "athlete": {
-                        "id": "275798",
-                        "displayName": "Prince Owusu",
-                        "shortName": "P. Owusu",
-                        "fullName": "Prince Owusu",
-                        "jersey": "9",
-                        "active": true,
-                        "team": {
-                          "id": "9720"
-                        },
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/soccer/player/_/id/275798/prince-owusu",
-                            "isHidden": false
-                          }
-                        ],
-                        "position": {
-                          "abbreviation": "F"
-                        }
-                      },
-                      "team": {
-                        "id": "9720"
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "7318",
-              "uid": "s:600~t:7318",
-              "type": "team",
-              "order": 1,
-              "homeAway": "away",
-              "winner": false,
-              "form": "LLLDL",
-              "score": "0",
-              "records": [
-                {
-                  "name": "All Splits",
-                  "type": "total",
-                  "summary": "3-5-6",
-                  "abbreviation": "Total"
-                }
-              ],
-              "team": {
-                "id": "7318",
-                "uid": "s:600~t:7318",
-                "abbreviation": "TOR",
-                "displayName": "Toronto FC",
-                "shortDisplayName": "Toronto",
-                "name": "Toronto FC",
-                "location": "Toronto FC",
-                "color": "aa182c",
-                "alternateColor": "a2a9ad",
-                "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
-                "links": [
-                  {
-                    "rel": [
-                      "clubhouse",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/club/_/id/7318/toronto-fc",
-                    "text": "Clubhouse",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "stats",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/team/stats/_/id/7318/toronto-fc",
-                    "text": "Stats",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "stats",
-                      "sportscenter",
-                      "app",
-                      "team"
-                    ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:7318&section=stats",
-                    "text": "Stats",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "schedule",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/7318/toronto-fc",
-                    "text": "Fixtures",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "schedule",
-                      "sportscenter",
-                      "app",
-                      "team"
-                    ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:7318&section=scores",
-                    "text": "Fixtures",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "squad",
-                      "desktop",
-                      "team"
-                    ],
-                    "href": "https://www.espn.com/soccer/team/squad/_/id/7318/toronto-fc",
-                    "text": "Squad",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  },
-                  {
-                    "rel": [
-                      "squad",
-                      "sportscenter",
-                      "app",
-                      "team"
-                    ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:7318&section=squad",
-                    "text": "Squad",
-                    "isExternal": false,
-                    "isPremium": false,
-                    "isHidden": false
-                  }
-                ],
-                "venue": {
-                  "id": "10143"
-                }
-              },
-              "statistics": [
-                {
-                  "name": "appearances",
-                  "abbreviation": "APP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "foulsCommitted",
-                  "abbreviation": "FC",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "wonCorners",
-                  "abbreviation": "CW",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "goalAssists",
-                  "abbreviation": "A",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "possessionPct",
-                  "abbreviation": "PP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotAssists",
-                  "abbreviation": "SHAST",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotsOnTarget",
-                  "abbreviation": "SOG",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalGoals",
-                  "abbreviation": "G",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalShots",
-                  "abbreviation": "SHOT",
-                  "displayValue": "0"
-                }
-              ],
-              "leaders": [
-                {
-                  "name": "goals",
-                  "displayName": "Goals",
-                  "shortDisplayName": "Goals",
-                  "abbreviation": "G",
-                  "leaders": [
-                    {
-                      "displayValue": "4",
-                      "value": 4,
-                      "athlete": {
-                        "id": "233050",
-                        "displayName": "Dániel Sallói",
-                        "shortName": "D. Sallói",
-                        "fullName": "Dániel Sallói",
-                        "jersey": "20",
-                        "active": true,
-                        "team": {
-                          "id": "7318"
-                        },
-                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233050.png",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/soccer/player/_/id/233050/daniel-salloi",
-                            "isHidden": false
-                          }
-                        ],
-                        "position": {
-                          "abbreviation": "F"
-                        }
-                      },
-                      "team": {
-                        "id": "7318"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "goalsLeaders",
-                  "displayName": "Goals",
-                  "shortDisplayName": "Goals",
-                  "abbreviation": "G",
-                  "leaders": [
-                    {
-                      "displayValue": "4",
-                      "value": 4,
-                      "athlete": {
-                        "id": "233050",
-                        "displayName": "Dániel Sallói",
-                        "shortName": "D. Sallói",
-                        "fullName": "Dániel Sallói",
-                        "jersey": "20",
-                        "active": true,
-                        "team": {
-                          "id": "7318"
-                        },
-                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233050.png",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/soccer/player/_/id/233050/daniel-salloi",
-                            "isHidden": false
-                          }
-                        ],
-                        "position": {
-                          "abbreviation": "F"
-                        }
-                      },
-                      "team": {
-                        "id": "7318"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "details": [],
-          "odds": [
-            null
-          ],
-          "wasSuspended": false,
-          "playByPlayAvailable": true,
-          "playByPlayAthletes": true
-        }
-      ],
-      "status": {
-        "clock": 0,
-        "displayClock": "0'",
-        "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Thu, July 16th at 7:30 PM EDT",
-          "shortDetail": "Scheduled"
-        }
-      },
-      "venue": {
-        "displayName": "Stade Saputo"
-      },
-      "links": [
-        {
-          "language": "en-US",
-          "rel": [
-            "summary",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/soccer/match/_/gameId/761659/toronto-fc-cf-montreal",
-          "text": "Summary",
-          "shortText": "Summary",
-          "isExternal": false,
-          "isPremium": false,
-          "isHidden": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "stats",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/soccer/matchstats/_/gameId/761659",
-          "text": "Statistics",
-          "shortText": "Statistics",
-          "isExternal": false,
-          "isPremium": false,
-          "isHidden": false
-        }
-      ]
-    },
-    {
-      "id": "761661",
-      "uid": "s:600~l:770~e:761661",
-      "date": "2026-07-17T00:30Z",
-      "name": "Sporting Kansas City at St. Louis CITY SC",
-      "shortName": "SKC @ STL",
-      "season": {
-        "year": 2026,
-        "type": 13846,
-        "slug": "regular-season"
-      },
-      "competitions": [
-        {
-          "id": "761661",
-          "uid": "s:600~l:770~e:761661~c:761661",
-          "date": "2026-07-17T00:30Z",
-          "startDate": "2026-07-17T00:30Z",
-          "attendance": 0,
-          "timeValid": true,
-          "recent": true,
-          "status": {
-            "clock": 0,
-            "displayClock": "0'",
-            "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Thu, July 16th at 8:30 PM EDT",
-              "shortDetail": "Scheduled"
-            }
-          },
-          "venue": {
-            "id": "10421",
-            "fullName": "Energizer Park",
-            "address": {
-              "city": "St. Louis, Missouri",
+              "city": "Nashville, Tennessee",
               "country": "USA"
             }
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $31",
-              "numberAvailable": 230,
+              "summary": "Tickets as low as $29",
+              "numberAvailable": 1637,
               "links": [
                 {
-                  "href": "https://www.vividseats.com/st-louis-city-sc-tickets-energizer-park-7-16-2026--sports-mls/production/6325038?wsUser=717"
+                  "href": "https://www.vividseats.com/nashville-sc-tickets-geodis-park-7-17-2026--sports-mls/production/6325236?wsUser=717"
                 },
                 {
-                  "href": "https://www.vividseats.com/venues/energizer-park-tickets.html?wsUser=717"
+                  "href": "https://www.vividseats.com/venues/geodis-park-tickets.html?wsUser=717"
                 }
               ]
             }
@@ -852,6 +200,21 @@
           "altGameNote": "MLS",
           "notes": [],
           "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            },
             {
               "type": {
                 "id": "4",
@@ -872,6 +235,7 @@
             {
               "market": "national",
               "names": [
+                "FOX",
                 "Apple TV"
               ]
             }
@@ -879,34 +243,34 @@
           "broadcast": "",
           "competitors": [
             {
-              "id": "21812",
-              "uid": "s:600~t:21812",
+              "id": "18986",
+              "uid": "s:600~t:18986",
               "type": "team",
               "order": 0,
               "homeAway": "home",
               "winner": false,
-              "form": "WWDWW",
+              "form": "WWWDL",
               "score": "0",
               "records": [
                 {
                   "name": "All Splits",
                   "type": "total",
-                  "summary": "4-4-6",
+                  "summary": "10-3-1",
                   "abbreviation": "Total"
                 }
               ],
               "team": {
-                "id": "21812",
-                "uid": "s:600~t:21812",
-                "abbreviation": "STL",
-                "displayName": "St. Louis CITY SC",
-                "shortDisplayName": "St. Louis",
-                "name": "St. Louis CITY SC",
-                "location": "St. Louis CITY SC",
-                "color": "ec1458",
-                "alternateColor": "001544",
+                "id": "18986",
+                "uid": "s:600~t:18986",
+                "abbreviation": "NSH",
+                "displayName": "Nashville SC",
+                "shortDisplayName": "Nashville",
+                "name": "Nashville SC",
+                "location": "Nashville SC",
+                "color": "ece83a",
+                "alternateColor": "1f1646",
                 "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18986.png",
                 "links": [
                   {
                     "rel": [
@@ -914,7 +278,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/club/_/id/21812/st-louis-city-sc",
+                    "href": "https://www.espn.com/soccer/club/_/id/18986/nashville-sc",
                     "text": "Clubhouse",
                     "isExternal": false,
                     "isPremium": false,
@@ -926,7 +290,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/stats/_/id/21812/st-louis-city-sc",
+                    "href": "https://www.espn.com/soccer/team/stats/_/id/18986/nashville-sc",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -939,7 +303,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21812&section=stats",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18986&section=stats",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -951,7 +315,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/21812/st-louis-city-sc",
+                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/18986/nashville-sc",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -964,7 +328,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21812&section=scores",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18986&section=scores",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -976,7 +340,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/squad/_/id/21812/st-louis-city-sc",
+                    "href": "https://www.espn.com/soccer/team/squad/_/id/18986/nashville-sc",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -989,7 +353,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:21812&section=squad",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18986&section=squad",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -997,56 +361,10 @@
                   }
                 ],
                 "venue": {
-                  "id": "10421"
+                  "id": "8993"
                 }
               },
-              "statistics": [
-                {
-                  "name": "appearances",
-                  "abbreviation": "APP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "foulsCommitted",
-                  "abbreviation": "FC",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "wonCorners",
-                  "abbreviation": "CW",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "goalAssists",
-                  "abbreviation": "A",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "possessionPct",
-                  "abbreviation": "PP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotAssists",
-                  "abbreviation": "SHAST",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotsOnTarget",
-                  "abbreviation": "SOG",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalGoals",
-                  "abbreviation": "G",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalShots",
-                  "abbreviation": "SHOT",
-                  "displayValue": "0"
-                }
-              ],
+              "statistics": [],
               "leaders": [
                 {
                   "name": "goals",
@@ -1055,17 +373,17 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "3",
-                      "value": 3,
+                      "displayValue": "9",
+                      "value": 9,
                       "athlete": {
-                        "id": "234125",
-                        "displayName": "Marcel Hartel",
-                        "shortName": "M. Hartel",
-                        "fullName": "Marcel Hartel",
-                        "jersey": "17",
+                        "id": "227627",
+                        "displayName": "Sam Surridge",
+                        "shortName": "S. Surridge",
+                        "fullName": "Sam Surridge",
+                        "jersey": "9",
                         "active": true,
                         "team": {
-                          "id": "21812"
+                          "id": "18986"
                         },
                         "links": [
                           {
@@ -1074,16 +392,16 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/234125/marcel-hartel",
+                            "href": "https://www.espn.com/soccer/player/_/id/227627/sam-surridge",
                             "isHidden": false
                           }
                         ],
                         "position": {
-                          "abbreviation": "M"
+                          "abbreviation": "F"
                         }
                       },
                       "team": {
-                        "id": "21812"
+                        "id": "18986"
                       }
                     }
                   ]
@@ -1095,17 +413,17 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "3",
-                      "value": 3,
+                      "displayValue": "9",
+                      "value": 9,
                       "athlete": {
-                        "id": "234125",
-                        "displayName": "Marcel Hartel",
-                        "shortName": "M. Hartel",
-                        "fullName": "Marcel Hartel",
-                        "jersey": "17",
+                        "id": "227627",
+                        "displayName": "Sam Surridge",
+                        "shortName": "S. Surridge",
+                        "fullName": "Sam Surridge",
+                        "jersey": "9",
                         "active": true,
                         "team": {
-                          "id": "21812"
+                          "id": "18986"
                         },
                         "links": [
                           {
@@ -1114,16 +432,16 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/234125/marcel-hartel",
+                            "href": "https://www.espn.com/soccer/player/_/id/227627/sam-surridge",
                             "isHidden": false
                           }
                         ],
                         "position": {
-                          "abbreviation": "M"
+                          "abbreviation": "F"
                         }
                       },
                       "team": {
-                        "id": "21812"
+                        "id": "18986"
                       }
                     }
                   ]
@@ -1131,13 +449,13 @@
               ]
             },
             {
-              "id": "186",
-              "uid": "s:600~t:186",
+              "id": "18418",
+              "uid": "s:600~t:18418",
               "type": "team",
               "order": 1,
               "homeAway": "away",
               "winner": false,
-              "form": "LWWLD",
+              "form": "LLDLW",
               "score": "0",
               "records": [
                 {
@@ -1148,17 +466,17 @@
                 }
               ],
               "team": {
-                "id": "186",
-                "uid": "s:600~t:186",
-                "abbreviation": "SKC",
-                "displayName": "Sporting Kansas City",
-                "shortDisplayName": "Kansas City",
-                "name": "Sporting Kansas City",
-                "location": "Sporting Kansas City",
-                "color": "a7c6ed",
-                "alternateColor": "0a2240",
+                "id": "18418",
+                "uid": "s:600~t:18418",
+                "abbreviation": "ATL",
+                "displayName": "Atlanta United FC",
+                "shortDisplayName": "Atlanta",
+                "name": "Atlanta United FC",
+                "location": "Atlanta United FC",
+                "color": "9d2235",
+                "alternateColor": "aa9767",
                 "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18418.png",
                 "links": [
                   {
                     "rel": [
@@ -1166,7 +484,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/club/_/id/186/sporting-kansas-city",
+                    "href": "https://www.espn.com/soccer/club/_/id/18418/atlanta-united-fc",
                     "text": "Clubhouse",
                     "isExternal": false,
                     "isPremium": false,
@@ -1178,7 +496,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/stats/_/id/186/sporting-kansas-city",
+                    "href": "https://www.espn.com/soccer/team/stats/_/id/18418/atlanta-united-fc",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -1191,7 +509,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:186&section=stats",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18418&section=stats",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -1203,7 +521,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/186/sporting-kansas-city",
+                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/18418/atlanta-united-fc",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -1216,7 +534,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:186&section=scores",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18418&section=scores",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -1228,7 +546,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/squad/_/id/186/sporting-kansas-city",
+                    "href": "https://www.espn.com/soccer/team/squad/_/id/18418/atlanta-united-fc",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -1241,7 +559,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:186&section=squad",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18418&section=squad",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -1249,56 +567,10 @@
                   }
                 ],
                 "venue": {
-                  "id": "6587"
+                  "id": "7485"
                 }
               },
-              "statistics": [
-                {
-                  "name": "appearances",
-                  "abbreviation": "APP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "foulsCommitted",
-                  "abbreviation": "FC",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "wonCorners",
-                  "abbreviation": "CW",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "goalAssists",
-                  "abbreviation": "A",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "possessionPct",
-                  "abbreviation": "PP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotAssists",
-                  "abbreviation": "SHAST",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotsOnTarget",
-                  "abbreviation": "SOG",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalGoals",
-                  "abbreviation": "G",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "totalShots",
-                  "abbreviation": "SHOT",
-                  "displayValue": "0"
-                }
-              ],
+              "statistics": [],
               "leaders": [
                 {
                   "name": "goals",
@@ -1307,19 +579,18 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "6",
-                      "value": 6,
+                      "displayValue": "5",
+                      "value": 5,
                       "athlete": {
-                        "id": "240110",
-                        "displayName": "Dejan Joveljic",
-                        "shortName": "D. Joveljic",
-                        "fullName": "Dejan Joveljic",
-                        "jersey": "9",
+                        "id": "185897",
+                        "displayName": "Alexey Miranchuk",
+                        "shortName": "A. Miranchuk",
+                        "fullName": "Alexey Miranchuk",
+                        "jersey": "59",
                         "active": true,
                         "team": {
-                          "id": "186"
+                          "id": "18418"
                         },
-                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/240110.png",
                         "links": [
                           {
                             "rel": [
@@ -1327,16 +598,16 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/240110/dejan-joveljic",
+                            "href": "https://www.espn.com/soccer/player/_/id/185897/alexey-miranchuk",
                             "isHidden": false
                           }
                         ],
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "M"
                         }
                       },
                       "team": {
-                        "id": "186"
+                        "id": "18418"
                       }
                     }
                   ]
@@ -1348,19 +619,18 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "6",
-                      "value": 6,
+                      "displayValue": "5",
+                      "value": 5,
                       "athlete": {
-                        "id": "240110",
-                        "displayName": "Dejan Joveljic",
-                        "shortName": "D. Joveljic",
-                        "fullName": "Dejan Joveljic",
-                        "jersey": "9",
+                        "id": "185897",
+                        "displayName": "Alexey Miranchuk",
+                        "shortName": "A. Miranchuk",
+                        "fullName": "Alexey Miranchuk",
+                        "jersey": "59",
                         "active": true,
                         "team": {
-                          "id": "186"
+                          "id": "18418"
                         },
-                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/240110.png",
                         "links": [
                           {
                             "rel": [
@@ -1368,16 +638,16 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/240110/dejan-joveljic",
+                            "href": "https://www.espn.com/soccer/player/_/id/185897/alexey-miranchuk",
                             "isHidden": false
                           }
                         ],
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "M"
                         }
                       },
                       "team": {
-                        "id": "186"
+                        "id": "18418"
                       }
                     }
                   ]
@@ -1388,7 +658,7 @@
           "details": [],
           "odds": [
             {
-              "overUnder": 3.5,
+              "overUnder": 2.5,
               "link": {
                 "language": "en-US",
                 "rel": [
@@ -1396,7 +666,7 @@
                   "desktop",
                   "bets"
                 ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492",
+                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489",
                 "text": "Game",
                 "shortText": "Game",
                 "isExternal": true,
@@ -1424,7 +694,7 @@
                 ]
               },
               "drawOdds": {
-                "moneyLine": 380,
+                "moneyLine": 340,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -1433,7 +703,7 @@
                     "bets",
                     "draftkings"
                   ],
-                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0ML85477267_2",
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0ML85477265_2",
                   "text": "Draw Bet",
                   "shortText": "Draw Bet",
                   "isExternal": true,
@@ -1446,27 +716,27 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "open": {
-                    "line": "o3.5",
-                    "odds": "-105"
+                    "line": "o2.5",
+                    "odds": "-145"
                   },
                   "close": {
-                    "line": "o3.5",
-                    "odds": "-105",
+                    "line": "o2.5",
+                    "odds": "-145",
                     "link": {
                       "rel": [
                         "over",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0OU85477353O350_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0OU85477275O250_1",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:3.5"
+                          "betDetails": "Over:2.5"
                         }
                       }
                     }
@@ -1474,27 +744,27 @@
                 },
                 "under": {
                   "open": {
-                    "line": "u3.5",
-                    "odds": "-130"
+                    "line": "u2.5",
+                    "odds": "+110"
                   },
                   "close": {
-                    "line": "u3.5",
-                    "odds": "-125",
+                    "line": "u2.5",
+                    "odds": "+115",
                     "link": {
                       "rel": [
                         "under",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0OU85477353U350_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0OU85477275U250_3",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:3.5"
+                          "betDetails": "Under:2.5"
                         }
                       }
                     }
@@ -1507,26 +777,26 @@
                 "home": {
                   "open": {
                     "line": "-1.5",
-                    "odds": "+105"
+                    "odds": "+110"
                   },
                   "close": {
                     "line": "-1.5",
-                    "odds": "+105",
+                    "odds": "+125",
                     "link": {
                       "rel": [
                         "homeSpread",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0HC85477358N150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0HC85477280N150_1",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "home",
                           "betType": "straight",
-                          "betDetails": "Spread:STL-1.5"
+                          "betDetails": "Spread:NSH-1.5"
                         }
                       }
                     }
@@ -1535,26 +805,26 @@
                 "away": {
                   "open": {
                     "line": "+1.5",
-                    "odds": "-150"
+                    "odds": "-165"
                   },
                   "close": {
                     "line": "+1.5",
-                    "odds": "-145",
+                    "odds": "-175",
                     "link": {
                       "rel": [
                         "awaySpread",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0HC85477358P150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0HC85477280P150_3",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "away",
                           "betType": "straight",
-                          "betDetails": "Spread:SKC+1.5"
+                          "betDetails": "Spread:ATL+1.5"
                         }
                       }
                     }
@@ -1566,22 +836,22 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "open": {
-                    "odds": "-240"
+                    "odds": "-235"
                   },
                   "close": {
-                    "odds": "-240",
+                    "odds": "-215",
                     "link": {
                       "rel": [
                         "home",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0ML85477267_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0ML85477265_1",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "home",
                           "betType": "straight"
                         }
@@ -1591,22 +861,22 @@
                 },
                 "away": {
                   "open": {
-                    "odds": "+475"
+                    "odds": "+500"
                   },
                   "close": {
-                    "odds": "+500",
+                    "odds": "+475",
                     "link": {
                       "rel": [
                         "away",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0ML85477267_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0ML85477265_3",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "away",
                           "betType": "straight"
                         }
@@ -1616,22 +886,22 @@
                 },
                 "draw": {
                   "open": {
-                    "odds": "+380"
+                    "odds": "+350"
                   },
                   "close": {
-                    "odds": "+380",
+                    "odds": "+340",
                     "link": {
                       "rel": [
                         "draw",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388492%3Foutcomes%3D0ML85477267_2",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388489%3Foutcomes%3D0ML85477265_2",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761661,
+                          "gameId": 761663,
                           "betSide": "draw",
                           "betType": "straight"
                         }
@@ -1640,7 +910,7 @@
                   }
                 }
               },
-              "details": "STL -240"
+              "details": "NSH -215"
             }
           ],
           "wasSuspended": false,
@@ -1657,12 +927,12 @@
           "state": "pre",
           "completed": false,
           "description": "Scheduled",
-          "detail": "Thu, July 16th at 8:30 PM EDT",
+          "detail": "Fri, July 17th at 8:10 PM EDT",
           "shortDetail": "Scheduled"
         }
       },
       "venue": {
-        "displayName": "Energizer Park"
+        "displayName": "GEODIS Park"
       },
       "links": [
         {
@@ -1672,7 +942,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/soccer/match/_/gameId/761661/sporting-kansas-city-st-louis-city-sc",
+          "href": "https://www.espn.com/soccer/match/_/gameId/761663/atlanta-united-fc-nashville-sc",
           "text": "Summary",
           "shortText": "Summary",
           "isExternal": false,
@@ -1686,7 +956,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/soccer/matchstats/_/gameId/761661",
+          "href": "https://www.espn.com/soccer/matchstats/_/gameId/761663",
           "text": "Statistics",
           "shortText": "Statistics",
           "isExternal": false,
@@ -1696,11 +966,11 @@
       ]
     },
     {
-      "id": "761662",
-      "uid": "s:600~l:770~e:761662",
-      "date": "2026-07-17T02:30Z",
-      "name": "Portland Timbers at Seattle Sounders FC",
-      "shortName": "POR @ SEA",
+      "id": "761664",
+      "uid": "s:600~l:770~e:761664",
+      "date": "2026-07-18T02:25Z",
+      "name": "LAFC at LA Galaxy",
+      "shortName": "LAFC @ LA",
       "season": {
         "year": 2026,
         "type": 13846,
@@ -1708,10 +978,10 @@
       },
       "competitions": [
         {
-          "id": "761662",
-          "uid": "s:600~l:770~e:761662~c:761662",
-          "date": "2026-07-17T02:30Z",
-          "startDate": "2026-07-17T02:30Z",
+          "id": "761664",
+          "uid": "s:600~l:770~e:761664~c:761664",
+          "date": "2026-07-18T02:25Z",
+          "startDate": "2026-07-18T02:25Z",
           "attendance": 0,
           "timeValid": true,
           "recent": false,
@@ -1724,28 +994,28 @@
               "state": "pre",
               "completed": false,
               "description": "Scheduled",
-              "detail": "Thu, July 16th at 10:30 PM EDT",
+              "detail": "Fri, July 17th at 10:25 PM EDT",
               "shortDetail": "Scheduled"
             }
           },
           "venue": {
-            "id": "4485",
-            "fullName": "Lumen Field",
+            "id": "1423",
+            "fullName": "Dignity Health Sports Park",
             "address": {
-              "city": "Seattle, Washington",
+              "city": "Carson, California",
               "country": "USA"
             }
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $51",
-              "numberAvailable": 614,
+              "summary": "Tickets as low as $77",
+              "numberAvailable": 1083,
               "links": [
                 {
-                  "href": "https://www.vividseats.com/seattle-sounders-fc-tickets-lumen-field-7-16-2026--sports-mls/production/6324668?wsUser=717"
+                  "href": "https://www.vividseats.com/los-angeles-galaxy-tickets-dignity-health-sports-park-7-17-2026--sports-mls/production/6324758?wsUser=717"
                 },
                 {
-                  "href": "https://www.vividseats.com/lumen-field-tickets/venue/2440?wsUser=717"
+                  "href": "https://www.vividseats.com/dignity-health-sports-park-tickets/venue/2792?wsUser=717"
                 }
               ]
             }
@@ -1758,6 +1028,21 @@
           "altGameNote": "MLS",
           "notes": [],
           "geoBroadcasts": [
+            {
+              "type": {
+                "id": "1",
+                "shortName": "TV"
+              },
+              "market": {
+                "id": "1",
+                "type": "National"
+              },
+              "media": {
+                "shortName": "FOX"
+              },
+              "lang": "en",
+              "region": "us"
+            },
             {
               "type": {
                 "id": "4",
@@ -1778,6 +1063,7 @@
             {
               "market": "national",
               "names": [
+                "FOX",
                 "Apple TV"
               ]
             }
@@ -1785,34 +1071,34 @@
           "broadcast": "",
           "competitors": [
             {
-              "id": "9726",
-              "uid": "s:600~t:9726",
+              "id": "187",
+              "uid": "s:600~t:187",
               "type": "team",
               "order": 0,
               "homeAway": "home",
               "winner": false,
-              "form": "LLWDD",
+              "form": "DWLWD",
               "score": "0",
               "records": [
                 {
                   "name": "All Splits",
                   "type": "total",
-                  "summary": "7-3-3",
+                  "summary": "5-5-5",
                   "abbreviation": "Total"
                 }
               ],
               "team": {
-                "id": "9726",
-                "uid": "s:600~t:9726",
-                "abbreviation": "SEA",
-                "displayName": "Seattle Sounders FC",
-                "shortDisplayName": "Seattle",
-                "name": "Seattle Sounders FC",
-                "location": "Seattle Sounders FC",
-                "color": "2dc84d",
-                "alternateColor": "0033a0",
+                "id": "187",
+                "uid": "s:600~t:187",
+                "abbreviation": "LA",
+                "displayName": "LA Galaxy",
+                "shortDisplayName": "LA Galaxy",
+                "name": "LA Galaxy",
+                "location": "LA Galaxy",
+                "color": "00235d",
+                "alternateColor": "ffffff",
                 "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/187.png",
                 "links": [
                   {
                     "rel": [
@@ -1820,7 +1106,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/club/_/id/9726/seattle-sounders-fc",
+                    "href": "https://www.espn.com/soccer/club/_/id/187/la-galaxy",
                     "text": "Clubhouse",
                     "isExternal": false,
                     "isPremium": false,
@@ -1832,7 +1118,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/stats/_/id/9726/seattle-sounders-fc",
+                    "href": "https://www.espn.com/soccer/team/stats/_/id/187/la-galaxy",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -1845,7 +1131,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9726&section=stats",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:187&section=stats",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -1857,7 +1143,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/9726/seattle-sounders-fc",
+                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/187/la-galaxy",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -1870,7 +1156,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9726&section=scores",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:187&section=scores",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -1882,7 +1168,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/squad/_/id/9726/seattle-sounders-fc",
+                    "href": "https://www.espn.com/soccer/team/squad/_/id/187/la-galaxy",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -1895,7 +1181,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9726&section=squad",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:187&section=squad",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -1903,7 +1189,7 @@
                   }
                 ],
                 "venue": {
-                  "id": "4485"
+                  "id": "1423"
                 }
               },
               "statistics": [],
@@ -1915,17 +1201,17 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "4",
-                      "value": 4,
+                      "displayValue": "5",
+                      "value": 5,
                       "athlete": {
-                        "id": "254382",
-                        "displayName": "Paul Rothrock",
-                        "shortName": "P. Rothrock",
-                        "fullName": "Paul Rothrock",
-                        "jersey": "14",
+                        "id": "295005",
+                        "displayName": "Gabriel Pec",
+                        "shortName": "Gabriel Pec",
+                        "fullName": "Gabriel Pec",
+                        "jersey": "11",
                         "active": true,
                         "team": {
-                          "id": "9726"
+                          "id": "187"
                         },
                         "links": [
                           {
@@ -1934,16 +1220,16 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/254382/paul-rothrock",
+                            "href": "https://www.espn.com/soccer/player/_/id/295005/gabriel-pec",
                             "isHidden": false
                           }
                         ],
                         "position": {
-                          "abbreviation": "M"
+                          "abbreviation": "F"
                         }
                       },
                       "team": {
-                        "id": "9726"
+                        "id": "187"
                       }
                     }
                   ]
@@ -1955,17 +1241,17 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "4",
-                      "value": 4,
+                      "displayValue": "5",
+                      "value": 5,
                       "athlete": {
-                        "id": "254382",
-                        "displayName": "Paul Rothrock",
-                        "shortName": "P. Rothrock",
-                        "fullName": "Paul Rothrock",
-                        "jersey": "14",
+                        "id": "295005",
+                        "displayName": "Gabriel Pec",
+                        "shortName": "Gabriel Pec",
+                        "fullName": "Gabriel Pec",
+                        "jersey": "11",
                         "active": true,
                         "team": {
-                          "id": "9726"
+                          "id": "187"
                         },
                         "links": [
                           {
@@ -1974,16 +1260,16 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/254382/paul-rothrock",
+                            "href": "https://www.espn.com/soccer/player/_/id/295005/gabriel-pec",
                             "isHidden": false
                           }
                         ],
                         "position": {
-                          "abbreviation": "M"
+                          "abbreviation": "F"
                         }
                       },
                       "team": {
-                        "id": "9726"
+                        "id": "187"
                       }
                     }
                   ]
@@ -1991,34 +1277,34 @@
               ]
             },
             {
-              "id": "9723",
-              "uid": "s:600~t:9723",
+              "id": "18966",
+              "uid": "s:600~t:18966",
               "type": "team",
               "order": 1,
               "homeAway": "away",
               "winner": false,
-              "form": "LLDWL",
+              "form": "WLLLL",
               "score": "0",
               "records": [
                 {
                   "name": "All Splits",
                   "type": "total",
-                  "summary": "4-2-8",
+                  "summary": "7-3-5",
                   "abbreviation": "Total"
                 }
               ],
               "team": {
-                "id": "9723",
-                "uid": "s:600~t:9723",
-                "abbreviation": "POR",
-                "displayName": "Portland Timbers",
-                "shortDisplayName": "Portland",
-                "name": "Portland Timbers",
-                "location": "Portland Timbers",
-                "color": "2c5234",
-                "alternateColor": "c99700",
+                "id": "18966",
+                "uid": "s:600~t:18966",
+                "abbreviation": "LAFC",
+                "displayName": "LAFC",
+                "shortDisplayName": "LAFC",
+                "name": "LAFC",
+                "location": "LAFC",
+                "color": "000000",
+                "alternateColor": "c7a36f",
                 "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9723.png",
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/18966.png",
                 "links": [
                   {
                     "rel": [
@@ -2026,7 +1312,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/club/_/id/9723/portland-timbers",
+                    "href": "https://www.espn.com/soccer/club/_/id/18966/lafc",
                     "text": "Clubhouse",
                     "isExternal": false,
                     "isPremium": false,
@@ -2038,7 +1324,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/stats/_/id/9723/portland-timbers",
+                    "href": "https://www.espn.com/soccer/team/stats/_/id/18966/lafc",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -2051,7 +1337,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9723&section=stats",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18966&section=stats",
                     "text": "Stats",
                     "isExternal": false,
                     "isPremium": false,
@@ -2063,7 +1349,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/9723/portland-timbers",
+                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/18966/lafc",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -2076,7 +1362,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9723&section=scores",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18966&section=scores",
                     "text": "Fixtures",
                     "isExternal": false,
                     "isPremium": false,
@@ -2088,7 +1374,7 @@
                       "desktop",
                       "team"
                     ],
-                    "href": "https://www.espn.com/soccer/team/squad/_/id/9723/portland-timbers",
+                    "href": "https://www.espn.com/soccer/team/squad/_/id/18966/lafc",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -2101,7 +1387,7 @@
                       "app",
                       "team"
                     ],
-                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:9723&section=squad",
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:18966&section=squad",
                     "text": "Squad",
                     "isExternal": false,
                     "isPremium": false,
@@ -2109,7 +1395,7 @@
                   }
                 ],
                 "venue": {
-                  "id": "4383"
+                  "id": "7605"
                 }
               },
               "statistics": [],
@@ -2121,18 +1407,19 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "5",
-                      "value": 5,
+                      "displayValue": "6",
+                      "value": 6,
                       "athlete": {
-                        "id": "354979",
-                        "displayName": "Kevin Kelsy",
-                        "shortName": "K. Kelsy",
-                        "fullName": "Kevin Kelsy",
-                        "jersey": "19",
+                        "id": "213304",
+                        "displayName": "Denis Bouanga",
+                        "shortName": "D. Bouanga",
+                        "fullName": "Denis Bouanga",
+                        "jersey": "99",
                         "active": true,
                         "team": {
-                          "id": "9723"
+                          "id": "18966"
                         },
+                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/213304.png",
                         "links": [
                           {
                             "rel": [
@@ -2140,7 +1427,7 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/354979/kevin-kelsy",
+                            "href": "https://www.espn.com/soccer/player/_/id/213304/denis-bouanga",
                             "isHidden": false
                           }
                         ],
@@ -2149,7 +1436,7 @@
                         }
                       },
                       "team": {
-                        "id": "9723"
+                        "id": "18966"
                       }
                     }
                   ]
@@ -2161,18 +1448,19 @@
                   "abbreviation": "G",
                   "leaders": [
                     {
-                      "displayValue": "5",
-                      "value": 5,
+                      "displayValue": "6",
+                      "value": 6,
                       "athlete": {
-                        "id": "354979",
-                        "displayName": "Kevin Kelsy",
-                        "shortName": "K. Kelsy",
-                        "fullName": "Kevin Kelsy",
-                        "jersey": "19",
+                        "id": "213304",
+                        "displayName": "Denis Bouanga",
+                        "shortName": "D. Bouanga",
+                        "fullName": "Denis Bouanga",
+                        "jersey": "99",
                         "active": true,
                         "team": {
-                          "id": "9723"
+                          "id": "18966"
                         },
+                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/213304.png",
                         "links": [
                           {
                             "rel": [
@@ -2180,7 +1468,7 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/soccer/player/_/id/354979/kevin-kelsy",
+                            "href": "https://www.espn.com/soccer/player/_/id/213304/denis-bouanga",
                             "isHidden": false
                           }
                         ],
@@ -2189,7 +1477,7 @@
                         }
                       },
                       "team": {
-                        "id": "9723"
+                        "id": "18966"
                       }
                     }
                   ]
@@ -2208,7 +1496,7 @@
                   "desktop",
                   "bets"
                 ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491",
+                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493",
                 "text": "Game",
                 "shortText": "Game",
                 "isExternal": true,
@@ -2221,7 +1509,7 @@
                 "priority": 1
               },
               "drawOdds": {
-                "moneyLine": 390,
+                "moneyLine": 265,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -2230,7 +1518,7 @@
                     "bets",
                     "draftkings"
                   ],
-                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0ML85477266_2",
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0ML85477268_2",
                   "text": "Draw Bet",
                   "shortText": "Draw Bet",
                   "isExternal": true,
@@ -2243,24 +1531,24 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "open": {
-                    "line": "o3.5",
-                    "odds": "+100"
+                    "line": "o2.5",
+                    "odds": "-175"
                   },
                   "close": {
                     "line": "o3.5",
-                    "odds": "-105",
+                    "odds": "+135",
                     "link": {
                       "rel": [
                         "over",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0OU85477327O350_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0OU85477379O350_1",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "over",
                           "betType": "straight",
                           "betDetails": "Over:3.5"
@@ -2271,24 +1559,24 @@
                 },
                 "under": {
                   "open": {
-                    "line": "u3.5",
-                    "odds": "-130"
+                    "line": "u2.5",
+                    "odds": "+130"
                   },
                   "close": {
                     "line": "u3.5",
-                    "odds": "-120",
+                    "odds": "-170",
                     "link": {
                       "rel": [
                         "under",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0OU85477327U350_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0OU85477379U350_3",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "under",
                           "betType": "straight",
                           "betDetails": "Under:3.5"
@@ -2303,27 +1591,27 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "open": {
-                    "line": "-1.5",
-                    "odds": "+115"
+                    "line": "+0.5",
+                    "odds": "-180"
                   },
                   "close": {
-                    "line": "-1.5",
-                    "odds": "+110",
+                    "line": "+0.5",
+                    "odds": "-160",
                     "link": {
                       "rel": [
                         "homeSpread",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0HC85477332N150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0HC85477384P50_1",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "home",
                           "betType": "straight",
-                          "betDetails": "Spread:SEA-1.5"
+                          "betDetails": "Spread:LA+0.5"
                         }
                       }
                     }
@@ -2331,27 +1619,27 @@
                 },
                 "away": {
                   "open": {
-                    "line": "+1.5",
-                    "odds": "-165"
+                    "line": "-0.5",
+                    "odds": "+125"
                   },
                   "close": {
-                    "line": "+1.5",
-                    "odds": "-155",
+                    "line": "-0.5",
+                    "odds": "+115",
                     "link": {
                       "rel": [
                         "awaySpread",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0HC85477332P150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0HC85477384N50_3",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "away",
                           "betType": "straight",
-                          "betDetails": "Spread:POR+1.5"
+                          "betDetails": "Spread:LAFC-0.5"
                         }
                       }
                     }
@@ -2363,22 +1651,22 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "open": {
-                    "odds": "-220"
+                    "odds": "+170"
                   },
                   "close": {
-                    "odds": "-225",
+                    "odds": "+185",
                     "link": {
                       "rel": [
                         "home",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0ML85477266_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0ML85477268_1",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "home",
                           "betType": "straight"
                         }
@@ -2388,22 +1676,22 @@
                 },
                 "away": {
                   "open": {
-                    "odds": "+425"
+                    "odds": "+130"
                   },
                   "close": {
-                    "odds": "+450",
+                    "odds": "+120",
                     "link": {
                       "rel": [
                         "away",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0ML85477266_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0ML85477268_3",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "away",
                           "betType": "straight"
                         }
@@ -2413,22 +1701,22 @@
                 },
                 "draw": {
                   "open": {
-                    "odds": "+370"
+                    "odds": "+250"
                   },
                   "close": {
-                    "odds": "+390",
+                    "odds": "+265",
                     "link": {
                       "rel": [
                         "draw",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388491%3Foutcomes%3D0ML85477266_2",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34388493%3Foutcomes%3D0ML85477268_2",
                       "tracking": {
                         "campaign": "betting-integrations",
                         "tags": {
                           "league": "usa.1",
                           "sport": "soccer",
-                          "gameId": 761662,
+                          "gameId": 761664,
                           "betSide": "draw",
                           "betType": "straight"
                         }
@@ -2437,7 +1725,7 @@
                   }
                 }
               },
-              "details": "SEA -225"
+              "details": "LAFC +120"
             }
           ],
           "wasSuspended": false,
@@ -2454,12 +1742,12 @@
           "state": "pre",
           "completed": false,
           "description": "Scheduled",
-          "detail": "Thu, July 16th at 10:30 PM EDT",
+          "detail": "Fri, July 17th at 10:25 PM EDT",
           "shortDetail": "Scheduled"
         }
       },
       "venue": {
-        "displayName": "Lumen Field"
+        "displayName": "Dignity Health Sports Park"
       },
       "links": [
         {
@@ -2469,7 +1757,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/soccer/match/_/gameId/761662/portland-timbers-seattle-sounders-fc",
+          "href": "https://www.espn.com/soccer/match/_/gameId/761664/lafc-la-galaxy",
           "text": "Summary",
           "shortText": "Summary",
           "isExternal": false,
@@ -2483,7 +1771,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/soccer/matchstats/_/gameId/761662",
+          "href": "https://www.espn.com/soccer/matchstats/_/gameId/761664",
           "text": "Statistics",
           "shortText": "Statistics",
           "isExternal": false,

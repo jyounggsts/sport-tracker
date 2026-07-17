@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-16T23:43:18.178Z",
+  "fetchedAt": "2026-07-17T07:33:57.672Z",
   "sportId": "wnba",
-  "liveCount": 1,
+  "liveCount": 0,
   "seasonStatus": {
     "inSeason": true,
     "seasonYear": 2026,
@@ -205,7 +205,7 @@
           "id": "401857071",
           "uid": "s:40~l:59~e:401857071~c:401857071",
           "date": "2026-07-16T23:00Z",
-          "attendance": 0,
+          "attendance": 4200,
           "type": {
             "id": "1",
             "abbreviation": "STD"
@@ -214,7 +214,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "5946",
             "fullName": "CareFirst Arena",
@@ -231,6 +231,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": false,
               "team": {
                 "id": "16",
                 "uid": "s:40~l:59~t:16",
@@ -340,7 +341,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/wsh.png"
               },
-              "score": "22",
+              "score": "56",
               "linescores": [
                 {
                   "value": 13,
@@ -348,16 +349,26 @@
                   "period": 1
                 },
                 {
-                  "value": 9,
-                  "displayValue": "9",
+                  "value": 18,
+                  "displayValue": "18",
                   "period": 2
+                },
+                {
+                  "value": 14,
+                  "displayValue": "14",
+                  "period": 3
+                },
+                {
+                  "value": 11,
+                  "displayValue": "11",
+                  "period": 4
                 }
               ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "16"
+                  "displayValue": "45"
                 },
                 {
                   "name": "avgRebounds",
@@ -367,57 +378,57 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "5"
+                  "displayValue": "11"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "23"
+                  "displayValue": "64"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "7"
+                  "displayValue": "19"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "30.4"
+                  "displayValue": "29.7"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "71.4"
+                  "displayValue": "69.6"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "7"
+                  "displayValue": "23"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "5"
+                  "displayValue": "16"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "20"
+                  "displayValue": "56"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "14.3"
+                  "displayValue": "9.5"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "7"
+                  "displayValue": "21"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "1"
+                  "displayValue": "2"
                 },
                 {
                   "name": "avgPoints",
@@ -432,7 +443,7 @@
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "14.3"
+                  "displayValue": "9.5"
                 }
               ],
               "leaders": [
@@ -443,8 +454,8 @@
                   "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "8",
-                      "value": 8,
+                      "displayValue": "19",
+                      "value": 19,
                       "athlete": {
                         "id": "4398911",
                         "fullName": "Shakira Austin",
@@ -483,8 +494,8 @@
                   "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "4",
-                      "value": 4,
+                      "displayValue": "9",
+                      "value": 9,
                       "athlete": {
                         "id": "4398911",
                         "fullName": "Shakira Austin",
@@ -523,8 +534,8 @@
                   "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "2",
-                      "value": 2,
+                      "displayValue": "4",
+                      "value": 4,
                       "athlete": {
                         "id": "4398911",
                         "fullName": "Shakira Austin",
@@ -563,8 +574,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "8 PTS",
-                      "value": 13.699999809265137,
+                      "displayValue": "19 PTS, 9 REB",
+                      "value": 33.25,
                       "athlete": {
                         "id": "4398911",
                         "fullName": "Shakira Austin",
@@ -600,14 +611,14 @@
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Total",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "12-10"
+                  "summary": "12-11"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "5-5"
+                  "summary": "5-6"
                 },
                 {
                   "name": "Road",
@@ -622,6 +633,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": true,
               "team": {
                 "id": "132052",
                 "uid": "s:40~l:59~t:132052",
@@ -731,7 +743,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/por.png"
               },
-              "score": "43",
+              "score": "75",
               "linescores": [
                 {
                   "value": 28,
@@ -739,16 +751,26 @@
                   "period": 1
                 },
                 {
-                  "value": 15,
-                  "displayValue": "15",
+                  "value": 19,
+                  "displayValue": "19",
                   "period": 2
+                },
+                {
+                  "value": 12,
+                  "displayValue": "12",
+                  "period": 3
+                },
+                {
+                  "value": 16,
+                  "displayValue": "16",
+                  "period": 4
                 }
               ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "11"
+                  "displayValue": "30"
                 },
                 {
                   "name": "avgRebounds",
@@ -758,57 +780,57 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "12"
+                  "displayValue": "20"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "31"
+                  "displayValue": "67"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "16"
+                  "displayValue": "29"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "51.6"
+                  "displayValue": "43.3"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "66.7"
+                  "displayValue": "77.8"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "6"
+                  "displayValue": "9"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "4"
+                  "displayValue": "7"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "43"
+                  "displayValue": "75"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "43.8"
+                  "displayValue": "27.8"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "16"
+                  "displayValue": "36"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "7"
+                  "displayValue": "10"
                 },
                 {
                   "name": "avgPoints",
@@ -823,7 +845,7 @@
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "43.8"
+                  "displayValue": "27.8"
                 }
               ],
               "leaders": [
@@ -834,13 +856,13 @@
                   "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "10",
-                      "value": 10,
+                      "displayValue": "14",
+                      "value": 14,
                       "athlete": {
-                        "id": "4703794",
-                        "fullName": "Sarah Ashlee Barker",
-                        "displayName": "Sarah Ashlee Barker",
-                        "shortName": "S. Barker",
+                        "id": "5208982",
+                        "fullName": "Carla Leite",
+                        "displayName": "Carla Leite",
+                        "shortName": "C. Leite",
                         "links": [
                           {
                             "rel": [
@@ -848,11 +870,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4703794/sarah-ashlee-barker"
+                            "href": "https://www.espn.com/wnba/player/_/id/5208982/carla-leite"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4703794.png",
-                        "jersey": "3",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5208982.png",
+                        "jersey": "0",
                         "position": {
                           "abbreviation": "G"
                         },
@@ -874,8 +896,8 @@
                   "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "3",
-                      "value": 3,
+                      "displayValue": "7",
+                      "value": 7,
                       "athlete": {
                         "id": "4703794",
                         "fullName": "Sarah Ashlee Barker",
@@ -914,8 +936,8 @@
                   "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "3",
-                      "value": 3,
+                      "displayValue": "5",
+                      "value": 5,
                       "athlete": {
                         "id": "5208982",
                         "fullName": "Carla Leite",
@@ -954,8 +976,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "10 PTS, 3 STL",
-                      "value": 19.399999618530273,
+                      "displayValue": "10 PTS, 7 REB, 4 STL",
+                      "value": 24.899999618530273,
                       "athlete": {
                         "id": "4703794",
                         "fullName": "Sarah Ashlee Barker",
@@ -991,9 +1013,9 @@
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Total",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "10-14"
+                  "summary": "11-14"
                 },
                 {
                   "name": "Home",
@@ -1003,67 +1025,24 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "4-8"
+                  "summary": "5-8"
                 }
               ]
             }
           ],
           "notes": [],
-          "situation": {
-            "lastPlay": {
-              "id": "401857071253",
-              "type": {
-                "id": "155",
-                "text": "Defensive Rebound"
-              },
-              "text": "Lauren Betts defensive rebound",
-              "scoreValue": 0,
-              "team": {
-                "id": "16"
-              },
-              "probability": {
-                "tiePercentage": 0,
-                "homeWinPercentage": 0.061,
-                "awayWinPercentage": 0.9390000000000001
-              },
-              "athletesInvolved": [
-                {
-                  "id": "5105737",
-                  "fullName": "Lauren Betts",
-                  "displayName": "Lauren Betts",
-                  "shortName": "L. Betts",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/wnba/player/_/id/5105737/lauren-betts"
-                    }
-                  ],
-                  "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5105737.png",
-                  "jersey": "51",
-                  "position": "C",
-                  "team": {
-                    "id": "16"
-                  }
-                }
-              ]
-            }
-          },
           "status": {
-            "clock": 239,
-            "displayClock": "3:59",
-            "period": 2,
+            "clock": 600,
+            "displayClock": "10:00",
+            "period": 4,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "3:59 - 2nd Quarter",
-              "shortDetail": "3:59 - 2nd"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             }
           },
           "broadcasts": [
@@ -1140,66 +1119,226 @@
               "region": "us"
             }
           ],
-          "highlights": [],
-          "odds": [
+          "highlights": [
             {
-              "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
+              "id": 49380877,
+              "cerebroId": "6a5981a16e14527a6f1fff9b",
+              "source": "espn",
+              "headline": "Washington Mystics vs. Fire - Game Highlights",
+              "description": "Watch the Game Highlights from Washington Mystics vs. Fire, 07/16/2026",
+              "lastModified": "2026-07-17T01:13:21Z",
+              "originalPublishDate": "2026-07-17T01:13:06Z",
+              "duration": 66,
+              "timeRestrictions": {
+                "embargoDate": "2026-07-17T01:12:59Z",
+                "expirationDate": "2026-11-30T05:00:00Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "settop",
+                  "tablet",
+                  "handset",
+                  "ipad",
+                  "desktop"
                 ]
               },
-              "details": "WSH -6.5",
-              "overUnder": 162.5,
-              "moneyline": {
-                "home": {
-                  "close": {
-                    "odds": -265
+              "geoRestrictions": {
+                "type": "whitelist",
+                "countries": [
+                  "PR",
+                  "HN",
+                  "PW",
+                  "PY",
+                  "HT",
+                  "AG",
+                  "ZA",
+                  "AI",
+                  "AM",
+                  "AO",
+                  "AR",
+                  "AS",
+                  "RE",
+                  "ZM",
+                  "AU",
+                  "AW",
+                  "ZW",
+                  "BB",
+                  "JM",
+                  "BF",
+                  "RW",
+                  "BI",
+                  "BJ",
+                  "BM",
+                  "BO",
+                  "BQ",
+                  "BR",
+                  "SC",
+                  "BS",
+                  "BW",
+                  "BZ",
+                  "SL",
+                  "KE",
+                  "SN",
+                  "SR",
+                  "SS",
+                  "ST",
+                  "CD",
+                  "KM",
+                  "KN",
+                  "SV",
+                  "CF",
+                  "CG",
+                  "SX",
+                  "CI",
+                  "SZ",
+                  "CL",
+                  "CM",
+                  "CO",
+                  "KY",
+                  "TC",
+                  "CR",
+                  "CU",
+                  "TG",
+                  "CV",
+                  "LC",
+                  "TT",
+                  "LR",
+                  "TZ",
+                  "LS",
+                  "DO",
+                  "UG",
+                  "UK",
+                  "UM",
+                  "MF",
+                  "MG",
+                  "MH",
+                  "US",
+                  "EC",
+                  "ML",
+                  "MP",
+                  "MQ",
+                  "UY",
+                  "MS",
+                  "MU",
+                  "MW",
+                  "MX",
+                  "VC",
+                  "MZ",
+                  "ER",
+                  "VE",
+                  "ET",
+                  "VG",
+                  "NA",
+                  "VI",
+                  "NE",
+                  "NG",
+                  "NI",
+                  "FJ",
+                  "FM",
+                  "NZ",
+                  "GA",
+                  "GB",
+                  "GD",
+                  "GF",
+                  "GH",
+                  "GM",
+                  "GN",
+                  "GP",
+                  "GQ",
+                  "GT",
+                  "GU",
+                  "GW",
+                  "PA",
+                  "GY",
+                  "PE"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip/_/id/49380877/washington-mystics-vs-fire-game-highlights",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip/_/id/49380877/washington-mystics-vs-fire-game-highlights",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=83cc3b63e5ce5"
+                    }
                   }
                 },
-                "away": {
-                  "close": {
-                    "odds": 215
+                "mobile": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c83c382-60e9-41a4-9e26-0aa0bcc48209/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49380877/washington-mystics-vs-fire-game-highlights",
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=49380877"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c83c382-60e9-41a4-9e26-0aa0bcc48209/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49380877/washington-mystics-vs-fire-game-highlights"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/9c83c382-60e9-41a4-9e26-0aa0bcc48209/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49380877/washington-mystics-vs-fire-game-highlights"
                   }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/49380877"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/9c83c382-60e9-41a4-9e26-0aa0bcc48209"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/9c83c382-60e9-41a4-9e26-0aa0bcc48209/asset"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0717/5c93261f-c00c-4ba1-b1f7-84ded1346e44/5c93261f-c00c-4ba1-b1f7-84ded1346e44_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=49380877&videoDSI=83cc3b63e5ce5"
                 }
               },
-              "pointSpread": {
-                "home": {
-                  "close": {
-                    "line": -6.5
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": 6.5
-                  }
-                }
+              "ad": {
+                "sport": "wnba",
+                "bundle": "wnba_top_plays_highlights"
               },
-              "total": {
-                "over": {
-                  "close": {
-                    "odds": -110,
-                    "line": "o162.5"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "odds": -110
-                  }
-                }
+              "tracking": {
+                "sportName": "basketball",
+                "leagueName": "WNBA",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "WNBA_One-Play (Washington Mystics vs. Fire - Game Highlights) 2026/07/16 ESHEET",
+                "trackingId": "dm_20260716_WNBA_washington_mystics_vs_fire_game_highlights",
+                "program": "NBA TV"
               }
             }
           ]
@@ -1209,11 +1348,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/wnba/game?gameId=401857071",
+          "href": "https://www.espn.com/wnba/game/_/gameId/401857071/fire-mystics",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -1259,17 +1398,17 @@
         }
       ],
       "status": {
-        "clock": 239,
-        "displayClock": "3:59",
-        "period": 2,
+        "clock": 600,
+        "displayClock": "10:00",
+        "period": 4,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "3:59 - 2nd Quarter",
-          "shortDetail": "3:59 - 2nd"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     },
@@ -1298,7 +1437,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "3416",
             "fullName": "College Park Center",
