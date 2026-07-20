@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-19T23:42:03.076Z",
+  "fetchedAt": "2026-07-20T10:30:03.720Z",
   "sportId": "wnba",
-  "liveCount": 1,
+  "liveCount": 0,
   "seasonStatus": {
     "inSeason": true,
     "seasonYear": 2026,
@@ -2585,7 +2585,7 @@
           "id": "401857082",
           "uid": "s:40~l:59~e:401857082~c:401857082",
           "date": "2026-07-19T23:00Z",
-          "attendance": 0,
+          "attendance": 13481,
           "type": {
             "id": "1",
             "abbreviation": "STD"
@@ -2594,7 +2594,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "1949",
             "fullName": "Mortgage Matchup Center",
@@ -2611,6 +2611,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "11",
                 "uid": "s:40~l:59~t:11",
@@ -2720,7 +2721,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/scoreboard/phx.png"
               },
-              "score": "29",
+              "score": "72",
               "linescores": [
                 {
                   "value": 18,
@@ -2728,16 +2729,26 @@
                   "period": 1
                 },
                 {
+                  "value": 25,
+                  "displayValue": "25",
+                  "period": 2
+                },
+                {
                   "value": 11,
                   "displayValue": "11",
-                  "period": 2
+                  "period": 3
+                },
+                {
+                  "value": 18,
+                  "displayValue": "18",
+                  "period": 4
                 }
               ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "11"
+                  "displayValue": "32"
                 },
                 {
                   "name": "avgRebounds",
@@ -2747,57 +2758,57 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "10"
+                  "displayValue": "19"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "29"
+                  "displayValue": "63"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "13"
+                  "displayValue": "26"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "44.8"
+                  "displayValue": "41.3"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "50.0"
+                  "displayValue": "78.3"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "4"
+                  "displayValue": "23"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "2"
+                  "displayValue": "18"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "29"
+                  "displayValue": "72"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "12.5"
+                  "displayValue": "13.3"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "8"
+                  "displayValue": "15"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "1"
+                  "displayValue": "2"
                 },
                 {
                   "name": "avgPoints",
@@ -2812,7 +2823,7 @@
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "12.5"
+                  "displayValue": "13.3"
                 }
               ],
               "leaders": [
@@ -2823,13 +2834,13 @@
                   "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "9",
-                      "value": 9,
+                      "displayValue": "21",
+                      "value": 21,
                       "athlete": {
-                        "id": "5274110",
-                        "fullName": "Monique Akoa Makani",
-                        "displayName": "Monique Akoa Makani",
-                        "shortName": "M. Akoa Makani",
+                        "id": "869",
+                        "fullName": "DeWanna Bonner",
+                        "displayName": "DeWanna Bonner",
+                        "shortName": "D. Bonner",
                         "links": [
                           {
                             "rel": [
@@ -2837,13 +2848,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/5274110/monique-akoa-makani"
+                            "href": "https://www.espn.com/wnba/player/_/id/869/dewanna-bonner"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5274110.png",
-                        "jersey": "8",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/869.png",
+                        "jersey": "24",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "F"
                         },
                         "team": {
                           "id": "11"
@@ -2863,13 +2874,13 @@
                   "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "5",
-                      "value": 5,
+                      "displayValue": "6",
+                      "value": 6,
                       "athlete": {
-                        "id": "5274110",
-                        "fullName": "Monique Akoa Makani",
-                        "displayName": "Monique Akoa Makani",
-                        "shortName": "M. Akoa Makani",
+                        "id": "869",
+                        "fullName": "DeWanna Bonner",
+                        "displayName": "DeWanna Bonner",
+                        "shortName": "D. Bonner",
                         "links": [
                           {
                             "rel": [
@@ -2877,13 +2888,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/5274110/monique-akoa-makani"
+                            "href": "https://www.espn.com/wnba/player/_/id/869/dewanna-bonner"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5274110.png",
-                        "jersey": "8",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/869.png",
+                        "jersey": "24",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "F"
                         },
                         "team": {
                           "id": "11"
@@ -2903,13 +2914,13 @@
                   "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "3",
-                      "value": 3,
+                      "displayValue": "11",
+                      "value": 11,
                       "athlete": {
-                        "id": "2998938",
-                        "fullName": "Kahleah Copper",
-                        "displayName": "Kahleah Copper",
-                        "shortName": "K. Copper",
+                        "id": "2529140",
+                        "fullName": "Alyssa Thomas",
+                        "displayName": "Alyssa Thomas",
+                        "shortName": "A. Thomas",
                         "links": [
                           {
                             "rel": [
@@ -2917,13 +2928,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/2998938/kahleah-copper"
+                            "href": "https://www.espn.com/wnba/player/_/id/2529140/alyssa-thomas"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/2998938.png",
-                        "jersey": "2",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/2529140.png",
+                        "jersey": "25",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "F"
                         },
                         "team": {
                           "id": "11"
@@ -2943,13 +2954,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "9 PTS",
-                      "value": 16.100000381469727,
+                      "displayValue": "21 PTS, 6 REB",
+                      "value": 30.600000381469727,
                       "athlete": {
-                        "id": "5274110",
-                        "fullName": "Monique Akoa Makani",
-                        "displayName": "Monique Akoa Makani",
-                        "shortName": "M. Akoa Makani",
+                        "id": "869",
+                        "fullName": "DeWanna Bonner",
+                        "displayName": "DeWanna Bonner",
+                        "shortName": "D. Bonner",
                         "links": [
                           {
                             "rel": [
@@ -2957,13 +2968,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/5274110/monique-akoa-makani"
+                            "href": "https://www.espn.com/wnba/player/_/id/869/dewanna-bonner"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/5274110.png",
-                        "jersey": "8",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/869.png",
+                        "jersey": "24",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "F"
                         },
                         "team": {
                           "id": "11"
@@ -2980,14 +2991,14 @@
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Total",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "8-18"
+                  "summary": "9-18"
                 },
                 {
                   "name": "Home",
                   "type": "home",
-                  "summary": "3-9"
+                  "summary": "4-9"
                 },
                 {
                   "name": "Road",
@@ -3002,6 +3013,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "18",
                 "uid": "s:40~l:59~t:18",
@@ -3111,7 +3123,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/con.png"
               },
-              "score": "27",
+              "score": "63",
               "linescores": [
                 {
                   "value": 12,
@@ -3119,16 +3131,26 @@
                   "period": 1
                 },
                 {
-                  "value": 15,
-                  "displayValue": "15",
+                  "value": 21,
+                  "displayValue": "21",
                   "period": 2
+                },
+                {
+                  "value": 16,
+                  "displayValue": "16",
+                  "period": 3
+                },
+                {
+                  "value": 14,
+                  "displayValue": "14",
+                  "period": 4
                 }
               ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "13"
+                  "displayValue": "35"
                 },
                 {
                   "name": "avgRebounds",
@@ -3138,57 +3160,57 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "7"
+                  "displayValue": "13"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "25"
+                  "displayValue": "58"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "12"
+                  "displayValue": "22"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "48.0"
+                  "displayValue": "37.9"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "25.0"
+                  "displayValue": "78.9"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "4"
+                  "displayValue": "19"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "1"
+                  "displayValue": "15"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "27"
+                  "displayValue": "63"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "33.3"
+                  "displayValue": "28.6"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "6"
+                  "displayValue": "14"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "2"
+                  "displayValue": "4"
                 },
                 {
                   "name": "avgPoints",
@@ -3203,7 +3225,7 @@
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "33.3"
+                  "displayValue": "28.6"
                 }
               ],
               "leaders": [
@@ -3214,13 +3236,13 @@
                   "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "11",
-                      "value": 11,
+                      "displayValue": "19",
+                      "value": 19,
                       "athlete": {
-                        "id": "4398966",
-                        "fullName": "Olivia Nelson-Ododa",
-                        "displayName": "Olivia Nelson-Ododa",
-                        "shortName": "O. Nelson-Ododa",
+                        "id": "2490553",
+                        "fullName": "Brittney Griner",
+                        "displayName": "Brittney Griner",
+                        "shortName": "B. Griner",
                         "links": [
                           {
                             "rel": [
@@ -3228,11 +3250,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4398966/olivia-nelson-ododa"
+                            "href": "https://www.espn.com/wnba/player/_/id/2490553/brittney-griner"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4398966.png",
-                        "jersey": "10",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/2490553.png",
+                        "jersey": "42",
                         "position": {
                           "abbreviation": "C"
                         },
@@ -3254,8 +3276,8 @@
                   "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "5",
-                      "value": 5,
+                      "displayValue": "12",
+                      "value": 12,
                       "athlete": {
                         "id": "4398966",
                         "fullName": "Olivia Nelson-Ododa",
@@ -3294,13 +3316,13 @@
                   "abbreviation": "Ast",
                   "leaders": [
                     {
-                      "displayValue": "2",
-                      "value": 2,
+                      "displayValue": "5",
+                      "value": 5,
                       "athlete": {
-                        "id": "4398966",
-                        "fullName": "Olivia Nelson-Ododa",
-                        "displayName": "Olivia Nelson-Ododa",
-                        "shortName": "O. Nelson-Ododa",
+                        "id": "4703609",
+                        "fullName": "Charlisse Leger-Walker",
+                        "displayName": "Charlisse Leger-Walker",
+                        "shortName": "C. Leger-Walker",
                         "links": [
                           {
                             "rel": [
@@ -3308,13 +3330,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4398966/olivia-nelson-ododa"
+                            "href": "https://www.espn.com/wnba/player/_/id/4703609/charlisse-leger-walker"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4398966.png",
-                        "jersey": "10",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4703609.png",
+                        "jersey": "4",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "18"
@@ -3334,8 +3356,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "11 PTS",
-                      "value": 22.649999618530273,
+                      "displayValue": "12 PTS, 12 REB",
+                      "value": 29.899999618530273,
                       "athlete": {
                         "id": "4398966",
                         "fullName": "Olivia Nelson-Ododa",
@@ -3371,9 +3393,9 @@
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Total",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "7-18"
+                  "summary": "7-19"
                 },
                 {
                   "name": "Home",
@@ -3383,43 +3405,24 @@
                 {
                   "name": "Road",
                   "type": "road",
-                  "summary": "3-8"
+                  "summary": "3-9"
                 }
               ]
             }
           ],
           "notes": [],
-          "situation": {
-            "lastPlay": {
-              "id": "401857082228",
-              "type": {
-                "id": "16",
-                "text": "Full Timeout"
-              },
-              "text": "Sun Full timeout",
-              "scoreValue": 0,
-              "team": {
-                "id": "18"
-              },
-              "probability": {
-                "tiePercentage": 0,
-                "homeWinPercentage": 0.783,
-                "awayWinPercentage": 0.21699999999999997
-              }
-            }
-          },
           "status": {
-            "clock": 218,
-            "displayClock": "3:38",
-            "period": 2,
+            "clock": 600,
+            "displayClock": "10:00",
+            "period": 4,
             "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "3:38 - 2nd Quarter",
-              "shortDetail": "3:38 - 2nd"
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
             }
           },
           "broadcasts": [
@@ -3474,66 +3477,226 @@
               "region": "us"
             }
           ],
-          "highlights": [],
-          "odds": [
+          "highlights": [
             {
-              "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
+              "id": 49406426,
+              "cerebroId": "6a5d76b26e14527a6f21faed",
+              "source": "espn",
+              "headline": "Phoenix Mercury vs. Connecticut Sun - Game Highlights",
+              "description": "Watch the Game Highlights from Phoenix Mercury vs. Connecticut Sun, 07/19/2026",
+              "lastModified": "2026-07-20T01:15:48Z",
+              "originalPublishDate": "2026-07-20T01:15:30Z",
+              "duration": 69,
+              "timeRestrictions": {
+                "embargoDate": "2026-07-20T01:15:24Z",
+                "expirationDate": "2026-11-30T05:00:00Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "settop",
+                  "tablet",
+                  "handset",
+                  "ipad",
+                  "desktop"
                 ]
               },
-              "details": "PHX -4.5",
-              "overUnder": 165.5,
-              "moneyline": {
-                "home": {
-                  "close": {
-                    "odds": -175
+              "geoRestrictions": {
+                "type": "whitelist",
+                "countries": [
+                  "PR",
+                  "HN",
+                  "PW",
+                  "PY",
+                  "HT",
+                  "AG",
+                  "ZA",
+                  "AI",
+                  "AM",
+                  "AO",
+                  "AR",
+                  "AS",
+                  "RE",
+                  "ZM",
+                  "AU",
+                  "AW",
+                  "ZW",
+                  "BB",
+                  "JM",
+                  "BF",
+                  "RW",
+                  "BI",
+                  "BJ",
+                  "BM",
+                  "BO",
+                  "BQ",
+                  "BR",
+                  "SC",
+                  "BS",
+                  "BW",
+                  "BZ",
+                  "SL",
+                  "KE",
+                  "SN",
+                  "SR",
+                  "SS",
+                  "ST",
+                  "CD",
+                  "KM",
+                  "KN",
+                  "SV",
+                  "CF",
+                  "CG",
+                  "SX",
+                  "CI",
+                  "SZ",
+                  "CL",
+                  "CM",
+                  "CO",
+                  "KY",
+                  "TC",
+                  "CR",
+                  "CU",
+                  "TG",
+                  "CV",
+                  "LC",
+                  "TT",
+                  "LR",
+                  "TZ",
+                  "LS",
+                  "DO",
+                  "UG",
+                  "UK",
+                  "UM",
+                  "MF",
+                  "MG",
+                  "MH",
+                  "US",
+                  "EC",
+                  "ML",
+                  "MP",
+                  "MQ",
+                  "UY",
+                  "MS",
+                  "MU",
+                  "MW",
+                  "MX",
+                  "VC",
+                  "MZ",
+                  "ER",
+                  "VE",
+                  "ET",
+                  "VG",
+                  "NA",
+                  "VI",
+                  "NE",
+                  "NG",
+                  "NI",
+                  "FJ",
+                  "FM",
+                  "NZ",
+                  "GA",
+                  "GB",
+                  "GD",
+                  "GF",
+                  "GH",
+                  "GM",
+                  "GN",
+                  "GP",
+                  "GQ",
+                  "GT",
+                  "GU",
+                  "GW",
+                  "PA",
+                  "GY",
+                  "PE"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip/_/id/49406426/phoenix-mercury-vs-connecticut-sun-game-highlights",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip/_/id/49406426/phoenix-mercury-vs-connecticut-sun-game-highlights",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=840cc85947fdf"
+                    }
                   }
                 },
-                "away": {
-                  "close": {
-                    "odds": 145
+                "mobile": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ee85f0f7-bceb-445c-88da-0f0d0ed825fb/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49406426/phoenix-mercury-vs-connecticut-sun-game-highlights",
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=49406426"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ee85f0f7-bceb-445c-88da-0f0d0ed825fb/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49406426/phoenix-mercury-vs-connecticut-sun-game-highlights"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/ee85f0f7-bceb-445c-88da-0f0d0ed825fb/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49406426/phoenix-mercury-vs-connecticut-sun-game-highlights"
                   }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/49406426"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/ee85f0f7-bceb-445c-88da-0f0d0ed825fb"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/ee85f0f7-bceb-445c-88da-0f0d0ed825fb/asset"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0720/d53b304d-f957-42dd-bed4-0467013961e5/d53b304d-f957-42dd-bed4-0467013961e5_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=49406426&videoDSI=840cc85947fdf"
                 }
               },
-              "pointSpread": {
-                "home": {
-                  "close": {
-                    "line": -4.5
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": 4.5
-                  }
-                }
+              "ad": {
+                "sport": "wnba",
+                "bundle": "wnba_top_plays_highlights"
               },
-              "total": {
-                "over": {
-                  "close": {
-                    "odds": -110,
-                    "line": "o165.5"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "odds": -110
-                  }
-                }
+              "tracking": {
+                "sportName": "basketball",
+                "leagueName": "WNBA",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "WNBA_One-Play (Phoenix Mercury vs. Connecticut Sun - Game Highlights) 2026/07/19 ESHEET",
+                "trackingId": "dm_20260719_WNBA_phoenix_mercury_vs_connecticut_sun_game_highlights",
+                "program": "ESPN"
               }
             }
           ]
@@ -3543,11 +3706,11 @@
         {
           "language": "en-US",
           "rel": [
-            "live",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/wnba/game?gameId=401857082",
+          "href": "https://www.espn.com/wnba/game/_/gameId/401857082/sun-mercury",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -3593,17 +3756,17 @@
         }
       ],
       "status": {
-        "clock": 218,
-        "displayClock": "3:38",
-        "period": 2,
+        "clock": 600,
+        "displayClock": "10:00",
+        "period": 4,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "3:38 - 2nd Quarter",
-          "shortDetail": "3:38 - 2nd"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     }
