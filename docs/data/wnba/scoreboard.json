@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-21T23:43:28.637Z",
+  "fetchedAt": "2026-07-22T08:00:37.187Z",
   "sportId": "wnba",
   "liveCount": 0,
   "seasonStatus": {
@@ -1049,7 +1049,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $12",
-              "numberAvailable": 1184,
+              "numberAvailable": 1492,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-sparks-tickets-cryptocom-arena-7-22-2026--sports-wnba/production/6559531?wsUser=717"
@@ -1234,17 +1234,41 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "OFF"
+                    "odds": "-119",
+                    "link": {
+                      "language": "en-US",
+                      "rel": [
+                        "homeSpread",
+                        "desktop",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412166%3Foutcomes%3D0HC85550167N150_1",
+                      "text": "Home Point Spread",
+                      "shortText": "Home Point Spread",
+                      "isExternal": true,
+                      "isPremium": false,
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "wnba",
+                          "sport": "basketball",
+                          "gameId": 401857086,
+                          "betSide": "none",
+                          "betType": "straight",
+                          "betDetails": "Spread:LA-1.5"
+                        }
+                      }
+                    }
                   },
                   "open": {
                     "line": "-1.5",
-                    "odds": "OFF"
+                    "odds": "-108"
                   }
                 },
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-117",
+                    "odds": "-101",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1252,7 +1276,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412166%3Foutcomes%3D0HC85550167P250_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412166%3Foutcomes%3D0HC85550167P150_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -1282,7 +1306,7 @@
                 "over": {
                   "close": {
                     "line": "o178.5",
-                    "odds": "-115",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1316,7 +1340,7 @@
                 "under": {
                   "close": {
                     "line": "u178.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2276,8 +2300,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $13",
-              "numberAvailable": 801,
+              "summary": "Tickets as low as $21",
+              "numberAvailable": 895,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-storm-tickets-climate-pledge-arena-7-22-2026--sports-wnba/production/6560241?wsUser=717"
@@ -2392,7 +2416,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+370",
+                    "odds": "+381",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2424,7 +2448,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-501",
+                    "odds": "-519",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2533,7 +2557,7 @@
                 "over": {
                   "close": {
                     "line": "o178.5",
-                    "odds": "-110",
+                    "odds": "-113",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2567,7 +2591,7 @@
                 "under": {
                   "close": {
                     "line": "u178.5",
-                    "odds": "-110",
+                    "odds": "-107",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3528,8 +3552,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $27",
-              "numberAvailable": 1698,
+              "summary": "Tickets as low as $26",
+              "numberAvailable": 1659,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-liberty-tickets-barclays-center-7-22-2026--sports-wnba/production/6559229?wsUser=717"
@@ -3644,7 +3668,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-415",
+                    "odds": "-387",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3676,7 +3700,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+316",
+                    "odds": "+298",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3785,7 +3809,7 @@
                 "over": {
                   "close": {
                     "line": "o179.5",
-                    "odds": "-112",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3819,7 +3843,7 @@
                 "under": {
                   "close": {
                     "line": "u179.5",
-                    "odds": "-108",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4779,7 +4803,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $109",
-              "numberAvailable": 300,
+              "numberAvailable": 290,
               "links": [
                 {
                   "href": "https://www.vividseats.com/washington-mystics-tickets-washington-carefirst-arena-7-22-2026/production/6559490?wsUser=717"
@@ -4879,7 +4903,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+215",
+                    "odds": "+203",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4911,7 +4935,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-269",
+                    "odds": "-253",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4948,7 +4972,7 @@
                 "home": {
                   "close": {
                     "line": "+6.5",
-                    "odds": "-103",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4982,7 +5006,7 @@
                 "away": {
                   "close": {
                     "line": "-6.5",
-                    "odds": "-117",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5020,7 +5044,7 @@
                 "over": {
                   "close": {
                     "line": "o164.5",
-                    "odds": "-105",
+                    "odds": "-109",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5054,7 +5078,7 @@
                 "under": {
                   "close": {
                     "line": "u164.5",
-                    "odds": "-115",
+                    "odds": "-111",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6012,8 +6036,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $18",
-              "numberAvailable": 1075,
+              "summary": "Tickets as low as $29",
+              "numberAvailable": 964,
               "links": [
                 {
                   "href": "https://www.vividseats.com/indiana-fever-tickets-gainbridge-fieldhouse-7-22-2026--sports-wnba/production/6558926?wsUser=717"
@@ -7054,13 +7078,13 @@
                   "abbreviation": "PTS",
                   "leaders": [
                     {
-                      "displayValue": "14.8",
-                      "value": 14.769230842590332,
+                      "displayValue": "20.9",
+                      "value": 20.875,
                       "athlete": {
-                        "id": "3906949",
-                        "fullName": "Jessica Shepard",
-                        "displayName": "Jessica Shepard",
-                        "shortName": "J. Shepard",
+                        "id": "4433730",
+                        "fullName": "Paige Bueckers",
+                        "displayName": "Paige Bueckers",
+                        "shortName": "P. Bueckers",
                         "links": [
                           {
                             "rel": [
@@ -7068,13 +7092,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/3906949/jessica-shepard"
+                            "href": "https://www.espn.com/wnba/player/_/id/4433730/paige-bueckers"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/3906949.png",
-                        "jersey": "32",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433730.png",
+                        "jersey": "5",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "3"
@@ -7134,13 +7158,13 @@
                   "abbreviation": "AST",
                   "leaders": [
                     {
-                      "displayValue": "5.3",
-                      "value": 5.269230842590332,
+                      "displayValue": "6.2",
+                      "value": 6.208333492279053,
                       "athlete": {
-                        "id": "3906949",
-                        "fullName": "Jessica Shepard",
-                        "displayName": "Jessica Shepard",
-                        "shortName": "J. Shepard",
+                        "id": "4433730",
+                        "fullName": "Paige Bueckers",
+                        "displayName": "Paige Bueckers",
+                        "shortName": "P. Bueckers",
                         "links": [
                           {
                             "rel": [
@@ -7148,13 +7172,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/3906949/jessica-shepard"
+                            "href": "https://www.espn.com/wnba/player/_/id/4433730/paige-bueckers"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/3906949.png",
-                        "jersey": "32",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433730.png",
+                        "jersey": "5",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "3"
@@ -7174,13 +7198,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "14.8 PPG, 11.9 RPG, 5.3 APG, 0.7 SPG",
-                      "value": 35.92307662963867,
+                      "displayValue": "20.9 PPG, 4.2 RPG, 6.2 APG, 0.7 SPG, 0.4 BPG",
+                      "value": 36.96041488647461,
                       "athlete": {
-                        "id": "3906949",
-                        "fullName": "Jessica Shepard",
-                        "displayName": "Jessica Shepard",
-                        "shortName": "J. Shepard",
+                        "id": "4433730",
+                        "fullName": "Paige Bueckers",
+                        "displayName": "Paige Bueckers",
+                        "shortName": "P. Bueckers",
                         "links": [
                           {
                             "rel": [
@@ -7188,13 +7212,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/3906949/jessica-shepard"
+                            "href": "https://www.espn.com/wnba/player/_/id/4433730/paige-bueckers"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/3906949.png",
-                        "jersey": "32",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433730.png",
+                        "jersey": "5",
                         "position": {
-                          "abbreviation": "F"
+                          "abbreviation": "G"
                         },
                         "team": {
                           "id": "3"
@@ -7248,8 +7272,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $22",
-              "numberAvailable": 2126,
+              "summary": "Tickets as low as $23",
+              "numberAvailable": 1975,
               "links": [
                 {
                   "href": "https://www.vividseats.com/portland-fire-tickets-moda-center-7-22-2026--sports-wnba/production/6559363?wsUser=717"
@@ -7345,9 +7369,9 @@
                   }
                 ]
               },
-              "details": "DAL -4.5",
+              "details": "DAL -5.5",
               "overUnder": 174.5,
-              "spread": 4.5,
+              "spread": 5.5,
               "awayTeamOdds": {
                 "favorite": true,
                 "underdog": false,
@@ -7379,7 +7403,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+182",
+                    "odds": "+178",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7411,7 +7435,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-224",
+                    "odds": "-219",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7447,8 +7471,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "+4.5",
-                    "odds": "-107",
+                    "line": "+5.5",
+                    "odds": "-113",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7456,7 +7480,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412171%3Foutcomes%3D0HC85550172P450_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412171%3Foutcomes%3D0HC85550172P550_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -7469,7 +7493,7 @@
                           "gameId": 401857091,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:POR+4.5"
+                          "betDetails": "Spread:POR+5.5"
                         }
                       }
                     }
@@ -7481,8 +7505,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "-4.5",
-                    "odds": "-114",
+                    "line": "-5.5",
+                    "odds": "-107",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7490,7 +7514,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412171%3Foutcomes%3D0HC85550172N450_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34412171%3Foutcomes%3D0HC85550172N550_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -7503,7 +7527,7 @@
                           "gameId": 401857091,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:DAL-4.5"
+                          "betDetails": "Spread:DAL-5.5"
                         }
                       }
                     }
@@ -7520,7 +7544,7 @@
                 "over": {
                   "close": {
                     "line": "o174.5",
-                    "odds": "-112",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7554,7 +7578,7 @@
                 "under": {
                   "close": {
                     "line": "u174.5",
-                    "odds": "-108",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
