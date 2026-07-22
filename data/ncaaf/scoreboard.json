@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-22T17:51:24.682Z",
+  "fetchedAt": "2026-07-22T21:41:48.902Z",
   "sportId": "ncaaf",
   "liveCount": 0,
   "seasonStatus": {
@@ -2022,7 +2022,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $47",
-              "numberAvailable": 1408,
+              "numberAvailable": 1424,
               "links": [
                 {
                   "href": "https://www.vividseats.com/virginia-cavaliers-football-tickets-scott-stadium-9-5-2026--sports-ncaa-football/production/6209753?wsUser=717"
@@ -8251,7 +8251,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $14",
-              "numberAvailable": 731,
+              "numberAvailable": 707,
               "links": [
                 {
                   "href": "https://www.vividseats.com/delaware-blue-hens-football-tickets-delaware-stadium-9-19-2026--sports-ncaa-football/production/6206859?wsUser=717"
@@ -8528,6 +8528,28 @@
                 "links": [
                   {
                     "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/college-football/team/_/id/2698/west-georgia-wolves",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/college-football/team/_/id/2698/west-georgia-wolves",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
                       "roster",
                       "desktop",
                       "team"
@@ -8546,6 +8568,29 @@
                     ],
                     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2698&section=roster",
                     "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/college-football/team/stats/_/id/2698",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2698&section=stats",
+                    "text": "Statistics",
                     "isExternal": false,
                     "isPremium": false
                   },
@@ -9995,9 +10040,9 @@
                   }
                 ]
               },
-              "details": "GT -7.5",
+              "details": "GT -7",
               "overUnder": 51.5,
-              "spread": -7.5,
+              "spread": -7,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -10029,7 +10074,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-270",
+                    "odds": "-258",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10061,7 +10106,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+220",
+                    "odds": "+210",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10097,7 +10142,7 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-7.5",
+                    "line": "-7",
                     "odds": "-110",
                     "link": {
                       "language": "en-US",
@@ -10106,7 +10151,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34185125%3Foutcomes%3D0HC84884207N750_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34185125%3Foutcomes%3D0HC84884207N700_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -10119,7 +10164,7 @@
                           "gameId": 401856776,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:GT-7.5"
+                          "betDetails": "Spread:GT-7"
                         }
                       }
                     }
@@ -10131,7 +10176,7 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+7.5",
+                    "line": "+7",
                     "odds": "-110",
                     "link": {
                       "language": "en-US",
@@ -10140,7 +10185,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34185125%3Foutcomes%3D0HC84884207P750_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34185125%3Foutcomes%3D0HC84884207P700_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -10153,7 +10198,7 @@
                           "gameId": 401856776,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:COLO+7.5"
+                          "betDetails": "Spread:COLO+7"
                         }
                       }
                     }
@@ -10170,7 +10215,7 @@
                 "over": {
                   "close": {
                     "line": "o51.5",
-                    "odds": "-105",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10204,7 +10249,7 @@
                 "under": {
                   "close": {
                     "line": "u51.5",
-                    "odds": "-115",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12284,7 +12329,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $32",
-              "numberAvailable": 793,
+              "numberAvailable": 797,
               "links": [
                 {
                   "href": "https://www.vividseats.com/eastern-michigan-eagles-football-tickets-rynearson-stadium-9-4-2026--sports-ncaa-football/production/6765421?wsUser=717"
@@ -19426,7 +19471,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $5",
-              "numberAvailable": 6578,
+              "numberAvailable": 6610,
               "links": [
                 {
                   "href": "https://www.vividseats.com/syracuse-orange-football-tickets-jma-wireless-dome-9-5-2026--sports-ncaa-football/production/6206662?wsUser=717"
@@ -20543,7 +20588,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $24",
-              "numberAvailable": 4554,
+              "numberAvailable": 4183,
               "links": [
                 {
                   "href": "https://www.vividseats.com/nebraska-cornhuskers-football-tickets-nebraska-memorial-stadium-9-5-2026--sports-ncaa-football/production/6206530?wsUser=717"
@@ -21683,7 +21728,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $34",
-              "numberAvailable": 911,
+              "numberAvailable": 949,
               "links": [
                 {
                   "href": "https://www.vividseats.com/army-west-point-black-knights-football-tickets-west-point-michie-stadium-9-5-2026/production/6431169?wsUser=717"
@@ -24030,7 +24075,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $65",
-              "numberAvailable": 7926,
+              "numberAvailable": 7887,
               "links": [
                 {
                   "href": "https://www.vividseats.com/ohio-state-buckeyes-football-tickets-ohio-stadium-9-5-2026--sports-ncaa-football/production/6206556?wsUser=717"
@@ -25398,7 +25443,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $35",
-              "numberAvailable": 4057,
+              "numberAvailable": 4091,
               "links": [
                 {
                   "href": "https://www.vividseats.com/kentucky-wildcats-football-tickets-kroger-field-9-5-2026--sports-ncaa-football/production/6300768?wsUser=717"
@@ -29522,9 +29567,9 @@
                   }
                 ]
               },
-              "details": "CIN -8.5",
+              "details": "CIN -7.5",
               "overUnder": 54.5,
-              "spread": -8.5,
+              "spread": -7.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -29556,7 +29601,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-278",
+                    "odds": "-258",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -29588,7 +29633,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+225",
+                    "odds": "+210",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -29624,7 +29669,7 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-8.5",
+                    "line": "-7.5",
                     "odds": "-108",
                     "link": {
                       "language": "en-US",
@@ -29633,7 +29678,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180777%3Foutcomes%3D0HC84871108N850_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180777%3Foutcomes%3D0HC84871108N750_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -29646,7 +29691,7 @@
                           "gameId": 401856777,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:CIN-8.5"
+                          "betDetails": "Spread:CIN-7.5"
                         }
                       }
                     }
@@ -29658,7 +29703,7 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+8.5",
+                    "line": "+7.5",
                     "odds": "-112",
                     "link": {
                       "language": "en-US",
@@ -29667,7 +29712,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180777%3Foutcomes%3D0HC84871108P850_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180777%3Foutcomes%3D0HC84871108P750_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -29680,7 +29725,7 @@
                           "gameId": 401856777,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:BC+8.5"
+                          "betDetails": "Spread:BC+7.5"
                         }
                       }
                     }
@@ -31665,8 +31710,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $18",
-              "numberAvailable": 8384,
+              "summary": "Tickets as low as $22",
+              "numberAvailable": 8418,
               "links": [
                 {
                   "href": "https://www.vividseats.com/penn-state-nittany-lions-football-tickets-west-shore-home-field-at-beaver-stadium-9-5-2026--sports-ncaa-football/production/6206588?wsUser=717"
@@ -35321,7 +35366,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $12",
-              "numberAvailable": 3217,
+              "numberAvailable": 3328,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arkansas-razorbacks-football-tickets-razorback-stadium-9-5-2026--sports-ncaa-football/production/6414464?wsUser=717"
@@ -37650,8 +37695,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $89",
-              "numberAvailable": 434,
+              "summary": "Tickets as low as $87",
+              "numberAvailable": 440,
               "links": [
                 {
                   "href": "https://www.vividseats.com/old-dominion-monarchs-football-tickets-kornblau-field-at-sb-ballard-stadium-9-5-2026--sports-ncaa-football/production/6297091?wsUser=717"
@@ -38084,8 +38129,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $104",
-              "numberAvailable": 1388,
+              "summary": "Tickets as low as $78",
+              "numberAvailable": 1390,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-am-aggies-football-tickets-kyle-field-9-5-2026--sports-ncaa-football/production/6300787?wsUser=717"
@@ -42400,7 +42445,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $22",
-              "numberAvailable": 733,
+              "numberAvailable": 737,
               "links": [
                 {
                   "href": "https://www.vividseats.com/middle-tennessee-state-blue-raiders-football-tickets-floyd-stadium-9-5-2026--sports-ncaa-football/production/6206936?wsUser=717"
@@ -43268,7 +43313,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $30",
-              "numberAvailable": 399,
+              "numberAvailable": 398,
               "links": [
                 {
                   "href": "https://www.vividseats.com/georgia-southern-eagles-football-tickets-paulson-stadium-9-5-2026--sports-ncaa-football/production/6207033?wsUser=717"
@@ -47934,7 +47979,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $69",
-              "numberAvailable": 5390,
+              "numberAvailable": 5944,
               "links": [
                 {
                   "href": "https://www.vividseats.com/florida-gators-football-tickets-ben-hill-griffin-stadium-9-5-2026/production/6414505?wsUser=717"
@@ -49543,7 +49588,7 @@
             },
             {
               "summary": "Tickets as low as $330",
-              "numberAvailable": 48,
+              "numberAvailable": 43,
               "links": [
                 {
                   "href": "https://www.vividseats.com/northwestern-wildcats-football-tickets-ryan-field-9-12-2026--sports-ncaa-football/production/6297211?wsUser=717"
@@ -50409,7 +50454,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $18",
-              "numberAvailable": 6514,
+              "numberAvailable": 6536,
               "links": [
                 {
                   "href": "https://www.vividseats.com/arizona-state-sun-devils-football-tickets-mountain-america-stadium-9-5-2026--sports-ncaa-football/production/6262140?wsUser=717"
@@ -50685,6 +50730,28 @@
                 "links": [
                   {
                     "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/college-football/team/_/id/2385/mercyhurst-lakers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "mobile",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/college-football/team/_/id/2385/mercyhurst-lakers",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
                       "roster",
                       "desktop",
                       "team"
@@ -50703,6 +50770,29 @@
                     ],
                     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2385&section=roster",
                     "text": "Roster",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/college-football/team/stats/_/id/2385",
+                    "text": "Statistics",
+                    "isExternal": false,
+                    "isPremium": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:20~l:23~t:2385&section=stats",
+                    "text": "Statistics",
                     "isExternal": false,
                     "isPremium": false
                   },
@@ -57687,7 +57777,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $35",
-              "numberAvailable": 3890,
+              "numberAvailable": 3887,
               "links": [
                 {
                   "href": "https://www.vividseats.com/florida-state-seminoles-football-tickets-doak-campbell-stadium-9-3-2026--sports-ncaa-football/production/6205061?wsUser=717"
