@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-25T17:34:49.716Z",
+  "fetchedAt": "2026-07-25T18:34:38.163Z",
   "sportId": "mlb",
   "liveCount": 1,
   "seasonStatus": {
@@ -255,7 +255,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/det.png"
               },
-              "score": "0",
+              "score": "2",
               "linescores": [
                 {
                   "value": 0,
@@ -263,26 +263,46 @@
                   "period": 1
                 },
                 {
+                  "value": 1,
+                  "displayValue": "1",
+                  "period": 2
+                },
+                {
                   "value": 0,
                   "displayValue": "0",
-                  "period": 2
+                  "period": 3
+                },
+                {
+                  "value": 1,
+                  "displayValue": "1",
+                  "period": 4
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 5
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 6
                 }
               ],
               "statistics": [
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "1"
+                  "displayValue": "6"
                 },
                 {
                   "name": "runs",
                   "abbreviation": "R",
-                  "displayValue": "0"
+                  "displayValue": "2"
                 },
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".250"
+                  "displayValue": ".286"
                 },
                 {
                   "name": "saves",
@@ -302,7 +322,7 @@
                 {
                   "name": "ERA",
                   "abbreviation": "ERA",
-                  "displayValue": "4.50"
+                  "displayValue": "1.50"
                 },
                 {
                   "name": "errors",
@@ -318,13 +338,13 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "1-1, 2B",
+                      "displayValue": "2-2, HR, 2B, 2 RBI, R",
                       "value": 1,
                       "athlete": {
-                        "id": "4683384",
-                        "fullName": "Colt Keith",
-                        "displayName": "Colt Keith",
-                        "shortName": "C. Keith",
+                        "id": "5124113",
+                        "fullName": "Hao-Yu Lee",
+                        "displayName": "Hao-Yu Lee",
+                        "shortName": "H. Lee",
                         "links": [
                           {
                             "rel": [
@@ -332,13 +352,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/4683384"
+                            "href": "https://www.espn.com/mlb/player/_/id/5124113"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4683384.png",
-                        "jersey": "33",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                        "jersey": "50",
                         "position": {
-                          "abbreviation": "3B"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "6"
@@ -358,13 +378,13 @@
                   "abbreviation": "HR",
                   "leaders": [
                     {
-                      "displayValue": "0-1",
-                      "value": 0,
+                      "displayValue": "2-2, HR, 2B, 2 RBI, R",
+                      "value": 1,
                       "athlete": {
-                        "id": "33804",
-                        "fullName": "Gleyber Torres",
-                        "displayName": "Gleyber Torres",
-                        "shortName": "G. Torres",
+                        "id": "5124113",
+                        "fullName": "Hao-Yu Lee",
+                        "displayName": "Hao-Yu Lee",
+                        "shortName": "H. Lee",
                         "links": [
                           {
                             "rel": [
@@ -372,11 +392,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/33804"
+                            "href": "https://www.espn.com/mlb/player/_/id/5124113"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/33804.png",
-                        "jersey": "25",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                        "jersey": "50",
                         "position": {
                           "abbreviation": "2B"
                         },
@@ -398,13 +418,13 @@
                   "abbreviation": "RBI",
                   "leaders": [
                     {
-                      "displayValue": "0-1",
-                      "value": 0,
+                      "displayValue": "2-2, HR, 2B, 2 RBI, R",
+                      "value": 2,
                       "athlete": {
-                        "id": "33804",
-                        "fullName": "Gleyber Torres",
-                        "displayName": "Gleyber Torres",
-                        "shortName": "G. Torres",
+                        "id": "5124113",
+                        "fullName": "Hao-Yu Lee",
+                        "displayName": "Hao-Yu Lee",
+                        "shortName": "H. Lee",
                         "links": [
                           {
                             "rel": [
@@ -412,11 +432,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/33804"
+                            "href": "https://www.espn.com/mlb/player/_/id/5124113"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/33804.png",
-                        "jersey": "25",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                        "jersey": "50",
                         "position": {
                           "abbreviation": "2B"
                         },
@@ -438,13 +458,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "1-1, 2B",
-                      "value": 62,
+                      "displayValue": "2-2, HR, 2B, 2 RBI, R",
+                      "value": 70,
                       "athlete": {
-                        "id": "4683384",
-                        "fullName": "Colt Keith",
-                        "displayName": "Colt Keith",
-                        "shortName": "C. Keith",
+                        "id": "5124113",
+                        "fullName": "Hao-Yu Lee",
+                        "displayName": "Hao-Yu Lee",
+                        "shortName": "H. Lee",
                         "links": [
                           {
                             "rel": [
@@ -452,13 +472,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/4683384"
+                            "href": "https://www.espn.com/mlb/player/_/id/5124113"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4683384.png",
-                        "jersey": "33",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                        "jersey": "50",
                         "position": {
-                          "abbreviation": "3B"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "6"
@@ -478,13 +498,13 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "1-1, 2B",
-                      "value": 62,
+                      "displayValue": "2-2, HR, 2B, 2 RBI, R",
+                      "value": 70,
                       "athlete": {
-                        "id": "4683384",
-                        "fullName": "Colt Keith",
-                        "displayName": "Colt Keith",
-                        "shortName": "C. Keith",
+                        "id": "5124113",
+                        "fullName": "Hao-Yu Lee",
+                        "displayName": "Hao-Yu Lee",
+                        "shortName": "H. Lee",
                         "links": [
                           {
                             "rel": [
@@ -492,13 +512,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/4683384"
+                            "href": "https://www.espn.com/mlb/player/_/id/5124113"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4683384.png",
-                        "jersey": "33",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                        "jersey": "50",
                         "position": {
-                          "abbreviation": "3B"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "6"
@@ -575,7 +595,7 @@
                   "record": "(4-6, 2.79)"
                 }
               ],
-              "hits": 1,
+              "hits": 6,
               "errors": 0,
               "records": [
                 {
@@ -710,13 +730,33 @@
                   "value": 1,
                   "displayValue": "1",
                   "period": 2
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 3
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 4
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 5
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 6
                 }
               ],
               "statistics": [
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "2"
+                  "displayValue": "3"
                 },
                 {
                   "name": "runs",
@@ -726,7 +766,7 @@
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".333"
+                  "displayValue": ".158"
                 },
                 {
                   "name": "saves",
@@ -746,7 +786,7 @@
                 {
                   "name": "ERA",
                   "abbreviation": "ERA",
-                  "displayValue": "0.00"
+                  "displayValue": "3.38"
                 },
                 {
                   "name": "errors",
@@ -762,7 +802,7 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "1-1, R",
+                      "displayValue": "2-2, R",
                       "value": 1,
                       "athlete": {
                         "id": "4109109",
@@ -802,7 +842,7 @@
                   "abbreviation": "HR",
                   "leaders": [
                     {
-                      "displayValue": "0-1",
+                      "displayValue": "0-2",
                       "value": 0,
                       "athlete": {
                         "id": "31127",
@@ -842,7 +882,7 @@
                   "abbreviation": "RBI",
                   "leaders": [
                     {
-                      "displayValue": "0-0, RBI",
+                      "displayValue": "0-1, RBI",
                       "value": 1,
                       "athlete": {
                         "id": "4109223",
@@ -882,8 +922,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "1-1, R",
-                      "value": 62,
+                      "displayValue": "2-2, R",
+                      "value": 64,
                       "athlete": {
                         "id": "4109109",
                         "fullName": "Vinnie Pasquantino",
@@ -922,8 +962,8 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "1-1, R",
-                      "value": 62,
+                      "displayValue": "2-2, R",
+                      "value": 64,
                       "athlete": {
                         "id": "4109109",
                         "fullName": "Vinnie Pasquantino",
@@ -1020,7 +1060,7 @@
                   "record": "(5-7, 3.66)"
                 }
               ],
-              "hits": 2,
+              "hits": 3,
               "errors": 0,
               "records": [
                 {
@@ -1047,28 +1087,30 @@
           "notes": [],
           "situation": {
             "lastPlay": {
-              "id": "4018162540301010001",
+              "id": "4018162541104010001",
               "type": {
                 "id": "1",
                 "text": "Start Batter/Pitcher",
                 "alternativeText": "Now at bat",
                 "type": "start-batterpitcher"
               },
-              "text": "Michael Wacha pitches to Riley Greene",
+              "text": "Michael Wacha pitches to Hao-Yu Lee",
               "scoreValue": 0,
               "team": {
                 "id": "6"
               },
-              "atBatId": "4018162540301",
+              "atBatId": "4018162541104",
               "summaryType": "A",
               "athletesInvolved": []
             },
             "balls": 0,
             "strikes": 0,
-            "outs": 0,
+            "outs": 1,
+            "onFirst": true,
+            "onSecond": true,
             "pitcher": {
               "playerId": 32640,
-              "period": 2,
+              "period": 6,
               "athlete": {
                 "id": "32640",
                 "fullName": "Michael Wacha",
@@ -1094,16 +1136,16 @@
               "projections": {
                 "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816254/competitions/401816254/competitors/7/roster/32640/projections?lang=en&region=us"
               },
-              "summary": "1.0 IP, 0 ER, H, K, 0 BB"
+              "summary": "5.1 IP, 2 ER, 6 H, 2 K, 2 BB"
             },
             "batter": {
-              "playerId": 42179,
-              "period": 2,
+              "playerId": 5124113,
+              "period": 6,
               "athlete": {
-                "id": "42179",
-                "fullName": "Riley Greene",
-                "displayName": "Riley Greene",
-                "shortName": "R. Greene",
+                "id": "5124113",
+                "fullName": "Hao-Yu Lee",
+                "displayName": "Hao-Yu Lee",
+                "shortName": "H. Lee",
                 "links": [
                   {
                     "rel": [
@@ -1111,37 +1153,35 @@
                       "desktop",
                       "athlete"
                     ],
-                    "href": "https://www.espn.com/mlb/player/_/id/42179"
+                    "href": "https://www.espn.com/mlb/player/_/id/5124113"
                   }
                 ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42179.png",
-                "jersey": "31",
-                "position": "LF",
+                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                "jersey": "50",
+                "position": "2B",
                 "team": {
                   "id": "6"
                 }
               },
               "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816254/competitions/401816254/competitors/6/roster/42179/projections?lang=en&region=us"
+                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816254/competitions/401816254/competitors/6/roster/5124113/projections?lang=en&region=us"
               },
-              "summary": "0-0"
+              "summary": "2-2, HR, 2B, 2 RBI, R"
             },
-            "onFirst": false,
-            "onSecond": false,
             "onThird": false
           },
           "status": {
             "clock": 0,
             "displayClock": "0:00",
-            "period": 2,
+            "period": 6,
             "type": {
               "id": "2",
               "name": "STATUS_IN_PROGRESS",
               "state": "in",
               "completed": false,
               "description": "In Progress",
-              "detail": "Bottom 2nd",
-              "shortDetail": "Bot 2nd"
+              "detail": "Bottom 6th",
+              "shortDetail": "Bot 6th"
             }
           },
           "broadcasts": [
@@ -1168,13 +1208,13 @@
               "abbreviation": "RAT",
               "leaders": [
                 {
-                  "displayValue": "1-1, 2B",
-                  "value": 62,
+                  "displayValue": "2-2, HR, 2B, 2 RBI, R",
+                  "value": 70,
                   "athlete": {
-                    "id": "4683384",
-                    "fullName": "Colt Keith",
-                    "displayName": "Colt Keith",
-                    "shortName": "C. Keith",
+                    "id": "5124113",
+                    "fullName": "Hao-Yu Lee",
+                    "displayName": "Hao-Yu Lee",
+                    "shortName": "H. Lee",
                     "links": [
                       {
                         "rel": [
@@ -1182,13 +1222,13 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/mlb/player/_/id/4683384"
+                        "href": "https://www.espn.com/mlb/player/_/id/5124113"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4683384.png",
-                    "jersey": "33",
+                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5124113.png",
+                    "jersey": "50",
                     "position": {
-                      "abbreviation": "3B"
+                      "abbreviation": "2B"
                     },
                     "team": {
                       "id": "6"
@@ -1200,13 +1240,13 @@
                   }
                 },
                 {
-                  "displayValue": "1-1, R",
-                  "value": 62,
+                  "displayValue": "6.0 IP, ER, 3 H, 3 K, 0 BB",
+                  "value": 65,
                   "athlete": {
-                    "id": "4109109",
-                    "fullName": "Vinnie Pasquantino",
-                    "displayName": "Vinnie Pasquantino",
-                    "shortName": "V. Pasquantino",
+                    "id": "41167",
+                    "fullName": "Casey Mize",
+                    "displayName": "Casey Mize",
+                    "shortName": "C. Mize",
                     "links": [
                       {
                         "rel": [
@@ -1214,21 +1254,21 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/mlb/player/_/id/4109109"
+                        "href": "https://www.espn.com/mlb/player/_/id/41167"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4109109.png",
-                    "jersey": "9",
+                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41167.png",
+                    "jersey": "12",
                     "position": {
-                      "abbreviation": "1B"
+                      "abbreviation": "SP"
                     },
                     "team": {
-                      "id": "7"
+                      "id": "6"
                     },
                     "active": true
                   },
                   "team": {
-                    "id": "7"
+                    "id": "6"
                   }
                 }
               ]
@@ -1240,7 +1280,7 @@
             }
           },
           "startDate": "2026-07-25T17:10Z",
-          "outsText": "0 Outs",
+          "outsText": "1 Out",
           "broadcast": "ESPN Unlmtd/MLB.TV",
           "geoBroadcasts": [
             {
@@ -1428,10 +1468,10 @@
         }
       ],
       "weather": {
-        "displayValue": "7",
-        "temperature": 81,
-        "highTemperature": 81,
-        "conditionId": "Cloudy",
+        "displayValue": "2",
+        "temperature": 82,
+        "highTemperature": 82,
+        "conditionId": "Mostly sunny",
         "link": {
           "language": "en-US",
           "rel": [
@@ -1447,15 +1487,15 @@
       "status": {
         "clock": 0,
         "displayClock": "0:00",
-        "period": 2,
+        "period": 6,
         "type": {
           "id": "2",
           "name": "STATUS_IN_PROGRESS",
           "state": "in",
           "completed": false,
           "description": "In Progress",
-          "detail": "Bottom 2nd",
-          "shortDetail": "Bot 2nd"
+          "detail": "Bottom 6th",
+          "shortDetail": "Bot 6th"
         }
       }
     },
@@ -2341,7 +2381,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $22",
-              "numberAvailable": 1660,
+              "numberAvailable": 1382,
               "links": [
                 {
                   "href": "https://www.vividseats.com/washington-nationals-tickets-nationals-park-7-25-2026--sports-mlb-baseball/production/5967811?wsUser=717"
@@ -2440,7 +2480,7 @@
                 ],
                 "displayName": "DraftKings"
               },
-              "details": "WSH -130",
+              "details": "WSH -136",
               "overUnder": 9.5,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -2474,7 +2514,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-130",
+                    "odds": "-136",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2505,7 +2545,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+108",
+                    "odds": "+113",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2541,7 +2581,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+147",
+                    "odds": "+144",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2575,7 +2615,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-178",
+                    "odds": "-175",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3668,7 +3708,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $45",
-              "numberAvailable": 1267,
+              "numberAvailable": 1057,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-giants-tickets-oracle-park-7-25-2026--sports-mlb-baseball/production/5965513?wsUser=717"
@@ -3751,7 +3791,7 @@
                   }
                 ]
               },
-              "details": "SF -130",
+              "details": "SF -136",
               "overUnder": 9,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -3785,7 +3825,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-130",
+                    "odds": "-136",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3816,7 +3856,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+108",
+                    "odds": "+113",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3852,7 +3892,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+153",
+                    "odds": "+148",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3886,7 +3926,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-186",
+                    "odds": "-180",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3924,7 +3964,7 @@
                 "over": {
                   "close": {
                     "line": "o9",
-                    "odds": "-104",
+                    "odds": "-111",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3958,7 +3998,7 @@
                 "under": {
                   "close": {
                     "line": "u9",
-                    "odds": "-115",
+                    "odds": "-109",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -4027,14 +4067,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Los Angeles Angels (41-63, fifth in the AL West) vs. San Francisco Giants (43-60, fourth in the NL West)",
               "shortLinkText": "Angels bring road slide into matchup with the Giants"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -4067,8 +4107,8 @@
       ],
       "weather": {
         "displayValue": "2",
-        "temperature": 65,
-        "highTemperature": 65,
+        "temperature": 66,
+        "highTemperature": 66,
         "conditionId": "Mostly sunny",
         "link": {
           "language": "en-US",
@@ -4768,6 +4808,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "51-53"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "27-24"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "24-29"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -4929,26 +4989,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "51-53"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "27-24"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "24-29"
-                }
               ]
             }
           ],
@@ -4995,8 +5035,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $21",
-              "numberAvailable": 945,
+              "summary": "Tickets as low as $19",
+              "numberAvailable": 850,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-marlins-tickets-loandepot-park-7-25-2026--sports-mlb-baseball/production/5966015?wsUser=717"
@@ -5094,7 +5134,7 @@
                   }
                 ]
               },
-              "details": "MIA -142",
+              "details": "MIA -148",
               "overUnder": 8,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -5128,7 +5168,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-142",
+                    "odds": "-148",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5159,7 +5199,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+118",
+                    "odds": "+123",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5195,7 +5235,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+149",
+                    "odds": "+145",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5229,7 +5269,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-181",
+                    "odds": "-176",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5370,14 +5410,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Diego Padres (51-53, third in the NL West) vs. Miami Marlins (52-52, third in the NL East)",
               "shortLinkText": "Marlins host the Padres on 4-game home skid"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -5410,8 +5450,8 @@
       ],
       "weather": {
         "displayValue": "Partly sunny",
-        "temperature": 88,
-        "highTemperature": 88,
+        "temperature": 90,
+        "highTemperature": 90,
         "conditionId": "3",
         "link": {
           "language": "en-US",
@@ -6322,8 +6362,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $129",
-              "numberAvailable": 611,
+              "summary": "Tickets as low as $122",
+              "numberAvailable": 601,
               "links": [
                 {
                   "href": "https://www.vividseats.com/boston-red-sox-tickets-fenway-park-7-25-2026--sports-mlb-baseball/production/5966616?wsUser=717"
@@ -6421,7 +6461,7 @@
                   }
                 ]
               },
-              "details": "BOS -111",
+              "details": "BOS -116",
               "overUnder": 7,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -6455,7 +6495,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-111",
+                    "odds": "-116",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6486,7 +6526,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-108",
+                    "odds": "-104",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6522,7 +6562,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-194",
+                    "odds": "-204",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6556,7 +6596,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+159",
+                    "odds": "+167",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6594,7 +6634,7 @@
                 "over": {
                   "close": {
                     "line": "o7",
-                    "odds": "-122",
+                    "odds": "-123",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6697,14 +6737,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Toronto Blue Jays (47-57, fifth in the AL East) vs. Boston Red Sox (53-49, third in the AL East)",
               "shortLinkText": "Seigler leads Red Sox against the Blue Jays following 4-hit game"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -6906,6 +6946,69 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
               },
               "score": "0",
+              "probables": [
+                {
+                  "name": "probableStartingPitcher",
+                  "displayName": "Probable Starting Pitcher",
+                  "shortDisplayName": "Starter",
+                  "abbreviation": "SP",
+                  "playerId": 35773,
+                  "athlete": {
+                    "id": "35773",
+                    "fullName": "Tim Mayza",
+                    "displayName": "Tim Mayza",
+                    "shortName": "T. Mayza",
+                    "links": [
+                      {
+                        "rel": [
+                          "playercard",
+                          "desktop",
+                          "athlete"
+                        ],
+                        "href": "https://www.espn.com/mlb/player/_/id/35773"
+                      }
+                    ],
+                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/35773.png",
+                    "jersey": "37",
+                    "position": "RP",
+                    "team": {
+                      "id": "22"
+                    }
+                  },
+                  "statistics": [
+                    {
+                      "name": "saves",
+                      "abbreviation": "SV",
+                      "displayValue": "0",
+                      "rankDisplayValue": "Tied-211th"
+                    },
+                    {
+                      "name": "losses",
+                      "abbreviation": "L",
+                      "displayValue": "3",
+                      "rankDisplayValue": "Tied-169th"
+                    },
+                    {
+                      "name": "wins",
+                      "abbreviation": "W",
+                      "displayValue": "2",
+                      "rankDisplayValue": "Tied-252nd"
+                    },
+                    {
+                      "name": "ERA",
+                      "abbreviation": "ERA",
+                      "displayValue": "4.00"
+                    },
+                    {
+                      "name": "errors",
+                      "abbreviation": "E",
+                      "displayValue": "1",
+                      "rankDisplayValue": "Tied-322nd"
+                    }
+                  ],
+                  "record": "(2-3, 4.00)"
+                }
+              ],
               "statistics": [
                 {
                   "name": "hits",
@@ -7584,8 +7687,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $101",
-              "numberAvailable": 1150,
+              "summary": "Tickets as low as $104",
+              "numberAvailable": 1026,
               "links": [
                 {
                   "href": "https://www.vividseats.com/philadelphia-phillies-tickets-citizens-bank-park-7-25-2026--sports-mlb-baseball/production/5966580?wsUser=717"
@@ -7668,7 +7771,7 @@
                   }
                 ]
               },
-              "details": "NYY -130",
+              "details": "NYY -126",
               "overUnder": 9,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -7702,7 +7805,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+108",
+                    "odds": "+105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7733,7 +7836,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-130",
+                    "odds": "-126",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7769,7 +7872,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-157",
+                    "odds": "-156",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7803,7 +7906,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+130",
+                    "odds": "+129",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -8269,6 +8372,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "60-43"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "36-15"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "24-28"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -8429,26 +8552,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "60-43"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "36-15"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "24-28"
                 }
               ]
             },
@@ -8896,8 +8999,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $37",
-              "numberAvailable": 597,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 566,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tampa-bay-rays-tickets-tropicana-field-7-25-2026--sports-mlb-baseball/production/5966713?wsUser=717"
@@ -9256,14 +9359,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Cleveland Guardians (54-51, second in the AL Central) vs. Tampa Bay Rays (60-43, first in the AL East)",
               "shortLinkText": "Fortes leads Rays against the Guardians after 4-hit game"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -10203,7 +10306,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $85",
-              "numberAvailable": 779,
+              "numberAvailable": 749,
               "links": [
                 {
                   "href": "https://www.vividseats.com/pittsburgh-pirates-tickets-pnc-park-7-25-2026--sports-mlb-baseball/production/5965805?wsUser=717"
@@ -11499,7 +11602,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $26",
-              "numberAvailable": 1190,
+              "numberAvailable": 1046,
               "links": [
                 {
                   "href": "https://www.vividseats.com/baltimore-orioles-tickets-oriole-park-at-camden-yards-7-25-2026--sports-mlb-baseball/production/5965739?wsUser=717"
@@ -11858,14 +11961,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Atlanta Braves (61-42, first in the NL East) vs. Baltimore Orioles (50-54, fourth in the AL East)",
               "shortLinkText": "Braves take win streak into matchup with the Orioles"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -12546,13 +12649,13 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": ".263",
-                      "value": 0.26329779624938965,
+                      "displayValue": ".266",
+                      "value": 0.26646700501441956,
                       "athlete": {
-                        "id": "42598",
-                        "fullName": "Shea Langeliers",
-                        "displayName": "Shea Langeliers",
-                        "shortName": "S. Langeliers",
+                        "id": "4966637",
+                        "fullName": "Nick Kurtz",
+                        "displayName": "Nick Kurtz",
+                        "shortName": "N. Kurtz",
                         "links": [
                           {
                             "rel": [
@@ -12560,13 +12663,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/42598"
+                            "href": "https://www.espn.com/mlb/player/_/id/4966637"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42598.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4966637.png",
+                        "jersey": "16",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "11"
@@ -12626,13 +12729,13 @@
                   "abbreviation": "RBI",
                   "leaders": [
                     {
-                      "displayValue": "51",
-                      "value": 51,
+                      "displayValue": "66",
+                      "value": 66,
                       "athlete": {
-                        "id": "42598",
-                        "fullName": "Shea Langeliers",
-                        "displayName": "Shea Langeliers",
-                        "shortName": "S. Langeliers",
+                        "id": "4966637",
+                        "fullName": "Nick Kurtz",
+                        "displayName": "Nick Kurtz",
+                        "shortName": "N. Kurtz",
                         "links": [
                           {
                             "rel": [
@@ -12640,13 +12743,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/42598"
+                            "href": "https://www.espn.com/mlb/player/_/id/4966637"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42598.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4966637.png",
+                        "jersey": "16",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "11"
@@ -12666,13 +12769,13 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "368.0",
-                      "value": 368,
+                      "displayValue": "368.2",
+                      "value": 368.25,
                       "athlete": {
-                        "id": "42598",
-                        "fullName": "Shea Langeliers",
-                        "displayName": "Shea Langeliers",
-                        "shortName": "S. Langeliers",
+                        "id": "4966637",
+                        "fullName": "Nick Kurtz",
+                        "displayName": "Nick Kurtz",
+                        "shortName": "N. Kurtz",
                         "links": [
                           {
                             "rel": [
@@ -12680,13 +12783,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/42598"
+                            "href": "https://www.espn.com/mlb/player/_/id/4966637"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42598.png",
-                        "jersey": "23",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/4966637.png",
+                        "jersey": "16",
                         "position": {
-                          "abbreviation": "C"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "11"
@@ -12745,7 +12848,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $26",
-              "numberAvailable": 1250,
+              "numberAvailable": 1334,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-twins-tickets-target-field-7-25-2026--sports-mlb-baseball/production/5966403?wsUser=717"
@@ -12828,7 +12931,7 @@
                   }
                 ]
               },
-              "details": "MIN -159",
+              "details": "MIN -156",
               "overUnder": 10.5,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -12862,7 +12965,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-159",
+                    "odds": "-156",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12893,7 +12996,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+131",
+                    "odds": "+129",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12929,7 +13032,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+122",
+                    "odds": "+129",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12963,7 +13066,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-147",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13001,7 +13104,7 @@
                 "over": {
                   "close": {
                     "line": "o10.5",
-                    "odds": "-105",
+                    "odds": "-106",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13144,8 +13247,8 @@
       ],
       "weather": {
         "displayValue": "Mostly sunny",
-        "temperature": 91,
-        "highTemperature": 91,
+        "temperature": 90,
+        "highTemperature": 90,
         "conditionId": "2",
         "link": {
           "language": "en-US",
@@ -14055,7 +14158,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $26",
-              "numberAvailable": 768,
+              "numberAvailable": 699,
               "links": [
                 {
                   "href": "https://www.vividseats.com/milwaukee-brewers-tickets-american-family-field-4-21-2026--sports-mlb-baseball/production/5964970?wsUser=717"
@@ -14138,7 +14241,7 @@
                   }
                 ]
               },
-              "details": "MIL -238",
+              "details": "MIL -239",
               "overUnder": 9,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -14172,7 +14275,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-238",
+                    "odds": "-239",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14203,7 +14306,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+193",
+                    "odds": "+194",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14239,7 +14342,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "-110",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14273,7 +14376,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-110",
+                    "odds": "-107",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15365,8 +15468,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $24",
-              "numberAvailable": 2063,
+              "summary": "Tickets as low as $26",
+              "numberAvailable": 1190,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-white-sox-tickets-rate-field-7-25-2026--sports-mlb-baseball/production/5965123?wsUser=717"
@@ -16666,8 +16769,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $28",
-              "numberAvailable": 4618,
+              "summary": "Tickets as low as $34",
+              "numberAvailable": 4508,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-mets-tickets-citi-field-7-25-2026--sports-mlb-baseball/production/5965022?wsUser=717"
@@ -17736,6 +17839,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "48-54"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "22-28"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "26-26"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -17897,26 +18020,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "48-54"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "22-28"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "26-26"
-                }
               ]
             }
           ],
@@ -17963,7 +18066,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $24",
-              "numberAvailable": 1020,
+              "numberAvailable": 1108,
               "links": [
                 {
                   "href": "https://www.vividseats.com/st-louis-cardinals-tickets-busch-stadium-7-25-2026--sports-mlb-baseball/production/5964928?wsUser=717"
@@ -19264,7 +19367,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $18",
-              "numberAvailable": 1161,
+              "numberAvailable": 1120,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-rangers-tickets-globe-life-field-7-25-2026--sports-mlb-baseball/production/5967450?wsUser=717"
@@ -19608,14 +19711,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Seattle Mariners (51-53, second in the AL West) vs. Texas Rangers (52-51, first in the AL West)",
               "shortLinkText": "Mariners take 3-game losing streak into matchup with the Rangers"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -19648,8 +19751,8 @@
       ],
       "weather": {
         "displayValue": "1",
-        "temperature": 91,
-        "highTemperature": 91,
+        "temperature": 94,
+        "highTemperature": 94,
         "conditionId": "Sunny",
         "link": {
           "language": "en-US",
