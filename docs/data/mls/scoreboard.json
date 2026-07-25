@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-25T21:34:12.303Z",
+  "fetchedAt": "2026-07-25T22:32:16.500Z",
   "sportId": "mls",
   "liveCount": 0,
   "seasonStatus": {
@@ -180,8 +180,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $14",
-              "numberAvailable": 614,
+              "summary": "Tickets as low as $21",
+              "numberAvailable": 432,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-red-bulls-tickets-sports-illustrated-stadium-7-25-2026--sports-mls/production/6324516?wsUser=717"
@@ -734,259 +734,100 @@
           "details": [],
           "odds": [
             {
-              "overUnder": 3.5,
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707",
-                "text": "Game",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "isHidden": false
-              },
               "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "displayName": "DraftKings",
+                "id": "2000",
+                "name": "Bet 365",
+                "priority": 0,
+                "displayName": "Bet 365",
                 "logos": [
                   {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                    "href": "https://a.espncdn.com/redesign/assets/img/logos/logo-bet365.png",
                     "rel": [
                       "light"
                     ]
                   },
                   {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                    "href": "https://a.espncdn.com/redesign/assets/img/logos/logo-bet365.png",
                     "rel": [
                       "dark"
                     ]
                   }
                 ]
               },
+              "awayTeamOdds": {
+                "summary": "37/20",
+                "value": 2.85,
+                "handicap": 0,
+                "team": {
+                  "id": "21300",
+                  "uid": "s:600~t:21300",
+                  "abbreviation": "CLT",
+                  "displayName": "Charlotte FC",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/21300.png"
+                },
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "away",
+                    "desktop",
+                    "bets",
+                    "bet-365"
+                  ],
+                  "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=198164847-1728266495~2/1",
+                  "text": "Away Bet",
+                  "shortText": "Away Bet",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              },
+              "homeTeamOdds": {
+                "summary": "23/20",
+                "value": 2.15,
+                "handicap": 0,
+                "team": {
+                  "id": "190",
+                  "uid": "s:600~t:190",
+                  "abbreviation": "RBNY",
+                  "displayName": "Red Bull New York",
+                  "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png"
+                },
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "home",
+                    "desktop",
+                    "bets",
+                    "bet-365"
+                  ],
+                  "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=198164847-1728266492~11/10",
+                  "text": "Home Bet",
+                  "shortText": "Home Bet",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              },
               "drawOdds": {
-                "moneyLine": 280,
+                "summary": "3/1",
+                "value": 4,
+                "handicap": 0,
                 "link": {
                   "language": "en-US",
                   "rel": [
                     "draw",
                     "desktop",
                     "bets",
-                    "draftkings"
+                    "bet-365"
                   ],
-                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0ML85606046_2",
+                  "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=198164847-1728266494~29/10",
                   "text": "Draw Bet",
                   "shortText": "Draw Bet",
                   "isExternal": true,
                   "isPremium": false,
                   "isHidden": false
                 }
-              },
-              "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
-                "over": {
-                  "open": {
-                    "line": "o3.5",
-                    "odds": "+130"
-                  },
-                  "close": {
-                    "line": "o3.5",
-                    "odds": "+105",
-                    "link": {
-                      "rel": [
-                        "over",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0OU85606191O350_1",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:3.5"
-                        }
-                      }
-                    }
-                  }
-                },
-                "under": {
-                  "open": {
-                    "line": "u3.5",
-                    "odds": "-170"
-                  },
-                  "close": {
-                    "line": "u3.5",
-                    "odds": "-135",
-                    "link": {
-                      "rel": [
-                        "under",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0OU85606191U350_3",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:3.5"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
-                "home": {
-                  "open": {
-                    "line": "-0.5",
-                    "odds": "+110"
-                  },
-                  "close": {
-                    "line": "-0.5",
-                    "odds": "+105",
-                    "link": {
-                      "rel": [
-                        "homeSpread",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0HC85606196N50_1",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "home",
-                          "betType": "straight",
-                          "betDetails": "Spread:RBNY-0.5"
-                        }
-                      }
-                    }
-                  }
-                },
-                "away": {
-                  "open": {
-                    "line": "+0.5",
-                    "odds": "-155"
-                  },
-                  "close": {
-                    "line": "+0.5",
-                    "odds": "-150",
-                    "link": {
-                      "rel": [
-                        "awaySpread",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0HC85606196P50_3",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "away",
-                          "betType": "straight",
-                          "betDetails": "Spread:CLT+0.5"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
-                "home": {
-                  "open": {
-                    "odds": "+115"
-                  },
-                  "close": {
-                    "odds": "+115",
-                    "link": {
-                      "rel": [
-                        "home",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0ML85606046_1",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  }
-                },
-                "away": {
-                  "open": {
-                    "odds": "+185"
-                  },
-                  "close": {
-                    "odds": "+185",
-                    "link": {
-                      "rel": [
-                        "away",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0ML85606046_3",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  }
-                },
-                "draw": {
-                  "open": {
-                    "odds": "+275"
-                  },
-                  "close": {
-                    "odds": "+280",
-                    "link": {
-                      "rel": [
-                        "draw",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34430707%3Foutcomes%3D0ML85606046_2",
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "usa.1",
-                          "sport": "soccer",
-                          "gameId": 761685,
-                          "betSide": "draw",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "details": "RBNY +115"
+              }
             }
           ],
           "wasSuspended": false,
@@ -1060,7 +901,7 @@
           "startDate": "2026-07-25T23:15Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -1084,8 +925,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $59",
-              "numberAvailable": 768,
+              "summary": "Tickets as low as $30",
+              "numberAvailable": 504,
               "links": [
                 {
                   "href": "https://www.vividseats.com/columbus-crew-tickets-lowercom-field-7-25-2026--sports-mls/production/6324540?wsUser=717"
@@ -1284,7 +1125,53 @@
                   "id": "8689"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -1490,7 +1377,53 @@
                   "id": "8674"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -1599,7 +1532,7 @@
                 "priority": 1
               },
               "drawOdds": {
-                "moneyLine": 270,
+                "moneyLine": 265,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -1654,7 +1587,7 @@
                   },
                   "close": {
                     "line": "u3.5",
-                    "odds": "-155",
+                    "odds": "-150",
                     "link": {
                       "rel": [
                         "under",
@@ -1686,7 +1619,7 @@
                   },
                   "close": {
                     "line": "-0.5",
-                    "odds": "+105",
+                    "odds": "+115",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -1714,7 +1647,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-145",
+                    "odds": "-160",
                     "link": {
                       "rel": [
                         "awaySpread",
@@ -1769,7 +1702,7 @@
                     "odds": "+285"
                   },
                   "close": {
-                    "odds": "+195",
+                    "odds": "+185",
                     "link": {
                       "rel": [
                         "away",
@@ -1794,7 +1727,7 @@
                     "odds": "+310"
                   },
                   "close": {
-                    "odds": "+270",
+                    "odds": "+265",
                     "link": {
                       "rel": [
                         "draw",
@@ -1889,7 +1822,7 @@
           "startDate": "2026-07-25T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -1914,7 +1847,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $25",
-              "numberAvailable": 1329,
+              "numberAvailable": 1259,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cf-montreal-tickets-stade-saputo-7-25-2026/production/6325064?wsUser=717"
@@ -2081,7 +2014,53 @@
                   "id": "3278"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -2287,7 +2266,53 @@
                   "id": "10661"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -2425,7 +2450,7 @@
                   },
                   "close": {
                     "line": "o3.5",
-                    "odds": "-105",
+                    "odds": "-110",
                     "link": {
                       "rel": [
                         "over",
@@ -2453,7 +2478,7 @@
                   },
                   "close": {
                     "line": "u3.5",
-                    "odds": "-120",
+                    "odds": "-115",
                     "link": {
                       "rel": [
                         "under",
@@ -2485,7 +2510,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-150",
+                    "odds": "-145",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -2543,7 +2568,7 @@
                     "odds": "+185"
                   },
                   "close": {
-                    "odds": "+180",
+                    "odds": "+185",
                     "link": {
                       "rel": [
                         "home",
@@ -2568,7 +2593,7 @@
                     "odds": "+110"
                   },
                   "close": {
-                    "odds": "+115",
+                    "odds": "+110",
                     "link": {
                       "rel": [
                         "away",
@@ -2614,7 +2639,7 @@
                   }
                 }
               },
-              "details": "MIA +115"
+              "details": "MIA +110"
             }
           ],
           "wasSuspended": false,
@@ -2688,7 +2713,7 @@
           "startDate": "2026-07-25T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -2712,8 +2737,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $38",
-              "numberAvailable": 216,
+              "summary": "Tickets as low as $39",
+              "numberAvailable": 125,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dc-united-tickets-audi-field-7-25-2026--sports-mls/production/6324532?wsUser=717"
@@ -2880,7 +2905,53 @@
                   "id": "7604"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -3086,7 +3157,53 @@
                   "id": "10143"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -3487,7 +3604,7 @@
           "startDate": "2026-07-25T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -3511,8 +3628,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 285,
+              "summary": "Tickets as low as $44",
+              "numberAvailable": 272,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-england-revolution-tickets-gillette-stadium-7-25-2026--sports-mls/production/6325274?wsUser=717"
@@ -3679,7 +3796,53 @@
                   "id": "10660"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -3819,7 +3982,53 @@
                   "id": "7485"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -4218,7 +4427,7 @@
           "startDate": "2026-07-25T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -4242,8 +4451,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $42",
-              "numberAvailable": 504,
+              "summary": "Tickets as low as $35",
+              "numberAvailable": 439,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-city-fc-tickets-yankee-stadium-7-25-2026--sports-mls/production/6324548?wsUser=717"
@@ -4410,7 +4619,53 @@
                   "id": "4896"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -4616,7 +4871,53 @@
                   "id": "1452"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -4752,7 +5053,7 @@
                   },
                   "close": {
                     "line": "o2.5",
-                    "odds": "-170",
+                    "odds": "-175",
                     "link": {
                       "rel": [
                         "over",
@@ -5015,7 +5316,7 @@
           "startDate": "2026-07-25T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -5039,8 +5340,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $70",
-              "numberAvailable": 108,
+              "summary": "Tickets as low as $63",
+              "numberAvailable": 13,
               "links": [
                 {
                   "href": "https://www.vividseats.com/orlando-city-sc-tickets-interco-stadium-7-25-2026--sports-mls/production/6324762?wsUser=717"
@@ -5207,7 +5508,53 @@
                   "id": "6971"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -5415,7 +5762,53 @@
                   "id": "8993"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -5551,7 +5944,7 @@
                   },
                   "close": {
                     "line": "o3.5",
-                    "odds": "+140",
+                    "odds": "+135",
                     "link": {
                       "rel": [
                         "over",
@@ -5611,7 +6004,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-165",
+                    "odds": "-170",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -5639,7 +6032,7 @@
                   },
                   "close": {
                     "line": "-0.5",
-                    "odds": "+120",
+                    "odds": "+125",
                     "link": {
                       "rel": [
                         "awaySpread",
@@ -5814,7 +6207,7 @@
           "startDate": "2026-07-25T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -5838,8 +6231,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 199,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 167,
               "links": [
                 {
                   "href": "https://www.vividseats.com/philadelphia-union-tickets-subaru-park-7-25-2026--sports-mls/production/6324960?wsUser=717"
@@ -6006,7 +6399,53 @@
                   "id": "4061"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -6214,7 +6653,53 @@
                   "id": "4485"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -6323,7 +6808,7 @@
                 "priority": 1
               },
               "drawOdds": {
-                "moneyLine": 275,
+                "moneyLine": 285,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -6350,7 +6835,7 @@
                   },
                   "close": {
                     "line": "o2.5",
-                    "odds": "-165",
+                    "odds": "-170",
                     "link": {
                       "rel": [
                         "over",
@@ -6410,7 +6895,7 @@
                   },
                   "close": {
                     "line": "-0.5",
-                    "odds": "-130",
+                    "odds": "-135",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -6468,7 +6953,7 @@
                     "odds": "+110"
                   },
                   "close": {
-                    "odds": "-125",
+                    "odds": "-130",
                     "link": {
                       "rel": [
                         "home",
@@ -6493,7 +6978,7 @@
                     "odds": "+205"
                   },
                   "close": {
-                    "odds": "+290",
+                    "odds": "+285",
                     "link": {
                       "rel": [
                         "away",
@@ -6518,7 +7003,7 @@
                     "odds": "+260"
                   },
                   "close": {
-                    "odds": "+275",
+                    "odds": "+285",
                     "link": {
                       "rel": [
                         "draw",
@@ -6539,7 +7024,7 @@
                   }
                 }
               },
-              "details": "PHI -125"
+              "details": "PHI -130"
             }
           ],
           "wasSuspended": false,
@@ -6637,8 +7122,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $41",
-              "numberAvailable": 253,
+              "summary": "Tickets as low as $32",
+              "numberAvailable": 237,
               "links": [
                 {
                   "href": "https://www.vividseats.com/houston-dynamo-tickets-shell-energy-stadium-7-25-2026--sports-mls/production/6325138?wsUser=717"
@@ -7434,8 +7919,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $41",
-              "numberAvailable": 317,
+              "summary": "Tickets as low as $35",
+              "numberAvailable": 134,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-united-fc-tickets-allianz-field-7-25-2026--sports-mls/production/6324626?wsUser=717"
@@ -8231,8 +8716,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $38",
-              "numberAvailable": 180,
+              "summary": "Tickets as low as $35",
+              "numberAvailable": 152,
               "links": [
                 {
                   "href": "https://www.vividseats.com/st-louis-city-sc-tickets-energizer-park-7-25-2026--sports-mls/production/6325094?wsUser=717"
@@ -8829,7 +9314,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-130",
+                    "odds": "-125",
                     "link": {
                       "rel": [
                         "awaySpread",
@@ -8884,7 +9369,7 @@
                     "odds": "+220"
                   },
                   "close": {
-                    "odds": "+235",
+                    "odds": "+240",
                     "link": {
                       "rel": [
                         "away",
@@ -9029,7 +9514,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $33",
-              "numberAvailable": 1133,
+              "numberAvailable": 1192,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-diego-fc-tickets-snapdragon-stadium-7-25-2026--sports-mls/production/6324554?wsUser=717"
@@ -9842,7 +10327,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $46",
-              "numberAvailable": 757,
+              "numberAvailable": 730,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-fc-tickets-bmo-stadium-7-25-2026/production/6324736?wsUser=717"
@@ -10642,8 +11127,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 585,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 412,
               "links": [
                 {
                   "href": "https://www.vividseats.com/portland-timbers-tickets-providence-park-7-25-2026--sports-mls/production/6324448?wsUser=717"
@@ -11439,8 +11924,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $32",
-              "numberAvailable": 585,
+              "summary": "Tickets as low as $35",
+              "numberAvailable": 398,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-jose-earthquakes-tickets-stanford-stadium-7-25-2026--sports-mls/production/6340198?wsUser=717"
@@ -12199,19 +12684,19 @@
     }
   ],
   "provider": {
-    "id": "100",
-    "name": "DraftKings",
-    "priority": 1,
-    "displayName": "DraftKings",
+    "id": "2000",
+    "name": "Bet 365",
+    "priority": 0,
+    "displayName": "Bet 365",
     "logos": [
       {
-        "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+        "href": "https://a.espncdn.com/redesign/assets/img/logos/logo-bet365.png",
         "rel": [
           "light"
         ]
       },
       {
-        "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+        "href": "https://a.espncdn.com/redesign/assets/img/logos/logo-bet365.png",
         "rel": [
           "dark"
         ]
