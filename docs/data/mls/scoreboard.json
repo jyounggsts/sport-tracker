@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-25T20:37:21.293Z",
+  "fetchedAt": "2026-07-25T21:34:12.303Z",
   "sportId": "mls",
   "liveCount": 0,
   "seasonStatus": {
@@ -156,7 +156,7 @@
           "startDate": "2026-07-25T22:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": false,
+          "recent": true,
           "status": {
             "clock": 0,
             "displayClock": "0'",
@@ -180,8 +180,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $20",
-              "numberAvailable": 885,
+              "summary": "Tickets as low as $14",
+              "numberAvailable": 614,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-red-bulls-tickets-sports-illustrated-stadium-7-25-2026--sports-mls/production/6324516?wsUser=717"
@@ -348,7 +348,53 @@
                   "id": "9606"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -554,7 +600,53 @@
                   "id": "4418"
                 }
               },
-              "statistics": [],
+              "statistics": [
+                {
+                  "name": "appearances",
+                  "abbreviation": "APP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "foulsCommitted",
+                  "abbreviation": "FC",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "wonCorners",
+                  "abbreviation": "CW",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "goalAssists",
+                  "abbreviation": "A",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "possessionPct",
+                  "abbreviation": "PP",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotAssists",
+                  "abbreviation": "SHAST",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "shotsOnTarget",
+                  "abbreviation": "SOG",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalGoals",
+                  "abbreviation": "G",
+                  "displayValue": "0"
+                },
+                {
+                  "name": "totalShots",
+                  "abbreviation": "SHOT",
+                  "displayValue": "0"
+                }
+              ],
               "leaders": [
                 {
                   "name": "goals",
@@ -705,7 +797,7 @@
                   },
                   "close": {
                     "line": "o3.5",
-                    "odds": "+110",
+                    "odds": "+105",
                     "link": {
                       "rel": [
                         "over",
@@ -765,7 +857,7 @@
                   },
                   "close": {
                     "line": "-0.5",
-                    "odds": "+110",
+                    "odds": "+105",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -793,7 +885,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-155",
+                    "odds": "-150",
                     "link": {
                       "rel": [
                         "awaySpread",
@@ -993,7 +1085,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $59",
-              "numberAvailable": 832,
+              "numberAvailable": 768,
               "links": [
                 {
                   "href": "https://www.vividseats.com/columbus-crew-tickets-lowercom-field-7-25-2026--sports-mls/production/6324540?wsUser=717"
@@ -1507,7 +1599,7 @@
                 "priority": 1
               },
               "drawOdds": {
-                "moneyLine": 275,
+                "moneyLine": 270,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -1534,7 +1626,7 @@
                   },
                   "close": {
                     "line": "o3.5",
-                    "odds": "+125",
+                    "odds": "+120",
                     "link": {
                       "rel": [
                         "over",
@@ -1594,7 +1686,7 @@
                   },
                   "close": {
                     "line": "-0.5",
-                    "odds": "+100",
+                    "odds": "+105",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -1622,7 +1714,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-140",
+                    "odds": "-145",
                     "link": {
                       "rel": [
                         "awaySpread",
@@ -1652,7 +1744,7 @@
                     "odds": "-140"
                   },
                   "close": {
-                    "odds": "+105",
+                    "odds": "+115",
                     "link": {
                       "rel": [
                         "home",
@@ -1677,7 +1769,7 @@
                     "odds": "+285"
                   },
                   "close": {
-                    "odds": "+210",
+                    "odds": "+195",
                     "link": {
                       "rel": [
                         "away",
@@ -1702,7 +1794,7 @@
                     "odds": "+310"
                   },
                   "close": {
-                    "odds": "+275",
+                    "odds": "+270",
                     "link": {
                       "rel": [
                         "draw",
@@ -1723,7 +1815,7 @@
                   }
                 }
               },
-              "details": "CLB +105"
+              "details": "CLB +115"
             }
           ],
           "wasSuspended": false,
@@ -1822,7 +1914,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $25",
-              "numberAvailable": 1378,
+              "numberAvailable": 1329,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cf-montreal-tickets-stade-saputo-7-25-2026/production/6325064?wsUser=717"
@@ -2306,7 +2398,7 @@
                 "priority": 1
               },
               "drawOdds": {
-                "moneyLine": 290,
+                "moneyLine": 295,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -2393,7 +2485,7 @@
                   },
                   "close": {
                     "line": "+0.5",
-                    "odds": "-155",
+                    "odds": "-150",
                     "link": {
                       "rel": [
                         "homeSpread",
@@ -2421,7 +2513,7 @@
                   },
                   "close": {
                     "line": "-0.5",
-                    "odds": "+110",
+                    "odds": "+105",
                     "link": {
                       "rel": [
                         "awaySpread",
@@ -2451,7 +2543,7 @@
                     "odds": "+185"
                   },
                   "close": {
-                    "odds": "+175",
+                    "odds": "+180",
                     "link": {
                       "rel": [
                         "home",
@@ -2476,7 +2568,7 @@
                     "odds": "+110"
                   },
                   "close": {
-                    "odds": "+120",
+                    "odds": "+115",
                     "link": {
                       "rel": [
                         "away",
@@ -2501,7 +2593,7 @@
                     "odds": "+290"
                   },
                   "close": {
-                    "odds": "+290",
+                    "odds": "+295",
                     "link": {
                       "rel": [
                         "draw",
@@ -2522,7 +2614,7 @@
                   }
                 }
               },
-              "details": "MIA +120"
+              "details": "MIA +115"
             }
           ],
           "wasSuspended": false,
@@ -2620,8 +2712,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $37",
-              "numberAvailable": 248,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 216,
               "links": [
                 {
                   "href": "https://www.vividseats.com/dc-united-tickets-audi-field-7-25-2026--sports-mls/production/6324532?wsUser=717"
@@ -3419,8 +3511,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $20",
-              "numberAvailable": 442,
+              "summary": "Tickets as low as $34",
+              "numberAvailable": 285,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-england-revolution-tickets-gillette-stadium-7-25-2026--sports-mls/production/6325274?wsUser=717"
@@ -3891,7 +3983,7 @@
                   },
                   "close": {
                     "line": "u2.5",
-                    "odds": "+115",
+                    "odds": "+120",
                     "link": {
                       "rel": [
                         "under",
@@ -4150,8 +4242,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $41",
-              "numberAvailable": 557,
+              "summary": "Tickets as low as $42",
+              "numberAvailable": 504,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-city-fc-tickets-yankee-stadium-7-25-2026--sports-mls/production/6324548?wsUser=717"
@@ -4947,8 +5039,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $62",
-              "numberAvailable": 150,
+              "summary": "Tickets as low as $70",
+              "numberAvailable": 108,
               "links": [
                 {
                   "href": "https://www.vividseats.com/orlando-city-sc-tickets-interco-stadium-7-25-2026--sports-mls/production/6324762?wsUser=717"
@@ -5747,7 +5839,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $34",
-              "numberAvailable": 220,
+              "numberAvailable": 199,
               "links": [
                 {
                   "href": "https://www.vividseats.com/philadelphia-union-tickets-subaru-park-7-25-2026--sports-mls/production/6324960?wsUser=717"
@@ -6231,7 +6323,7 @@
                 "priority": 1
               },
               "drawOdds": {
-                "moneyLine": 280,
+                "moneyLine": 275,
                 "link": {
                   "language": "en-US",
                   "rel": [
@@ -6258,7 +6350,7 @@
                   },
                   "close": {
                     "line": "o2.5",
-                    "odds": "-170",
+                    "odds": "-165",
                     "link": {
                       "rel": [
                         "over",
@@ -6286,7 +6378,7 @@
                   },
                   "close": {
                     "line": "u2.5",
-                    "odds": "+135",
+                    "odds": "+130",
                     "link": {
                       "rel": [
                         "under",
@@ -6401,7 +6493,7 @@
                     "odds": "+205"
                   },
                   "close": {
-                    "odds": "+280",
+                    "odds": "+290",
                     "link": {
                       "rel": [
                         "away",
@@ -6426,7 +6518,7 @@
                     "odds": "+260"
                   },
                   "close": {
-                    "odds": "+280",
+                    "odds": "+275",
                     "link": {
                       "rel": [
                         "draw",
@@ -6545,8 +6637,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 307,
+              "summary": "Tickets as low as $41",
+              "numberAvailable": 253,
               "links": [
                 {
                   "href": "https://www.vividseats.com/houston-dynamo-tickets-shell-energy-stadium-7-25-2026--sports-mls/production/6325138?wsUser=717"
@@ -7343,7 +7435,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $41",
-              "numberAvailable": 328,
+              "numberAvailable": 317,
               "links": [
                 {
                   "href": "https://www.vividseats.com/minnesota-united-fc-tickets-allianz-field-7-25-2026--sports-mls/production/6324626?wsUser=717"
@@ -8139,8 +8231,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $40",
-              "numberAvailable": 187,
+              "summary": "Tickets as low as $38",
+              "numberAvailable": 180,
               "links": [
                 {
                   "href": "https://www.vividseats.com/st-louis-city-sc-tickets-energizer-park-7-25-2026--sports-mls/production/6325094?wsUser=717"
@@ -8649,7 +8741,7 @@
                   },
                   "close": {
                     "line": "o2.5",
-                    "odds": "-155",
+                    "odds": "-150",
                     "link": {
                       "rel": [
                         "over",
@@ -8677,7 +8769,7 @@
                   },
                   "close": {
                     "line": "u2.5",
-                    "odds": "+120",
+                    "odds": "+115",
                     "link": {
                       "rel": [
                         "under",
@@ -8936,8 +9028,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $34",
-              "numberAvailable": 1118,
+              "summary": "Tickets as low as $33",
+              "numberAvailable": 1133,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-diego-fc-tickets-snapdragon-stadium-7-25-2026--sports-mls/production/6324554?wsUser=717"
@@ -9750,7 +9842,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $46",
-              "numberAvailable": 793,
+              "numberAvailable": 757,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-fc-tickets-bmo-stadium-7-25-2026/production/6324736?wsUser=717"
@@ -10550,8 +10642,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $38",
-              "numberAvailable": 461,
+              "summary": "Tickets as low as $34",
+              "numberAvailable": 585,
               "links": [
                 {
                   "href": "https://www.vividseats.com/portland-timbers-tickets-providence-park-7-25-2026--sports-mls/production/6324448?wsUser=717"
@@ -11347,8 +11439,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $33",
-              "numberAvailable": 648,
+              "summary": "Tickets as low as $32",
+              "numberAvailable": 585,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-jose-earthquakes-tickets-stanford-stadium-7-25-2026--sports-mls/production/6340198?wsUser=717"
@@ -11889,7 +11981,7 @@
                   },
                   "close": {
                     "line": "u3.5",
-                    "odds": "-130",
+                    "odds": "-135",
                     "link": {
                       "rel": [
                         "under",
