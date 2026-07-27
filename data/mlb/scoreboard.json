@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-27T01:19:14.695Z",
+  "fetchedAt": "2026-07-27T04:57:19.830Z",
   "sportId": "mlb",
-  "liveCount": 1,
+  "liveCount": 0,
   "seasonStatus": {
     "inSeason": true,
     "seasonYear": 2026,
@@ -26340,7 +26340,7 @@
           "id": "401816271",
           "uid": "s:1~l:10~e:401816271~c:401816271",
           "date": "2026-07-26T23:20Z",
-          "attendance": 0,
+          "attendance": 42799,
           "type": {
             "id": "1",
             "abbreviation": "STD"
@@ -26349,7 +26349,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "wasSuspended": false,
           "venue": {
             "id": "84",
@@ -26367,6 +26367,7 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
+              "winner": true,
               "team": {
                 "id": "22",
                 "uid": "s:1~l:10~t:22",
@@ -26462,7 +26463,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/phi.png"
               },
-              "score": "6",
+              "score": "11",
               "linescores": [
                 {
                   "value": 1,
@@ -26488,23 +26489,38 @@
                   "value": 0,
                   "displayValue": "0",
                   "period": 5
+                },
+                {
+                  "value": 5,
+                  "displayValue": "5",
+                  "period": 6
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 7
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 8
                 }
               ],
               "statistics": [
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "7"
+                  "displayValue": "13"
                 },
                 {
                   "name": "runs",
                   "abbreviation": "R",
-                  "displayValue": "6"
+                  "displayValue": "11"
                 },
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".350"
+                  "displayValue": ".394"
                 },
                 {
                   "name": "saves",
@@ -26519,12 +26535,12 @@
                 {
                   "name": "wins",
                   "abbreviation": "W",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 },
                 {
                   "name": "ERA",
                   "abbreviation": "ERA",
-                  "displayValue": "5.40"
+                  "displayValue": "4.00"
                 },
                 {
                   "name": "errors",
@@ -26540,8 +26556,8 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "2-3, HR, 2 RBI, R, K",
-                      "value": 0.6666666865348816,
+                      "displayValue": "3-4, HR, 2B, 5 RBI, R, K",
+                      "value": 0.75,
                       "athlete": {
                         "id": "42417",
                         "fullName": "Bryson Stott",
@@ -26580,7 +26596,7 @@
                   "abbreviation": "HR",
                   "leaders": [
                     {
-                      "displayValue": "2-3, HR, 2 RBI, R, K",
+                      "displayValue": "3-4, HR, 2B, 5 RBI, R, K",
                       "value": 1,
                       "athlete": {
                         "id": "42417",
@@ -26620,13 +26636,13 @@
                   "abbreviation": "RBI",
                   "leaders": [
                     {
-                      "displayValue": "1-3, 2B, 3 RBI, R, 2 K",
-                      "value": 3,
+                      "displayValue": "3-4, HR, 2B, 5 RBI, R, K",
+                      "value": 5,
                       "athlete": {
-                        "id": "41169",
-                        "fullName": "Alec Bohm",
-                        "displayName": "Alec Bohm",
-                        "shortName": "A. Bohm",
+                        "id": "42417",
+                        "fullName": "Bryson Stott",
+                        "displayName": "Bryson Stott",
+                        "shortName": "B. Stott",
                         "links": [
                           {
                             "rel": [
@@ -26634,13 +26650,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/41169"
+                            "href": "https://www.espn.com/mlb/player/_/id/42417"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/41169.png",
-                        "jersey": "28",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42417.png",
+                        "jersey": "5",
                         "position": {
-                          "abbreviation": "3B"
+                          "abbreviation": "2B"
                         },
                         "team": {
                           "id": "22"
@@ -26660,8 +26676,8 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "2-3, HR, 2 RBI, R, K",
-                      "value": 68.5,
+                      "displayValue": "3-4, HR, 2B, 5 RBI, R, K",
+                      "value": 74.5,
                       "athlete": {
                         "id": "42417",
                         "fullName": "Bryson Stott",
@@ -26700,8 +26716,8 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "2-3, HR, 2 RBI, R, K",
-                      "value": 68.5,
+                      "displayValue": "3-4, HR, 2B, 5 RBI, R, K",
+                      "value": 74.5,
                       "athlete": {
                         "id": "42417",
                         "fullName": "Bryson Stott",
@@ -26779,43 +26795,41 @@
                     {
                       "name": "wins",
                       "abbreviation": "W",
-                      "displayValue": "12",
+                      "displayValue": "13",
                       "rankDisplayValue": "Tied-1st"
                     },
                     {
                       "name": "ERA",
                       "abbreviation": "ERA",
-                      "displayValue": "2.65",
+                      "displayValue": "2.73",
                       "rankDisplayValue": "9th"
                     },
                     {
                       "name": "errors",
                       "abbreviation": "E",
-                      "displayValue": "0",
+                      "displayValue": "1",
                       "rankDisplayValue": "Tied-563rd"
                     }
                   ],
-                  "record": "(12-4, 2.65)"
+                  "record": "(13-4, 2.73)"
                 }
               ],
-              "hits": 7,
+              "hits": 13,
               "errors": 2,
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Total",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "56-49"
+                  "summary": "57-49"
                 },
                 {
                   "name": "Home",
-                  "abbreviation": "Home",
                   "type": "home",
-                  "summary": "27-27"
+                  "summary": "28-27"
                 },
                 {
                   "name": "Road",
-                  "abbreviation": "AWAY",
                   "type": "road",
                   "summary": "29-22"
                 }
@@ -26827,6 +26841,7 @@
               "type": "team",
               "order": 1,
               "homeAway": "away",
+              "winner": false,
               "team": {
                 "id": "10",
                 "uid": "s:1~l:10~t:10",
@@ -26922,7 +26937,7 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/mlb/500/scoreboard/nyy.png"
               },
-              "score": "3",
+              "score": "4",
               "linescores": [
                 {
                   "value": 0,
@@ -26953,23 +26968,38 @@
                   "value": 0,
                   "displayValue": "0",
                   "period": 6
+                },
+                {
+                  "value": 1,
+                  "displayValue": "1",
+                  "period": 7
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 8
+                },
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 9
                 }
               ],
               "statistics": [
                 {
                   "name": "hits",
                   "abbreviation": "H",
-                  "displayValue": "5"
+                  "displayValue": "8"
                 },
                 {
                   "name": "runs",
                   "abbreviation": "R",
-                  "displayValue": "3"
+                  "displayValue": "4"
                 },
                 {
                   "name": "avg",
                   "abbreviation": "AVG",
-                  "displayValue": ".238"
+                  "displayValue": ".222"
                 },
                 {
                   "name": "saves",
@@ -26979,7 +27009,7 @@
                 {
                   "name": "losses",
                   "abbreviation": "L",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 },
                 {
                   "name": "wins",
@@ -26989,12 +27019,12 @@
                 {
                   "name": "ERA",
                   "abbreviation": "ERA",
-                  "displayValue": "10.80"
+                  "displayValue": "12.38"
                 },
                 {
                   "name": "errors",
                   "abbreviation": "E",
-                  "displayValue": "0"
+                  "displayValue": "1"
                 }
               ],
               "leaders": [
@@ -27005,8 +27035,8 @@
                   "abbreviation": "AVG",
                   "leaders": [
                     {
-                      "displayValue": "2-2, 2 2B, RBI, BB",
-                      "value": 1,
+                      "displayValue": "2-3, 2 2B, RBI, BB, K",
+                      "value": 0.6666666865348816,
                       "athlete": {
                         "id": "42547",
                         "fullName": "Anthony Volpe",
@@ -27045,13 +27075,13 @@
                   "abbreviation": "HR",
                   "leaders": [
                     {
-                      "displayValue": "1-2, BB",
-                      "value": 0,
+                      "displayValue": "2-5, HR, 2B, RBI, 2 R, K",
+                      "value": 1,
                       "athlete": {
-                        "id": "31027",
-                        "fullName": "Paul Goldschmidt",
-                        "displayName": "Paul Goldschmidt",
-                        "shortName": "P. Goldschmidt",
+                        "id": "5016968",
+                        "fullName": "Ben Rice",
+                        "displayName": "Ben Rice",
+                        "shortName": "B. Rice",
                         "links": [
                           {
                             "rel": [
@@ -27059,11 +27089,11 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/31027"
+                            "href": "https://www.espn.com/mlb/player/_/id/5016968"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/31027.png",
-                        "jersey": "48",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5016968.png",
+                        "jersey": "22",
                         "position": {
                           "abbreviation": "1B"
                         },
@@ -27085,7 +27115,7 @@
                   "abbreviation": "RBI",
                   "leaders": [
                     {
-                      "displayValue": "0-3, RBI",
+                      "displayValue": "0-5, RBI, K",
                       "value": 1,
                       "athlete": {
                         "id": "42401",
@@ -27125,13 +27155,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "2-2, 2 2B, RBI, BB",
-                      "value": 66.25,
+                      "displayValue": "2-5, HR, 2B, RBI, 2 R, K",
+                      "value": 69,
                       "athlete": {
-                        "id": "42547",
-                        "fullName": "Anthony Volpe",
-                        "displayName": "Anthony Volpe",
-                        "shortName": "A. Volpe",
+                        "id": "5016968",
+                        "fullName": "Ben Rice",
+                        "displayName": "Ben Rice",
+                        "shortName": "B. Rice",
                         "links": [
                           {
                             "rel": [
@@ -27139,13 +27169,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/42547"
+                            "href": "https://www.espn.com/mlb/player/_/id/5016968"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42547.png",
-                        "jersey": "11",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5016968.png",
+                        "jersey": "22",
                         "position": {
-                          "abbreviation": "SS"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "10"
@@ -27165,13 +27195,13 @@
                   "abbreviation": "MLB",
                   "leaders": [
                     {
-                      "displayValue": "2-2, 2 2B, RBI, BB",
-                      "value": 66.25,
+                      "displayValue": "2-5, HR, 2B, RBI, 2 R, K",
+                      "value": 69,
                       "athlete": {
-                        "id": "42547",
-                        "fullName": "Anthony Volpe",
-                        "displayName": "Anthony Volpe",
-                        "shortName": "A. Volpe",
+                        "id": "5016968",
+                        "fullName": "Ben Rice",
+                        "displayName": "Ben Rice",
+                        "shortName": "B. Rice",
                         "links": [
                           {
                             "rel": [
@@ -27179,13 +27209,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/mlb/player/_/id/42547"
+                            "href": "https://www.espn.com/mlb/player/_/id/5016968"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42547.png",
-                        "jersey": "11",
+                        "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5016968.png",
+                        "jersey": "22",
                         "position": {
-                          "abbreviation": "SS"
+                          "abbreviation": "1B"
                         },
                         "team": {
                           "id": "10"
@@ -27238,7 +27268,7 @@
                     {
                       "name": "losses",
                       "abbreviation": "L",
-                      "displayValue": "4",
+                      "displayValue": "5",
                       "rankDisplayValue": "Tied-125th"
                     },
                     {
@@ -27250,7 +27280,7 @@
                     {
                       "name": "ERA",
                       "abbreviation": "ERA",
-                      "displayValue": "4.00"
+                      "displayValue": "4.41"
                     },
                     {
                       "name": "errors",
@@ -27259,57 +27289,57 @@
                       "rankDisplayValue": "Tied-563rd"
                     }
                   ],
-                  "record": "(7-4, 4.00)"
+                  "record": "(7-5, 4.41)"
                 }
               ],
-              "hits": 5,
-              "errors": 0,
+              "hits": 8,
+              "errors": 1,
               "records": [
                 {
                   "name": "overall",
-                  "abbreviation": "Total",
+                  "abbreviation": "Game",
                   "type": "total",
-                  "summary": "59-45"
+                  "summary": "59-46"
                 },
                 {
                   "name": "Home",
-                  "abbreviation": "Home",
                   "type": "home",
                   "summary": "26-23"
                 },
                 {
                   "name": "Road",
-                  "abbreviation": "AWAY",
                   "type": "road",
-                  "summary": "33-22"
+                  "summary": "33-23"
                 }
               ]
             }
           ],
           "notes": [],
-          "situation": {
-            "lastPlay": {
-              "id": "4018162711001020005",
-              "type": {
-                "id": "5",
-                "text": "Ball",
-                "abbreviation": "B",
-                "alternativeText": "Walk",
-                "type": "ball"
-              },
-              "text": "Pitch 1 : Ball 1",
-              "scoreValue": 0,
-              "team": {
-                "id": "22"
-              },
-              "atBatId": "4018162711001",
-              "summaryType": "P",
-              "athletesInvolved": [
-                {
-                  "id": "3962127",
-                  "fullName": "Max Schuemann",
-                  "displayName": "Max Schuemann",
-                  "shortName": "M. Schuemann",
+          "status": {
+            "clock": 0,
+            "displayClock": "0:00",
+            "period": 9,
+            "type": {
+              "id": "3",
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "description": "Final",
+              "detail": "Final",
+              "shortDetail": "Final"
+            },
+            "featuredAthletes": [
+              {
+                "name": "winningPitcher",
+                "displayName": "Winning Pitcher",
+                "shortDisplayName": "Win",
+                "abbreviation": "WP",
+                "playerId": 42359,
+                "athlete": {
+                  "id": "42359",
+                  "fullName": "Cristopher Sanchez",
+                  "displayName": "Cristopher Sanchez",
+                  "shortName": "C. Sanchez",
                   "links": [
                     {
                       "rel": [
@@ -27317,98 +27347,113 @@
                         "desktop",
                         "athlete"
                       ],
-                      "href": "https://www.espn.com/mlb/player/_/id/3962127"
+                      "href": "https://www.espn.com/mlb/player/_/id/42359"
                     }
                   ],
-                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/3962127.png",
-                  "jersey": "30",
-                  "position": "SS",
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42359.png",
+                  "jersey": "61",
+                  "position": "SP",
+                  "team": {
+                    "id": "22"
+                  }
+                },
+                "team": {
+                  "id": "22"
+                },
+                "statistics": [
+                  {
+                    "name": "saves",
+                    "abbreviation": "SV",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "losses",
+                    "abbreviation": "L",
+                    "displayValue": "4"
+                  },
+                  {
+                    "name": "wins",
+                    "abbreviation": "W",
+                    "displayValue": "13"
+                  },
+                  {
+                    "name": "ERA",
+                    "abbreviation": "ERA",
+                    "displayValue": "2.73"
+                  },
+                  {
+                    "name": "errors",
+                    "abbreviation": "E",
+                    "displayValue": "1"
+                  }
+                ],
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816271/competitions/401816271/competitors/22/roster/42359/projections?lang=en&region=us"
+                }
+              },
+              {
+                "name": "losingPitcher",
+                "displayName": "Losing Pitcher",
+                "shortDisplayName": "Loss",
+                "abbreviation": "LP",
+                "playerId": 5132011,
+                "athlete": {
+                  "id": "5132011",
+                  "fullName": "Will Warren",
+                  "displayName": "Will Warren",
+                  "shortName": "W. Warren",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/mlb/player/_/id/5132011"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5132011.png",
+                  "jersey": "29",
+                  "position": "SP",
                   "team": {
                     "id": "10"
                   }
-                }
-              ]
-            },
-            "balls": 1,
-            "strikes": 0,
-            "outs": 0,
-            "pitcher": {
-              "playerId": 42359,
-              "period": 6,
-              "athlete": {
-                "id": "42359",
-                "fullName": "Cristopher Sanchez",
-                "displayName": "Cristopher Sanchez",
-                "shortName": "C. Sanchez",
-                "links": [
-                  {
-                    "rel": [
-                      "playercard",
-                      "desktop",
-                      "athlete"
-                    ],
-                    "href": "https://www.espn.com/mlb/player/_/id/42359"
-                  }
-                ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42359.png",
-                "jersey": "61",
-                "position": "SP",
-                "team": {
-                  "id": "22"
-                }
-              },
-              "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816271/competitions/401816271/competitors/22/roster/42359/projections?lang=en&region=us"
-              },
-              "summary": "5.0 IP, 3 ER, 5 H, 5 K, 3 BB"
-            },
-            "batter": {
-              "playerId": 3962127,
-              "period": 6,
-              "athlete": {
-                "id": "3962127",
-                "fullName": "Max Schuemann",
-                "displayName": "Max Schuemann",
-                "shortName": "M. Schuemann",
-                "links": [
-                  {
-                    "rel": [
-                      "playercard",
-                      "desktop",
-                      "athlete"
-                    ],
-                    "href": "https://www.espn.com/mlb/player/_/id/3962127"
-                  }
-                ],
-                "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/3962127.png",
-                "jersey": "30",
-                "position": "SS",
+                },
                 "team": {
                   "id": "10"
+                },
+                "statistics": [
+                  {
+                    "name": "saves",
+                    "abbreviation": "SV",
+                    "displayValue": "0"
+                  },
+                  {
+                    "name": "losses",
+                    "abbreviation": "L",
+                    "displayValue": "5"
+                  },
+                  {
+                    "name": "wins",
+                    "abbreviation": "W",
+                    "displayValue": "7"
+                  },
+                  {
+                    "name": "ERA",
+                    "abbreviation": "ERA",
+                    "displayValue": "4.41"
+                  },
+                  {
+                    "name": "errors",
+                    "abbreviation": "E",
+                    "displayValue": "0"
+                  }
+                ],
+                "projections": {
+                  "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816271/competitions/401816271/competitors/10/roster/5132011/projections?lang=en&region=us"
                 }
-              },
-              "projections": {
-                "$ref": "http://sports.core.api.espn.pvt/v2/sports/baseball/leagues/mlb/events/401816271/competitions/401816271/competitors/10/roster/3962127/projections?lang=en&region=us"
-              },
-              "summary": "0-1, BB"
-            },
-            "onFirst": false,
-            "onSecond": false,
-            "onThird": false
-          },
-          "status": {
-            "clock": 0,
-            "displayClock": "0:00",
-            "period": 6,
-            "type": {
-              "id": "2",
-              "name": "STATUS_IN_PROGRESS",
-              "state": "in",
-              "completed": false,
-              "description": "In Progress",
-              "detail": "Top 6th",
-              "shortDetail": "Top 6th"
-            }
+              }
+            ]
           },
           "broadcasts": [
             {
@@ -27427,8 +27472,8 @@
               "abbreviation": "RAT",
               "leaders": [
                 {
-                  "displayValue": "2-3, HR, 2 RBI, R, K",
-                  "value": 68.5,
+                  "displayValue": "3-4, HR, 2B, 5 RBI, R, K",
+                  "value": 74.5,
                   "athlete": {
                     "id": "42417",
                     "fullName": "Bryson Stott",
@@ -27459,13 +27504,13 @@
                   }
                 },
                 {
-                  "displayValue": "2-2, 2 2B, RBI, BB",
-                  "value": 66.25,
+                  "displayValue": "2-5, HR, 2B, RBI, 2 R, K",
+                  "value": 69,
                   "athlete": {
-                    "id": "42547",
-                    "fullName": "Anthony Volpe",
-                    "displayName": "Anthony Volpe",
-                    "shortName": "A. Volpe",
+                    "id": "5016968",
+                    "fullName": "Ben Rice",
+                    "displayName": "Ben Rice",
+                    "shortName": "B. Rice",
                     "links": [
                       {
                         "rel": [
@@ -27473,13 +27518,13 @@
                           "desktop",
                           "athlete"
                         ],
-                        "href": "https://www.espn.com/mlb/player/_/id/42547"
+                        "href": "https://www.espn.com/mlb/player/_/id/5016968"
                       }
                     ],
-                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/42547.png",
-                    "jersey": "11",
+                    "headshot": "https://a.espncdn.com/i/headshots/mlb/players/full/5016968.png",
+                    "jersey": "22",
                     "position": {
-                      "abbreviation": "SS"
+                      "abbreviation": "1B"
                     },
                     "team": {
                       "id": "10"
@@ -27499,7 +27544,6 @@
             }
           },
           "startDate": "2026-07-26T23:20Z",
-          "outsText": "0 Outs",
           "broadcast": "NBC/Peacock",
           "geoBroadcasts": [
             {
@@ -27548,67 +27592,463 @@
               "region": "us"
             }
           ],
-          "highlights": [],
-          "odds": [
+          "highlights": [
             {
-              "provider": {
-                "id": "100",
-                "name": "DraftKings",
-                "priority": 1,
-                "logos": [
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
-                    "rel": [
-                      "light"
-                    ]
-                  },
-                  {
-                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
-                    "rel": [
-                      "dark"
-                    ]
-                  }
+              "id": 49459480,
+              "cerebroId": "6a66c38c66d2ac7ca5d15568",
+              "source": "espn",
+              "headline": "New York Yankees vs. Philadelphia Phillies: Game Highlights",
+              "description": "New York Yankees vs. Philadelphia Phillies: Game Highlights",
+              "lastModified": "2026-07-27T02:36:08Z",
+              "originalPublishDate": "2026-07-27T02:33:49Z",
+              "duration": 54,
+              "timeRestrictions": {
+                "embargoDate": "2026-07-27T02:33:41Z",
+                "expirationDate": "2026-07-29T02:33:41Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "settop",
+                  "tablet",
+                  "handset",
+                  "ipad",
+                  "desktop"
                 ]
               },
-              "details": "PHI -218",
-              "overUnder": 8.5,
-              "moneyline": {
-                "home": {
-                  "close": {
-                    "odds": -218
+              "geoRestrictions": {
+                "type": "whitelist",
+                "countries": [
+                  "PR",
+                  "HN",
+                  "PW",
+                  "PY",
+                  "HT",
+                  "AG",
+                  "ZA",
+                  "AI",
+                  "AO",
+                  "AR",
+                  "AS",
+                  "ZM",
+                  "RE",
+                  "AU",
+                  "AW",
+                  "BB",
+                  "JM",
+                  "BF",
+                  "RW",
+                  "BI",
+                  "BJ",
+                  "BL",
+                  "BM",
+                  "BO",
+                  "BQ",
+                  "SC",
+                  "SD",
+                  "BS",
+                  "BW",
+                  "BZ",
+                  "SL",
+                  "KE",
+                  "SN",
+                  "SO",
+                  "SS",
+                  "ST",
+                  "CD",
+                  "KM",
+                  "KN",
+                  "SV",
+                  "CF",
+                  "CG",
+                  "SX",
+                  "CI",
+                  "SZ",
+                  "CL",
+                  "CM",
+                  "CO",
+                  "KY",
+                  "TC",
+                  "CR",
+                  "TD",
+                  "CU",
+                  "CV",
+                  "TG",
+                  "LC",
+                  "TT",
+                  "TZ",
+                  "DJ",
+                  "LR",
+                  "LS",
+                  "DO",
+                  "UG",
+                  "UK",
+                  "UM",
+                  "MF",
+                  "MG",
+                  "MH",
+                  "US",
+                  "EC",
+                  "ML",
+                  "MP",
+                  "MQ",
+                  "UY",
+                  "MR",
+                  "MS",
+                  "MU",
+                  "MV",
+                  "MW",
+                  "MX",
+                  "ER",
+                  "VC",
+                  "MZ",
+                  "VE",
+                  "VG",
+                  "VI",
+                  "NA",
+                  "NE",
+                  "NG",
+                  "NI",
+                  "NL",
+                  "FJ",
+                  "FK",
+                  "FM",
+                  "NZ",
+                  "GA",
+                  "GB",
+                  "GD",
+                  "GH",
+                  "GM",
+                  "GN",
+                  "GP",
+                  "GQ",
+                  "GT",
+                  "GU",
+                  "GW",
+                  "PA",
+                  "GY",
+                  "PE"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip/_/id/49459480/game-highlights",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip/_/id/49459480/game-highlights",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=7c3f6f35e8de7"
+                    }
                   }
                 },
-                "away": {
-                  "close": {
-                    "odds": 177
+                "mobile": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49459480/game-highlights",
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=49459480"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49459480/game-highlights"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49459480/game-highlights"
                   }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/49459480"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/da57f40e-8d4f-4d3f-837f-c3cb9ad30944"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                      },
+                      "cmb": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset"
+                    },
+                    "cmb": {
+                      "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=49459480&videoDSI=7c3f6f35e8de7"
                 }
               },
-              "pointSpread": {
-                "home": {
-                  "close": {
-                    "line": -1.5
-                  }
-                },
-                "away": {
-                  "close": {
-                    "line": 1.5
-                  }
-                }
+              "ad": {
+                "sport": "mlb",
+                "bundle": "mlbhighlightsoneplay"
               },
-              "total": {
-                "over": {
-                  "close": {
-                    "odds": -102,
-                    "line": "o8.5"
-                  }
-                },
-                "under": {
-                  "close": {
-                    "odds": -118
-                  }
-                }
+              "tracking": {
+                "sportName": "baseball",
+                "leagueName": "MLB",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "MLB_One-Play (New York Yankees vs. Philadelphia Phillies: Game Highlights) 2026/07/26 ESHEET",
+                "trackingId": "dm_20260726_MLB_new_york_yankees_vs_philadelphia_phillies_game_highlights",
+                "program": "NBC"
               }
+            }
+          ],
+          "headlines": [
+            {
+              "type": "Recap",
+              "description": "— Bryson Stott homered, doubled and drove in five runs, NL All-Star starter Cristopher Sánchez pitched six solid innings and the Philadelphia Phillies avoided a three-game sweep with an 11-4 victory over the New York Yankees on Sunday night.",
+              "shortLinkText": "Bryson Stott homers and drives in 5 as Phillies rout Yankees 11-4 to avoid series sweep",
+              "video": [
+                {
+                  "id": 49459480,
+                  "source": "espn",
+                  "headline": "New York Yankees vs. Philadelphia Phillies: Game Highlights",
+                  "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.jpg",
+                  "duration": 54,
+                  "tracking": {
+                    "sportName": "baseball",
+                    "leagueName": "MLB",
+                    "coverageType": "Final Game Highlight",
+                    "trackingName": "MLB_One-Play (New York Yankees vs. Philadelphia Phillies: Game Highlights) 2026/07/26 ESHEET",
+                    "trackingId": "dm_20260726_MLB_new_york_yankees_vs_philadelphia_phillies_game_highlights",
+                    "program": "NBC"
+                  },
+                  "deviceRestrictions": {
+                    "type": "whitelist",
+                    "devices": [
+                      "settop",
+                      "tablet",
+                      "handset",
+                      "ipad",
+                      "desktop"
+                    ]
+                  },
+                  "geoRestrictions": {
+                    "type": "whitelist",
+                    "countries": [
+                      "PR",
+                      "HN",
+                      "PW",
+                      "PY",
+                      "HT",
+                      "AG",
+                      "ZA",
+                      "AI",
+                      "AO",
+                      "AR",
+                      "AS",
+                      "ZM",
+                      "RE",
+                      "AU",
+                      "AW",
+                      "BB",
+                      "JM",
+                      "BF",
+                      "RW",
+                      "BI",
+                      "BJ",
+                      "BL",
+                      "BM",
+                      "BO",
+                      "BQ",
+                      "SC",
+                      "SD",
+                      "BS",
+                      "BW",
+                      "BZ",
+                      "SL",
+                      "KE",
+                      "SN",
+                      "SO",
+                      "SS",
+                      "ST",
+                      "CD",
+                      "KM",
+                      "KN",
+                      "SV",
+                      "CF",
+                      "CG",
+                      "SX",
+                      "CI",
+                      "SZ",
+                      "CL",
+                      "CM",
+                      "CO",
+                      "KY",
+                      "TC",
+                      "CR",
+                      "TD",
+                      "CU",
+                      "CV",
+                      "TG",
+                      "LC",
+                      "TT",
+                      "TZ",
+                      "DJ",
+                      "LR",
+                      "LS",
+                      "DO",
+                      "UG",
+                      "UK",
+                      "UM",
+                      "MF",
+                      "MG",
+                      "MH",
+                      "US",
+                      "EC",
+                      "ML",
+                      "MP",
+                      "MQ",
+                      "UY",
+                      "MR",
+                      "MS",
+                      "MU",
+                      "MV",
+                      "MW",
+                      "MX",
+                      "ER",
+                      "VC",
+                      "MZ",
+                      "VE",
+                      "VG",
+                      "VI",
+                      "NA",
+                      "NE",
+                      "NG",
+                      "NI",
+                      "NL",
+                      "FJ",
+                      "FK",
+                      "FM",
+                      "NZ",
+                      "GA",
+                      "GB",
+                      "GD",
+                      "GH",
+                      "GM",
+                      "GN",
+                      "GP",
+                      "GQ",
+                      "GT",
+                      "GU",
+                      "GW",
+                      "PA",
+                      "GY",
+                      "PE"
+                    ]
+                  },
+                  "links": {
+                    "web": {
+                      "href": "https://www.espn.com/video/clip/_/id/49459480/game-highlights",
+                      "self": {
+                        "href": "https://www.espn.com/video/clip/_/id/49459480/game-highlights",
+                        "dsi": {
+                          "href": "https://www.espn.com/video/clip?id=7c3f6f35e8de7"
+                        }
+                      }
+                    },
+                    "mobile": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/brightcove/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49459480/game-highlights",
+                      "source": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.mp4"
+                      },
+                      "alert": {
+                        "href": "https://m.espn.com/general/video/videoAlert?vid=49459480"
+                      },
+                      "streaming": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49459480/game-highlights"
+                      },
+                      "progressiveDownload": {
+                        "href": "https://watch.auth.api.espn.com/video/auth/brightcove/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49459480/game-highlights"
+                      }
+                    },
+                    "api": {
+                      "self": {
+                        "href": "https://content.core.api.espn.com/v1/video/clips/49459480"
+                      },
+                      "artwork": {
+                        "href": "https://artwork.api.espn.com/artwork/collections/media/da57f40e-8d4f-4d3f-837f-c3cb9ad30944"
+                      }
+                    },
+                    "source": {
+                      "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_360p30_1464k.mp4",
+                      "mezzanine": {
+                        "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.mp4"
+                      },
+                      "flash": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e.smil"
+                      },
+                      "hds": {
+                        "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_rel.smil/manifest.f4m"
+                      },
+                      "HLS": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8",
+                        "HD": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                        },
+                        "cmaf": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8",
+                          "9x16": {
+                            "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                          },
+                          "cmb": {
+                            "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                          }
+                        },
+                        "9x16": {
+                          "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                        },
+                        "shield": {
+                          "href": "https://watch.auth.api.espn.com/video/auth/media/da57f40e-8d4f-4d3f-837f-c3cb9ad30944/asset"
+                        },
+                        "cmb": {
+                          "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e/playlist.m3u8"
+                        }
+                      },
+                      "HD": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_720p30_2896k.mp4"
+                      },
+                      "full": {
+                        "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0727/c81e1272-7c4d-4587-9557-e827935a4a8e/c81e1272-7c4d-4587-9557-e827935a4a8e_360p30_1464k.mp4"
+                      }
+                    },
+                    "sportscenter": {
+                      "href": "sportscenter://x-callback-url/showVideo?videoID=49459480&videoDSI=7c3f6f35e8de7"
+                    }
+                  }
+                }
+              ]
             }
           ]
         }
@@ -27617,24 +28057,11 @@
         {
           "language": "en-US",
           "rel": [
-            "gamecast",
+            "summary",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/mlb/game/_/gameId/401816271",
-          "text": "Gamecast",
-          "shortText": "Gamecast",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
-            "live",
-            "desktop",
-            "event"
-          ],
-          "href": "https://www.espn.com/mlb/game/_/gameId/401816271",
+          "href": "https://www.espn.com/mlb/game/_/gameId/401816271/yankees-phillies",
           "text": "Gamecast",
           "shortText": "Gamecast",
           "isExternal": false,
@@ -27656,6 +28083,18 @@
         {
           "language": "en-US",
           "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/mlb/video?gameId=401816271",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
             "pbp",
             "desktop",
             "event"
@@ -27665,37 +28104,33 @@
           "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
-        }
-      ],
-      "weather": {
-        "displayValue": "35",
-        "temperature": 78,
-        "highTemperature": 78,
-        "conditionId": "Partly cloudy",
-        "link": {
+        },
+        {
           "language": "en-US",
           "rel": [
-            "19148"
+            "recap",
+            "desktop",
+            "event"
           ],
-          "href": "http://www.accuweather.com/en/us/citizens-bank-park-pa/19107/current-weather/53632_poi?lang=en-us",
-          "text": "Weather",
-          "shortText": "Weather",
-          "isExternal": true,
+          "href": "https://www.espn.com/mlb/recap?gameId=401816271",
+          "text": "Recap",
+          "shortText": "Recap",
+          "isExternal": false,
           "isPremium": false
         }
-      },
+      ],
       "status": {
         "clock": 0,
         "displayClock": "0:00",
-        "period": 6,
+        "period": 9,
         "type": {
-          "id": "2",
-          "name": "STATUS_IN_PROGRESS",
-          "state": "in",
-          "completed": false,
-          "description": "In Progress",
-          "detail": "Top 6th",
-          "shortDetail": "Top 6th"
+          "id": "3",
+          "name": "STATUS_FINAL",
+          "state": "post",
+          "completed": true,
+          "description": "Final",
+          "detail": "Final",
+          "shortDetail": "Final"
         }
       }
     }
