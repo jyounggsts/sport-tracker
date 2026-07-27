@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-27T16:47:27.957Z",
+  "fetchedAt": "2026-07-27T18:15:32.825Z",
   "sportId": "mlb",
   "liveCount": 0,
   "seasonStatus": {
@@ -50,7 +50,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-27T02:35Z"
+          "lastUpdated": "2026-07-27T09:13Z"
         }
       ],
       "calendarType": "day",
@@ -142,7 +142,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "wasSuspended": false,
           "venue": {
             "id": "231",
@@ -994,8 +994,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $9",
-              "numberAvailable": 893,
+              "summary": "Tickets as low as $7",
+              "numberAvailable": 718,
               "links": [
                 {
                   "href": "https://www.vividseats.com/texas-rangers-tickets-globe-life-field-7-27-2026--sports-mlb-baseball/production/5967465?wsUser=717"
@@ -1096,7 +1096,7 @@
                 ],
                 "displayName": "DraftKings"
               },
-              "details": "SEA -131",
+              "details": "SEA -132",
               "overUnder": 8,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -1161,7 +1161,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-131",
+                    "odds": "-132",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1197,7 +1197,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-162",
+                    "odds": "-157",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1231,7 +1231,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+134",
+                    "odds": "+130",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1269,7 +1269,7 @@
                 "over": {
                   "close": {
                     "line": "o8",
-                    "odds": "-103",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1303,7 +1303,7 @@
                 "under": {
                   "close": {
                     "line": "u8",
-                    "odds": "-117",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1411,10 +1411,10 @@
         }
       ],
       "weather": {
-        "displayValue": "1",
-        "temperature": 91,
-        "highTemperature": 91,
-        "conditionId": "Sunny",
+        "displayValue": "2",
+        "temperature": 97,
+        "highTemperature": 97,
+        "conditionId": "Mostly sunny",
         "link": {
           "language": "en-US",
           "rel": [
@@ -2318,7 +2318,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $25",
-              "numberAvailable": 1432,
+              "numberAvailable": 1409,
               "links": [
                 {
                   "href": "https://www.vividseats.com/pittsburgh-pirates-tickets-pnc-park-7-27-2026--sports-mlb-baseball/production/5965837?wsUser=717"
@@ -2487,7 +2487,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-186",
+                    "odds": "-189",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2521,7 +2521,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+153",
+                    "odds": "+155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2559,7 +2559,7 @@
                 "over": {
                   "close": {
                     "line": "o9.5",
-                    "odds": "+100",
+                    "odds": "-103",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2593,7 +2593,7 @@
                 "under": {
                   "close": {
                     "line": "u9.5",
-                    "odds": "-120",
+                    "odds": "-117",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2662,14 +2662,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Arizona Diamondbacks (55-51, second in the NL West) vs. Pittsburgh Pirates (54-52, third in the NL Central)",
               "shortLinkText": "Pirates host the Diamondbacks in first of 3-game series"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -3388,6 +3388,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "51-55"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "29-27"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "22-28"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -3549,26 +3569,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "51-55"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "29-27"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "22-28"
-                }
               ]
             }
           ],
@@ -3614,8 +3614,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $11",
-              "numberAvailable": 1790,
+              "summary": "Tickets as low as $9",
+              "numberAvailable": 1662,
               "links": [
                 {
                   "href": "https://www.vividseats.com/detroit-tigers-tickets-comerica-park-7-27-2026--sports-mlb-baseball/production/5965978?wsUser=717"
@@ -3799,7 +3799,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-197",
+                    "odds": "-203",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3833,7 +3833,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+161",
+                    "odds": "+166",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -3974,14 +3974,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Baltimore Orioles (51-55, fourth in the AL East) vs. Detroit Tigers (50-56, fourth in the AL Central)",
               "shortLinkText": "Tigers host the Orioles to begin 3-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -4924,8 +4924,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $15",
-              "numberAvailable": 774,
+              "summary": "Tickets as low as $17",
+              "numberAvailable": 647,
               "links": [
                 {
                   "href": "https://www.vividseats.com/miami-marlins-tickets-loandepot-park-7-27-2026--sports-mlb-baseball/production/5966028?wsUser=717"
@@ -5008,7 +5008,7 @@
                   }
                 ]
               },
-              "details": "PHI -191",
+              "details": "PHI -193",
               "overUnder": 7.5,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -5042,7 +5042,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+157",
+                    "odds": "+158",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5073,7 +5073,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-191",
+                    "odds": "-193",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5109,7 +5109,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-109",
+                    "odds": "-106",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5143,7 +5143,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "-110",
+                    "odds": "-114",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6235,8 +6235,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $16",
-              "numberAvailable": 1181,
+              "summary": "Tickets as low as $17",
+              "numberAvailable": 946,
               "links": [
                 {
                   "href": "https://www.vividseats.com/washington-nationals-tickets-nationals-park-7-27-2026--sports-mlb-baseball/production/5967849?wsUser=717"
@@ -6334,12 +6334,12 @@
                   }
                 ]
               },
-              "details": "WSH -120",
+              "details": "WSH -123",
               "overUnder": 9.5,
-              "spread": 1.5,
+              "spread": -1.5,
               "awayTeamOdds": {
-                "favorite": true,
-                "underdog": false,
+                "favorite": false,
+                "underdog": true,
                 "team": {
                   "id": "14",
                   "uid": "s:1~l:10~t:14",
@@ -6351,8 +6351,8 @@
                 "favoriteAtOpen": false
               },
               "homeTeamOdds": {
-                "favorite": false,
-                "underdog": true,
+                "favorite": true,
+                "underdog": false,
                 "team": {
                   "id": "20",
                   "uid": "s:1~l:10~t:20",
@@ -6368,7 +6368,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-120",
+                    "odds": "-123",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6399,7 +6399,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-101",
+                    "odds": "+102",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6434,8 +6434,8 @@
                 "shortDisplayName": "RL",
                 "home": {
                   "close": {
-                    "line": "+1.5",
-                    "odds": "-191",
+                    "line": "-1.5",
+                    "odds": "+158",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6443,7 +6443,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34441247%3Foutcomes%3D0HC85638127P150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34441247%3Foutcomes%3D0HC85638127N150_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -6456,7 +6456,7 @@
                           "gameId": 401816285,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:WSH+1.5"
+                          "betDetails": "Spread:WSH-1.5"
                         }
                       }
                     }
@@ -6468,8 +6468,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "-1.5",
-                    "odds": "+157",
+                    "line": "+1.5",
+                    "odds": "-193",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6477,7 +6477,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34441247%3Foutcomes%3D0HC85638127N150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34441247%3Foutcomes%3D0HC85638127P150_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -6490,7 +6490,7 @@
                           "gameId": 401816285,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:TOR-1.5"
+                          "betDetails": "Spread:TOR+1.5"
                         }
                       }
                     }
@@ -6507,7 +6507,7 @@
                 "over": {
                   "close": {
                     "line": "o9.5",
-                    "odds": "-118",
+                    "odds": "-117",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6541,7 +6541,7 @@
                 "under": {
                   "close": {
                     "line": "u9.5",
-                    "odds": "-102",
+                    "odds": "-103",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6935,6 +6935,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "49-55"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "22-28"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "27-27"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -7095,26 +7115,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "49-55"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "22-28"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "27-27"
                 }
               ]
             },
@@ -7549,8 +7549,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $17",
-              "numberAvailable": 1139,
+              "summary": "Tickets as low as $19",
+              "numberAvailable": 967,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cincinnati-reds-tickets-great-american-ball-park-7-27-2026--sports-mlb-baseball/production/5966339?wsUser=717"
@@ -7603,7 +7603,7 @@
                   }
                 ]
               },
-              "details": "CIN -167",
+              "details": "CIN -164",
               "overUnder": 8.5,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -7637,7 +7637,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-167",
+                    "odds": "-164",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7668,7 +7668,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+138",
+                    "odds": "+136",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7704,7 +7704,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+124",
+                    "odds": "+123",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7776,7 +7776,7 @@
                 "over": {
                   "close": {
                     "line": "o8.5",
-                    "odds": "-109",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -7879,14 +7879,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Cleveland Guardians (54-53, second in the AL Central) vs. Cincinnati Reds (49-55, fifth in the NL Central)",
               "shortLinkText": "Guardians aim to end slide in matchup with the Reds"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -8829,7 +8829,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $11",
-              "numberAvailable": 4586,
+              "numberAvailable": 4330,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-mets-tickets-citi-field-7-27-2026--sports-mlb-baseball/production/5965043?wsUser=717"
@@ -8912,7 +8912,7 @@
                   }
                 ]
               },
-              "details": "NYM -112",
+              "details": "NYM -110",
               "overUnder": 8.5,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -8946,7 +8946,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-112",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -8977,7 +8977,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-108",
+                    "odds": "-109",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9085,7 +9085,7 @@
                 "over": {
                   "close": {
                     "line": "o8.5",
-                    "odds": "-120",
+                    "odds": "-122",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9119,7 +9119,7 @@
                 "under": {
                   "close": {
                     "line": "u8.5",
-                    "odds": "+100",
+                    "odds": "+102",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -10138,8 +10138,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $16",
-              "numberAvailable": 1873,
+              "summary": "Tickets as low as $15",
+              "numberAvailable": 2124,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-white-sox-tickets-rate-field-7-27-2026--sports-mlb-baseball/production/5965176?wsUser=717"
@@ -11448,8 +11448,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $17",
-              "numberAvailable": 1639,
+              "summary": "Tickets as low as $18",
+              "numberAvailable": 1598,
               "links": [
                 {
                   "href": "https://www.vividseats.com/st-louis-cardinals-tickets-busch-stadium-7-27-2026--sports-mlb-baseball/production/5964947?wsUser=717"
@@ -11532,7 +11532,7 @@
                   }
                 ]
               },
-              "details": "CHC -120",
+              "details": "CHC -125",
               "overUnder": 9.5,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -11566,7 +11566,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+100",
+                    "odds": "+103",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11597,7 +11597,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-120",
+                    "odds": "-125",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11633,7 +11633,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-150",
+                    "odds": "-155",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -11667,7 +11667,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+125",
+                    "odds": "+128",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12759,8 +12759,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $5",
-              "numberAvailable": 3050,
+              "summary": "Tickets as low as $6",
+              "numberAvailable": 2835,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-angels-tickets-angel-stadium-7-27-2026--sports-mlb-baseball/production/5965140?wsUser=717"
@@ -12858,7 +12858,7 @@
                   }
                 ]
               },
-              "details": "HOU -110",
+              "details": "HOU -112",
               "overUnder": 8.5,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -12892,7 +12892,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-109",
+                    "odds": "-107",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12923,7 +12923,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-110",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -12959,7 +12959,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-179",
+                    "odds": "-180",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13031,7 +13031,7 @@
                 "over": {
                   "close": {
                     "line": "o8.5",
-                    "odds": "-112",
+                    "odds": "-117",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13065,7 +13065,7 @@
                 "under": {
                   "close": {
                     "line": "u8.5",
-                    "odds": "-108",
+                    "odds": "-103",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -13134,14 +13134,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Houston Astros (52-55, third in the AL West) vs. Los Angeles Angels (42-64, fifth in the AL West)",
               "shortLinkText": "Angels take on the Astros after Trout's 4-hit game"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -13173,10 +13173,10 @@
         }
       ],
       "weather": {
-        "displayValue": "6",
-        "temperature": 77,
-        "highTemperature": 77,
-        "conditionId": "Mostly cloudy",
+        "displayValue": "1",
+        "temperature": 80,
+        "highTemperature": 80,
+        "conditionId": "Sunny",
         "link": {
           "language": "en-US",
           "rel": [
@@ -14085,7 +14085,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $22",
-              "numberAvailable": 170,
+              "numberAvailable": 728,
               "links": [
                 {
                   "href": "https://www.vividseats.com/athletics-tickets-sutter-health-park-7-27-2026--sports-mlb-baseball/production/5965638?wsUser=717"
@@ -14341,7 +14341,7 @@
                 "over": {
                   "close": {
                     "line": "o9.5",
-                    "odds": "-108",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14375,7 +14375,7 @@
                 "under": {
                   "close": {
                     "line": "u9.5",
-                    "odds": "-112",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14444,14 +14444,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Boston Red Sox (54-50, third in the AL East) vs. Athletics (44-61, fourth in the AL West)",
               "shortLinkText": "Athletics take on the Red Sox in first of 4-game series"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -15377,8 +15377,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $17",
-              "numberAvailable": 2599,
+              "summary": "Tickets as low as $14",
+              "numberAvailable": 2475,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-francisco-giants-tickets-oracle-park-7-27-2026--sports-mlb-baseball/production/5965553?wsUser=717"
@@ -15757,8 +15757,8 @@
       ],
       "weather": {
         "displayValue": "6",
-        "temperature": 60,
-        "highTemperature": 60,
+        "temperature": 62,
+        "highTemperature": 62,
         "conditionId": "Mostly cloudy",
         "link": {
           "language": "en-US",
