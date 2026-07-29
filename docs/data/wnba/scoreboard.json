@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-29T04:24:18.038Z",
+  "fetchedAt": "2026-07-29T07:16:59.140Z",
   "sportId": "wnba",
   "liveCount": 0,
   "seasonStatus": {
@@ -2631,7 +2631,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "7224",
             "fullName": "Climate Pledge Arena",
@@ -3841,7 +3841,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "4005",
             "fullName": "Michelob ULTRA Arena",
@@ -4659,8 +4659,8 @@
           ],
           "notes": [],
           "status": {
-            "clock": 600,
-            "displayClock": "10:00",
+            "clock": 0,
+            "displayClock": "0.0",
             "period": 4,
             "type": {
               "id": "3",
@@ -5011,8 +5011,8 @@
         }
       ],
       "status": {
-        "clock": 600,
-        "displayClock": "10:00",
+        "clock": 0,
+        "displayClock": "0.0",
         "period": 4,
         "type": {
           "id": "3",
@@ -5050,7 +5050,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": true,
-          "recent": true,
+          "recent": false,
           "venue": {
             "id": "1841",
             "fullName": "crypto.com Arena",
@@ -5616,7 +5616,7 @@
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "26"
+                  "displayValue": "27"
                 },
                 {
                   "name": "fieldGoalsAttempted",
@@ -5951,7 +5951,235 @@
               "region": "us"
             }
           ],
-          "highlights": []
+          "highlights": [
+            {
+              "id": 49476856,
+              "cerebroId": "6a6980fb8b43b959b99458ad",
+              "source": "espn",
+              "headline": "Los Angeles Sparks vs. New York Liberty - Game Highlights",
+              "description": "Watch the Game Highlights from Los Angeles Sparks vs. New York Liberty, 07/28/2026",
+              "lastModified": "2026-07-29T04:26:54Z",
+              "originalPublishDate": "2026-07-29T04:26:36Z",
+              "duration": 69,
+              "timeRestrictions": {
+                "embargoDate": "2026-07-29T04:26:27Z",
+                "expirationDate": "2026-11-30T05:00:00Z"
+              },
+              "deviceRestrictions": {
+                "type": "whitelist",
+                "devices": [
+                  "settop",
+                  "tablet",
+                  "handset",
+                  "ipad",
+                  "desktop"
+                ]
+              },
+              "geoRestrictions": {
+                "type": "whitelist",
+                "countries": [
+                  "PR",
+                  "HN",
+                  "PW",
+                  "PY",
+                  "HT",
+                  "AG",
+                  "ZA",
+                  "AI",
+                  "AM",
+                  "AO",
+                  "AR",
+                  "AS",
+                  "RE",
+                  "ZM",
+                  "AU",
+                  "AW",
+                  "ZW",
+                  "BB",
+                  "JM",
+                  "BF",
+                  "RW",
+                  "BI",
+                  "BJ",
+                  "BM",
+                  "BO",
+                  "BQ",
+                  "SC",
+                  "BR",
+                  "BS",
+                  "BW",
+                  "BZ",
+                  "SL",
+                  "KE",
+                  "SN",
+                  "SR",
+                  "SS",
+                  "ST",
+                  "CD",
+                  "KM",
+                  "KN",
+                  "CF",
+                  "SV",
+                  "CG",
+                  "SX",
+                  "CI",
+                  "SZ",
+                  "CL",
+                  "CM",
+                  "CO",
+                  "KY",
+                  "TC",
+                  "CR",
+                  "CU",
+                  "TG",
+                  "CV",
+                  "LC",
+                  "TT",
+                  "LR",
+                  "TZ",
+                  "LS",
+                  "DO",
+                  "UG",
+                  "UK",
+                  "UM",
+                  "MF",
+                  "MG",
+                  "MH",
+                  "US",
+                  "EC",
+                  "ML",
+                  "MP",
+                  "UY",
+                  "MQ",
+                  "MS",
+                  "MU",
+                  "MW",
+                  "MX",
+                  "VC",
+                  "ER",
+                  "MZ",
+                  "ET",
+                  "VE",
+                  "VG",
+                  "VI",
+                  "NA",
+                  "NE",
+                  "NG",
+                  "NI",
+                  "FJ",
+                  "FM",
+                  "NZ",
+                  "GA",
+                  "GB",
+                  "GD",
+                  "GF",
+                  "GH",
+                  "GM",
+                  "GN",
+                  "GP",
+                  "GQ",
+                  "GT",
+                  "GU",
+                  "GW",
+                  "PA",
+                  "GY",
+                  "PE"
+                ]
+              },
+              "thumbnail": "https://a.espncdn.com/media/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c.jpg",
+              "links": {
+                "web": {
+                  "href": "https://www.espn.com/video/clip/_/id/49476856/los-angeles-sparks-vs-new-york-liberty-game-highlights",
+                  "self": {
+                    "href": "https://www.espn.com/video/clip/_/id/49476856/los-angeles-sparks-vs-new-york-liberty-game-highlights",
+                    "dsi": {
+                      "href": "https://www.espn.com/video/clip?id=1553380339b47"
+                    }
+                  }
+                },
+                "mobile": {
+                  "href": "https://watch.auth.api.espn.com/video/auth/brightcove/f1fc3fac-811d-4e00-9fd0-bfd6d4689f82/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49476856/los-angeles-sparks-vs-new-york-liberty-game-highlights",
+                  "source": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c.mp4"
+                  },
+                  "alert": {
+                    "href": "https://m.espn.com/general/video/videoAlert?vid=49476856"
+                  },
+                  "streaming": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/f1fc3fac-811d-4e00-9fd0-bfd6d4689f82/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49476856/los-angeles-sparks-vs-new-york-liberty-game-highlights"
+                  },
+                  "progressiveDownload": {
+                    "href": "https://watch.auth.api.espn.com/video/auth/brightcove/f1fc3fac-811d-4e00-9fd0-bfd6d4689f82/asset?UMADPARAMreferer=https://www.espn.com/video/clip/_/id/49476856/los-angeles-sparks-vs-new-york-liberty-game-highlights"
+                  }
+                },
+                "api": {
+                  "self": {
+                    "href": "https://content.core.api.espn.com/v1/video/clips/49476856"
+                  },
+                  "artwork": {
+                    "href": "https://artwork.api.espn.com/artwork/collections/media/f1fc3fac-811d-4e00-9fd0-bfd6d4689f82"
+                  }
+                },
+                "source": {
+                  "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c_360p30_1464k.mp4",
+                  "mezzanine": {
+                    "href": "https://media.video-origin.espn.com/espnvideo/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c.mp4"
+                  },
+                  "flash": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c.smil"
+                  },
+                  "hds": {
+                    "href": "https://hds.video-cdn.espn.com/z/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c_rel.smil/manifest.f4m"
+                  },
+                  "HLS": {
+                    "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8",
+                    "HD": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8"
+                    },
+                    "cmaf": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8",
+                      "9x16": {
+                        "href": "https://service-pkgespn.akamaized.net/opp/cmaf/espn/9x16/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8"
+                      },
+                      "cmb": {
+                        "href": "https://cmp-espn.media.dssott.com/opp/cmaf/espn/cmb/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8"
+                      }
+                    },
+                    "9x16": {
+                      "href": "https://service-pkgespn.akamaized.net/opp/hls/espn/9x16/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8"
+                    },
+                    "shield": {
+                      "href": "https://watch.auth.api.espn.com/video/auth/media/f1fc3fac-811d-4e00-9fd0-bfd6d4689f82/asset"
+                    },
+                    "cmb": {
+                      "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/cmb/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/playlist.m3u8"
+                    }
+                  },
+                  "HD": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c_720p30_2896k.mp4"
+                  },
+                  "full": {
+                    "href": "https://media.video-cdn.espn.com/motion/wsc/2026/0729/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c/fec8aab2-ec5d-44c6-ad3f-2aceb7f4d76c_360p30_1464k.mp4"
+                  }
+                },
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showVideo?videoID=49476856&videoDSI=1553380339b47"
+                }
+              },
+              "ad": {
+                "sport": "wnba",
+                "bundle": "wnba_top_plays_highlights"
+              },
+              "tracking": {
+                "sportName": "basketball",
+                "leagueName": "WNBA",
+                "coverageType": "Final Game Highlight",
+                "trackingName": "WNBA_One-Play (Los Angeles Sparks vs. New York Liberty - Game Highlights) 2026/07/29 ESHEET",
+                "trackingId": "dm_20260729_WNBA_los_angeles_sparks_vs_new_york_liberty_game_highlights",
+                "program": "WNBA"
+              }
+            }
+          ]
         }
       ],
       "links": [
