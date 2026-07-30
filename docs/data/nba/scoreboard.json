@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-30T16:16:01.312Z",
+  "fetchedAt": "2026-07-30T17:52:40.139Z",
   "sportId": "nba",
   "liveCount": 0,
   "seasonStatus": {
@@ -49,7 +49,7 @@
             "full",
             "dark"
           ],
-          "lastUpdated": "2026-07-29T18:55Z"
+          "lastUpdated": "2026-07-30T16:31Z"
         }
       ],
       "calendarType": "day",
@@ -83,7 +83,7 @@
     {
       "id": "401902644",
       "uid": "s:40~l:46~e:401902644",
-      "date": "2026-10-03T04:00Z",
+      "date": "2026-10-03T23:00Z",
       "name": "Miami Heat at Toronto Raptors",
       "shortName": "MIA @ TOR",
       "season": {
@@ -95,13 +95,13 @@
         {
           "id": "401902644",
           "uid": "s:40~l:46~e:401902644~c:401902644",
-          "date": "2026-10-03T04:00Z",
+          "date": "2026-10-03T23:00Z",
           "attendance": 0,
           "type": {
             "id": "1",
             "abbreviation": "STD"
           },
-          "timeValid": false,
+          "timeValid": true,
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
@@ -347,8 +347,8 @@
               "state": "pre",
               "completed": false,
               "description": "Scheduled",
-              "detail": "10/3 - TBD",
-              "shortDetail": "TBD"
+              "detail": "Sat, October 3rd at 7:00 PM EDT",
+              "shortDetail": "10/3 - 7:00 PM EDT"
             }
           },
           "broadcasts": [],
@@ -357,7 +357,21 @@
               "periods": 4
             }
           },
-          "startDate": "2026-10-03T04:00Z",
+          "tickets": [
+            {
+              "summary": "Tickets as low as $339",
+              "numberAvailable": 4,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/toronto-raptors-tickets-videotron-centre-10-3-2026--sports-nba-basketball/production/7358394?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/videotron-centre-tickets/venue/13755?wsUser=717"
+                }
+              ]
+            }
+          ],
+          "startDate": "2026-10-03T23:00Z",
           "broadcast": "",
           "geoBroadcasts": [],
           "highlights": []
@@ -388,8 +402,8 @@
           "state": "pre",
           "completed": false,
           "description": "Scheduled",
-          "detail": "10/3 - TBD",
-          "shortDetail": "TBD"
+          "detail": "Sat, October 3rd at 7:00 PM EDT",
+          "shortDetail": "10/3 - 7:00 PM EDT"
         }
       }
     }
