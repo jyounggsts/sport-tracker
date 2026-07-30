@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-30T00:08:28.856Z",
+  "fetchedAt": "2026-07-30T03:25:50.956Z",
   "sportId": "mls",
   "liveCount": 0,
   "seasonStatus": {
@@ -158,16 +158,17 @@
           "timeValid": true,
           "recent": true,
           "status": {
-            "clock": 0,
-            "displayClock": "0'",
+            "clock": 5400,
+            "displayClock": "90'+7'",
+            "period": 2,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
-              "completed": false,
-              "description": "Scheduled",
-              "detail": "Wed, July 29th at 8:00 PM EDT",
-              "shortDetail": "Scheduled"
+              "id": "28",
+              "name": "STATUS_FULL_TIME",
+              "state": "post",
+              "completed": true,
+              "description": "Full Time",
+              "detail": "FT",
+              "shortDetail": "FT"
             }
           },
           "venue": {
@@ -218,9 +219,9 @@
               "type": "team",
               "order": 0,
               "homeAway": "home",
-              "winner": false,
-              "form": "WLLWW",
-              "score": "0",
+              "winner": true,
+              "form": "WWLLW",
+              "score": "4",
               "team": {
                 "id": "9817",
                 "uid": "s:600~t:9817",
@@ -247,22 +248,22 @@
                 {
                   "name": "foulsCommitted",
                   "abbreviation": "FC",
-                  "displayValue": "0"
+                  "displayValue": "7"
                 },
                 {
                   "name": "wonCorners",
                   "abbreviation": "CW",
-                  "displayValue": "0"
+                  "displayValue": "3"
                 },
                 {
                   "name": "goalAssists",
                   "abbreviation": "A",
-                  "displayValue": "0"
+                  "displayValue": "3"
                 },
                 {
                   "name": "possessionPct",
                   "abbreviation": "PP",
-                  "displayValue": "0"
+                  "displayValue": "45.9"
                 },
                 {
                   "name": "shotAssists",
@@ -272,17 +273,17 @@
                 {
                   "name": "shotsOnTarget",
                   "abbreviation": "SOG",
-                  "displayValue": "0"
+                  "displayValue": "8"
                 },
                 {
                   "name": "totalGoals",
                   "abbreviation": "G",
-                  "displayValue": "0"
+                  "displayValue": "4"
                 },
                 {
                   "name": "totalShots",
                   "abbreviation": "SHOT",
-                  "displayValue": "0"
+                  "displayValue": "13"
                 }
               ]
             },
@@ -293,8 +294,8 @@
               "order": 1,
               "homeAway": "away",
               "winner": false,
-              "form": "LWLL",
-              "score": "0",
+              "form": "LLWLL",
+              "score": "3",
               "team": {
                 "id": "20279",
                 "uid": "s:600~t:20279",
@@ -318,22 +319,22 @@
                 {
                   "name": "foulsCommitted",
                   "abbreviation": "FC",
-                  "displayValue": "0"
+                  "displayValue": "12"
                 },
                 {
                   "name": "wonCorners",
                   "abbreviation": "CW",
-                  "displayValue": "0"
+                  "displayValue": "5"
                 },
                 {
                   "name": "goalAssists",
                   "abbreviation": "A",
-                  "displayValue": "0"
+                  "displayValue": "3"
                 },
                 {
                   "name": "possessionPct",
                   "abbreviation": "PP",
-                  "displayValue": "0"
+                  "displayValue": "54.1"
                 },
                 {
                   "name": "shotAssists",
@@ -343,22 +344,376 @@
                 {
                   "name": "shotsOnTarget",
                   "abbreviation": "SOG",
-                  "displayValue": "0"
+                  "displayValue": "16"
                 },
                 {
                   "name": "totalGoals",
                   "abbreviation": "G",
-                  "displayValue": "0"
+                  "displayValue": "3"
                 },
                 {
                   "name": "totalShots",
                   "abbreviation": "SHOT",
-                  "displayValue": "0"
+                  "displayValue": "25"
                 }
               ]
             }
           ],
-          "details": [],
+          "details": [
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 504,
+                "displayValue": "9'"
+              },
+              "team": {
+                "id": "20279"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "147715",
+                  "displayName": "Luis Gabriel Rey",
+                  "shortName": "L. Rey",
+                  "fullName": "Luis Gabriel Rey",
+                  "jersey": "16",
+                  "team": {
+                    "id": "20279"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/147715/luis-gabriel-rey",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "CD-L"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 1166,
+                "displayValue": "20'"
+              },
+              "team": {
+                "id": "9817"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "149945",
+                  "displayName": "Son Heung-Min",
+                  "shortName": "S. Heung-Min",
+                  "fullName": "Son Heung-Min",
+                  "jersey": "7",
+                  "team": {
+                    "id": "9817"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/149945/son-heung-min",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "LF"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 1338,
+                "displayValue": "23'"
+              },
+              "team": {
+                "id": "9817"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "149945",
+                  "displayName": "Son Heung-Min",
+                  "shortName": "S. Heung-Min",
+                  "fullName": "Son Heung-Min",
+                  "jersey": "7",
+                  "team": {
+                    "id": "9817"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/149945/son-heung-min",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "LF"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "94",
+                "text": "Yellow Card"
+              },
+              "clock": {
+                "value": 2352,
+                "displayValue": "40'"
+              },
+              "team": {
+                "id": "20279"
+              },
+              "scoreValue": 0,
+              "scoringPlay": false,
+              "redCard": false,
+              "yellowCard": true,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "270229",
+                  "displayName": "Willer Ditta",
+                  "shortName": "W. Ditta",
+                  "fullName": "Willer Ditta",
+                  "jersey": "2",
+                  "team": {
+                    "id": "20279"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/270229/willer-ditta",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "CD"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 2477,
+                "displayValue": "42'"
+              },
+              "team": {
+                "id": "9817"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "186466",
+                  "displayName": "Philip Zinckernagel",
+                  "shortName": "P. Zinckernagel",
+                  "fullName": "Philip Zinckernagel",
+                  "jersey": "11",
+                  "team": {
+                    "id": "9817"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/186466/philip-zinckernagel",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "RF"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 3248,
+                "displayValue": "55'"
+              },
+              "team": {
+                "id": "20279"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "127570",
+                  "displayName": "Salomón Rondón",
+                  "shortName": "S. Rondón",
+                  "fullName": "Salomón Rondón",
+                  "jersey": "26",
+                  "team": {
+                    "id": "20279"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/127570/salomon-rondon",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "SUB"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 3469,
+                "displayValue": "58'"
+              },
+              "team": {
+                "id": "9817"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "86436",
+                  "displayName": "Evander",
+                  "shortName": "Evander",
+                  "fullName": "Evander",
+                  "jersey": "19",
+                  "team": {
+                    "id": "9817"
+                  },
+                  "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/86436.png",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/86436/evander",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "SUB"
+                }
+              ]
+            },
+            {
+              "type": {
+                "id": "70",
+                "text": "Goal"
+              },
+              "clock": {
+                "value": 5400,
+                "displayValue": "90'+1'"
+              },
+              "team": {
+                "id": "20279"
+              },
+              "scoreValue": 1,
+              "scoringPlay": true,
+              "redCard": false,
+              "yellowCard": false,
+              "penaltyKick": false,
+              "ownGoal": false,
+              "shootout": false,
+              "athletesInvolved": [
+                {
+                  "id": "277270",
+                  "displayName": "José Paradela",
+                  "shortName": "J. Paradela",
+                  "fullName": "José Paradela",
+                  "jersey": "23",
+                  "team": {
+                    "id": "20279"
+                  },
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/soccer/player/_/id/277270/jose-paradela",
+                      "isHidden": false
+                    }
+                  ],
+                  "position": "SUB"
+                }
+              ]
+            }
+          ],
           "odds": [
             null
           ],
@@ -368,16 +723,17 @@
         }
       ],
       "status": {
-        "clock": 0,
-        "displayClock": "0'",
+        "clock": 5400,
+        "displayClock": "90'+7'",
+        "period": 2,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
-          "completed": false,
-          "description": "Scheduled",
-          "detail": "Wed, July 29th at 8:00 PM EDT",
-          "shortDetail": "Scheduled"
+          "id": "28",
+          "name": "STATUS_FULL_TIME",
+          "state": "post",
+          "completed": true,
+          "description": "Full Time",
+          "detail": "FT",
+          "shortDetail": "FT"
         }
       },
       "venue": {
@@ -397,6 +753,18 @@
           "isExternal": false,
           "isPremium": false,
           "isHidden": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "highlights",
+            "desktop"
+          ],
+          "href": "https://www.espn.com/soccer/video/_/gameId/401864004",
+          "text": "Highlights",
+          "shortText": "Highlights",
+          "isExternal": false,
+          "isPremium": false
         },
         {
           "language": "en-US",
