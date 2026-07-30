@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-07-29T23:07:00.784Z",
+  "fetchedAt": "2026-07-30T00:08:29.173Z",
   "sportId": "wnba",
-  "liveCount": 0,
+  "liveCount": 1,
   "seasonStatus": {
     "inSeason": true,
     "seasonYear": 2026,
@@ -213,8 +213,8 @@
           "timeValid": true,
           "neutralSite": false,
           "conferenceCompetition": false,
-          "playByPlayAvailable": false,
-          "recent": false,
+          "playByPlayAvailable": true,
+          "recent": true,
           "venue": {
             "id": "3416",
             "fullName": "College Park Center",
@@ -340,168 +340,106 @@
                 ],
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png"
               },
-              "score": "0",
+              "score": "2",
+              "linescores": [
+                {
+                  "value": 2,
+                  "displayValue": "2",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "919"
+                  "displayValue": "0"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "34.0"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "608",
-                  "rankDisplayValue": "2nd"
+                  "displayValue": "0"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "1960",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "2"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "912",
-                  "rankDisplayValue": "3rd"
+                  "displayValue": "1"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "46.5",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "50.0"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "79.6",
-                  "rankDisplayValue": "6th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "481",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "383",
-                  "rankDisplayValue": "15th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2436",
-                  "rankDisplayValue": "6th"
+                  "displayValue": "2"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "34.7",
-                  "rankDisplayValue": "7th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "660",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "229",
-                  "rankDisplayValue": "9th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "90.2"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "22.5"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "34.7"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "18-9"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "8-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "10-5"
+                  "displayValue": "0.0"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "points",
+                  "displayName": "Points",
+                  "shortDisplayName": "Pts",
+                  "abbreviation": "Pts",
                   "leaders": [
                     {
-                      "displayValue": "20.9",
-                      "value": 20.8799991607666,
-                      "athlete": {
-                        "id": "4433730",
-                        "fullName": "Paige Bueckers",
-                        "displayName": "Paige Bueckers",
-                        "shortName": "P. Bueckers",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4433730/paige-bueckers"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433730.png",
-                        "jersey": "5",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "3"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "3"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
-                  "leaders": [
-                    {
-                      "displayValue": "12.0",
-                      "value": 12,
+                      "displayValue": "2",
+                      "value": 2,
                       "athlete": {
                         "id": "3906949",
                         "fullName": "Jessica Shepard",
@@ -534,14 +472,14 @@
                   ]
                 },
                 {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "6.2",
-                      "value": 6.159999847412109,
+                      "displayValue": "1",
+                      "value": 1,
                       "athlete": {
                         "id": "4433730",
                         "fullName": "Paige Bueckers",
@@ -580,13 +518,13 @@
                   "abbreviation": "RAT",
                   "leaders": [
                     {
-                      "displayValue": "20.9 PPG, 4.2 RPG, 6.2 APG, 0.7 SPG, 0.4 BPG",
-                      "value": 36.683998107910156,
+                      "displayValue": "2 PTS",
+                      "value": 2.200000047683716,
                       "athlete": {
-                        "id": "4433730",
-                        "fullName": "Paige Bueckers",
-                        "displayName": "Paige Bueckers",
-                        "shortName": "P. Bueckers",
+                        "id": "3906949",
+                        "fullName": "Jessica Shepard",
+                        "displayName": "Jessica Shepard",
+                        "shortName": "J. Shepard",
                         "links": [
                           {
                             "rel": [
@@ -594,13 +532,13 @@
                               "desktop",
                               "athlete"
                             ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4433730/paige-bueckers"
+                            "href": "https://www.espn.com/wnba/player/_/id/3906949/jessica-shepard"
                           }
                         ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433730.png",
-                        "jersey": "5",
+                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/3906949.png",
+                        "jersey": "32",
                         "position": {
-                          "abbreviation": "G"
+                          "abbreviation": "F"
                         },
                         "team": {
                           "id": "3"
@@ -612,6 +550,24 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "18-9"
+                },
+                {
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "8-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "10-5"
                 }
               ]
             },
@@ -731,209 +687,105 @@
                 "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
               },
               "score": "0",
+              "linescores": [
+                {
+                  "value": 0,
+                  "displayValue": "0",
+                  "period": 1
+                }
+              ],
               "statistics": [
                 {
                   "name": "rebounds",
                   "abbreviation": "REB",
-                  "displayValue": "899",
-                  "rankDisplayValue": "16th"
+                  "displayValue": "1"
                 },
                 {
                   "name": "avgRebounds",
                   "abbreviation": "REB",
-                  "displayValue": "34.6"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "assists",
                   "abbreviation": "AST",
-                  "displayValue": "529",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "fieldGoalsAttempted",
                   "abbreviation": "FGA",
-                  "displayValue": "1844",
-                  "rankDisplayValue": "10th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "fieldGoalsMade",
                   "abbreviation": "FGM",
-                  "displayValue": "807",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "fieldGoalPct",
                   "abbreviation": "FG%",
-                  "displayValue": "43.8",
-                  "rankDisplayValue": "11th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "freeThrowPct",
                   "abbreviation": "FT%",
-                  "displayValue": "76.8",
-                  "rankDisplayValue": "11th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "freeThrowsAttempted",
                   "abbreviation": "FTA",
-                  "displayValue": "641",
-                  "rankDisplayValue": "4th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "freeThrowsMade",
                   "abbreviation": "FTM",
-                  "displayValue": "492",
-                  "rankDisplayValue": "5th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "points",
                   "abbreviation": "PTS",
-                  "displayValue": "2323",
-                  "rankDisplayValue": "Tied-11th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "threePointPct",
                   "abbreviation": "3P%",
-                  "displayValue": "31.1",
-                  "rankDisplayValue": "13th"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalsAttempted",
                   "abbreviation": "3PA",
-                  "displayValue": "697",
-                  "rankDisplayValue": "8th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "threePointFieldGoalsMade",
                   "abbreviation": "3PM",
-                  "displayValue": "217",
-                  "rankDisplayValue": "12th"
+                  "displayValue": "0"
                 },
                 {
                   "name": "avgPoints",
                   "abbreviation": "PTS",
-                  "displayValue": "89.3"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "avgAssists",
                   "abbreviation": "AST",
-                  "displayValue": "20.3"
+                  "displayValue": "0.0"
                 },
                 {
                   "name": "threePointFieldGoalPct",
                   "abbreviation": "3P%",
-                  "displayValue": "31.1",
-                  "rankDisplayValue": "1st"
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "16-10"
-                },
-                {
-                  "name": "Home",
-                  "type": "home",
-                  "summary": "9-4"
-                },
-                {
-                  "name": "Road",
-                  "type": "road",
-                  "summary": "7-6"
+                  "displayValue": "0.0"
                 }
               ],
               "leaders": [
                 {
-                  "name": "pointsPerGame",
-                  "displayName": "Points Per Game",
-                  "shortDisplayName": "PPG",
-                  "abbreviation": "PTS",
+                  "name": "rebounds",
+                  "displayName": "Rebounds",
+                  "shortDisplayName": "Reb",
+                  "abbreviation": "Reb",
                   "leaders": [
                     {
-                      "displayValue": "19.1",
-                      "value": 19.115385055541992,
-                      "athlete": {
-                        "id": "3058901",
-                        "fullName": "Allisha Gray",
-                        "displayName": "Allisha Gray",
-                        "shortName": "A. Gray",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/wnba/player/_/id/3058901/allisha-gray"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/3058901.png",
-                        "jersey": "15",
-                        "position": {
-                          "abbreviation": "G"
-                        },
-                        "team": {
-                          "id": "20"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "20"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "reboundsPerGame",
-                  "displayName": "Rebounds Per Game",
-                  "shortDisplayName": "RPG",
-                  "abbreviation": "REB",
-                  "leaders": [
-                    {
-                      "displayValue": "11.5",
-                      "value": 11.520000457763672,
-                      "athlete": {
-                        "id": "4433402",
-                        "fullName": "Angel Reese",
-                        "displayName": "Angel Reese",
-                        "shortName": "A. Reese",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4433402/angel-reese"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433402.png",
-                        "jersey": "5",
-                        "position": {
-                          "abbreviation": "F"
-                        },
-                        "team": {
-                          "id": "20"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "20"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "name": "assistsPerGame",
-                  "displayName": "Assists Per Game",
-                  "shortDisplayName": "APG",
-                  "abbreviation": "AST",
-                  "leaders": [
-                    {
-                      "displayValue": "7.7",
-                      "value": 7.653846263885498,
+                      "displayValue": "1",
+                      "value": 1,
                       "athlete": {
                         "id": "3142250",
                         "fullName": "Jordin Canada",
@@ -964,63 +816,84 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "16-10"
                 },
                 {
-                  "name": "rating",
-                  "displayName": "Rating",
-                  "shortDisplayName": "RAT",
-                  "abbreviation": "RAT",
-                  "leaders": [
-                    {
-                      "displayValue": "15.4 PPG, 11.5 RPG, 2.4 APG, 1.7 SPG, 0.6 BPG",
-                      "value": 29.86199951171875,
-                      "athlete": {
-                        "id": "4433402",
-                        "fullName": "Angel Reese",
-                        "displayName": "Angel Reese",
-                        "shortName": "A. Reese",
-                        "links": [
-                          {
-                            "rel": [
-                              "playercard",
-                              "desktop",
-                              "athlete"
-                            ],
-                            "href": "https://www.espn.com/wnba/player/_/id/4433402/angel-reese"
-                          }
-                        ],
-                        "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433402.png",
-                        "jersey": "5",
-                        "position": {
-                          "abbreviation": "F"
-                        },
-                        "team": {
-                          "id": "20"
-                        },
-                        "active": true
-                      },
-                      "team": {
-                        "id": "20"
-                      }
-                    }
-                  ]
+                  "name": "Home",
+                  "type": "home",
+                  "summary": "9-4"
+                },
+                {
+                  "name": "Road",
+                  "type": "road",
+                  "summary": "7-6"
                 }
               ]
             }
           ],
           "notes": [],
+          "situation": {
+            "lastPlay": {
+              "id": "40185709713",
+              "type": {
+                "id": "155",
+                "text": "Defensive Rebound"
+              },
+              "text": "Paige Bueckers defensive rebound",
+              "scoreValue": 0,
+              "team": {
+                "id": "3"
+              },
+              "probability": {
+                "tiePercentage": 0,
+                "homeWinPercentage": 0.566,
+                "awayWinPercentage": 0.43400000000000005
+              },
+              "athletesInvolved": [
+                {
+                  "id": "4433730",
+                  "fullName": "Paige Bueckers",
+                  "displayName": "Paige Bueckers",
+                  "shortName": "P. Bueckers",
+                  "links": [
+                    {
+                      "rel": [
+                        "playercard",
+                        "desktop",
+                        "athlete"
+                      ],
+                      "href": "https://www.espn.com/wnba/player/_/id/4433730/paige-bueckers"
+                    }
+                  ],
+                  "headshot": "https://a.espncdn.com/i/headshots/wnba/players/full/4433730.png",
+                  "jersey": "5",
+                  "position": "G",
+                  "team": {
+                    "id": "3"
+                  }
+                }
+              ]
+            }
+          },
           "status": {
-            "clock": 0,
-            "displayClock": "0.0",
-            "period": 0,
+            "clock": 559,
+            "displayClock": "9:19",
+            "period": 1,
             "type": {
-              "id": "1",
-              "name": "STATUS_SCHEDULED",
-              "state": "pre",
+              "id": "2",
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
               "completed": false,
-              "description": "Scheduled",
-              "detail": "Wed, July 29th at 8:00 PM EDT",
-              "shortDetail": "7/29 - 8:00 PM EDT"
+              "description": "In Progress",
+              "detail": "9:19 - 1st Quarter",
+              "shortDetail": "9:19 - 1st"
             }
           },
           "broadcasts": [
@@ -1049,20 +922,6 @@
               "periods": 4
             }
           },
-          "tickets": [
-            {
-              "summary": "Tickets as low as $90",
-              "numberAvailable": 48,
-              "links": [
-                {
-                  "href": "https://www.vividseats.com/dallas-wings-tickets-arlington-college-park-center-7-29-2026/production/6559271?wsUser=717"
-                },
-                {
-                  "href": "https://www.vividseats.com/venues/college-park-center-tickets.html?wsUser=717"
-                }
-              ]
-            }
-          ],
           "startDate": "2026-07-30T00:00Z",
           "broadcast": "USA Net",
           "geoBroadcasts": [
@@ -1127,6 +986,7 @@
               "region": "us"
             }
           ],
+          "highlights": [],
           "odds": [
             {
               "provider": {
@@ -1146,317 +1006,104 @@
                       "dark"
                     ]
                   }
-                ],
-                "displayName": "DraftKings"
+                ]
               },
               "details": "ATL -1.5",
-              "overUnder": 181.5,
-              "spread": 1.5,
-              "awayTeamOdds": {
-                "favorite": true,
-                "underdog": false,
-                "team": {
-                  "id": "20",
-                  "uid": "s:40~l:59~t:20",
-                  "abbreviation": "ATL",
-                  "name": "Dream",
-                  "displayName": "Atlanta Dream",
-                  "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/atl.png"
-                },
-                "favoriteAtOpen": false
-              },
-              "homeTeamOdds": {
-                "favorite": false,
-                "underdog": true,
-                "team": {
-                  "id": "3",
-                  "uid": "s:40~l:59~t:3",
-                  "abbreviation": "DAL",
-                  "name": "Wings",
-                  "displayName": "Dallas Wings",
-                  "logo": "https://a.espncdn.com/i/teamlogos/wnba/500/dal.png"
-                },
-                "favoriteAtOpen": true
-              },
+              "overUnder": 182.5,
               "moneyline": {
-                "displayName": "Moneyline",
-                "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+100",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411%3Foutcomes%3D0ML85601941_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857097,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "-123"
+                    "odds": -105
                   }
                 },
                 "away": {
                   "close": {
-                    "odds": "-121",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "away",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411%3Foutcomes%3D0ML85601941_3",
-                      "text": "Away Bet",
-                      "shortText": "Away Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857097,
-                          "betSide": "away",
-                          "betType": "straight"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "odds": "+102"
+                    "odds": -115
                   }
                 }
               },
               "pointSpread": {
-                "displayName": "Spread",
-                "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "+1.5",
-                    "odds": "-112",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "homeSpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411%3Foutcomes%3D0HC85601941P150_1",
-                      "text": "Home Point Spread",
-                      "shortText": "Home Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857097,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:DAL+1.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "-1.5",
-                    "odds": "-110"
+                    "line": 1.5
                   }
                 },
                 "away": {
                   "close": {
-                    "line": "-1.5",
-                    "odds": "-108",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "awaySpread",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411%3Foutcomes%3D0HC85601941N150_3",
-                      "text": "Away Point Spread",
-                      "shortText": "Away Point Spread",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857097,
-                          "betSide": "none",
-                          "betType": "straight",
-                          "betDetails": "Spread:ATL-1.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "+1.5",
-                    "odds": "-110"
+                    "line": -1.5
                   }
                 }
               },
               "total": {
-                "displayName": "Total",
-                "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o181.5",
-                    "odds": "-110",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "over",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411%3Foutcomes%3D0OU85601941O18150_1",
-                      "text": "Over Odds",
-                      "shortText": "Over Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857097,
-                          "betSide": "over",
-                          "betType": "straight",
-                          "betDetails": "Over:181.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "o177.5",
-                    "odds": "-115"
+                    "odds": -105,
+                    "line": "o182.5"
                   }
                 },
                 "under": {
                   "close": {
-                    "line": "u181.5",
-                    "odds": "-110",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "under",
-                        "desktop",
-                        "bets"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411%3Foutcomes%3D0OU85601941U18150_3",
-                      "text": "Under Odds",
-                      "shortText": "Under Odds",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "wnba",
-                          "sport": "basketball",
-                          "gameId": 401857097,
-                          "betSide": "under",
-                          "betType": "straight",
-                          "betDetails": "Under:181.5"
-                        }
-                      }
-                    }
-                  },
-                  "open": {
-                    "line": "u177.5",
-                    "odds": "-105"
+                    "odds": -115
                   }
                 }
-              },
-              "link": {
-                "language": "en-US",
-                "rel": [
-                  "game",
-                  "desktop",
-                  "bets"
-                ],
-                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34429411",
-                "text": "See More Odds",
-                "shortText": "Game",
-                "isExternal": true,
-                "isPremium": false,
-                "tracking": {
-                  "campaign": "betting-integrations",
-                  "tags": {
-                    "league": "wnba",
-                    "sport": "basketball",
-                    "gameId": 401857097,
-                    "betSide": "none",
-                    "betType": "straight"
-                  }
-                }
-              },
-              "header": {
-                "logo": {
-                  "dark": "https://a.espncdn.com/i/espnbet/dark/espn-bet-square-off.svg",
-                  "light": "https://a.espncdn.com/i/espnbet/espn-bet-square-off.svg",
-                  "exclusivesLogoDark": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg",
-                  "exclusivesLogoLight": "https://a.espncdn.com/i/espnbet/espn-bet-square-mint.svg"
-                },
-                "text": "Game Odds"
-              },
-              "footer": {
-                "disclaimer": "GAMBLING PROBLEM? CALL 1-800-GAMBLER or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Call 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ and present in most states. (18+ DC/KY/NH/PR/WY). Void in ONT. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Pass-thru of per wager tax may apply in IL."
               }
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
         {
           "language": "en-US",
           "rel": [
-            "summary",
+            "live",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/wnba/game/_/gameId/401857097/dream-wings",
+          "href": "https://www.espn.com/wnba/game?gameId=401857097",
           "text": "Gamecast",
           "shortText": "Gamecast",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "boxscore",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/wnba/boxscore/_/gameId/401857097",
+          "text": "Box Score",
+          "shortText": "Box Score",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en-US",
+          "rel": [
+            "pbp",
+            "desktop",
+            "event"
+          ],
+          "href": "https://www.espn.com/wnba/playbyplay/_/gameId/401857097",
+          "text": "Play-by-Play",
+          "shortText": "Play-by-Play",
           "isExternal": false,
           "isPremium": false
         }
       ],
       "status": {
-        "clock": 0,
-        "displayClock": "0.0",
-        "period": 0,
+        "clock": 559,
+        "displayClock": "9:19",
+        "period": 1,
         "type": {
-          "id": "1",
-          "name": "STATUS_SCHEDULED",
-          "state": "pre",
+          "id": "2",
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
           "completed": false,
-          "description": "Scheduled",
-          "detail": "Wed, July 29th at 8:00 PM EDT",
-          "shortDetail": "7/29 - 8:00 PM EDT"
+          "description": "In Progress",
+          "detail": "9:19 - 1st Quarter",
+          "shortDetail": "9:19 - 1st"
         }
       }
     },
@@ -2321,7 +1968,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $6",
-              "numberAvailable": 501,
+              "numberAvailable": 461,
               "links": [
                 {
                   "href": "https://www.vividseats.com/phoenix-mercury-tickets-mortgage-matchup-center-7-29-2026--sports-wnba/production/6559106?wsUser=717"
@@ -2430,7 +2077,8 @@
                       "dark"
                     ]
                   }
-                ]
+                ],
+                "displayName": "DraftKings"
               },
               "details": "GS -3.5",
               "overUnder": 156.5,
