@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-30T03:25:50.956Z",
+  "fetchedAt": "2026-07-30T06:06:40.259Z",
   "sportId": "mls",
   "liveCount": 0,
   "seasonStatus": {
@@ -134,15 +134,15 @@
     "year": 2026
   },
   "day": {
-    "date": "2026-07-29"
+    "date": "2026-07-31"
   },
   "events": [
     {
-      "id": "401864004",
-      "uid": "s:600~l:770~e:401864004",
-      "date": "2026-07-30T00:00Z",
-      "name": "Liga MX All-Stars at MLS All-Stars",
-      "shortName": "LIGA MX ALL-STARS @ MLS",
+      "id": "761695",
+      "uid": "s:600~l:770~e:761695",
+      "date": "2026-07-31T23:30Z",
+      "name": "Toronto FC at New York City FC",
+      "shortName": "TOR @ NYC",
       "season": {
         "year": 2026,
         "type": 13846,
@@ -150,35 +150,48 @@
       },
       "competitions": [
         {
-          "id": "401864004",
-          "uid": "s:600~l:770~e:401864004~c:401864004",
-          "date": "2026-07-30T00:00Z",
-          "startDate": "2026-07-30T00:00Z",
+          "id": "761695",
+          "uid": "s:600~l:770~e:761695~c:761695",
+          "date": "2026-07-31T23:30Z",
+          "startDate": "2026-07-31T23:30Z",
           "attendance": 0,
           "timeValid": true,
-          "recent": true,
+          "recent": false,
           "status": {
-            "clock": 5400,
-            "displayClock": "90'+7'",
-            "period": 2,
+            "clock": 0,
+            "displayClock": "0'",
             "type": {
-              "id": "28",
-              "name": "STATUS_FULL_TIME",
-              "state": "post",
-              "completed": true,
-              "description": "Full Time",
-              "detail": "FT",
-              "shortDetail": "FT"
+              "id": "1",
+              "name": "STATUS_SCHEDULED",
+              "state": "pre",
+              "completed": false,
+              "description": "Scheduled",
+              "detail": "Fri, July 31st at 7:30 PM EDT",
+              "shortDetail": "Scheduled"
             }
           },
           "venue": {
-            "id": "4418",
-            "fullName": "Bank of America Stadium",
+            "id": "4896",
+            "fullName": "Yankee Stadium",
             "address": {
-              "city": "Charlotte, North Carolina",
+              "city": "New York City",
               "country": "USA"
             }
           },
+          "tickets": [
+            {
+              "summary": "Tickets as low as $26",
+              "numberAvailable": 1124,
+              "links": [
+                {
+                  "href": "https://www.vividseats.com/new-york-city-fc-tickets-yankee-stadium-7-31-2026--sports-mls/production/6324562?wsUser=717"
+                },
+                {
+                  "href": "https://www.vividseats.com/yankee-stadium-tickets/venue/6135?wsUser=717"
+                }
+              ]
+            }
+          ],
           "format": {
             "regulation": {
               "periods": 2
@@ -214,508 +227,677 @@
           "broadcast": "",
           "competitors": [
             {
-              "id": "9817",
-              "uid": "s:600~t:9817",
+              "id": "17606",
+              "uid": "s:600~t:17606",
               "type": "team",
               "order": 0,
               "homeAway": "home",
-              "winner": true,
-              "form": "WWLLW",
-              "score": "4",
+              "winner": false,
+              "form": "WWLLD",
+              "score": "0",
+              "records": [
+                {
+                  "name": "All Splits",
+                  "type": "total",
+                  "summary": "7-4-6",
+                  "abbreviation": "Total"
+                }
+              ],
               "team": {
-                "id": "9817",
-                "uid": "s:600~t:9817",
-                "abbreviation": "MLS",
-                "displayName": "MLS All-Stars",
-                "shortDisplayName": "MLS All-Stars",
-                "name": "MLS All-Stars",
-                "location": "MLS All-Stars",
-                "color": "000000",
-                "alternateColor": "C60000",
+                "id": "17606",
+                "uid": "s:600~t:17606",
+                "abbreviation": "NYC",
+                "displayName": "New York City FC",
+                "shortDisplayName": "NYCFC",
+                "name": "New York City FC",
+                "location": "New York City FC",
+                "color": "9fd2ff",
+                "alternateColor": "000229",
                 "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/9817.png",
-                "links": [],
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/17606.png",
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/club/_/id/17606/new-york-city-fc",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/team/stats/_/id/17606/new-york-city-fc",
+                    "text": "Stats",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:17606&section=stats",
+                    "text": "Stats",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/17606/new-york-city-fc",
+                    "text": "Fixtures",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:17606&section=scores",
+                    "text": "Fixtures",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "squad",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/team/squad/_/id/17606/new-york-city-fc",
+                    "text": "Squad",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "squad",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:17606&section=squad",
+                    "text": "Squad",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  }
+                ],
                 "venue": {
-                  "id": "4418"
+                  "id": "4896"
                 }
               },
-              "statistics": [
+              "statistics": [],
+              "leaders": [
                 {
-                  "name": "appearances",
-                  "abbreviation": "APP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "foulsCommitted",
-                  "abbreviation": "FC",
-                  "displayValue": "7"
-                },
-                {
-                  "name": "wonCorners",
-                  "abbreviation": "CW",
-                  "displayValue": "3"
-                },
-                {
-                  "name": "goalAssists",
-                  "abbreviation": "A",
-                  "displayValue": "3"
-                },
-                {
-                  "name": "possessionPct",
-                  "abbreviation": "PP",
-                  "displayValue": "45.9"
-                },
-                {
-                  "name": "shotAssists",
-                  "abbreviation": "SHAST",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotsOnTarget",
-                  "abbreviation": "SOG",
-                  "displayValue": "8"
-                },
-                {
-                  "name": "totalGoals",
+                  "name": "goals",
+                  "displayName": "Goals",
+                  "shortDisplayName": "Goals",
                   "abbreviation": "G",
-                  "displayValue": "4"
+                  "leaders": [
+                    {
+                      "displayValue": "12",
+                      "value": 12,
+                      "athlete": {
+                        "id": "108107",
+                        "displayName": "Nicolás Fernández",
+                        "shortName": "N. Fernández",
+                        "fullName": "Nicolás Fernández",
+                        "jersey": "7",
+                        "active": true,
+                        "team": {
+                          "id": "17606"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/108107/nicolas-fernandez",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": {
+                          "abbreviation": "M"
+                        }
+                      },
+                      "team": {
+                        "id": "17606"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "name": "totalShots",
-                  "abbreviation": "SHOT",
-                  "displayValue": "13"
+                  "name": "goalsLeaders",
+                  "displayName": "Goals",
+                  "shortDisplayName": "Goals",
+                  "abbreviation": "G",
+                  "leaders": [
+                    {
+                      "displayValue": "12",
+                      "value": 12,
+                      "athlete": {
+                        "id": "108107",
+                        "displayName": "Nicolás Fernández",
+                        "shortName": "N. Fernández",
+                        "fullName": "Nicolás Fernández",
+                        "jersey": "7",
+                        "active": true,
+                        "team": {
+                          "id": "17606"
+                        },
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/108107/nicolas-fernandez",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": {
+                          "abbreviation": "M"
+                        }
+                      },
+                      "team": {
+                        "id": "17606"
+                      }
+                    }
+                  ]
                 }
               ]
             },
             {
-              "id": "20279",
-              "uid": "s:600~t:20279",
+              "id": "7318",
+              "uid": "s:600~t:7318",
               "type": "team",
               "order": 1,
               "homeAway": "away",
               "winner": false,
-              "form": "LLWLL",
-              "score": "3",
+              "form": "LDDLL",
+              "score": "0",
+              "records": [
+                {
+                  "name": "All Splits",
+                  "type": "total",
+                  "summary": "3-7-7",
+                  "abbreviation": "Total"
+                }
+              ],
               "team": {
-                "id": "20279",
-                "uid": "s:600~t:20279",
-                "abbreviation": "Liga MX All-Stars",
-                "displayName": "Liga MX All-Stars",
-                "shortDisplayName": "Liga MX All-Stars",
-                "name": "Liga MX All-Stars",
-                "location": "Liga MX All-Stars",
-                "color": "000000",
-                "alternateColor": "C60000",
+                "id": "7318",
+                "uid": "s:600~t:7318",
+                "abbreviation": "TOR",
+                "displayName": "Toronto FC",
+                "shortDisplayName": "Toronto",
+                "name": "Toronto FC",
+                "location": "Toronto FC",
+                "color": "aa182c",
+                "alternateColor": "a2a9ad",
                 "isActive": true,
-                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/20279.png",
-                "links": []
+                "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/7318.png",
+                "links": [
+                  {
+                    "rel": [
+                      "clubhouse",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/club/_/id/7318/toronto-fc",
+                    "text": "Clubhouse",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/team/stats/_/id/7318/toronto-fc",
+                    "text": "Stats",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "stats",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:7318&section=stats",
+                    "text": "Stats",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/team/fixtures/_/id/7318/toronto-fc",
+                    "text": "Fixtures",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "schedule",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:7318&section=scores",
+                    "text": "Fixtures",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "squad",
+                      "desktop",
+                      "team"
+                    ],
+                    "href": "https://www.espn.com/soccer/team/squad/_/id/7318/toronto-fc",
+                    "text": "Squad",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  },
+                  {
+                    "rel": [
+                      "squad",
+                      "sportscenter",
+                      "app",
+                      "team"
+                    ],
+                    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:7318&section=squad",
+                    "text": "Squad",
+                    "isExternal": false,
+                    "isPremium": false,
+                    "isHidden": false
+                  }
+                ],
+                "venue": {
+                  "id": "10143"
+                }
               },
-              "statistics": [
+              "statistics": [],
+              "leaders": [
                 {
-                  "name": "appearances",
-                  "abbreviation": "APP",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "foulsCommitted",
-                  "abbreviation": "FC",
-                  "displayValue": "12"
-                },
-                {
-                  "name": "wonCorners",
-                  "abbreviation": "CW",
-                  "displayValue": "5"
-                },
-                {
-                  "name": "goalAssists",
-                  "abbreviation": "A",
-                  "displayValue": "3"
-                },
-                {
-                  "name": "possessionPct",
-                  "abbreviation": "PP",
-                  "displayValue": "54.1"
-                },
-                {
-                  "name": "shotAssists",
-                  "abbreviation": "SHAST",
-                  "displayValue": "0"
-                },
-                {
-                  "name": "shotsOnTarget",
-                  "abbreviation": "SOG",
-                  "displayValue": "16"
-                },
-                {
-                  "name": "totalGoals",
+                  "name": "goals",
+                  "displayName": "Goals",
+                  "shortDisplayName": "Goals",
                   "abbreviation": "G",
-                  "displayValue": "3"
+                  "leaders": [
+                    {
+                      "displayValue": "4",
+                      "value": 4,
+                      "athlete": {
+                        "id": "233050",
+                        "displayName": "Dániel Sallói",
+                        "shortName": "D. Sallói",
+                        "fullName": "Dániel Sallói",
+                        "jersey": "20",
+                        "active": true,
+                        "team": {
+                          "id": "7318"
+                        },
+                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233050.png",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/233050/daniel-salloi",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": {
+                          "abbreviation": "F"
+                        }
+                      },
+                      "team": {
+                        "id": "7318"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "name": "totalShots",
-                  "abbreviation": "SHOT",
-                  "displayValue": "25"
+                  "name": "goalsLeaders",
+                  "displayName": "Goals",
+                  "shortDisplayName": "Goals",
+                  "abbreviation": "G",
+                  "leaders": [
+                    {
+                      "displayValue": "4",
+                      "value": 4,
+                      "athlete": {
+                        "id": "233050",
+                        "displayName": "Dániel Sallói",
+                        "shortName": "D. Sallói",
+                        "fullName": "Dániel Sallói",
+                        "jersey": "20",
+                        "active": true,
+                        "team": {
+                          "id": "7318"
+                        },
+                        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/233050.png",
+                        "links": [
+                          {
+                            "rel": [
+                              "playercard",
+                              "desktop",
+                              "athlete"
+                            ],
+                            "href": "https://www.espn.com/soccer/player/_/id/233050/daniel-salloi",
+                            "isHidden": false
+                          }
+                        ],
+                        "position": {
+                          "abbreviation": "F"
+                        }
+                      },
+                      "team": {
+                        "id": "7318"
+                      }
+                    }
+                  ]
                 }
               ]
             }
           ],
-          "details": [
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 504,
-                "displayValue": "9'"
-              },
-              "team": {
-                "id": "20279"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "147715",
-                  "displayName": "Luis Gabriel Rey",
-                  "shortName": "L. Rey",
-                  "fullName": "Luis Gabriel Rey",
-                  "jersey": "16",
-                  "team": {
-                    "id": "20279"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/147715/luis-gabriel-rey",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "CD-L"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 1166,
-                "displayValue": "20'"
-              },
-              "team": {
-                "id": "9817"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "149945",
-                  "displayName": "Son Heung-Min",
-                  "shortName": "S. Heung-Min",
-                  "fullName": "Son Heung-Min",
-                  "jersey": "7",
-                  "team": {
-                    "id": "9817"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/149945/son-heung-min",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "LF"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 1338,
-                "displayValue": "23'"
-              },
-              "team": {
-                "id": "9817"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "149945",
-                  "displayName": "Son Heung-Min",
-                  "shortName": "S. Heung-Min",
-                  "fullName": "Son Heung-Min",
-                  "jersey": "7",
-                  "team": {
-                    "id": "9817"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/149945/son-heung-min",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "LF"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "94",
-                "text": "Yellow Card"
-              },
-              "clock": {
-                "value": 2352,
-                "displayValue": "40'"
-              },
-              "team": {
-                "id": "20279"
-              },
-              "scoreValue": 0,
-              "scoringPlay": false,
-              "redCard": false,
-              "yellowCard": true,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "270229",
-                  "displayName": "Willer Ditta",
-                  "shortName": "W. Ditta",
-                  "fullName": "Willer Ditta",
-                  "jersey": "2",
-                  "team": {
-                    "id": "20279"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/270229/willer-ditta",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "CD"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 2477,
-                "displayValue": "42'"
-              },
-              "team": {
-                "id": "9817"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "186466",
-                  "displayName": "Philip Zinckernagel",
-                  "shortName": "P. Zinckernagel",
-                  "fullName": "Philip Zinckernagel",
-                  "jersey": "11",
-                  "team": {
-                    "id": "9817"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/186466/philip-zinckernagel",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "RF"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 3248,
-                "displayValue": "55'"
-              },
-              "team": {
-                "id": "20279"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "127570",
-                  "displayName": "Salomón Rondón",
-                  "shortName": "S. Rondón",
-                  "fullName": "Salomón Rondón",
-                  "jersey": "26",
-                  "team": {
-                    "id": "20279"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/127570/salomon-rondon",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "SUB"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 3469,
-                "displayValue": "58'"
-              },
-              "team": {
-                "id": "9817"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "86436",
-                  "displayName": "Evander",
-                  "shortName": "Evander",
-                  "fullName": "Evander",
-                  "jersey": "19",
-                  "team": {
-                    "id": "9817"
-                  },
-                  "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/86436.png",
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/86436/evander",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "SUB"
-                }
-              ]
-            },
-            {
-              "type": {
-                "id": "70",
-                "text": "Goal"
-              },
-              "clock": {
-                "value": 5400,
-                "displayValue": "90'+1'"
-              },
-              "team": {
-                "id": "20279"
-              },
-              "scoreValue": 1,
-              "scoringPlay": true,
-              "redCard": false,
-              "yellowCard": false,
-              "penaltyKick": false,
-              "ownGoal": false,
-              "shootout": false,
-              "athletesInvolved": [
-                {
-                  "id": "277270",
-                  "displayName": "José Paradela",
-                  "shortName": "J. Paradela",
-                  "fullName": "José Paradela",
-                  "jersey": "23",
-                  "team": {
-                    "id": "20279"
-                  },
-                  "links": [
-                    {
-                      "rel": [
-                        "playercard",
-                        "desktop",
-                        "athlete"
-                      ],
-                      "href": "https://www.espn.com/soccer/player/_/id/277270/jose-paradela",
-                      "isHidden": false
-                    }
-                  ],
-                  "position": "SUB"
-                }
-              ]
-            }
-          ],
+          "details": [],
           "odds": [
-            null
+            {
+              "overUnder": 2.5,
+              "link": {
+                "language": "en-US",
+                "rel": [
+                  "game",
+                  "desktop",
+                  "bets"
+                ],
+                "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710",
+                "text": "Game",
+                "shortText": "Game",
+                "isExternal": true,
+                "isPremium": false,
+                "isHidden": false
+              },
+              "provider": {
+                "id": "100",
+                "name": "DraftKings",
+                "priority": 1,
+                "displayName": "DraftKings",
+                "logos": [
+                  {
+                    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+                    "rel": [
+                      "light"
+                    ]
+                  },
+                  {
+                    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+                    "rel": [
+                      "dark"
+                    ]
+                  }
+                ]
+              },
+              "drawOdds": {
+                "moneyLine": 295,
+                "link": {
+                  "language": "en-US",
+                  "rel": [
+                    "draw",
+                    "desktop",
+                    "bets",
+                    "draftkings"
+                  ],
+                  "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0ML85651171_2",
+                  "text": "Draw Bet",
+                  "shortText": "Draw Bet",
+                  "isExternal": true,
+                  "isPremium": false,
+                  "isHidden": false
+                }
+              },
+              "total": {
+                "displayName": "Total",
+                "shortDisplayName": "Total",
+                "over": {
+                  "open": {
+                    "line": "o2.5",
+                    "odds": "-135"
+                  },
+                  "close": {
+                    "line": "o2.5",
+                    "odds": "-135",
+                    "link": {
+                      "rel": [
+                        "over",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0OU85651205O250_1",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "over",
+                          "betType": "straight",
+                          "betDetails": "Over:2.5"
+                        }
+                      }
+                    }
+                  }
+                },
+                "under": {
+                  "open": {
+                    "line": "u2.5",
+                    "odds": "+100"
+                  },
+                  "close": {
+                    "line": "u2.5",
+                    "odds": "+105",
+                    "link": {
+                      "rel": [
+                        "under",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0OU85651205U250_3",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "under",
+                          "betType": "straight",
+                          "betDetails": "Under:2.5"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "pointSpread": {
+                "displayName": "Spread",
+                "shortDisplayName": "Spread",
+                "home": {
+                  "open": {
+                    "line": "-0.5",
+                    "odds": "-160"
+                  },
+                  "close": {
+                    "line": "-0.5",
+                    "odds": "-165",
+                    "link": {
+                      "rel": [
+                        "homeSpread",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0HC85651210N50_1",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "home",
+                          "betType": "straight",
+                          "betDetails": "Spread:NYC-0.5"
+                        }
+                      }
+                    }
+                  }
+                },
+                "away": {
+                  "open": {
+                    "line": "+0.5",
+                    "odds": "+110"
+                  },
+                  "close": {
+                    "line": "+0.5",
+                    "odds": "+120",
+                    "link": {
+                      "rel": [
+                        "awaySpread",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0HC85651210P50_3",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "away",
+                          "betType": "straight",
+                          "betDetails": "Spread:TOR+0.5"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "moneyline": {
+                "displayName": "Moneyline",
+                "shortDisplayName": "ML",
+                "home": {
+                  "open": {
+                    "odds": "-150"
+                  },
+                  "close": {
+                    "odds": "-160",
+                    "link": {
+                      "rel": [
+                        "home",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0ML85651171_1",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "home",
+                          "betType": "straight"
+                        }
+                      }
+                    }
+                  }
+                },
+                "away": {
+                  "open": {
+                    "odds": "+330"
+                  },
+                  "close": {
+                    "odds": "+380",
+                    "link": {
+                      "rel": [
+                        "away",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0ML85651171_3",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "away",
+                          "betType": "straight"
+                        }
+                      }
+                    }
+                  }
+                },
+                "draw": {
+                  "open": {
+                    "odds": "+290"
+                  },
+                  "close": {
+                    "odds": "+295",
+                    "link": {
+                      "rel": [
+                        "draw",
+                        "bets"
+                      ],
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34445710%3Foutcomes%3D0ML85651171_2",
+                      "tracking": {
+                        "campaign": "betting-integrations",
+                        "tags": {
+                          "league": "usa.1",
+                          "sport": "soccer",
+                          "gameId": 761695,
+                          "betSide": "draw",
+                          "betType": "straight"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "details": "NYC -160"
+            }
           ],
           "wasSuspended": false,
           "playByPlayAvailable": true,
@@ -723,21 +905,20 @@
         }
       ],
       "status": {
-        "clock": 5400,
-        "displayClock": "90'+7'",
-        "period": 2,
+        "clock": 0,
+        "displayClock": "0'",
         "type": {
-          "id": "28",
-          "name": "STATUS_FULL_TIME",
-          "state": "post",
-          "completed": true,
-          "description": "Full Time",
-          "detail": "FT",
-          "shortDetail": "FT"
+          "id": "1",
+          "name": "STATUS_SCHEDULED",
+          "state": "pre",
+          "completed": false,
+          "description": "Scheduled",
+          "detail": "Fri, July 31st at 7:30 PM EDT",
+          "shortDetail": "Scheduled"
         }
       },
       "venue": {
-        "displayName": "Bank of America Stadium"
+        "displayName": "Yankee Stadium"
       },
       "links": [
         {
@@ -747,7 +928,7 @@
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/soccer/match/_/gameId/401864004/liga-mx-all-stars-mls-all-stars",
+          "href": "https://www.espn.com/soccer/match/_/gameId/761695/toronto-fc-new-york-city-fc",
           "text": "Summary",
           "shortText": "Summary",
           "isExternal": false,
@@ -757,23 +938,11 @@
         {
           "language": "en-US",
           "rel": [
-            "highlights",
-            "desktop"
-          ],
-          "href": "https://www.espn.com/soccer/video/_/gameId/401864004",
-          "text": "Highlights",
-          "shortText": "Highlights",
-          "isExternal": false,
-          "isPremium": false
-        },
-        {
-          "language": "en-US",
-          "rel": [
             "stats",
             "desktop",
             "event"
           ],
-          "href": "https://www.espn.com/soccer/matchstats/_/gameId/401864004",
+          "href": "https://www.espn.com/soccer/matchstats/_/gameId/761695",
           "text": "Statistics",
           "shortText": "Statistics",
           "isExternal": false,
@@ -785,9 +954,9 @@
   ],
   "provider": {
     "id": "100",
-    "name": "Draft Kings",
-    "displayName": "Draft Kings",
+    "name": "DraftKings",
     "priority": 1,
+    "displayName": "DraftKings",
     "logos": [
       {
         "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
