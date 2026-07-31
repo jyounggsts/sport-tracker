@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-31T21:51:48.998Z",
+  "fetchedAt": "2026-07-31T22:50:11.709Z",
   "sportId": "ncaaf",
   "liveCount": 0,
   "seasonStatus": {
@@ -1333,7 +1333,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $26",
-              "numberAvailable": 3963,
+              "numberAvailable": 3952,
               "links": [
                 {
                   "href": "https://www.vividseats.com/usc-trojans-football-tickets-la-memorial-coliseum-8-29-2026--sports-ncaa-football/production/6589044?wsUser=717"
@@ -1384,9 +1384,9 @@
                   }
                 ]
               },
-              "details": "USC -36.5",
+              "details": "USC -38.5",
               "overUnder": 59.5,
-              "spread": -36.5,
+              "spread": -38.5,
               "awayTeamOdds": {
                 "favorite": false,
                 "underdog": true,
@@ -1418,39 +1418,15 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-50000",
-                    "link": {
-                      "language": "en-US",
-                      "rel": [
-                        "home",
-                        "desktop",
-                        "bets",
-                        "draftkings"
-                      ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180742%3Foutcomes%3D0ML84870956_1",
-                      "text": "Home Bet",
-                      "shortText": "Home Bet",
-                      "isExternal": true,
-                      "isPremium": false,
-                      "tracking": {
-                        "campaign": "betting-integrations",
-                        "tags": {
-                          "league": "college-football",
-                          "sport": "football",
-                          "gameId": 401864494,
-                          "betSide": "home",
-                          "betType": "straight"
-                        }
-                      }
-                    }
+                    "odds": "OFF"
                   },
                   "open": {
-                    "odds": "-50000"
+                    "odds": "OFF"
                   }
                 },
                 "away": {
                   "close": {
-                    "odds": "+4000",
+                    "odds": "+5000",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1486,8 +1462,8 @@
                 "shortDisplayName": "Spread",
                 "home": {
                   "close": {
-                    "line": "-36.5",
-                    "odds": "-108",
+                    "line": "-38.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1495,7 +1471,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180742%3Foutcomes%3D0HC84870956N3650_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180742%3Foutcomes%3D0HC84870956N3850_1",
                       "text": "Home Point Spread",
                       "shortText": "Home Point Spread",
                       "isExternal": true,
@@ -1508,7 +1484,7 @@
                           "gameId": 401864494,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:USC-36.5"
+                          "betDetails": "Spread:USC-38.5"
                         }
                       }
                     }
@@ -1520,8 +1496,8 @@
                 },
                 "away": {
                   "close": {
-                    "line": "+36.5",
-                    "odds": "-112",
+                    "line": "+38.5",
+                    "odds": "-110",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1529,7 +1505,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180742%3Foutcomes%3D0HC84870956P3650_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34180742%3Foutcomes%3D0HC84870956P3850_3",
                       "text": "Away Point Spread",
                       "shortText": "Away Point Spread",
                       "isExternal": true,
@@ -1542,7 +1518,7 @@
                           "gameId": 401864494,
                           "betSide": "none",
                           "betType": "straight",
-                          "betDetails": "Spread:SJSU+36.5"
+                          "betDetails": "Spread:SJSU+38.5"
                         }
                       }
                     }
@@ -1559,7 +1535,7 @@
                 "over": {
                   "close": {
                     "line": "o59.5",
-                    "odds": "-105",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1593,7 +1569,7 @@
                 "under": {
                   "close": {
                     "line": "u59.5",
-                    "odds": "-115",
+                    "odds": "-108",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -2070,7 +2046,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $44",
-              "numberAvailable": 2840,
+              "numberAvailable": 2833,
               "links": [
                 {
                   "href": "https://www.vividseats.com/virginia-cavaliers-football-tickets-scott-stadium-9-5-2026--sports-ncaa-football/production/6209753?wsUser=717"
@@ -4285,7 +4261,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $20",
-              "numberAvailable": 3088,
+              "numberAvailable": 3089,
               "links": [
                 {
                   "href": "https://www.vividseats.com/stanford-cardinal-football-tickets-stanford-stadium-9-1-2026--sports-ncaa-football/production/6205884?wsUser=717"
@@ -5018,7 +4994,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $25",
-              "numberAvailable": 3583,
+              "numberAvailable": 3575,
               "links": [
                 {
                   "href": "https://www.vividseats.com/florida-state-seminoles-football-tickets-doak-campbell-stadium-8-29-2026--sports-ncaa-football/production/6370940?wsUser=717"
@@ -21438,7 +21414,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $13",
-              "numberAvailable": 394,
+              "numberAvailable": 386,
               "links": [
                 {
                   "href": "https://www.vividseats.com/uconn-huskies-football-tickets-pratt-whitney-stadium-at-rentschler-field-9-5-2026--sports-ncaa-football/production/6368029?wsUser=717"
@@ -53792,8 +53768,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $32",
-              "numberAvailable": 115,
+              "summary": "Tickets as low as $31",
+              "numberAvailable": 113,
               "links": [
                 {
                   "href": "https://www.vividseats.com/sacramento-state-hornets-football-tickets-hornet-stadium-at-csus-9-5-2026--sports-ncaa-football/production/6765438?wsUser=717"
