@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-01T17:43:32.543Z",
+  "fetchedAt": "2026-08-01T18:42:42.665Z",
   "sportId": "mlb",
   "liveCount": 0,
   "seasonStatus": {
@@ -142,7 +142,7 @@
           "neutralSite": false,
           "conferenceCompetition": false,
           "playByPlayAvailable": false,
-          "recent": false,
+          "recent": true,
           "wasSuspended": false,
           "venue": {
             "id": "14",
@@ -969,8 +969,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $103",
-              "numberAvailable": 255,
+              "summary": "Tickets as low as $102",
+              "numberAvailable": 153,
               "links": [
                 {
                   "href": "https://www.vividseats.com/toronto-blue-jays-tickets-rogers-centre-8-1-2026--sports-mlb-baseball/production/5967094?wsUser=717"
@@ -1069,7 +1069,7 @@
                 ],
                 "displayName": "DraftKings"
               },
-              "details": "TOR -171",
+              "details": "TOR -172",
               "overUnder": 8,
               "spread": -1.5,
               "awayTeamOdds": {
@@ -1103,7 +1103,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "-171",
+                    "odds": "-172",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1134,7 +1134,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+141",
+                    "odds": "+142",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1170,7 +1170,7 @@
                 "home": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+129",
+                    "odds": "+124",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1204,7 +1204,7 @@
                 "away": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-156",
+                    "odds": "-150",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -1345,14 +1345,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "St. Louis Cardinals (54-56, fourth in the NL Central) vs. Toronto Blue Jays (51-59, fifth in the AL East)",
               "shortLinkText": "Blue Jays bring 1-0 series lead over Cardinals into game 2"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -2280,7 +2280,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $30",
-              "numberAvailable": 461,
+              "numberAvailable": 583,
               "links": [
                 {
                   "href": "https://www.vividseats.com/tampa-bay-rays-tickets-tropicana-field-8-1-2026--sports-mlb-baseball/production/5966778?wsUser=717"
@@ -2678,10 +2678,10 @@
         }
       ],
       "weather": {
-        "displayValue": "Intermittent clouds",
+        "displayValue": "Thunderstorms",
         "temperature": 86,
         "highTemperature": 86,
-        "conditionId": "4",
+        "conditionId": "15",
         "link": {
           "language": "en-US",
           "rel": [
@@ -2962,26 +2962,6 @@
               ],
               "hits": 0,
               "errors": 0,
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "47-64"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "25-32"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "22-32"
-                }
-              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -3142,6 +3122,26 @@
                       }
                     }
                   ]
+                }
+              ],
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "47-64"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "25-32"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "22-32"
                 }
               ]
             },
@@ -3588,8 +3588,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $9",
-              "numberAvailable": 4424,
+              "summary": "Tickets as low as $10",
+              "numberAvailable": 4178,
               "links": [
                 {
                   "href": "https://www.vividseats.com/new-york-mets-tickets-citi-field-8-1-2026--sports-mlb-baseball/production/5965357?wsUser=717"
@@ -4900,8 +4900,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $24",
-              "numberAvailable": 522,
+              "summary": "Tickets as low as $26",
+              "numberAvailable": 401,
               "links": [
                 {
                   "href": "https://www.vividseats.com/seattle-mariners-tickets-t-mobile-park-8-1-2026--sports-mlb-baseball/production/5965578?wsUser=717"
@@ -5172,7 +5172,7 @@
                 "over": {
                   "close": {
                     "line": "o7",
-                    "odds": "-122",
+                    "odds": "-120",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5206,7 +5206,7 @@
                 "under": {
                   "close": {
                     "line": "u7",
-                    "odds": "+101",
+                    "odds": "+100",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -5315,8 +5315,8 @@
       ],
       "weather": {
         "displayValue": "Mostly cloudy",
-        "temperature": 72,
-        "highTemperature": 72,
+        "temperature": 71,
+        "highTemperature": 71,
         "conditionId": "6",
         "link": {
           "language": "en-US",
@@ -6221,8 +6221,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $7",
-              "numberAvailable": 2815,
+              "summary": "Tickets as low as $9",
+              "numberAvailable": 2737,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cincinnati-reds-tickets-great-american-ball-park-8-1-2026--sports-mlb-baseball/production/5966416?wsUser=717"
@@ -6291,7 +6291,7 @@
                 ]
               },
               "details": "PIT -125",
-              "overUnder": 8,
+              "overUnder": 8.5,
               "spread": 1.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -6462,8 +6462,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o8",
-                    "odds": "-118",
+                    "line": "o8.5",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6471,7 +6471,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461471%3Foutcomes%3D0OU85701791O800_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461471%3Foutcomes%3D0OU85701791O850_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -6484,7 +6484,7 @@
                           "gameId": 401816351,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:8"
+                          "betDetails": "Over:8.5"
                         }
                       }
                     }
@@ -6496,8 +6496,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u8",
-                    "odds": "-102",
+                    "line": "u8.5",
+                    "odds": "-115",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -6505,7 +6505,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461471%3Foutcomes%3D0OU85701791U800_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461471%3Foutcomes%3D0OU85701791U850_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -6518,7 +6518,7 @@
                           "gameId": 401816351,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:8"
+                          "betDetails": "Under:8.5"
                         }
                       }
                     }
@@ -6566,14 +6566,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Pittsburgh Pirates (55-56, third in the NL Central) vs. Cincinnati Reds (52-57, fifth in the NL Central)",
               "shortLinkText": "Pirates take 4-game losing streak into matchup with the Reds"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -6606,8 +6606,8 @@
       ],
       "weather": {
         "displayValue": "Mostly cloudy",
-        "temperature": 77,
-        "highTemperature": 77,
+        "temperature": 79,
+        "highTemperature": 79,
         "conditionId": "6",
         "link": {
           "language": "en-US",
@@ -7518,8 +7518,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $35",
-              "numberAvailable": 1337,
+              "summary": "Tickets as low as $33",
+              "numberAvailable": 1235,
               "links": [
                 {
                   "href": "https://www.vividseats.com/baltimore-orioles-tickets-oriole-park-at-camden-yards-8-1-2026--sports-mlb-baseball/production/5965760?wsUser=717"
@@ -8829,8 +8829,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $43",
-              "numberAvailable": 1788,
+              "summary": "Tickets as low as $42",
+              "numberAvailable": 1591,
               "links": [
                 {
                   "href": "https://www.vividseats.com/houston-astros-tickets-daikin-park-8-1-2026--sports-mlb-baseball/production/5966311?wsUser=717"
@@ -8913,7 +8913,7 @@
                   }
                 ]
               },
-              "details": "TEX -130",
+              "details": "TEX -126",
               "overUnder": 8,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -8947,7 +8947,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+108",
+                    "odds": "+105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -8978,7 +8978,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-130",
+                    "odds": "-126",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -9189,14 +9189,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Texas Rangers (55-55, second in the AL West) vs. Houston Astros (56-55, first in the AL West)",
               "shortLinkText": "Diaz leads Astros against the Rangers after 4-hit game"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -9914,6 +9914,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "58-52"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "31-22"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "27-30"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -10075,26 +10095,6 @@
                     }
                   ]
                 }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "58-52"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "31-22"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "27-30"
-                }
               ]
             }
           ],
@@ -10130,7 +10130,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $39",
-              "numberAvailable": 1033,
+              "numberAvailable": 1014,
               "links": [
                 {
                   "href": "https://www.vividseats.com/cleveland-guardians-tickets-progressive-field-8-1-2026--sports-mlb-baseball/production/5965264?wsUser=717"
@@ -10798,6 +10798,26 @@
               ],
               "hits": 0,
               "errors": 0,
+              "records": [
+                {
+                  "name": "overall",
+                  "abbreviation": "Total",
+                  "type": "total",
+                  "summary": "65-45"
+                },
+                {
+                  "name": "Home",
+                  "abbreviation": "Home",
+                  "type": "home",
+                  "summary": "34-20"
+                },
+                {
+                  "name": "Road",
+                  "abbreviation": "AWAY",
+                  "type": "road",
+                  "summary": "31-25"
+                }
+              ],
               "leaders": [
                 {
                   "name": "avg",
@@ -10958,26 +10978,6 @@
                       }
                     }
                   ]
-                }
-              ],
-              "records": [
-                {
-                  "name": "overall",
-                  "abbreviation": "Total",
-                  "type": "total",
-                  "summary": "65-45"
-                },
-                {
-                  "name": "Home",
-                  "abbreviation": "Home",
-                  "type": "home",
-                  "summary": "34-20"
-                },
-                {
-                  "name": "Road",
-                  "abbreviation": "AWAY",
-                  "type": "road",
-                  "summary": "31-25"
                 }
               ]
             },
@@ -11425,7 +11425,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $17",
-              "numberAvailable": 939,
+              "numberAvailable": 802,
               "links": [
                 {
                   "href": "https://www.vividseats.com/atlanta-braves-tickets-truist-park-8-1-2026--sports-mlb-baseball/production/5965034?wsUser=717"
@@ -12703,8 +12703,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $40",
-              "numberAvailable": 2764,
+              "summary": "Tickets as low as $44",
+              "numberAvailable": 2735,
               "links": [
                 {
                   "href": "https://www.vividseats.com/chicago-cubs-tickets-wrigley-field-8-1-2026--sports-mlb-baseball/production/5965278?wsUser=717"
@@ -14014,7 +14014,7 @@
           "tickets": [
             {
               "summary": "Tickets as low as $28",
-              "numberAvailable": 1659,
+              "numberAvailable": 1591,
               "links": [
                 {
                   "href": "https://www.vividseats.com/colorado-rockies-tickets-coors-field-8-1-2026--sports-mlb-baseball/production/5966447?wsUser=717"
@@ -14098,7 +14098,7 @@
                 ]
               },
               "details": "COL -120",
-              "overUnder": 11.5,
+              "overUnder": 12,
               "spread": 1.5,
               "awayTeamOdds": {
                 "favorite": true,
@@ -14162,7 +14162,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "+100",
+                    "odds": "-101",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14198,7 +14198,7 @@
                 "home": {
                   "close": {
                     "line": "+1.5",
-                    "odds": "-179",
+                    "odds": "-178",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14232,7 +14232,7 @@
                 "away": {
                   "close": {
                     "line": "-1.5",
-                    "odds": "+148",
+                    "odds": "+146",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14269,8 +14269,8 @@
                 "shortDisplayName": "Total",
                 "over": {
                   "close": {
-                    "line": "o11.5",
-                    "odds": "-112",
+                    "line": "o12",
+                    "odds": "-105",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14278,7 +14278,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461489%3Foutcomes%3D0OU85701852O1150_1",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461489%3Foutcomes%3D0OU85701852O1200_1",
                       "text": "Over Odds",
                       "shortText": "Over Odds",
                       "isExternal": true,
@@ -14291,7 +14291,7 @@
                           "gameId": 401816356,
                           "betSide": "over",
                           "betType": "straight",
-                          "betDetails": "Over:11.5"
+                          "betDetails": "Over:12"
                         }
                       }
                     }
@@ -14303,8 +14303,8 @@
                 },
                 "under": {
                   "close": {
-                    "line": "u11.5",
-                    "odds": "-108",
+                    "line": "u12",
+                    "odds": "-114",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -14312,7 +14312,7 @@
                         "desktop",
                         "bets"
                       ],
-                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461489%3Foutcomes%3D0OU85701852U1150_3",
+                      "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34461489%3Foutcomes%3D0OU85701852U1200_3",
                       "text": "Under Odds",
                       "shortText": "Under Odds",
                       "isExternal": true,
@@ -14325,7 +14325,7 @@
                           "gameId": 401816356,
                           "betSide": "under",
                           "betType": "straight",
-                          "betDetails": "Under:11.5"
+                          "betDetails": "Under:12"
                         }
                       }
                     }
@@ -14373,14 +14373,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Kansas City Royals (46-65, fifth in the AL Central) vs. Colorado Rockies (43-67, fifth in the NL West)",
               "shortLinkText": "Rockies face the Royals with 1-0 series lead"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -14413,8 +14413,8 @@
       ],
       "weather": {
         "displayValue": "Mostly sunny",
-        "temperature": 93,
-        "highTemperature": 93,
+        "temperature": 94,
+        "highTemperature": 94,
         "conditionId": "2",
         "link": {
           "language": "en-US",
@@ -15325,8 +15325,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $44",
-              "numberAvailable": 986,
+              "summary": "Tickets as low as $43",
+              "numberAvailable": 927,
               "links": [
                 {
                   "href": "https://www.vividseats.com/san-diego-padres-tickets-petco-park-8-1-2026--sports-mlb-baseball/production/5966527?wsUser=717"
@@ -15612,7 +15612,7 @@
                 "over": {
                   "close": {
                     "line": "o8.5",
-                    "odds": "-102",
+                    "odds": "-113",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15646,7 +15646,7 @@
                 "under": {
                   "close": {
                     "line": "u8.5",
-                    "odds": "-118",
+                    "odds": "-107",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -15715,14 +15715,14 @@
               }
             }
           ],
-          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "San Francisco Giants (47-63, fourth in the NL West) vs. San Diego Padres (56-54, third in the NL West)",
               "shortLinkText": "San Diego Padres host the San Francisco Giants Saturday"
             }
-          ]
+          ],
+          "highlights": []
         }
       ],
       "links": [
@@ -16667,8 +16667,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $72",
-              "numberAvailable": 2873,
+              "summary": "Tickets as low as $74",
+              "numberAvailable": 2781,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-dodgers-tickets-dodger-stadium-8-1-2026--sports-mlb-baseball/production/5965097?wsUser=717"
@@ -17044,14 +17044,14 @@
               }
             }
           ],
+          "highlights": [],
           "headlines": [
             {
               "type": "Preview",
               "description": "Boston Red Sox (58-51, third in the AL East) vs. Los Angeles Dodgers (69-41, first in the NL West)",
               "shortLinkText": "Red Sox bring 3-game win streak into matchup with the Dodgers"
             }
-          ],
-          "highlights": []
+          ]
         }
       ],
       "links": [
@@ -17084,8 +17084,8 @@
       ],
       "weather": {
         "displayValue": "Mostly sunny",
-        "temperature": 91,
-        "highTemperature": 91,
+        "temperature": 90,
+        "highTemperature": 90,
         "conditionId": "2",
         "link": {
           "language": "en-US",
@@ -17995,8 +17995,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $7",
-              "numberAvailable": 2070,
+              "summary": "Tickets as low as $6",
+              "numberAvailable": 1990,
               "links": [
                 {
                   "href": "https://www.vividseats.com/los-angeles-angels-tickets-angel-stadium-8-1-2026--sports-mlb-baseball/production/5965208?wsUser=717"
@@ -18395,8 +18395,8 @@
       ],
       "weather": {
         "displayValue": "1",
-        "temperature": 79,
-        "highTemperature": 79,
+        "temperature": 85,
+        "highTemperature": 85,
         "conditionId": "Sunny",
         "link": {
           "language": "en-US",
@@ -19306,8 +19306,8 @@
           },
           "tickets": [
             {
-              "summary": "Tickets as low as $27",
-              "numberAvailable": 903,
+              "summary": "Tickets as low as $24",
+              "numberAvailable": 895,
               "links": [
                 {
                   "href": "https://www.vividseats.com/athletics-tickets-sutter-health-park-8-1-2026--sports-mlb-baseball/production/5965759?wsUser=717"
@@ -19390,7 +19390,7 @@
                   }
                 ]
               },
-              "details": "DET -168",
+              "details": "DET -172",
               "overUnder": 10.5,
               "spread": 1.5,
               "awayTeamOdds": {
@@ -19424,7 +19424,7 @@
                 "shortDisplayName": "ML",
                 "home": {
                   "close": {
-                    "odds": "+139",
+                    "odds": "+142",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -19455,7 +19455,7 @@
                 },
                 "away": {
                   "close": {
-                    "odds": "-168",
+                    "odds": "-172",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -19563,7 +19563,7 @@
                 "over": {
                   "close": {
                     "line": "o10.5",
-                    "odds": "-115",
+                    "odds": "-112",
                     "link": {
                       "language": "en-US",
                       "rel": [
@@ -19597,7 +19597,7 @@
                 "under": {
                   "close": {
                     "line": "u10.5",
-                    "odds": "-104",
+                    "odds": "-107",
                     "link": {
                       "language": "en-US",
                       "rel": [
